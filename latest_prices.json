@@ -887,24 +887,15 @@
     "change_pct": -0.021,
     "as_of": "2026-04-15"
   },
-  "50160": {
-    "close": 4893.0,
-    "prev_close": 5156.0,
-    "change_pct": -5.101,
-    "as_of": "2026-04-15"
-  },
-  "50200": {
-    "close": 1413.5,
-    "prev_close": 1430.0,
-    "change_pct": -1.154,
-    "as_of": "2026-04-15"
-  },
   "_meta": {
-    "generated_at": "2026-04-16T13:48:03+09:00",
+    "generated_at": "2026-04-16T15:45:50+09:00",
     "source": "jquants_v2",
     "code_count": 150,
-    "fetched": 150,
-    "missing": 0,
-    "missing_codes": []
+    "fetched": 148,
+    "missing": 2,
+    "missing_codes": [
+      "50160",
+      "50200"
+    ]
   }
 }
