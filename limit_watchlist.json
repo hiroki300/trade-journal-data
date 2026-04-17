@@ -1,0 +1,612 @@
+[
+  {
+    "code": "26210",
+    "name": "ブラックロック・ジャパン株式会社　ｉシェアーズ　米国債２０年超　ＥＴＦ（為替ヘッジあり）",
+    "current_price": 1052.0,
+    "atr": 8.8,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 1063.0,
+    "recent_low_20d": 1048.0,
+    "minus_2sigma": 1048.0,
+    "levels": [
+      {
+        "price": 1026.0,
+        "discount_pct": 2.5,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 1048.0,
+        "discount_pct": 0.4,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "16150",
+    "name": "野村アセットマネジメント株式会社　ＮＥＸＴ　ＦＵＮＤＳ　東証銀行業株価指数連動型上場投信",
+    "current_price": 624.5,
+    "atr": 19.8,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 598.0,
+    "recent_low_20d": 544.0,
+    "minus_2sigma": 552.0,
+    "levels": [
+      {
+        "price": 552.0,
+        "discount_pct": 11.6,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 595.0,
+        "discount_pct": 4.7,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 598.0,
+        "discount_pct": 4.2,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "16290",
+    "name": "野村アセットマネジメント株式会社　ＮＥＸＴ　ＦＵＮＤＳ　商社・卸売（ＴＯＰＩＸ−１７）上場投信",
+    "current_price": 282.7,
+    "atr": 10.7,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 282.0,
+    "recent_low_20d": 263.0,
+    "minus_2sigma": 270.0,
+    "levels": [
+      {
+        "price": 251.0,
+        "discount_pct": 11.2,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 267.0,
+        "discount_pct": 5.6,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 282.0,
+        "discount_pct": 0.2,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "48830",
+    "name": "モダリス",
+    "current_price": 53.0,
+    "atr": 2.3,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 56.0,
+    "recent_low_20d": 52.0,
+    "minus_2sigma": 52.0,
+    "levels": [
+      {
+        "price": 46.0,
+        "discount_pct": 13.2,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 52.0,
+        "discount_pct": 1.9,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "43240",
+    "name": "電通グループ",
+    "current_price": 3155.0,
+    "atr": 102.7,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 2846.0,
+    "recent_low_20d": 2642.0,
+    "minus_2sigma": 2537.0,
+    "levels": [
+      {
+        "price": 2537.0,
+        "discount_pct": 19.6,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 2846.0,
+        "discount_pct": 9.8,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 3001.0,
+        "discount_pct": 4.9,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "23410",
+    "name": "アルバイトタイムス",
+    "current_price": 211.0,
+    "atr": 11.9,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 200.0,
+    "recent_low_20d": 187.0,
+    "minus_2sigma": 184.0,
+    "levels": [
+      {
+        "price": 175.0,
+        "discount_pct": 17.1,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 193.0,
+        "discount_pct": 8.5,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 200.0,
+        "discount_pct": 5.2,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "31030",
+    "name": "ユニチカ",
+    "current_price": 1763.0,
+    "atr": 161.4,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 1471.0,
+    "recent_low_20d": 1005.0,
+    "minus_2sigma": 400.0,
+    "levels": [
+      {
+        "price": 400.0,
+        "discount_pct": 77.3,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 1471.0,
+        "discount_pct": 16.6,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 1521.0,
+        "discount_pct": 13.7,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "213A0",
+    "name": "アモーヴァ・アセットマネジメント株式会社　上場インデックスファンド日経半導体株",
+    "current_price": 324.5,
+    "atr": 12.2,
+    "rank": "B",
+    "total_score": 100,
+    "ma25": 296.0,
+    "recent_low_20d": 257.2,
+    "minus_2sigma": 242.0,
+    "levels": [
+      {
+        "price": 242.0,
+        "discount_pct": 25.4,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 296.0,
+        "discount_pct": 8.8,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 306.0,
+        "discount_pct": 5.7,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "37780",
+    "name": "さくらインターネット",
+    "current_price": 3260.0,
+    "atr": 241.7,
+    "rank": "B",
+    "total_score": 100,
+    "ma25": 2948.0,
+    "recent_low_20d": 2448.0,
+    "minus_2sigma": 2205.0,
+    "levels": [
+      {
+        "price": 2205.0,
+        "discount_pct": 32.4,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 2897.0,
+        "discount_pct": 11.1,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 2948.0,
+        "discount_pct": 9.6,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "23530",
+    "name": "日本駐車場開発",
+    "current_price": 280.0,
+    "atr": 6.0,
+    "rank": "B",
+    "total_score": 100,
+    "ma25": 274.0,
+    "recent_low_20d": 257.0,
+    "minus_2sigma": 262.0,
+    "levels": [
+      {
+        "price": 262.0,
+        "discount_pct": 6.4,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 271.0,
+        "discount_pct": 3.2,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 274.0,
+        "discount_pct": 2.1,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "43690",
+    "name": "トリケミカル研究所",
+    "current_price": 2922.0,
+    "atr": 115.8,
+    "rank": "B",
+    "total_score": 100,
+    "ma25": 2814.0,
+    "recent_low_20d": 2527.0,
+    "minus_2sigma": 2533.0,
+    "levels": [
+      {
+        "price": 2533.0,
+        "discount_pct": 13.3,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 2748.0,
+        "discount_pct": 6.0,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 2814.0,
+        "discount_pct": 3.7,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "408A0",
+    "name": "ブラックロック・ジャパン株式会社　ｉシェアーズ　ＡＩ　グローバル・イノベーション　アクティブ　ＥＴＦ",
+    "current_price": 246.0,
+    "atr": 7.5,
+    "rank": "B",
+    "total_score": 100,
+    "ma25": 230.0,
+    "recent_low_20d": 202.4,
+    "minus_2sigma": 198.0,
+    "levels": [
+      {
+        "price": 198.0,
+        "discount_pct": 19.5,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 230.0,
+        "discount_pct": 6.5,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 235.0,
+        "discount_pct": 4.5,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "34360",
+    "name": "ＳＵＭＣＯ",
+    "current_price": 2154.0,
+    "atr": 115.0,
+    "rank": "B",
+    "total_score": 100,
+    "ma25": 1839.0,
+    "recent_low_20d": 1545.0,
+    "minus_2sigma": 1468.0,
+    "levels": [
+      {
+        "price": 1468.0,
+        "discount_pct": 31.8,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 1839.0,
+        "discount_pct": 14.6,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 1982.0,
+        "discount_pct": 8.0,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "464A0",
+    "name": "ＱＰＳホールディングス",
+    "current_price": 2787.0,
+    "atr": 166.3,
+    "rank": "B",
+    "total_score": 100,
+    "ma25": 2431.0,
+    "recent_low_20d": 2063.0,
+    "minus_2sigma": 2023.0,
+    "levels": [
+      {
+        "price": 2023.0,
+        "discount_pct": 27.4,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 2431.0,
+        "discount_pct": 12.8,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 2538.0,
+        "discount_pct": 8.9,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "43070",
+    "name": "野村総合研究所",
+    "current_price": 4492.0,
+    "atr": 138.9,
+    "rank": "B",
+    "total_score": 100,
+    "ma25": 4442.0,
+    "recent_low_20d": 4076.0,
+    "minus_2sigma": 4054.0,
+    "levels": [
+      {
+        "price": 4054.0,
+        "discount_pct": 9.8,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 4284.0,
+        "discount_pct": 4.6,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 4442.0,
+        "discount_pct": 1.1,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "13060",
+    "name": "野村アセットマネジメント株式会社　ＮＥＸＴ　ＦＵＮＤＳ　ＴＯＰＩＸ連動型上場投信",
+    "current_price": 394.8,
+    "atr": 8.8,
+    "rank": "B",
+    "total_score": 100,
+    "ma25": 387.0,
+    "recent_low_20d": 361.9,
+    "minus_2sigma": 367.0,
+    "levels": [
+      {
+        "price": 367.0,
+        "discount_pct": 7.0,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 382.0,
+        "discount_pct": 3.2,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 387.0,
+        "discount_pct": 2.0,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "49010",
+    "name": "富士フイルムホールディングス",
+    "current_price": 3118.0,
+    "atr": 68.3,
+    "rank": "B",
+    "total_score": 100,
+    "ma25": 3057.0,
+    "recent_low_20d": 2869.5,
+    "minus_2sigma": 2892.0,
+    "levels": [
+      {
+        "price": 2892.0,
+        "discount_pct": 7.2,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 3016.0,
+        "discount_pct": 3.3,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 3057.0,
+        "discount_pct": 2.0,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "38610",
+    "name": "王子ホールディングス",
+    "current_price": 852.8,
+    "atr": 17.2,
+    "rank": "B",
+    "total_score": 100,
+    "ma25": 863.0,
+    "recent_low_20d": 824.0,
+    "minus_2sigma": 836.0,
+    "levels": [
+      {
+        "price": 801.0,
+        "discount_pct": 6.1,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 827.0,
+        "discount_pct": 3.0,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "36590",
+    "name": "ネクソン",
+    "current_price": 2640.5,
+    "atr": 109.9,
+    "rank": "B",
+    "total_score": 100,
+    "ma25": 2815.0,
+    "recent_low_20d": 2585.0,
+    "minus_2sigma": 2545.0,
+    "levels": [
+      {
+        "price": 2311.0,
+        "discount_pct": 12.5,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 2585.0,
+        "discount_pct": 2.1,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  },
+  {
+    "code": "16550",
+    "name": "ブラックロック・ジャパン株式会社　ｉシェアーズ　Ｓ＆Ｐ　５００　米国株　ＥＴＦ",
+    "current_price": 779.6,
+    "atr": 9.9,
+    "rank": "B",
+    "total_score": 100,
+    "ma25": 765.0,
+    "recent_low_20d": 722.6,
+    "minus_2sigma": 720.0,
+    "levels": [
+      {
+        "price": 720.0,
+        "discount_pct": 7.6,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 765.0,
+        "discount_pct": 1.9,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-04-17"
+  }
+]
