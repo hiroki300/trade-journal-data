@@ -1,17 +1,17 @@
 {
   "regime": "storm",
   "threshold_adjustment": 2,
-  "hv_20d": 33.1,
-  "ma25_dev": 4.31,
+  "hv_20d": 31.6,
+  "ma25_dev": 2.72,
   "trend": "uptrend",
-  "trend_spread_pct": 2.84,
+  "trend_spread_pct": 2.83,
   "external": {
-    "usd_jpy": 158.9825,
-    "sp500": 7022.95
+    "usd_jpy": 159.1665,
+    "sp500": 7041.28
   },
   "reasons": [
-    "⛈HV33.1% (ストーム域、乱高下相場)"
+    "⛈HV31.6% (ストーム域、乱高下相場)"
   ],
-  "summary": "⛈ レジーム:STORM | 日経HV33.1% / MA25乖離4.31% / uptrend\n⛈HV33.1% (ストーム域、乱高下相場)",
-  "evaluated_at": "2026-04-16T11:42"
+  "summary": "⛈ レジーム:STORM | 日経HV31.6% / MA25乖離2.72% / uptrend\n⛈HV31.6% (ストーム域、乱高下相場)",
+  "evaluated_at": "2026-04-17T11:16"
 }
