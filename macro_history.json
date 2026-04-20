@@ -7,5 +7,14 @@
     "ma25_dev": 2.94,
     "trend": "uptrend",
     "summary": "⛈ レジーム:STORM | 日経HV33.9% / MA25乖離2.94% / uptrend\n⛈HV33.9% (ストーム域、乱高下相場)"
+  },
+  {
+    "regime": "caution",
+    "changed_at": "2026-04-20T21:10:27+09:00",
+    "from": "storm",
+    "hv_20d": 28.5,
+    "ma25_dev": 3.0,
+    "trend": "uptrend",
+    "summary": "🟡 レジーム:CAUTION | 日経HV28.5% / MA25乖離3.0% / uptrend\n⚠️HV28.5% (警戒域)"
   }
 ]
