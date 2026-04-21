@@ -1200,8 +1200,10 @@
     "ned": null
   },
   "_meta": {
-    "generated_at": "2026-04-21T07:37:21",
+    "generated_at": "2026-04-21T09:24:49",
     "universe_count": 150,
-    "stage": "all"
+    "stage": "all",
+    "ned_announcement_count": 0,
+    "ned_estimated_count": 0
   }
 }
