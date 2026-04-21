@@ -845,22 +845,66 @@
     "change_pct": -1.833,
     "as_of": "2026-04-20"
   },
+  "47840": {
+    "close": 764.0,
+    "prev_close": 755.0,
+    "change_pct": 1.192,
+    "as_of": "2026-04-20"
+  },
+  "48830": {
+    "close": 55.0,
+    "prev_close": 54.0,
+    "change_pct": 1.852,
+    "as_of": "2026-04-20"
+  },
+  "48880": {
+    "close": 716.0,
+    "prev_close": 713.0,
+    "change_pct": 0.421,
+    "as_of": "2026-04-20"
+  },
+  "49010": {
+    "close": 3180.0,
+    "prev_close": 3166.0,
+    "change_pct": 0.442,
+    "as_of": "2026-04-20"
+  },
+  "49270": {
+    "close": 1315.0,
+    "prev_close": 1307.5,
+    "change_pct": 0.574,
+    "as_of": "2026-04-20"
+  },
+  "49740": {
+    "close": 1142.0,
+    "prev_close": 1142.0,
+    "change_pct": 0.0,
+    "as_of": "2026-04-20"
+  },
+  "49800": {
+    "close": 2450.5,
+    "prev_close": 2433.5,
+    "change_pct": 0.699,
+    "as_of": "2026-04-20"
+  },
+  "50160": {
+    "close": 4817.0,
+    "prev_close": 4899.0,
+    "change_pct": -1.674,
+    "as_of": "2026-04-20"
+  },
+  "50200": {
+    "close": 1337.5,
+    "prev_close": 1375.0,
+    "change_pct": -2.727,
+    "as_of": "2026-04-20"
+  },
   "_meta": {
-    "generated_at": "2026-04-21T15:17:49+09:00",
+    "generated_at": "2026-04-21T15:22:39+09:00",
     "source": "jquants_v2",
     "code_count": 150,
-    "fetched": 141,
-    "missing": 9,
-    "missing_codes": [
-      "47840",
-      "48830",
-      "48880",
-      "49010",
-      "49270",
-      "49740",
-      "49800",
-      "50160",
-      "50200"
-    ]
+    "fetched": 150,
+    "missing": 0,
+    "missing_codes": []
   }
 }
