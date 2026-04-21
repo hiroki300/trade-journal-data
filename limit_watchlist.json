@@ -52,7 +52,7 @@
         "price": 691.0,
         "discount_pct": 7.9,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-04-19"
@@ -354,7 +354,7 @@
         "price": 267.0,
         "discount_pct": 2.9,
         "tag": "🎯本命",
-        "notified": false
+        "notified": true
       },
       {
         "price": 274.0,
