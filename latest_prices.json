@@ -893,14 +893,18 @@
     "change_pct": -4.161,
     "as_of": "2026-04-23"
   },
+  "50200": {
+    "close": 1298.0,
+    "prev_close": 1319.0,
+    "change_pct": -1.592,
+    "as_of": "2026-04-23"
+  },
   "_meta": {
-    "generated_at": "2026-04-24T15:27:15+09:00",
+    "generated_at": "2026-04-24T15:30:09+09:00",
     "source": "jquants_v2",
     "code_count": 150,
-    "fetched": 149,
-    "missing": 1,
-    "missing_codes": [
-      "50200"
-    ]
+    "fetched": 150,
+    "missing": 0,
+    "missing_codes": []
   }
 }
