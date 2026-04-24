@@ -2,16 +2,16 @@
   "regime": "caution",
   "threshold_adjustment": 1,
   "hv_20d": 26.9,
-  "ma25_dev": 1.04,
+  "ma25_dev": 0.93,
   "trend": "uptrend",
-  "trend_spread_pct": 2.06,
+  "trend_spread_pct": 1.7,
   "external": {
-    "usd_jpy": 159.6725,
-    "sp500": 7137.9
+    "usd_jpy": 159.4635,
+    "sp500": 7108.4
   },
   "reasons": [
     "⚠️HV26.9% (警戒域)"
   ],
-  "summary": "🟡 レジーム:CAUTION | 日経HV26.9% / MA25乖離1.04% / uptrend\n⚠️HV26.9% (警戒域)",
-  "evaluated_at": "2026-04-23T11:46"
+  "summary": "🟡 レジーム:CAUTION | 日経HV26.9% / MA25乖離0.93% / uptrend\n⚠️HV26.9% (警戒域)",
+  "evaluated_at": "2026-04-24T11:46"
 }
