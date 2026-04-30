@@ -857,54 +857,20 @@
     "change_pct": 22.222,
     "as_of": "2026-04-28"
   },
-  "48880": {
-    "close": 519.0,
-    "prev_close": 540.0,
-    "change_pct": -3.889,
-    "as_of": "2026-04-28"
-  },
-  "49010": {
-    "close": 2932.5,
-    "prev_close": 2879.5,
-    "change_pct": 1.841,
-    "as_of": "2026-04-28"
-  },
-  "49270": {
-    "close": 1305.0,
-    "prev_close": 1310.0,
-    "change_pct": -0.382,
-    "as_of": "2026-04-28"
-  },
-  "49740": {
-    "close": 1142.0,
-    "prev_close": 1142.0,
-    "change_pct": 0.0,
-    "as_of": "2026-04-28"
-  },
-  "49800": {
-    "close": 2461.5,
-    "prev_close": 2507.5,
-    "change_pct": -1.834,
-    "as_of": "2026-04-28"
-  },
-  "50160": {
-    "close": 4824.0,
-    "prev_close": 4860.0,
-    "change_pct": -0.741,
-    "as_of": "2026-04-28"
-  },
-  "50200": {
-    "close": 1300.5,
-    "prev_close": 1284.0,
-    "change_pct": 1.285,
-    "as_of": "2026-04-28"
-  },
   "_meta": {
-    "generated_at": "2026-04-30T09:02:23+09:00",
+    "generated_at": "2026-04-30T10:16:52+09:00",
     "source": "jquants_v2",
     "code_count": 150,
-    "fetched": 150,
-    "missing": 0,
-    "missing_codes": []
+    "fetched": 143,
+    "missing": 7,
+    "missing_codes": [
+      "48880",
+      "49010",
+      "49270",
+      "49740",
+      "49800",
+      "50160",
+      "50200"
+    ]
   }
 }
