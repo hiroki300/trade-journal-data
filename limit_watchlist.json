@@ -1,570 +1,558 @@
 [
   {
-    "code": "45060",
-    "name": "住友ファーマ",
-    "current_price": 2061.0,
-    "atr": 102.8,
-    "rank": "A",
-    "total_score": 150,
-    "ma25": 2053.0,
-    "recent_low_20d": 1928.0,
-    "minus_2sigma": 1919.0,
-    "levels": [
-      {
-        "price": 1753.0,
-        "discount_pct": 14.9,
-        "tag": "💎絶好",
-        "notified": true
-      },
-      {
-        "price": 1928.0,
-        "discount_pct": 6.5,
-        "tag": "🎯本命",
-        "notified": true
-      },
-      {
-        "price": 2053.0,
-        "discount_pct": 0.4,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "37780",
-    "name": "さくらインターネット",
-    "current_price": 3645.0,
-    "atr": 286.1,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 3138.0,
-    "recent_low_20d": 2448.0,
-    "minus_2sigma": 2375.0,
-    "levels": [
-      {
-        "price": 2375.0,
-        "discount_pct": 34.8,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 3138.0,
-        "discount_pct": 13.9,
-        "tag": "🎯本命",
-        "notified": true
-      },
-      {
-        "price": 3216.0,
-        "discount_pct": 11.8,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "45070",
-    "name": "塩野義製薬",
-    "current_price": 3110.0,
-    "atr": 80.9,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 3379.0,
-    "recent_low_20d": 3047.0,
-    "minus_2sigma": 3006.0,
-    "levels": [
-      {
-        "price": 2867.0,
-        "discount_pct": 7.8,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 3047.0,
-        "discount_pct": 2.0,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
     "code": "30480",
     "name": "ビックカメラ",
-    "current_price": 1625.0,
-    "atr": 40.0,
+    "current_price": 1599.5,
+    "atr": 32.1,
     "rank": "A",
     "total_score": 125,
-    "ma25": 1740.0,
-    "recent_low_20d": 1622.5,
-    "minus_2sigma": 1622.0,
+    "ma25": 1723.0,
+    "recent_low_20d": 1592.5,
+    "minus_2sigma": 1560.0,
     "levels": [
       {
-        "price": 1505.0,
-        "discount_pct": 7.4,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 1622.0,
-        "discount_pct": 0.2,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "49270",
-    "name": "ポーラ・オルビスホールディングス",
-    "current_price": 1295.5,
-    "atr": 16.2,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 1316.0,
-    "recent_low_20d": 1286.0,
-    "minus_2sigma": 1279.0,
-    "levels": [
-      {
-        "price": 1247.0,
-        "discount_pct": 3.7,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 1286.0,
-        "discount_pct": 0.7,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "200A0",
-    "name": "野村アセットマネジメント株式会社　ＮＥＸＴ　ＦＵＮＤＳ　日経半導体株指数連動型上場投信",
-    "current_price": 3795.0,
-    "atr": 133.4,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 3333.0,
-    "recent_low_20d": 2793.0,
-    "minus_2sigma": 2743.0,
-    "levels": [
-      {
-        "price": 2743.0,
-        "discount_pct": 27.7,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 3333.0,
-        "discount_pct": 12.2,
-        "tag": "🎯本命",
-        "notified": false
-      },
-      {
-        "price": 3595.0,
-        "discount_pct": 5.3,
-        "tag": "🔸軽め",
-        "notified": false
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "464A0",
-    "name": "ＱＰＳホールディングス",
-    "current_price": 2580.0,
-    "atr": 170.8,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 2485.0,
-    "recent_low_20d": 2063.0,
-    "minus_2sigma": 2095.0,
-    "levels": [
-      {
-        "price": 2068.0,
-        "discount_pct": 19.8,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 2324.0,
-        "discount_pct": 9.9,
-        "tag": "🎯本命",
-        "notified": false
-      },
-      {
-        "price": 2485.0,
-        "discount_pct": 3.7,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "50160",
-    "name": "ＪＸ金属",
-    "current_price": 4625.0,
-    "atr": 284.6,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 4195.0,
-    "recent_low_20d": 3312.0,
-    "minus_2sigma": 3179.0,
-    "levels": [
-      {
-        "price": 3179.0,
-        "discount_pct": 31.3,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 4195.0,
-        "discount_pct": 9.3,
-        "tag": "🎯本命",
-        "notified": false
-      },
-      {
-        "price": 4198.0,
-        "discount_pct": 9.2,
-        "tag": "🔸軽め",
-        "notified": false
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "18610",
-    "name": "熊谷組",
-    "current_price": 1452.0,
-    "atr": 33.4,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 1552.0,
-    "recent_low_20d": 1436.0,
-    "minus_2sigma": 1447.0,
-    "levels": [
-      {
-        "price": 1352.0,
-        "discount_pct": 6.9,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 1436.0,
-        "discount_pct": 1.1,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "40050",
-    "name": "住友化学",
-    "current_price": 506.3,
-    "atr": 13.6,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 518.0,
-    "recent_low_20d": 486.9,
-    "minus_2sigma": 498.0,
-    "levels": [
-      {
-        "price": 466.0,
-        "discount_pct": 8.0,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 487.0,
-        "discount_pct": 3.8,
-        "tag": "🔸軽め",
-        "notified": false
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "21460",
-    "name": "ＵＴグループ",
-    "current_price": 183.0,
-    "atr": 4.1,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 194.0,
-    "recent_low_20d": 182.0,
-    "minus_2sigma": 184.0,
-    "levels": [
-      {
-        "price": 171.0,
-        "discount_pct": 6.6,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 182.0,
-        "discount_pct": 0.5,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "24920",
-    "name": "インフォマート",
-    "current_price": 442.0,
-    "atr": 17.6,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 449.0,
-    "recent_low_20d": 416.0,
-    "minus_2sigma": 426.0,
-    "levels": [
-      {
-        "price": 389.0,
-        "discount_pct": 12.0,
-        "tag": "💎絶好",
-        "notified": true
-      },
-      {
-        "price": 416.0,
-        "discount_pct": 5.9,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "49800",
-    "name": "デクセリアルズ",
-    "current_price": 2440.5,
-    "atr": 76.0,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 2300.0,
-    "recent_low_20d": 2083.0,
-    "minus_2sigma": 2085.0,
-    "levels": [
-      {
-        "price": 2085.0,
-        "discount_pct": 14.6,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 2300.0,
-        "discount_pct": 5.8,
-        "tag": "🎯本命",
-        "notified": false
-      },
-      {
-        "price": 2326.0,
-        "discount_pct": 4.7,
-        "tag": "🔸軽め",
-        "notified": false
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "206A0",
-    "name": "ＰＲＩＳＭ　ＢｉｏＬａｂ",
-    "current_price": 184.0,
-    "atr": 9.1,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 188.0,
-    "recent_low_20d": 178.0,
-    "minus_2sigma": 180.0,
-    "levels": [
-      {
-        "price": 157.0,
-        "discount_pct": 14.7,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 178.0,
-        "discount_pct": 3.3,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "215A0",
-    "name": "タイミー",
-    "current_price": 1295.0,
-    "atr": 53.9,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 1293.0,
-    "recent_low_20d": 1197.0,
-    "minus_2sigma": 1251.0,
-    "levels": [
-      {
-        "price": 1133.0,
-        "discount_pct": 12.5,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 1214.0,
-        "discount_pct": 6.3,
-        "tag": "🎯本命",
-        "notified": false
-      },
-      {
-        "price": 1293.0,
-        "discount_pct": 0.2,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "21700",
-    "name": "リンクアンドモチベーション",
-    "current_price": 525.0,
-    "atr": 17.8,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 567.0,
-    "recent_low_20d": 524.0,
-    "minus_2sigma": 509.0,
-    "levels": [
-      {
-        "price": 472.0,
-        "discount_pct": 10.1,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 524.0,
-        "discount_pct": 0.2,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "46660",
-    "name": "パーク２４",
-    "current_price": 1843.0,
-    "atr": 45.0,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 1956.0,
-    "recent_low_20d": 1841.0,
-    "minus_2sigma": 1866.0,
-    "levels": [
-      {
-        "price": 1708.0,
-        "discount_pct": 7.3,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 1841.0,
-        "discount_pct": 0.1,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "48830",
-    "name": "モダリス",
-    "current_price": 59.0,
-    "atr": 2.9,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 56.0,
-    "recent_low_20d": 52.0,
-    "minus_2sigma": 51.0,
-    "levels": [
-      {
-        "price": 50.0,
-        "discount_pct": 15.3,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 55.0,
-        "discount_pct": 6.8,
-        "tag": "🎯本命",
-        "notified": true
-      },
-      {
-        "price": 56.0,
-        "discount_pct": 5.1,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "21570",
-    "name": "コシダカホールディングス",
-    "current_price": 1004.0,
-    "atr": 27.9,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 1070.0,
-    "recent_low_20d": 1003.0,
-    "minus_2sigma": 992.0,
-    "levels": [
-      {
-        "price": 920.0,
-        "discount_pct": 8.4,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 1003.0,
-        "discount_pct": 0.1,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-04-26"
-  },
-  {
-    "code": "42050",
-    "name": "日本ゼオン",
-    "current_price": 1742.0,
-    "atr": 35.0,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 1795.0,
-    "recent_low_20d": 1709.5,
-    "minus_2sigma": 1722.0,
-    "levels": [
-      {
-        "price": 1637.0,
+        "price": 1503.0,
         "discount_pct": 6.0,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 1710.0,
-        "discount_pct": 1.8,
+        "price": 1592.0,
+        "discount_pct": 0.5,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-04-26"
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "30030",
+    "name": "ヒューリック",
+    "current_price": 1799.0,
+    "atr": 37.8,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 1858.0,
+    "recent_low_20d": 1742.5,
+    "minus_2sigma": 1759.0,
+    "levels": [
+      {
+        "price": 1686.0,
+        "discount_pct": 6.3,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 1742.0,
+        "discount_pct": 3.2,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "30110",
+    "name": "バナーズ",
+    "current_price": 153.0,
+    "atr": 9.4,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 172.0,
+    "recent_low_20d": 151.0,
+    "minus_2sigma": 152.0,
+    "levels": [
+      {
+        "price": 125.0,
+        "discount_pct": 18.3,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 151.0,
+        "discount_pct": 1.3,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "408A0",
+    "name": "ブラックロック・ジャパン株式会社　ｉシェアーズ　ＡＩ　グローバル・イノベーション　アクティブ　ＥＴＦ",
+    "current_price": 279.3,
+    "atr": 5.3,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 248.0,
+    "recent_low_20d": 218.0,
+    "minus_2sigma": 219.0,
+    "levels": [
+      {
+        "price": 219.0,
+        "discount_pct": 21.6,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 248.0,
+        "discount_pct": 11.2,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 271.0,
+        "discount_pct": 3.0,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "42590",
+    "name": "エクサウィザーズ",
+    "current_price": 720.0,
+    "atr": 36.8,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 698.0,
+    "recent_low_20d": 644.0,
+    "minus_2sigma": 631.0,
+    "levels": [
+      {
+        "price": 610.0,
+        "discount_pct": 15.3,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 665.0,
+        "discount_pct": 7.6,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 698.0,
+        "discount_pct": 3.1,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "39050",
+    "name": "データセクション",
+    "current_price": 1474.0,
+    "atr": 87.4,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 1434.0,
+    "recent_low_20d": 1292.0,
+    "minus_2sigma": 1277.0,
+    "levels": [
+      {
+        "price": 1212.0,
+        "discount_pct": 17.8,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 1343.0,
+        "discount_pct": 8.9,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 1434.0,
+        "discount_pct": 2.7,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "42040",
+    "name": "積水化学工業",
+    "current_price": 2359.5,
+    "atr": 50.1,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 2575.0,
+    "recent_low_20d": 2349.5,
+    "minus_2sigma": 2331.0,
+    "levels": [
+      {
+        "price": 2209.0,
+        "discount_pct": 6.4,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 2350.0,
+        "discount_pct": 0.4,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "278A0",
+    "name": "Ｔｅｒｒａ　Ｄｒｏｎｅ",
+    "current_price": 10770.0,
+    "atr": 903.6,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 5997.0,
+    "recent_low_20d": 4030.0,
+    "minus_2sigma": 2991.0,
+    "levels": [
+      {
+        "price": 2991.0,
+        "discount_pct": 72.2,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 5997.0,
+        "discount_pct": 44.3,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 9415.0,
+        "discount_pct": 12.6,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "36680",
+    "name": "コロプラ",
+    "current_price": 431.0,
+    "atr": 9.5,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 434.0,
+    "recent_low_20d": 422.0,
+    "minus_2sigma": 425.0,
+    "levels": [
+      {
+        "price": 402.0,
+        "discount_pct": 6.7,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 422.0,
+        "discount_pct": 2.1,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "40050",
+    "name": "住友化学",
+    "current_price": 512.9,
+    "atr": 12.3,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 522.0,
+    "recent_low_20d": 490.7,
+    "minus_2sigma": 496.0,
+    "levels": [
+      {
+        "price": 476.0,
+        "discount_pct": 7.2,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 494.0,
+        "discount_pct": 3.7,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "38610",
+    "name": "王子ホールディングス",
+    "current_price": 824.7,
+    "atr": 10.5,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 842.0,
+    "recent_low_20d": 813.3,
+    "minus_2sigma": 813.0,
+    "levels": [
+      {
+        "price": 793.0,
+        "discount_pct": 3.8,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 813.0,
+        "discount_pct": 1.4,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "24920",
+    "name": "インフォマート",
+    "current_price": 398.0,
+    "atr": 17.2,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 453.0,
+    "recent_low_20d": 387.0,
+    "minus_2sigma": 410.0,
+    "levels": [
+      {
+        "price": 346.0,
+        "discount_pct": 13.1,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 387.0,
+        "discount_pct": 2.8,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "32310",
+    "name": "野村不動産ホールディングス",
+    "current_price": 998.8,
+    "atr": 17.6,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 1029.0,
+    "recent_low_20d": 992.6,
+    "minus_2sigma": 990.0,
+    "levels": [
+      {
+        "price": 946.0,
+        "discount_pct": 5.3,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 993.0,
+        "discount_pct": 0.6,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "46660",
+    "name": "パーク２４",
+    "current_price": 1822.0,
+    "atr": 46.1,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 1933.0,
+    "recent_low_20d": 1802.5,
+    "minus_2sigma": 1818.0,
+    "levels": [
+      {
+        "price": 1684.0,
+        "discount_pct": 7.6,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 1802.0,
+        "discount_pct": 1.1,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "42050",
+    "name": "日本ゼオン",
+    "current_price": 1882.5,
+    "atr": 37.1,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 1797.0,
+    "recent_low_20d": 1718.5,
+    "minus_2sigma": 1724.0,
+    "levels": [
+      {
+        "price": 1724.0,
+        "discount_pct": 8.4,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 1797.0,
+        "discount_pct": 4.5,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 1827.0,
+        "discount_pct": 2.9,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "47840",
+    "name": "ＧＭＯインターネット",
+    "current_price": 580.0,
+    "atr": 35.0,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 708.0,
+    "recent_low_20d": 539.0,
+    "minus_2sigma": 586.0,
+    "levels": [
+      {
+        "price": 475.0,
+        "discount_pct": 18.1,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 539.0,
+        "discount_pct": 7.1,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "46800",
+    "name": "ラウンドワン",
+    "current_price": 852.3,
+    "atr": 29.7,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 896.0,
+    "recent_low_20d": 840.5,
+    "minus_2sigma": 836.0,
+    "levels": [
+      {
+        "price": 763.0,
+        "discount_pct": 10.5,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 840.0,
+        "discount_pct": 1.4,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "43850",
+    "name": "メルカリ",
+    "current_price": 3855.0,
+    "atr": 139.8,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 3862.0,
+    "recent_low_20d": 3546.0,
+    "minus_2sigma": 3598.0,
+    "levels": [
+      {
+        "price": 3436.0,
+        "discount_pct": 10.9,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 3645.0,
+        "discount_pct": 5.4,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "36870",
+    "name": "フィックスターズ",
+    "current_price": 1285.0,
+    "atr": 55.1,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 1277.0,
+    "recent_low_20d": 1196.0,
+    "minus_2sigma": 1191.0,
+    "levels": [
+      {
+        "price": 1120.0,
+        "discount_pct": 12.8,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 1202.0,
+        "discount_pct": 6.5,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 1277.0,
+        "discount_pct": 0.6,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
+  },
+  {
+    "code": "23410",
+    "name": "アルバイトタイムス",
+    "current_price": 186.0,
+    "atr": 5.2,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 201.0,
+    "recent_low_20d": 184.0,
+    "minus_2sigma": 184.0,
+    "levels": [
+      {
+        "price": 170.0,
+        "discount_pct": 8.6,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 184.0,
+        "discount_pct": 1.1,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-05-03"
   }
 ]
