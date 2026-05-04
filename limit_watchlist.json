@@ -1,6 +1,6 @@
 [
   {
-    "code": "30480",
+    "code": "3048",
     "name": "ビックカメラ",
     "current_price": 1599.5,
     "atr": 32.1,
@@ -26,7 +26,7 @@
     "generated_at": "2026-05-03"
   },
   {
-    "code": "30030",
+    "code": "3003",
     "name": "ヒューリック",
     "current_price": 1799.0,
     "atr": 37.8,
@@ -52,7 +52,7 @@
     "generated_at": "2026-05-03"
   },
   {
-    "code": "30110",
+    "code": "3011",
     "name": "バナーズ",
     "current_price": 153.0,
     "atr": 9.4,
@@ -72,13 +72,13 @@
         "price": 151.0,
         "discount_pct": 1.3,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-05-03"
   },
   {
-    "code": "408A0",
+    "code": "408A",
     "name": "ブラックロック・ジャパン株式会社　ｉシェアーズ　ＡＩ　グローバル・イノベーション　アクティブ　ＥＴＦ",
     "current_price": 279.3,
     "atr": 5.3,
@@ -110,7 +110,7 @@
     "generated_at": "2026-05-03"
   },
   {
-    "code": "42590",
+    "code": "4259",
     "name": "エクサウィザーズ",
     "current_price": 720.0,
     "atr": 36.8,
@@ -136,13 +136,13 @@
         "price": 698.0,
         "discount_pct": 3.1,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-05-03"
   },
   {
-    "code": "39050",
+    "code": "3905",
     "name": "データセクション",
     "current_price": 1474.0,
     "atr": 87.4,
@@ -174,7 +174,7 @@
     "generated_at": "2026-05-03"
   },
   {
-    "code": "42040",
+    "code": "4204",
     "name": "積水化学工業",
     "current_price": 2359.5,
     "atr": 50.1,
@@ -194,13 +194,13 @@
         "price": 2350.0,
         "discount_pct": 0.4,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-05-03"
   },
   {
-    "code": "278A0",
+    "code": "278A",
     "name": "Ｔｅｒｒａ　Ｄｒｏｎｅ",
     "current_price": 10770.0,
     "atr": 903.6,
@@ -232,7 +232,7 @@
     "generated_at": "2026-05-03"
   },
   {
-    "code": "36680",
+    "code": "3668",
     "name": "コロプラ",
     "current_price": 431.0,
     "atr": 9.5,
@@ -258,7 +258,7 @@
     "generated_at": "2026-05-03"
   },
   {
-    "code": "40050",
+    "code": "4005",
     "name": "住友化学",
     "current_price": 512.9,
     "atr": 12.3,
@@ -284,7 +284,7 @@
     "generated_at": "2026-05-03"
   },
   {
-    "code": "38610",
+    "code": "3861",
     "name": "王子ホールディングス",
     "current_price": 824.7,
     "atr": 10.5,
@@ -310,7 +310,7 @@
     "generated_at": "2026-05-03"
   },
   {
-    "code": "24920",
+    "code": "2492",
     "name": "インフォマート",
     "current_price": 398.0,
     "atr": 17.2,
@@ -330,13 +330,13 @@
         "price": 387.0,
         "discount_pct": 2.8,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-05-03"
   },
   {
-    "code": "32310",
+    "code": "3231",
     "name": "野村不動産ホールディングス",
     "current_price": 998.8,
     "atr": 17.6,
@@ -362,7 +362,7 @@
     "generated_at": "2026-05-03"
   },
   {
-    "code": "46660",
+    "code": "4666",
     "name": "パーク２４",
     "current_price": 1822.0,
     "atr": 46.1,
@@ -388,7 +388,7 @@
     "generated_at": "2026-05-03"
   },
   {
-    "code": "42050",
+    "code": "4205",
     "name": "日本ゼオン",
     "current_price": 1882.5,
     "atr": 37.1,
@@ -420,7 +420,7 @@
     "generated_at": "2026-05-03"
   },
   {
-    "code": "47840",
+    "code": "4784",
     "name": "ＧＭＯインターネット",
     "current_price": 580.0,
     "atr": 35.0,
@@ -440,13 +440,13 @@
         "price": 539.0,
         "discount_pct": 7.1,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-05-03"
   },
   {
-    "code": "46800",
+    "code": "4680",
     "name": "ラウンドワン",
     "current_price": 852.3,
     "atr": 29.7,
@@ -472,7 +472,7 @@
     "generated_at": "2026-05-03"
   },
   {
-    "code": "43850",
+    "code": "4385",
     "name": "メルカリ",
     "current_price": 3855.0,
     "atr": 139.8,
@@ -498,7 +498,7 @@
     "generated_at": "2026-05-03"
   },
   {
-    "code": "36870",
+    "code": "3687",
     "name": "フィックスターズ",
     "current_price": 1285.0,
     "atr": 55.1,
@@ -524,13 +524,13 @@
         "price": 1277.0,
         "discount_pct": 0.6,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-05-03"
   },
   {
-    "code": "23410",
+    "code": "2341",
     "name": "アルバイトタイムス",
     "current_price": 186.0,
     "atr": 5.2,
@@ -550,7 +550,7 @@
         "price": 184.0,
         "discount_pct": 1.1,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-05-03"
