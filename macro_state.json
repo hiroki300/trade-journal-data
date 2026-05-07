@@ -1,15 +1,15 @@
 {
   "regime": "normal",
   "threshold_adjustment": 0,
-  "hv_20d": 16.4,
-  "ma25_dev": 0.57,
-  "trend": "sideways",
-  "trend_spread_pct": 0.77,
+  "hv_20d": 19.0,
+  "ma25_dev": 3.38,
+  "trend": "uptrend",
+  "trend_spread_pct": 1.23,
   "external": {
-    "usd_jpy": 156.5715,
-    "sp500": 7209.0
+    "usd_jpy": 156.3505,
+    "sp500": 7365.1
   },
   "reasons": [],
-  "summary": "🟢 レジーム:NORMAL | 日経HV16.4% / MA25乖離0.57% / sideways",
-  "evaluated_at": "2026-05-01T09:56"
+  "summary": "🟢 レジーム:NORMAL | 日経HV19.0% / MA25乖離3.38% / uptrend",
+  "evaluated_at": "2026-05-07T10:33"
 }
