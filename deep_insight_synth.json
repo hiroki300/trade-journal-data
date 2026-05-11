@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-12T00:15:58.586501+09:00",
+  "stocks": [],
+  "execution_summary": {
+    "selection_log": {
+      "S": 0,
+      "A": 10,
+      "B": 0
+    },
+    "skipped_etf_count": 23,
+    "stage1_success_rate": 0.0,
+    "stage2_success_rate": 0.0
+  }
+}
