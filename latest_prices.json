@@ -971,21 +971,60 @@
     "change_pct": 3.077,
     "as_of": "2026-05-12"
   },
+  "48880": {
+    "close": 469.0,
+    "prev_close": 487.0,
+    "change_pct": -3.696,
+    "as_of": "2026-05-12"
+  },
+  "49010": {
+    "close": 3300.0,
+    "prev_close": 3055.0,
+    "change_pct": 8.02,
+    "as_of": "2026-05-12"
+  },
+  "49270": {
+    "close": 1284.5,
+    "prev_close": 1277.5,
+    "change_pct": 0.548,
+    "as_of": "2026-05-12"
+  },
+  "49740": {
+    "close": 1142.0,
+    "prev_close": 1142.0,
+    "change_pct": 0.0,
+    "as_of": "2026-05-12"
+  },
+  "49800": {
+    "close": 2681.0,
+    "prev_close": 2739.5,
+    "change_pct": -2.135,
+    "as_of": "2026-05-12"
+  },
+  "50160": {
+    "close": 4762.0,
+    "prev_close": 5720.0,
+    "change_pct": -16.748,
+    "as_of": "2026-05-12"
+  },
+  "5020": {
+    "close": 1371.0,
+    "prev_close": 1305.0,
+    "change_pct": 5.057,
+    "as_of": "2026-05-12"
+  },
+  "50200": {
+    "close": 1371.0,
+    "prev_close": 1305.0,
+    "change_pct": 5.057,
+    "as_of": "2026-05-12"
+  },
   "_meta": {
-    "generated_at": "2026-05-13T09:07:54+09:00",
+    "generated_at": "2026-05-13T10:25:40+09:00",
     "source": "jquants_v2",
     "code_count": 170,
-    "fetched": 162,
-    "missing": 8,
-    "missing_codes": [
-      "48880",
-      "49010",
-      "49270",
-      "49740",
-      "49800",
-      "50160",
-      "5020",
-      "50200"
-    ]
+    "fetched": 170,
+    "missing": 0,
+    "missing_codes": []
   }
 }
