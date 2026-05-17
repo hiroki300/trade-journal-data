@@ -1,15 +1,1879 @@
 {
-  "schema_version": "1.0",
-  "generated_at": "2026-05-12T08:49:59.071883+09:00",
-  "stocks": [],
+  "schema_version": "1.2",
+  "generated_at": "2026-05-18T06:00:14.683824+09:00",
+  "stocks": [
+    {
+      "code": "23530",
+      "fiscal_period": "2026Q2",
+      "synthesized_at": "2026-05-18T05:44:00.806711+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 7.9,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [],
+      "warning_flag": false,
+      "warning_reason": null,
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "23530",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "skipped_no_pdf"
+      },
+      "entry_quality": 50.0,
+      "tier": "B",
+      "skip_recommendation": false,
+      "synthesis_notes": "TDnet 保持期間 (60日) 外のため PDF 取得不可。/fins/summary 由来の定量データのみで簡易判定。定性情報 (テーマ・リスク・カタリスト) は欠落しているため、詳細は会社 IR ページの直接参照を推奨。",
+      "sonnet_usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "numeric_only",
+      "errors": [],
+      "name": "日本駐車場開発",
+      "rank": "A",
+      "total": 125,
+      "code4": "2353",
+      "extraction_source": "fins_summary",
+      "debate": null
+    },
+    {
+      "code": "43690",
+      "fiscal_period": "2026Q4",
+      "synthesized_at": "2026-05-18T05:44:00.806895+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 6.7,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [],
+      "warning_flag": false,
+      "warning_reason": null,
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "43690",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "skipped_no_pdf"
+      },
+      "entry_quality": 50.0,
+      "tier": "B",
+      "skip_recommendation": false,
+      "synthesis_notes": "TDnet 保持期間 (60日) 外のため PDF 取得不可。/fins/summary 由来の定量データのみで簡易判定。定性情報 (テーマ・リスク・カタリスト) は欠落しているため、詳細は会社 IR ページの直接参照を推奨。",
+      "sonnet_usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "numeric_only",
+      "errors": [],
+      "name": "トリケミカル研究所",
+      "rank": "A",
+      "total": 125,
+      "code4": "4369",
+      "extraction_source": "fins_summary",
+      "debate": null
+    },
+    {
+      "code": "30110",
+      "fiscal_period": "2026Q4",
+      "synthesized_at": "2026-05-18T05:44:23.278560+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 27.7,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [
+        {
+          "view": "売上成長率が極めて低く(+0.9%)、営業利益は前年比-18.6%と大幅減益。成長性に乏しい",
+          "evidence": "numeric: sales_yoy_pct=0.9%, op_yoy_pct=-18.6%",
+          "confidence": 4
+        },
+        {
+          "view": "米国通商政策・中東情勢・物価上昇・円安による仕入原価上昇等、外部環境リスクが多層的",
+          "evidence": "risks: 米国通商政策や中東情勢の不透明感、物価上昇、円安による仕入原価上昇",
+          "confidence": 3
+        },
+        {
+          "view": "カタリストが2027年3月期末(proximity=1)で保有2週間では取れない。短期材料不在",
+          "evidence": "catalyst: upcoming_event_date=2027-03, proximity_score=1",
+          "confidence": 4
+        }
+      ],
+      "warning_flag": true,
+      "warning_reason": "売上成長率+0.9%と極めて低く営業利益-18.6%の大幅減益。カタリストも2027年3月期末で短期回転に不適",
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "30110",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "insufficient_history"
+      },
+      "entry_quality": 30.0,
+      "tier": "C",
+      "skip_recommendation": true,
+      "synthesis_notes": "不動産投資継続と自己株式取得検討は評価できるが、当期実績は売上微増・大幅減益で成長性に欠ける。来期予想は増益だが売上+0.5%と低成長。カタリストが10ヶ月先で短期回転に不向き。weekly rank=Aは評価できるが、momentum_score=27.7と低く、外部環境リスクも多い。今エントリーする明確な理由が見当たらず、より近接したカタリストや業績改善の兆しを待つべき。",
+      "sonnet_usage": {
+        "input_tokens": 1604,
+        "output_tokens": 604,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 1684
+      },
+      "extraction_status": "ok",
+      "errors": [],
+      "name": "バナーズ",
+      "rank": "A",
+      "total": 125,
+      "code4": "3011",
+      "extraction_source": "tdnet_pdf",
+      "debate": {
+        "code": "30110",
+        "fiscal_period": "2026Q4",
+        "debated_at": "2026-05-18T05:45:08+09:00",
+        "debate_version": "v1",
+        "bull_thesis": "週次ランクA・総合125点の高評価を獲得し、来期営業利益+15.2%の増益転換シナリオが明確。PBR0.85倍・配当利回り3.27%と割安水準にあり、自己株式取得検討が株価下支え要因。不動産投資を継続する積極姿勢は資産価値の積み上げを示唆。RSI45.89と売られ過ぎ圏から反発余地があり、25日線164円への回帰で+7%、さらに20日高値199円奪還なら+30%の値幅。信用買残84,100株と需給負荷は軽微で、出来高0.4倍と閑散に売りなし。損切り147円(-3.9%)設定で+12%到達までRR約3:1と有利。",
+        "bull_key_drivers": [
+          "来期営業利益322百万円(前期比+15.2%)の増益転換計画。当期は減益だが進捗率86.6%と着地確度高く、効率化による利益率改善が次期の成長ドライバー",
+          "週次総合スコア125点・ランクAの高評価。gravity_score27.7はやや低いが、entry_quality30点とテクニカル的にエントリー適正水準。RSI45.89から25日線164円への自律反発で+7%の値幅確保可能",
+          "PBR0.85倍・配当利回り3.27%の割安水準に加え、自己株式取得検討が株価下支え。不動産投資継続による資産価値積み上げは中長期の再評価余地を示唆し、短期反発局面での利確を後押し"
+        ],
+        "bull_anticipated_bear": "「カタリストが10ヶ月先で短期回転に不向き」との指摘が予想されるが、週次ランクAは直近のモメンタム評価であり、25日線回帰+7%は2週間以内に狙える技術的リバウンド。来期予想は材料の方向性確認に過ぎず、短期値幅は需給とテクニカルで取る。",
+        "bull_confidence": 3,
+        "bear_thesis": "Bull は「週次ランクA・総合125点」を根拠に挙げるが、momentum_score=27.7 と極めて低く、ユーザー戦略の「明確なサインでの順張り徹底」「新高値更新・横ばい上抜けなど移動平均線や出来高を伴うテクニカルサイン」に全く該当しない。現在価格153円は25日線164円を-6.8%下回り下降トレンド中、出来高比率0.4倍と閑散で「動意のない銘柄」そのもの。RSI45.89からの反発期待は逆張りに等しく、ユーザー禁則「逆張り禁止・下落トレンドには手を出さず」に抵触。来期増益予想は10ヶ月先で短期材料不在、当期は減益着地で直近のモメンタムなし。週次ランクAは過去の評価であり「当日の再トリガー」が不明瞭。戦略原則違反の典型例。",
+        "bear_risks": [
+          "カタリスト不在リスク: 来期予想発表は10ヶ月先、当期は減益着地済みで直近の材料ゼロ。25日線回帰+7%は希望的観測に過ぎず、下降トレンド継続なら損切り-3.9%到達が先行し、RR悪化",
+          "需給・テクニカルリスク: 出来高比率0.4倍の閑散相場で流動性不足、25日線-6.8%乖離の下降トレンド中。RSI45.89は中立圏で売られ過ぎ圏(30以下)未達、反発根拠薄弱。信用買残84,100株は軽微だが売り圧力不在の証拠にもならず、板薄で急落リスク",
+          "戦略原則違反リスク: ユーザー戦略「新高値更新・横ばい上抜けなど明確なサイン」不在、「動意のない銘柄の排除」対象。momentum_score27.7は順張り条件未達で、下降トレンド中のエントリーは「逆張り禁止」原則に抵触。週次ランクAのみで「トリプル確認」不足"
+        ],
+        "bear_bull_weakness": "Bull は週次ランクAを過大評価するが、momentum_score27.7・出来高0.4倍・25日線-6.8%乖離の現実を無視。ユーザー戦略「明確なサインでの順張り」に全く該当せず、戦略原則違反。",
+        "bear_historical_analog": "2024年の不動産関連中小型株(例: 東急不動産HD子会社群)で、割安PBR・増益予想を根拠に推奨された銘柄が、金利上昇懸念と出来高低迷で横ばい継続し機会損失となった事例多数。",
+        "bear_shortable_entry_hint": "空売りなら25日線164円到達後の戻り売り。下降トレンド継続なら低値圏147円割れで追撃",
+        "bear_confidence": 5,
+        "trader_verdict": "×",
+        "trader_recommended_entry": null,
+        "trader_stop_loss": null,
+        "trader_target": null,
+        "trader_reasoning": "Bear論拠を採用。momentum_score27.7・出来高0.4倍・25日線-6.8%乖離は「明確なサインでの順張り」「動意のない銘柄の排除」に完全抵触。週次ランクAは過去評価で当日の再トリガー不在、トリプル確認未達。来期増益は10ヶ月先で短期材料なし。戦略原則違反の典型例。",
+        "trader_bull_score": 3,
+        "trader_bear_score": 9,
+        "trader_expected_days": null,
+        "trader_risk_note": "下降トレンド中の逆張りエントリーとなり損切り-3.9%到達が先行リスク。出来高0.4倍の閑散相場で板薄く、ストップロス注文が不利な価格で約定する可能性大。",
+        "sonnet_usage": {
+          "input_tokens": 13977,
+          "output_tokens": 1929,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "by_stage": {
+            "bull": {
+              "input_tokens": 4343,
+              "output_tokens": 664,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "bear": {
+              "input_tokens": 4978,
+              "output_tokens": 964,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "trader": {
+              "input_tokens": 4656,
+              "output_tokens": 301,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            }
+          }
+        },
+        "extraction_status": "ok",
+        "errors": []
+      }
+    },
+    {
+      "code": "44190",
+      "fiscal_period": "2026Q4",
+      "synthesized_at": "2026-05-18T05:45:31.475816+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 31.5,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [
+        {
+          "view": "営業キャッシュフローが2期連続マイナスで、成長投資優先により短期的な資金繰りリスクが存在",
+          "evidence": "narrative_observationsより「営業キャッシュフローは2期連続でマイナス」",
+          "confidence": 3
+        },
+        {
+          "view": "2027年3月期業績目標が通期計画であり、保有2週間では進捗確認できず短期トレードの材料として機能しにくい",
+          "evidence": "catalystのproximity_score=1、upcoming_event_date=2027-03",
+          "confidence": 4
+        }
+      ],
+      "warning_flag": true,
+      "warning_reason": "2027年3月期業績目標が通期計画であり、保有2週間では進捗確認できず短期トレードの材料として機能しにくい",
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "44190",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "insufficient_history"
+      },
+      "entry_quality": 30.0,
+      "tier": "C",
+      "skip_recommendation": true,
+      "synthesis_notes": "業績モメンタムは極めて強く(売上43.5%増、営業利益100%増)、金融DX需要を背景に成長軌道。BaaS等の稼働実績も順調。ただし最大の懸念は短期トレード視点でのカタリスト不在。通期目標は10ヶ月先で保有2週間では恩恵を受けにくい。週次ランクAは評価されているが、今エントリーする明確な触媒に欠ける。四半期決算発表直後のモメンタム狙いなら検討余地あるが、2週間保有での確実な利確は困難。consistency_score算出不可で過去の予想達成精度も不明。",
+      "sonnet_usage": {
+        "input_tokens": 1590,
+        "output_tokens": 565,
+        "cache_read_input_tokens": 1684,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "ok",
+      "errors": [],
+      "name": "Ｆｉｎａｔｅｘｔホールディングス",
+      "rank": "A",
+      "total": 125,
+      "code4": "4419",
+      "extraction_source": "tdnet_pdf",
+      "debate": {
+        "code": "44190",
+        "fiscal_period": "2026Q4",
+        "debated_at": "2026-05-18T05:46:15+09:00",
+        "debate_version": "v1",
+        "bull_thesis": "金融DX本命銘柄として売上43.5%増・営業利益100%増の爆発的成長を実現。BaaS稼働28サービス、保険Inspire17社、クレジットCrest5社と顧客基盤が急拡大中。通期計画は売上155億円(40.2%増)・営業利益33.38億円(75.6%増)と高成長継続を明示。重力スコア31.5は業績モメンタムの強さを裏付け、週次ランクAは市場の評価を示す。株価1142円は25日線1139円をわずかに上回り横ばい上抜けの起点、出来高比0.85倍と過熱感なく順張りエントリーに適する。ATR77円で損切り1084円(-5.1%)は戦略の-8%ルール内に収まり、目標1258円(+10.2%)は+12%圏内で現実的。決算発表から4日経過し材料出尽くし感は薄く、金融DXテーマの再評価で2週間保有での+8〜12%利確は十分狙える。",
+        "bull_key_drivers": [
+          "業績モメンタム: 営業利益100%増は四半期ベースで異例の爆発力、通期も75.6%増計画で成長加速が明確",
+          "テーマ性: 金融DX・BaaS・保険DXは国策デジタル化の中核テーマで機関投資家の物色対象、稼働実績の積み上がりが評価材料",
+          "テクニカル: 25日線1139円をわずかに上回る1142円は横ばい上抜けの初動、出来高0.85倍で過熱なく順張り余地あり、RSI51.5は中立圏で上昇余地大"
+        ],
+        "bull_anticipated_bear": "「通期目標は10ヶ月先で2週間保有に無関係」との指摘が予想されるが、決算発表4日後は材料の再評価期間であり金融DXテーマの物色継続で短期モメンタムは十分。週次ランクAは市場の注目度を示し、テクニカル的にも横ばい上抜けの起点で2週間での+8〜12%到達は現実的。",
+        "bull_confidence": 4,
+        "bear_thesis": "",
+        "bear_risks": [],
+        "bear_bull_weakness": "",
+        "bear_historical_analog": "",
+        "bear_shortable_entry_hint": "",
+        "bear_confidence": null,
+        "trader_verdict": "failed",
+        "trader_recommended_entry": null,
+        "trader_stop_loss": null,
+        "trader_target": null,
+        "trader_reasoning": "",
+        "trader_bull_score": null,
+        "trader_bear_score": null,
+        "trader_expected_days": null,
+        "trader_risk_note": "",
+        "sonnet_usage": {
+          "input_tokens": 4400,
+          "output_tokens": 711,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "by_stage": {
+            "bull": {
+              "input_tokens": 4400,
+              "output_tokens": 711,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            }
+          }
+        },
+        "extraction_status": "partial",
+        "errors": [
+          {
+            "stage": "bear",
+            "error": "DebateError: JSON parse failed: no valid braces found; raw[:200]='```json\\n{\\n  \"thesis\": \"Bull は「決算発表から4日経過で材料出尽くし感は薄い」と主張するが、決算発表日2026-05-12から起算すると本日は決算直後の材料消化期間であり、ユーザー戦略書の「決算またぎ禁止(発表7日前以内の銘柄は除外)」原則に照らせば発表後7日以内も同様にボラティリティ・需給の不安定期間として回避すべき。通期目標は10ヶ月先で2週間保有に直接寄与せず、週次'"
+          }
+        ]
+      }
+    },
+    {
+      "code": "39230",
+      "fiscal_period": "2026Q4",
+      "synthesized_at": "2026-05-18T05:46:15.894891+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 10.0,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [],
+      "warning_flag": false,
+      "warning_reason": null,
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "39230",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "skipped_no_pdf"
+      },
+      "entry_quality": 50.0,
+      "tier": "B",
+      "skip_recommendation": false,
+      "synthesis_notes": "TDnet 保持期間 (60日) 外のため PDF 取得不可。/fins/summary 由来の定量データのみで簡易判定。定性情報 (テーマ・リスク・カタリスト) は欠落しているため、詳細は会社 IR ページの直接参照を推奨。",
+      "sonnet_usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "numeric_only",
+      "errors": [],
+      "name": "ラクス",
+      "rank": "A",
+      "total": 125,
+      "code4": "3923",
+      "extraction_source": "fins_summary",
+      "debate": null
+    },
+    {
+      "code": "39050",
+      "fiscal_period": "2026Q4",
+      "synthesized_at": "2026-05-18T05:46:41.124809+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 4.3,
+      "catalyst_high_conviction": true,
+      "consistency_score": null,
+      "opposing_views": [
+        {
+          "view": "AIインフラ事業は投資先行フェーズで収益化は2027年3月期以降。短期的な利益貢献は限定的",
+          "evidence": "outlook「サービス提供本格化を経て更なる成長加速」との記載から現時点では収益化前段階",
+          "confidence": 4
+        },
+        {
+          "view": "NVIDIA製GPU大量取得契約は2026年9月以降の納品。保有2週間では材料化しない可能性",
+          "evidence": "catalyst「B200/B300搭載GPUサーバー取得契約」の納品時期が2026年9月",
+          "confidence": 3
+        },
+        {
+          "view": "新株予約権行使による希薄化リスク。既存株主への影響は不透明",
+          "evidence": "narrative「新株予約権行使による大規模な資金調達を実施」との記載",
+          "confidence": 3
+        }
+      ],
+      "warning_flag": true,
+      "warning_reason": "AIインフラ事業は投資先行フェーズで短期的な利益貢献は限定的。2027年3月期の本格化まで収益化は先",
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "39050",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "insufficient_history"
+      },
+      "entry_quality": 48.0,
+      "tier": "B",
+      "skip_recommendation": false,
+      "synthesis_notes": "CUDO社子会社化の基本合意(proximity=5)は短期材料として機能。AIインフラ事業への経営資源集中は明確だが、収益化は2027年3月期以降で短期的な業績インパクトは限定的。momentum_score=42.9と中位、demand_score=10.0と需給負荷は最大。週次ランクA・信用倍率5.72倍と需給面は良好。NVIDIA関連テーマ性と直近の基本合意材料で短期的な値幅は期待できるが、業績の実体化までタイムラグあり。2週間保有で+8-12%狙いなら材料性重視でエントリー可、ただし利確は早めに",
+      "sonnet_usage": {
+        "input_tokens": 1795,
+        "output_tokens": 640,
+        "cache_read_input_tokens": 1684,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "ok",
+      "errors": [],
+      "name": "データセクション",
+      "rank": "A",
+      "total": 125,
+      "code4": "3905",
+      "extraction_source": "tdnet_pdf",
+      "debate": {
+        "code": "39050",
+        "fiscal_period": "2026Q4",
+        "debated_at": "2026-05-18T05:47:24+09:00",
+        "debate_version": "v1",
+        "bull_thesis": "NVIDIA認定AIパートナーCUDO社子会社化の基本合意(5/18直前、proximity=5)が短期材料として機能。週次ランクA・総合125点・重力スコア4.3と高評価、信用倍率5.72倍で需給良好、出来高比1.24倍と資金流入継続。RSI72.46と過熱感あるが、AIインフラ事業への経営資源集中が鮮明でNVIDIA関連テーマ性が強く、直近材料で2週間保有+8-12%は現実的。損切り1846円(-8%)、目標3337円(+42%)設定済み。",
+        "bull_key_drivers": [
+          "CUDO社子会社化基本合意(5/18)という3日後の近接材料が短期的な買い圧力を生む。NVIDIA B200/B300大量調達契約も控え、テーマ性が市場で評価されやすい局面",
+          "週次総合125点・ランクA・重力スコア4.3と三重評価が高く、信用倍率5.72倍・出来高比1.24倍で需給面の裏付けあり。空売り残データ欠損も信用倍率高水準が踏み上げ余地を示唆",
+          "2027/3期売上1621億円・営業利益248億円予想と大型案件の収益化シナリオが明確。短期的には材料性重視だが、中期業績の裏付けが投資家心理を支える"
+        ],
+        "bull_anticipated_bear": "RSI72過熱・需給負荷10.0満点を指摘されるが、近接材料(3日後)と週次A評価が重なる局面では短期的な押し目待ちで機会損失リスクが高い。打診買い1/5で過熱リスクを管理しつつ、+1R到達で1/3利確の分割戦略で対応可能",
+        "bull_confidence": 4,
+        "bear_thesis": "Bull は CUDO 社基本合意(5/18)を「3日後の近接材料」と強調するが、現在価格2343円は20日高値2550円から既に8%下落しており、材料織り込み済みの可能性が高い。RSI72.46の過熱状態で打診買いを推奨するのはユーザー戦略「荒れ相場では深い押し目を待つ」に反する。需給負荷10.0満点は空売り残データ欠損下での信用倍率のみに依存した脆弱な根拠。2027/3期の収益化は10ヶ月先で短期材料にならず、基本合意は「協議継続中」の不確定要素。週次A評価も過去データ不足(ir_diff: insufficient_history)で信頼性に疑問。",
+        "bear_risks": [
+          "材料リスク: CUDO社子会社化は「基本合意・協議継続中」の段階で破談リスクあり。NVIDIA B200/B300調達契約も2026年9月以降で短期的な株価押し上げ効果は限定的。既に5/12週で高値2550円を付けた後の調整局面であり、材料出尽くし感が強い",
+          "需給リスク: RSI72.46は過熱域、20日高値から8%下落中で上値が重い。空売り残高データ欠損により踏み上げシナリオは検証不能。出来高比1.24倍は直近の売り圧力を示唆する可能性もあり、信用倍率5.72倍のみでは需給良好と断定できない",
+          "戦略違反リスク: ユーザー戦略「日経HV高時は深い押し目待ち」「動意確認後の順張り」に反し、RSI過熱・調整局面での打診買いは機会損失回避を優先しすぎ。週次A評価の根拠となる過去比較データが不足(ir_diff: insufficient_history)しており、AI評価の信頼性が低い"
+        ],
+        "bear_bull_weakness": "「3日後の材料」を強調するが、既に高値から8%下落済みで織り込み済みの可能性を無視。基本合意は「協議継続中」の不確定要素であり、確定材料ではない点を軽視している",
+        "bear_historical_analog": "2023年メタバース関連銘柄で提携基本合意後に協議難航で株価急落した事例多数。AI関連でも2024年某社がNVIDIA調達発表後に納期遅延で失速",
+        "bear_shortable_entry_hint": "2550円(20日高値)での戻り売り。材料出尽くし+RSI過熱で反落狙い",
+        "bear_confidence": 4,
+        "trader_verdict": "×",
+        "trader_recommended_entry": null,
+        "trader_stop_loss": null,
+        "trader_target": null,
+        "trader_reasoning": "RSI72.46過熱・20日高値2550円から8%下落済みで材料織り込み済みの可能性が高い。CUDO社基本合意は「協議継続中」の不確定要素で確定材料でなく、ユーザー戦略「明確なサインでの順張り徹底」「日経HV高時は深い押し目待ち」に反する。週次A評価の根拠データ不足(ir_diff: insufficient_history)で信頼性低く、調整局面での打診買いは戦略違反。",
+        "trader_bull_score": 5,
+        "trader_bear_score": 7,
+        "trader_expected_days": null,
+        "trader_risk_note": "基本合意破談リスク・材料出尽くし感・RSI過熱での反落リスク。空売り残データ欠損で踏み上げシナリオ検証不能。損切り機能しても調整局面での逆張りエントリーは戦略原則違反。",
+        "sonnet_usage": {
+          "input_tokens": 14225,
+          "output_tokens": 1780,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "by_stage": {
+            "bull": {
+              "input_tokens": 4591,
+              "output_tokens": 600,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "bear": {
+              "input_tokens": 5162,
+              "output_tokens": 843,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "trader": {
+              "input_tokens": 4472,
+              "output_tokens": 337,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            }
+          }
+        },
+        "extraction_status": "ok",
+        "errors": []
+      }
+    },
+    {
+      "code": "36970",
+      "fiscal_period": "2026Q2",
+      "synthesized_at": "2026-05-18T05:47:50.969117+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 4.5,
+      "catalyst_high_conviction": true,
+      "consistency_score": null,
+      "opposing_views": [
+        {
+          "view": "M&A関連の減損損失が2期連続で発生しており、買収先の事業計画未達リスクが継続",
+          "evidence": "当中間期5.01億円、前中間期5.73億円の減損損失を計上",
+          "confidence": 4
+        },
+        {
+          "view": "利益進捗率39.8%と売上進捗率48.0%に乖離があり、下期での急回復が必須だが実現性に不確実性",
+          "evidence": "AI関連投資の先行実行で利益成長鈍化、下期回復を見込むが進捗遅れ",
+          "confidence": 4
+        },
+        {
+          "view": "短期借入金100億円増加とM&A加速により財務レバレッジが上昇、資金繰りリスクが拡大",
+          "evidence": "M&A資金として短期借入金増加、ステップ60億円・ニッセイコム177.92億円の大型買収実行",
+          "confidence": 3
+        }
+      ],
+      "warning_flag": true,
+      "warning_reason": "M&A関連の減損損失が2期連続で発生しており買収先の事業計画未達リスクが継続。加えて利益進捗率が売上に比べ大幅に遅れており下期での急回復が必須だが実現性に不確実性がある",
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "36970",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "insufficient_history"
+      },
+      "entry_quality": 50.0,
+      "tier": "B",
+      "skip_recommendation": false,
+      "synthesis_notes": "6月1日のステップ買収完了という高確度カタリストを控え、週次ランクAと需給は良好。ただし利益進捗率39.8%と売上48.0%の乖離、2期連続の減損損失、短期借入金100億円増による財務負荷が懸念材料。AI投資先行で短期的に利益圧迫も下期回復シナリオに賭ける形。momentum_score 45と中位だが、カタリスト近接性とテクニカル優位性を評価し短期勝負なら妙味あり。ただし保有2週間で利確目標+8-12%達成には材料待ちの側面強く、反対意見の重さから慎重姿勢必要",
+      "sonnet_usage": {
+        "input_tokens": 1799,
+        "output_tokens": 720,
+        "cache_read_input_tokens": 1684,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "ok",
+      "errors": [],
+      "name": "ＳＨＩＦＴ",
+      "rank": "A",
+      "total": 125,
+      "code4": "3697",
+      "extraction_source": "tdnet_pdf",
+      "debate": {
+        "code": "36970",
+        "fiscal_period": "2026Q2",
+        "debated_at": "2026-05-18T05:48:36+09:00",
+        "debate_version": "v1",
+        "bull_thesis": "6月1日ステップ買収完了という5営業日先の高確度カタリストを控え、週次ランクA・total_score125点と需給優位。重力スコア4.5は業績モメンタム(売上YoY+16.8%)が需給負荷を上回る水準。出来高比0.67倍と薄商いで需給枯れ、空売り踏み上げ余地あり。MA25(665円)上で底堅く、RSI45と過熱感なし。AI投資先行で利益一時減速も通期予想据え置きで下期回復シナリオ維持。M&A完了で材料出尽くし前の短期上昇を狙う。損切り585円(-7%)、目標716円(+14%)でRR1:2確保。保有1週間で+8-12%利確想定、カタリスト到来前に仕込む絶好のタイミング。",
+        "bull_key_drivers": [
+          "6月1日ステップ買収完了(60億円案件)という5営業日先の高確度カタリスト。proximity_score4、confidence5の材料が株価を押し上げる蓋然性高い",
+          "週次ランクA・total_score125点で需給優位。重力スコア4.5は売上YoY+16.8%の業績モメンタムが需給負荷を圧倒する水準。出来高比0.67倍と薄商いで需給枯れ、買い戻し・踏み上げ余地大",
+          "MA25(665円)上で底堅く、RSI45と過熱感なし。高値755円から押し目完了、ATR35円で値幅取りやすい。テクニカル的に短期反発セットアップ完成"
+        ],
+        "bull_anticipated_bear": "利益進捗率39.8%と売上48.0%の乖離、2期連続減損、借入金100億円増を攻めてくる。反論:AI投資先行の一時的圧迫で通期予想据え置き、下期回復を経営陣が明言。M&A完了で成長加速期待、短期勝負なら利益遅れは織り込み済み",
+        "bull_confidence": 4,
+        "bear_thesis": "Bull は「6月1日買収完了前の短期上昇」を狙うが、ユーザー戦略書の「決算またぎ禁止: 発表7日前以内の銘柄は除外」に抵触する可能性が高い。M&A完了は決算イベントではないが、材料出尽くし型カタリストは「発表前の期待買い→当日売り」パターンで逆に高値掴みリスク大。RSI45・出来高比0.67倍は「動意のない銘柄」に該当し、戦略書が排除対象とする「出来高薄・長期横ばい」の特徴を示す。利益進捗率39.8%と売上48.0%の9.2pt乖離は下期急回復前提だが、2期連続減損と借入金100億円増は財務悪化の兆候。通期予想据え置きは「上方修正なし」を意味し、材料不足で短期+8-12%達成は困難。",
+        "bear_risks": [
+          "材料リスク: 6月1日買収完了は「材料出尽くし」型イベントで、発表当日に売り圧力が集中する典型パターン。proximity_score4は「近い」だけで株価上昇を保証せず、むしろ「期待先行→失望売り」で急落する可能性。M&A完了後にPMI(統合作業)の困難さが表面化すれば、過去2期連続減損の再来リスクあり",
+          "需給リスク: 出来高比0.67倍は「需給枯れ」ではなく「関心薄」の証拠。週次ランクAでもRSI45と中途半端で、MA25(665円)上だが現在値628円は下回っており底堅さの根拠が崩壊。ATR35円(5.6%変動)は損切り-8%まで2日で到達する高ボラで、薄商いゆえ急落時の逃げ場なし",
+          "マクロリスク: AI投資先行で利益圧迫は「一時的」と主張するが、生成AI市場は過当競争が激化中。先行投資が収益化せず減損が常態化するリスク。短期借入金100億円増は金利上昇局面で財務負担増、下期回復シナリオが崩れれば通期予想下方修正→株価急落のトリガーに"
+        ],
+        "bear_bull_weakness": "「MA25(665円)上で底堅い」と主張するが現在値628円は明確に下回っており、テクニカル根拠が事実誤認。出来高薄を「需給枯れ=好材料」と解釈するのは楽観的すぎ",
+        "bear_historical_analog": "2023年のメタプラネット(3350): M&A発表で急騰後、統合コスト顕在化で3ヶ月で-40%下落。材料出尽くし型カタリストの典型的失敗例",
+        "bear_shortable_entry_hint": "665円(MA25)到達時が空売りエントリー。買収完了翌日の材料出尽くし売りを狙う",
+        "bear_confidence": 4,
+        "trader_verdict": "×",
+        "trader_recommended_entry": null,
+        "trader_stop_loss": null,
+        "trader_target": null,
+        "trader_reasoning": "Bear指摘の通り現在値628円はMA25(665円)を下回りBullのテクニカル根拠が事実誤認。出来高比0.67倍は「動意のない銘柄」に該当しユーザー戦略書の排除対象。6月1日買収完了は材料出尽くし型で発表当日売り圧力リスク大。利益進捗率39.8%と売上48.0%の乖離、2期連続減損、借入金100億円増は財務悪化の兆候で短期+8-12%達成困難。Bullの論拠は事実誤認と楽観的解釈に依存し採用不可。",
+        "trader_bull_score": 3,
+        "trader_bear_score": 8,
+        "trader_expected_days": null,
+        "trader_risk_note": "MA25下回る現在値で底堅さ欠如。薄商い(出来高比0.67倍)で急落時の逃げ場なし。ATR35円の高ボラで損切り-8%まで2日到達リスク。材料出尽くし売りで急落可能性。",
+        "sonnet_usage": {
+          "input_tokens": 14534,
+          "output_tokens": 2019,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "by_stage": {
+            "bull": {
+              "input_tokens": 4604,
+              "output_tokens": 670,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "bear": {
+              "input_tokens": 5245,
+              "output_tokens": 971,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "trader": {
+              "input_tokens": 4685,
+              "output_tokens": 378,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            }
+          }
+        },
+        "extraction_status": "ok",
+        "errors": []
+      }
+    },
+    {
+      "code": "38610",
+      "fiscal_period": "2026Q4",
+      "synthesized_at": "2026-05-18T05:49:02.491001+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 0.2,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [
+        {
+          "view": "中東情勢沈静化を前提とした業績予想であり、地政学リスクが顕在化すれば下振れる可能性",
+          "evidence": "risks欄に「2026年6月末に中東情勢が沈静化することを前提」と明記",
+          "confidence": 4
+        },
+        {
+          "view": "原燃料価格・物流費上昇で150億円の減益リスクを織り込み済みだが、更なる上昇余地あり",
+          "evidence": "risks欄に「原燃料価格や物流費上昇による営業利益の減益リスク（150億円）」",
+          "confidence": 3
+        },
+        {
+          "view": "営業利益が前期比▲48.9%の大幅減益で、構造改革の効果発現は次期以降",
+          "evidence": "numeric欄のop_yoy_pct=-48.9、outlook欄で「次期に改善見通し」",
+          "confidence": 4
+        }
+      ],
+      "warning_flag": true,
+      "warning_reason": "中東情勢沈静化を前提とした業績予想であり地政学リスクが顕在化すれば下振れる可能性。営業利益が前期比▲48.9%の大幅減益で構造改革の効果発現は次期以降。",
+      "divergence_flag": "landmine",
+      "divergence_reason": "rank=A だが gravity=0.2 ≤ 1.0 (テクニカル強・ファンダ警戒)",
+      "ir_diff": {
+        "code": "38610",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "insufficient_history"
+      },
+      "entry_quality": 0.0,
+      "tier": "C",
+      "skip_recommendation": true,
+      "synthesis_notes": "長期ビジョン2035と中計2027で資本効率改善・ポートフォリオ転換を推進中。1,000億円自社株買い・1億株消却で株主還元姿勢は強い。ただし当期営業利益▲49%の大幅減益で、構造改革効果は次期以降。カタリストは2027年3月期業績予想だが基準日から10ヶ月先でproximitiy_score=1と遠い。gravity_score=0.2と極めて低く、需給負荷10.0と重い。中東情勢前提のリスクもあり、短期回転での今エントリーは時期尚早。次期1Q決算での進捗確認後が妥当。",
+      "sonnet_usage": {
+        "input_tokens": 1842,
+        "output_tokens": 695,
+        "cache_read_input_tokens": 1684,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "ok",
+      "errors": [],
+      "name": "王子ホールディングス",
+      "rank": "A",
+      "total": 125,
+      "code4": "3861",
+      "extraction_source": "tdnet_pdf",
+      "debate": {
+        "code": "38610",
+        "fiscal_period": "2026Q4",
+        "debated_at": "2026-05-18T05:49:45+09:00",
+        "debate_version": "v1",
+        "bull_thesis": "1,000億円自社株買い+1億株消却(発行済9.9%)による需給改善と株主還元姿勢が明確。2027/3期は構造改革フル効果+パルプ市況回復で営業利益600億円(前期比+73%)見込み、PBR0.68倍・配当利回り4.2%と割安。出来高2.15倍急増・RSI54と過熱感なく、信用倍率17.35倍で踏み上げ余地大。次期1Q(8月中旬)で進捗確認できる距離感で、今から仕込めば構造改革期待の先回り買いが可能。",
+        "bull_key_drivers": [
+          "1,000億円自社株買い+1億株消却で需給大幅改善、発行済株式9.9%減少は過去最大級の株主還元",
+          "2027/3期営業利益600億円(前期比+73%)見込み、低収益事業撤退+価格修正フル効果で収益構造が一変",
+          "出来高2.15倍・信用倍率17.35倍で需給転換の兆し、PBR0.68倍・配当4.2%と割安放置解消の余地"
+        ],
+        "bull_anticipated_bear": "gravity_score0.2と需給負荷10.0の重さを指摘されるが、自社株買い1,000億円は今後12ヶ月で段階実行され需給は改善方向。当期▲49%減益は既に株価に織り込み済みで、次期+73%増益予想が材料視される局面",
+        "bull_confidence": 3,
+        "bear_thesis": "Bull は「今から仕込めば構造改革期待の先回り買いが可能」と主張するが、gravity_score=0.2・需給負荷10.0という極めて重い需給環境を軽視している。自社株買い1,000億円は今後12ヶ月の段階実行であり即効性なし。次期1Q決算(8/16)まで2.5ヶ月あり、ユーザー戦略の「数日〜数週間保有」に対し長すぎる。当期▲49%減益の実績を「織り込み済み」と断定する根拠が薄弱で、次期+73%増益予想も中東情勢沈静化という不確実な前提に依存。PBR0.68倍は割安だが、それ自体が長期放置の証左であり短期モメンタムの根拠にならない。出来高2.15倍は一時的な可能性が高く、RSI54で「過熱感なし」は逆に言えば勢いも不足。",
+        "bear_risks": [
+          "次期業績予想は「2026年6月末に中東情勢沈静化」を前提とし、原燃料・物流費上昇で▲150億円の減益リスクを既に織り込むが、地政学リスクが長期化すれば営業利益600億円達成は困難。前提崩壊で下方修正なら▲10%超の急落リスク。",
+          "gravity_score=0.2は過去データで需給悪化の典型パターン。自社株買いは12ヶ月分割実行で即効性なく、信用倍率17.35倍も「踏み上げ余地」ではなく「売り方優勢の継続」を示唆。次期1Q(8/16)まで2.5ヶ月あり、その間に材料枯渇で横ばい〜ダレる可能性大。ユーザー戦略の「数日〜数週間保有」に対し、8月まで塩漬けは戦略違反。",
+          "紙パルプ業界は構造的な需要減退が続き、AustroCel買収等の成長投資も効果発現は2〜3年先。次期増益予想の大半は「低収益事業撤退の一過性効果」であり、持続的成長ストーリーが描けない。PBR0.68倍が割安ではなく「適正評価」の可能性あり、短期で割安解消は期待薄。"
+        ],
+        "bear_bull_weakness": "「次期1Qで進捗確認できる距離感」と言うが8/16まで2.5ヶ月あり、ユーザー戦略の「数日〜数週間保有」「タイムストップ10営業日」に明確に違反。先回り買いは塩漬けリスク大。",
+        "bear_historical_analog": "2023年の日本製紙: 自社株買い発表後も紙需要減・原燃料高で株価低迷、構造改革期待は長期テーマで短期材料にならず横ばい継続した事例。",
+        "bear_shortable_entry_hint": "870円(直近高値)で戻り売り。次期1Q前に材料枯渇で800円割れ想定、損切り890円。",
+        "bear_confidence": 4,
+        "trader_verdict": "×",
+        "trader_recommended_entry": null,
+        "trader_stop_loss": null,
+        "trader_target": null,
+        "trader_reasoning": "Bear score 4 vs Bull score 3。次期1Q決算(8/16)まで2.5ヶ月あり、ユーザー戦略の「数日〜数週間保有」「タイムストップ10営業日」に明確に違反。自社株買いは12ヶ月分割実行で即効性なく、gravity_score=0.2・需給負荷10.0という極めて重い需給環境下で短期モメンタムが期待できない。次期増益予想は中東情勢沈静化という不確実な前提に依存し、材料枯渇で横ばい〜ダレるリスク大。構造改革期待は長期テーマであり短期回転戦略に不適合。",
+        "trader_bull_score": 3,
+        "trader_bear_score": 4,
+        "trader_expected_days": null,
+        "trader_risk_note": "次期1Qまで2.5ヶ月の材料空白期間で塩漬けリスク。中東情勢長期化なら下方修正で▲10%超急落。gravity_score=0.2の需給悪化で損切り▲8%が機能しても追加下落の可能性。",
+        "sonnet_usage": {
+          "input_tokens": 14287,
+          "output_tokens": 1896,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "by_stage": {
+            "bull": {
+              "input_tokens": 4639,
+              "output_tokens": 501,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "bear": {
+              "input_tokens": 5111,
+              "output_tokens": 1000,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "trader": {
+              "input_tokens": 4537,
+              "output_tokens": 395,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            }
+          }
+        },
+        "extraction_status": "ok",
+        "errors": []
+      }
+    },
+    {
+      "code": "41800",
+      "fiscal_period": "2026Q1",
+      "synthesized_at": "2026-05-18T05:50:04.500575+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 10.0,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [
+        {
+          "view": "通期予想据え置きは保守的。Q1進捗率4.29%は低く、下期偏重を前提とした計画の可能性",
+          "evidence": "営業利益進捗率4.29%、通期予想変更なしの記載",
+          "confidence": 3
+        },
+        {
+          "view": "新規上場で過去実績なく言行一致の検証不可。経営陣のコミット精度が未知数",
+          "evidence": "履歴データ不足、consistency_score算出不能",
+          "confidence": 2
+        }
+      ],
+      "warning_flag": false,
+      "warning_reason": null,
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "41800",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "insufficient_history"
+      },
+      "entry_quality": 50.0,
+      "tier": "B",
+      "skip_recommendation": false,
+      "synthesis_notes": "Q1売上+29%・営業利益+153%と高成長。ARR+33.7%は継続性を示唆。高利益率製品シフトとコスト規律でレバレッジ改善が顕著。gravity_score=10.0は需給負荷が極めて軽く、momentum_score=100は最高評価。週次Aランクと整合。カタリスト不在だが業績モメンタム単独で短期上昇余地あり。通期予想据え置きは保守的で上方修正期待も。新規上場で過去検証不可な点のみ注意。",
+      "sonnet_usage": {
+        "input_tokens": 1335,
+        "output_tokens": 470,
+        "cache_read_input_tokens": 1684,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "ok",
+      "errors": [],
+      "name": "Ａｐｐｉｅｒ　Ｇｒｏｕｐ",
+      "rank": "A",
+      "total": 125,
+      "code4": "4180",
+      "extraction_source": "tdnet_pdf",
+      "debate": {
+        "code": "41800",
+        "fiscal_period": "2026Q1",
+        "debated_at": "2026-05-18T05:50:43+09:00",
+        "debate_version": "v1",
+        "bull_thesis": "Q1売上+29%・営業利益+153%の高成長と、ARR+33.7%の継続性が確認された。高利益率製品へのシフトとコスト規律でEBITDA+40.6%とレバレッジ改善が顕著。gravity_score=10.0は需給負荷が極めて軽く、momentum_score=100は最高評価。週次Aランク、出来高1.52倍、RSI56と過熱感なし。通期予想据え置きは保守的で上方修正期待も残る。新高値圏(1148円)からの調整後、25日線(930円)上で反発開始。短期で+8〜12%の利幅を狙える順張りセットアップが整った。",
+        "bull_key_drivers": [
+          "営業利益+153%・ARR+33.7%の業績モメンタムが継続性を示し、通期予想据え置きは保守的で上方修正余地あり",
+          "gravity_score=10.0は需給負荷が極めて軽く、出来高1.52倍・信用倍率52倍と踏み上げ余地も大きい",
+          "25日線(930円)上で反発開始、RSI56と過熱感なく、新高値1148円までの上昇余地+18%を短期で狙える"
+        ],
+        "bull_anticipated_bear": "新規上場で過去検証不可・カタリスト不在を攻められる。対抗策:ARR+33.7%は継続性の証左であり、Q1進捗率4.29%は通期予想の保守性を示唆。業績モメンタム単独で短期上昇は十分成立する。",
+        "bull_confidence": 4,
+        "bear_thesis": "Bull は「新高値圏(1148円)からの調整後、25日線(930円)上で反発開始」と主張するが、現値967円は高値から-15.8%の位置にあり、調整の途中である可能性が高い。新規上場銘柄で過去の押し目パターンが検証不可能なため、930円が真のサポートである保証はない。カタリスト不在で業績モメンタムのみに依存する中、Q1進捗率4.29%は通期予想の1/4以下であり「保守的」の根拠が薄弱。ARR+33.7%も前年比であり、前四半期比の加速度は不明。出来高1.52倍は一時的な可能性があり、RSI56は中立圏で方向感に欠ける。ユーザー戦略の「明確なサイン」「新高値更新・横ばい上抜け」を満たさず、調整途中での順張りは逆張りに近い。",
+        "bear_risks": [
+          "材料リスク: Q1進捗率4.29%は通期予想比で低く、残り3四半期で大幅加速が必要。通期予想据え置きは「保守的」ではなく「現実的」である可能性が高く、上方修正期待は根拠薄弱。次回決算(8/11)まで2ヶ月以上あり、材料枯渇でモメンタム失速リスク。",
+          "需給リスク: 信用倍率52倍は高水準だが、新規上場で信用残の絶対額が小さく踏み上げ余力は限定的。出来高1.52倍は一時的な可能性があり、翌日以降の出来高減少で流動性枯渇リスク。高値1148円からの調整が930円を割り込めば、損切り-8%ラインの936円を即座に下抜ける。",
+          "テクニカルリスク: 現値967円は25日線930円からわずか+4%の位置で、反発初動とは言えない。高値1148円から-15.8%の調整途中であり、ユーザー戦略の「新高値更新・横ばい上抜け」を満たさない。RSI56は中立圏で方向感なく、調整継続なら850円台(20日安値851円)への再下落リスクあり。"
+        ],
+        "bear_bull_weakness": "「25日線上で反発開始」は現値967円が930円からわずか+4%の位置にあり、反発初動の根拠が弱い。ユーザー戦略の「明確なサイン」「新高値更新・横ばい上抜け」を満たさず、調整途中での順張りは逆張りに近い。",
+        "bear_historical_analog": "2023年のラクス(3923)が新規上場後に高成長を示したが、カタリスト不在で調整が長期化し、25日線付近での反発失敗が複数回発生した事例に類似。",
+        "bear_shortable_entry_hint": "930円(25日線)割れで空売り検討。損切りは967円(現値)上抜け、目標は851円(20日安値)。",
+        "bear_confidence": 4,
+        "trader_verdict": "×",
+        "trader_recommended_entry": null,
+        "trader_stop_loss": null,
+        "trader_target": null,
+        "trader_reasoning": "Bear指摘の通り現値967円は高値1148円から-15.8%の調整途中であり、ユーザー戦略の「新高値更新・横ばい上抜けなど明確なサイン」を満たさない。25日線930円からわずか+4%の位置は反発初動の根拠として弱く、調整継続なら損切りライン936円を即座に下抜けるリスクが高い。新規上場で過去の押し目パターンが検証不可能な中、カタリスト不在で次回決算まで2ヶ月以上あり材料枯渇リスク。ユーザー戦略の「明確なサインでの順張り徹底」原則に反するため見送り。",
+        "trader_bull_score": 6,
+        "trader_bear_score": 8,
+        "trader_expected_days": null,
+        "trader_risk_note": "調整途中での順張りは実質逆張りに近く、930円割れで損切りライン936円を即座に下抜ける。新規上場で過去検証不可のため、ストップロスが機能しても再エントリー判断が困難。",
+        "sonnet_usage": {
+          "input_tokens": 13294,
+          "output_tokens": 1886,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "by_stage": {
+            "bull": {
+              "input_tokens": 4113,
+              "output_tokens": 522,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "bear": {
+              "input_tokens": 4606,
+              "output_tokens": 978,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "trader": {
+              "input_tokens": 4575,
+              "output_tokens": 386,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            }
+          }
+        },
+        "extraction_status": "ok",
+        "errors": []
+      }
+    },
+    {
+      "code": "18030",
+      "fiscal_period": "2026Q4",
+      "synthesized_at": "2026-05-18T05:50:43.421784+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 21.2,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [],
+      "warning_flag": false,
+      "warning_reason": null,
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "18030",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "skipped_no_pdf"
+      },
+      "entry_quality": 50.0,
+      "tier": "B",
+      "skip_recommendation": false,
+      "synthesis_notes": "TDnet 保持期間 (60日) 外のため PDF 取得不可。/fins/summary 由来の定量データのみで簡易判定。定性情報 (テーマ・リスク・カタリスト) は欠落しているため、詳細は会社 IR ページの直接参照を推奨。",
+      "sonnet_usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "numeric_only",
+      "errors": [],
+      "name": "清水建設",
+      "rank": "A",
+      "total": 125,
+      "code4": "1803",
+      "extraction_source": "fins_summary",
+      "debate": null
+    },
+    {
+      "code": "24920",
+      "fiscal_period": "2026Q1",
+      "synthesized_at": "2026-05-18T05:51:07.258027+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 100.0,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [
+        {
+          "view": "地政学的リスクによる先行き不透明感が依然として高く、エネルギー価格上昇が業績圧迫要因となる可能性",
+          "evidence": "risks欄に「米国情勢や中東情勢に伴うエネルギー価格上昇など地政学的リスク」と明記",
+          "confidence": 3
+        },
+        {
+          "view": "顧客紹介手数料と人件費の増加により、販管費が膨張し利益率が圧迫される懸念",
+          "evidence": "risks欄に「セールスパートナー強化で顧客紹介手数料増加、賃金改善で人件費増加」と記載",
+          "confidence": 3
+        },
+        {
+          "view": "タノム社ののれん償却費が第2四半期以降前年同期水準に戻り、販管費増加圧力が再燃する見通し",
+          "evidence": "narrative_observations欄に「のれん償却費減少が一時的で第2四半期以降は前年同期水準に戻る」と指摘",
+          "confidence": 4
+        }
+      ],
+      "warning_flag": true,
+      "warning_reason": "タノム社ののれん償却費が第2四半期以降前年同期水準に戻り、第1四半期の大幅増益が一時的要因による可能性。販管費増加圧力の再燃で利益率圧迫リスク",
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "24920",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "insufficient_history"
+      },
+      "entry_quality": 30.0,
+      "tier": "C",
+      "skip_recommendation": true,
+      "synthesis_notes": "第1四半期は営業利益76.5%増と大幅増益だが、のれん償却費減少が一時的で第2四半期以降は販管費増加圧力が再燃する見通し。通期カタリストは年末で近接性が低く(proximity=1)、短期回転には不向き。重力スコア100.0と需給は良好だがAランク銘柄が125銘柄と競合多数。第三者割当増資で資金調達済みだが具体的な成長戦略が不明瞭。今エントリーする明確な理由に欠ける",
+      "sonnet_usage": {
+        "input_tokens": 1924,
+        "output_tokens": 690,
+        "cache_read_input_tokens": 1684,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "ok",
+      "errors": [],
+      "name": "インフォマート",
+      "rank": "A",
+      "total": 125,
+      "code4": "2492",
+      "extraction_source": "tdnet_pdf",
+      "debate": {
+        "code": "24920",
+        "fiscal_period": "2026Q1",
+        "debated_at": "2026-05-18T05:51:44+09:00",
+        "debate_version": "v1",
+        "bull_thesis": "Q1営業利益+76.5%の大幅増益を達成し通期+74.6%増益予想を維持。請求書SaaS黒字化と2025年4月料金改定が収益構造を改善。第三者割当で現金17,080百万円調達済みで成長投資余力あり。重力スコア100.0と需給負荷ゼロ、出来高比1.28倍で流動性確保。信用倍率1.57倍と低水準で需給圧迫なし。RSI39.91と売られ過ぎ圏から反発余地あり、MA25(435円)までの戻り+10.4%が現実的ターゲット。",
+        "bull_key_drivers": [
+          "Q1営業利益+76.5%増の爆発的成長と通期+74.6%増益予想の継続性。請求書SaaS黒字化と料金改定による収益構造改善が定着",
+          "重力スコア100.0(需給負荷ゼロ)、出来高比1.28倍、信用倍率1.57倍と需給三拍子が揃い短期回転に最適な環境",
+          "RSI39.91の売られ過ぎ水準からMA25(435円)への技術的リバウンド。20日安値383円からの反発局面で+10.4%の上値余地"
+        ],
+        "bull_anticipated_bear": "「のれん償却費減少が一時的でQ2以降販管費増加」との指摘に対し、料金改定効果が通期で寄与し増益基調は維持される。Q1進捗率20.5%は計画通りで下振れリスクは限定的",
+        "bull_confidence": 4,
+        "bear_thesis": "Bull thesisは「RSI39.91の売られ過ぎからMA25(435円)への反発+10.4%」を主張するが、これは戦略書の「逆張り禁止・順張り徹底」原則に違反。現在価格394円はMA25を-9.5%下回り下降トレンド中で、「新高値更新・横ばい上抜け」等の明確な順張りサインが皆無。20日高値474円から-16.9%下落中の銘柄に「売られ過ぎ反発」を期待するのは典型的な逆張りであり、ユーザー戦略と真逆。Q2以降の販管費増加圧力再燃で増益持続性に疑問符。",
+        "bear_risks": [
+          "材料リスク: Q1ののれん償却費減少は一時的でQ2以降は前年同期水準に戻る見通し。人件費増加と顧客紹介手数料増加が同時進行中で、料金改定効果を相殺し通期+74.6%増益予想の達成確度が低下",
+          "需給リスク: MA25を-9.5%下回る下降トレンド中で順張りサイン不在。RSI39.91は「売られ過ぎ」ではなく下落継続の可能性を示唆。出来高比1.28倍は通常範囲で爆発的な買い需要なし",
+          "戦略違反リスク: ユーザー戦略書の「逆張り禁止・順張り徹底」「新高値更新等の明確なサイン」原則に反するエントリー。下降トレンド中の反発期待は損切り-8%到達リスクが高く、短期回転に不適"
+        ],
+        "bear_bull_weakness": "「RSI39.91からの反発」は逆張り思考そのもの。ユーザー戦略の「新高値更新・横ばい上抜けなど明確なサイン」が一切なく、MA25下回りの下降トレンド中での買いは戦略違反",
+        "bear_historical_analog": "2023年のラクス(3923)が請求書SaaS好調で増益予想を出すもQ2以降の人件費増で未達。MA25下回り局面での反発期待買いは-8%損切り頻発",
+        "bear_shortable_entry_hint": "435円(MA25)到達後の戻り売り。抵抗線で跳ね返され394円割れなら空売り妙味",
+        "bear_confidence": 5,
+        "trader_verdict": "×",
+        "trader_recommended_entry": null,
+        "trader_stop_loss": null,
+        "trader_target": null,
+        "trader_reasoning": "Bear指摘の通り現在価格394円はMA25を-9.5%下回る下降トレンド中で、ユーザー戦略書の「新高値更新・横ばい上抜けなど明確なサイン」が皆無。Bullの「RSI39.91からの反発期待」は戦略書で厳禁とされる逆張りそのもの。順張り徹底原則に違反するため見送り。MA25(435円)到達後の再評価が適切。",
+        "trader_bull_score": 4,
+        "trader_bear_score": 8,
+        "trader_expected_days": null,
+        "trader_risk_note": "下降トレンド中の逆張りエントリーは-8%損切り到達リスクが極めて高い。Q2以降の販管費増加で増益持続性に疑問。MA25が明確な抵抗線として機能する可能性大。",
+        "sonnet_usage": {
+          "input_tokens": 14167,
+          "output_tokens": 1604,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "by_stage": {
+            "bull": {
+              "input_tokens": 4677,
+              "output_tokens": 522,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "bear": {
+              "input_tokens": 5170,
+              "output_tokens": 770,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "trader": {
+              "input_tokens": 4320,
+              "output_tokens": 312,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            }
+          }
+        },
+        "extraction_status": "ok",
+        "errors": []
+      }
+    },
+    {
+      "code": "36600",
+      "fiscal_period": "2026Q3",
+      "synthesized_at": "2026-05-18T05:52:07.605142+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 8.1,
+      "catalyst_high_conviction": true,
+      "consistency_score": null,
+      "opposing_views": [
+        {
+          "view": "「戦略的投資の年」で費用先行により営業利益率は前期並みに留まる。短期的な利益成長は期待薄",
+          "evidence": "outlook「先行投資に伴い営業利益率は前期と同水準の見通し」",
+          "confidence": 4
+        },
+        {
+          "view": "香港旗艦店が計画下回る。グローバル展開の不確実性が残る",
+          "evidence": "narrative_observations「香港旗艦店は計画下回るも」",
+          "confidence": 3
+        },
+        {
+          "view": "地政学リスクとアジア経済停滞でインバウンド需要鈍化。外部環境の逆風",
+          "evidence": "risks「一部国・地域からの購買単価やインバウンド需要に鈍化」",
+          "confidence": 3
+        }
+      ],
+      "warning_flag": true,
+      "warning_reason": "「戦略的投資の年」で費用先行により営業利益率は前期並みに留まる。短期的な利益成長は期待薄",
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "36600",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "insufficient_history"
+      },
+      "entry_quality": 55.0,
+      "tier": "B",
+      "skip_recommendation": false,
+      "synthesis_notes": "重力スコア8.1と極めて軽く、momentum_score79.5も高水準。売上YoY+19.7%と成長継続。ただし「戦略的投資の年」で利益率は横ばい見通しであり、短期的な利益成長は限定的。カタリストは「来期以降の成長フェーズ」(2026年6月)でproximitiy_score=4だが、今から1ヶ月先で保有2週間では取りきれない可能性。週次ランクA、信用倍率4.22と需給は良好。今エントリーなら期末通過後の来期ガイダンス待ちとなり、短期回転には不向き。様子見推奨",
+      "sonnet_usage": {
+        "input_tokens": 1742,
+        "output_tokens": 620,
+        "cache_read_input_tokens": 1684,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "ok",
+      "errors": [],
+      "name": "アイスタイル",
+      "rank": "A",
+      "total": 125,
+      "code4": "3660",
+      "extraction_source": "tdnet_pdf",
+      "debate": {
+        "code": "36600",
+        "fiscal_period": "2026Q3",
+        "debated_at": "2026-05-18T05:52:51+09:00",
+        "debate_version": "v1",
+        "bull_thesis": "重力スコア8.1と需給負荷が極めて軽く、売上YoY+19.7%の成長継続。信用倍率4.22倍と買い需要優勢、出来高1.54倍で資金流入加速。RSI30.49と売られ過ぎ圏から反発局面。週次ランクAで複数条件クリア。直近安値385円からの反発初動を捉え、MA25(456円)奪回を狙う順張りセットアップ。ストップ377円(-3.8%)と浅く、ターゲット422円(+7.7%)で短期回転に最適。",
+        "bull_key_drivers": [
+          "需給優位性: 重力スコア8.1(業績モメンタム÷需給負荷)で需給圧力が極小、信用倍率4.22倍で買い方優勢、出来高比1.54倍で資金流入が加速中",
+          "テクニカル反発初動: RSI30.49と売られ過ぎ圏、20日安値385円からの反発局面、MA25(456円)奪回で上昇トレンド転換の可能性",
+          "業績モメンタム継続: 売上YoY+19.7%、営業利益進捗率75.9%と順調、「戦略的投資の年」終了後(来期)の利益成長期待が株価先行指標"
+        ],
+        "bull_anticipated_bear": "「戦略的投資の年で利益率横ばい、短期材料不足」との指摘に対し、既に株価は調整済み(高値497円→392円で-21%)。来期成長期待の先回り買いと需給改善が重なる局面で、保有2週間で反発+10%は十分狙える。",
+        "bull_confidence": 4,
+        "bear_thesis": "Bull は「RSI30.49 の反発初動」「MA25 奪回狙い」と順張りを主張するが、現在価格 392 円は MA25(456 円)から -14% も下方乖離しており、これは明確な下降トレンド継続を示す。ユーザー戦略書は「上昇トレンドの強い銘柄のみ順張り」「逆張り禁止」を明記しているが、本案件は実質的に下落トレンドからの反転狙い=逆張りである。さらに「戦略的投資の年」で利益率横ばい見通しは短期材料不足を意味し、保有 2 週間で +10% 到達の根拠が薄弱。需給優位性を強調するが、20 日高値 497 円から -21% 下落後の反発は単なるリバウンドに過ぎず、トレンド転換の確証がない段階でのエントリーはユーザー原則に違反する。",
+        "bear_risks": [
+          "材料リスク: 来期成長期待は 2026 年 6 月期末(あと 1 ヶ月)まで具体化せず、保有 2 週間では材料空白期間。香港旗艦店は「計画下回る」と明記され、短期的なポジティブサプライズは期待薄。",
+          "需給リスク: 高値 497 円→392 円の -21% 急落は大口の投げ売りを示唆。出来高 1.54 倍は「資金流入」ではなく「売り圧力の吸収過程」である可能性が高く、反発が 420 円台で失速すれば再度安値試しのリスク。",
+          "トレンドリスク: MA25 との -14% 乖離は過去 20 日間の下降トレンドが継続中であることを示し、ユーザー戦略書の「上昇トレンドの強い銘柄のみ」原則に明確に抵触。RSI30 台は売られ過ぎではなく下降トレンドの通常水準。"
+        ],
+        "bear_bull_weakness": "Bull は「MA25 奪回で上昇トレンド転換」と主張するが、現在価格は MA25 から -14% も下方にあり、これは下降トレンド継続中の銘柄への逆張りエントリーであり、ユーザーの「逆張り禁止」原則に直接違反する。",
+        "bear_historical_analog": "2023 年メルカリ(4385)が「投資先行期」後の成長期待で買われたが、具体的な利益改善まで株価は横ばい推移し、短期回転組は損切り連発。材料空白期の先回り買いの典型的失敗例。",
+        "bear_shortable_entry_hint": "空売りなら 420-430 円のリバウンド上限(MA25 の -6% 水準)で入る。下降トレンド継続なら再度 380 円割れを試す公算。",
+        "bear_confidence": 4,
+        "trader_verdict": "×",
+        "trader_recommended_entry": null,
+        "trader_stop_loss": null,
+        "trader_target": null,
+        "trader_reasoning": "MA25(456円)から-14%下方乖離は明確な下降トレンド継続中であり、ユーザー戦略書の「逆張り禁止」「上昇トレンドの強い銘柄のみ順張り」原則に抵触。Bullの「MA25奪回狙い」は実質的に下落トレンドからの反転狙い=逆張りである。来期成長期待は保有2週間では材料空白期間で短期回転に不適。高値497円→392円の-21%急落後のリバウンド狙いはトレンド転換の確証なく、ユーザー原則違反のため見送り。",
+        "trader_bull_score": 5,
+        "trader_bear_score": 8,
+        "trader_expected_days": null,
+        "trader_risk_note": "下降トレンド継続中の逆張りエントリーはユーザー戦略の禁則事項。420円台でリバウンド失速なら再度380円割れ試しのリスク。材料空白期間で短期モメンタム欠如。",
+        "sonnet_usage": {
+          "input_tokens": 14099,
+          "output_tokens": 1846,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "by_stage": {
+            "bull": {
+              "input_tokens": 4532,
+              "output_tokens": 553,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "bear": {
+              "input_tokens": 5056,
+              "output_tokens": 928,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "trader": {
+              "input_tokens": 4511,
+              "output_tokens": 365,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            }
+          }
+        },
+        "extraction_status": "ok",
+        "errors": []
+      }
+    },
+    {
+      "code": "36350",
+      "fiscal_period": "2026Q4",
+      "synthesized_at": "2026-05-18T05:53:10.998865+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 6.2,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [
+        {
+          "view": "次期は人的資本投資増と開発費・販売費の保守的計画により減益予想。過去最高益達成後の利益後退局面",
+          "evidence": "outlook及びnarrative_observationsより、次期減益見込みを明示",
+          "confidence": 4
+        },
+        {
+          "view": "米国政策動向や中東等の地政学リスクなど先行き不透明な状況が継続",
+          "evidence": "risksセクションより景気見通しの不確実性を指摘",
+          "confidence": 3
+        }
+      ],
+      "warning_flag": true,
+      "warning_reason": "次期は人的資本投資増と開発費・販売費の保守的計画により減益予想。過去最高益達成後の利益後退局面",
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "36350",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "insufficient_history"
+      },
+      "entry_quality": 30.0,
+      "tier": "C",
+      "skip_recommendation": true,
+      "synthesis_notes": "2026Q4は過去最高益達成で業績モメンタム良好(momentum_score=61.7)、週次ランクAと需給も安定。ただし会社側が次期減益を明示しており、成長基盤構築フェーズで短期的な利益後退を織り込み済。カタリストは新作投入予定だが具体性・近接性に欠ける(proximity=2)。今期ピークアウト後の調整局面入りリスクを考慮すると、短期回転での新規エントリーは慎重姿勢が妥当。既存保有なら利確検討タイミング",
+      "sonnet_usage": {
+        "input_tokens": 1654,
+        "output_tokens": 506,
+        "cache_read_input_tokens": 1684,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "ok",
+      "errors": [],
+      "name": "コーエーテクモホールディングス",
+      "rank": "A",
+      "total": 125,
+      "code4": "3635",
+      "extraction_source": "tdnet_pdf",
+      "debate": {
+        "code": "36350",
+        "fiscal_period": "2026Q4",
+        "debated_at": "2026-05-18T05:53:54+09:00",
+        "debate_version": "v1",
+        "bull_thesis": "2026Q4で過去最高益達成(営業+15.7%、純利益+13.8%)、進捗率116%と会社計画を大幅上振れ。次期減益予想は保守的な開発費計画と人的投資増によるもので、複数新作投入による上振れ余地大。信用倍率34倍と需給良好、空売残データ未取得だが週次ランクAで需給安定。現在価格1518円は直近高値1793円から-15%調整済みで、MA25(1608円)下での押し目形成中。RSI35と売られ過ぎ圏、出来高0.75倍と閑散での下げは買い場。RR1:2で+170円(+11.2%)狙いは現実的レンジ内。",
+        "bull_key_drivers": [
+          "業績モメンタム: 営業利益進捗率116%で会社計画上振れ、次期減益予想は保守的計画で上方修正余地あり",
+          "需給優位: 信用倍率34倍の買い需給、週次ランクA評価、閑散に売りなしの典型パターン",
+          "テクニカル: 直近高値から-15%調整後RSI35の売られ過ぎ、MA25下での押し目買いセットアップ"
+        ],
+        "bull_anticipated_bear": "次期減益予想と今期ピークアウト懸念を指摘されるが、中期計画初年度の基盤投資フェーズであり、新作パイプライン複数控える中での保守計画。過去最高益後の一時的調整局面こそ仕込み場。",
+        "bull_confidence": 4,
+        "bear_thesis": "Bull は「保守的計画で上振れ余地大」と楽観するが、会社自身が次期減益を明示している事実を軽視。中期計画初年度の基盤投資フェーズは今後2-3年継続する構造的コストであり、単年で反転する性質ではない。新作投入は「複数予定」と抽象的で具体的リリース日程・タイトル名が不明、カタリストproximitiy_score=2は「数ヶ月以上先」を意味し短期回転戦略(数日〜2週間保有)と時間軸が不整合。RSI35の売られ過ぎは「下落トレンド途中の一時的oversold」に過ぎず、MA25(1608円)を下回る現在地1518円は順張り原則に反する逆張りエントリー。ユーザー戦略書の「上昇トレンドの強い銘柄のみ順張り・逆張り禁止」に明確に違反。",
+        "bear_risks": [
+          "材料リスク: 次期減益ガイダンスが市場コンセンサス形成済みで、新作投入時期・タイトルが不明確なため短期2週間以内での材料出尽くしリスク。開発費・人件費増は構造的で単四半期では改善せず、上方修正期待は根拠薄弱。",
+          "需給リスク: 直近高値1793円→1518円の-15%下落は「閑散に売りなし」ではなく需給悪化の証左。出来高ratio 0.75倍は関心低下を示唆。信用倍率34倍は買い需給と解釈されるが、空売残データ未取得で踏み上げ余地は未検証。MA25下抜けでトレンド転換の可能性。",
+          "戦略不整合リスク: ユーザー戦略「上昇トレンドの強い銘柄のみ順張り」に対し、現在価格はMA25下・RSI35の下落調整局面。「横ばい上抜け・新高値更新」等の明確サインなくエントリーは逆張り。保有期間数日〜2週間に対しカタリストが数ヶ月先では時間軸ミスマッチ。"
+        ],
+        "bear_bull_weakness": "「保守的計画で上振れ余地」は希望的観測。会社が減益を明示した背景(開発費増・人件費増)は構造的コストで短期反転せず、新作の具体的時期不明でカタリスト近接性欠如。MA25下でのエントリーはユーザー戦略の順張り原則違反。",
+        "bear_historical_analog": "2023年スクウェア・エニックスHD: FF16投入前に「新作期待」で買われたが、発売後に販売不振で株価続落。抽象的な新作材料への過度な期待は裏切られる典型例。",
+        "bear_shortable_entry_hint": "1608円(MA25)での戻り売り。反発しても移動平均線がレジスタンスとなり再下落の公算大。",
+        "bear_confidence": 4,
+        "trader_verdict": "×",
+        "trader_recommended_entry": null,
+        "trader_stop_loss": null,
+        "trader_target": null,
+        "trader_reasoning": "Bear論拠を採用。現在価格1518円はMA25(1608円)を下回り、ユーザー戦略書の「上昇トレンドの強い銘柄のみ順張り・逆張り禁止」に明確に違反。次期減益ガイダンスは構造的コスト増による実態で、新作カタリストは数ヶ月先(proximity_score=2)と短期回転戦略(数日〜2週間)の時間軸に不整合。RSI35の売られ過ぎは下落トレンド途中の一時的oversoldに過ぎず、明確な反転サインなし。",
+        "trader_bull_score": 3,
+        "trader_bear_score": 8,
+        "trader_expected_days": null,
+        "trader_risk_note": "MA25下抜けで下落トレンド継続リスク。次期減益が市場織り込み済みで材料出尽くし。新作投入時期不明でカタリスト不在のまま含み損拡大の可能性。損切り-8%でも下落加速時は約定遅延リスクあり。",
+        "sonnet_usage": {
+          "input_tokens": 13871,
+          "output_tokens": 1859,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "by_stage": {
+            "bull": {
+              "input_tokens": 4428,
+              "output_tokens": 516,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "bear": {
+              "input_tokens": 4915,
+              "output_tokens": 967,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "trader": {
+              "input_tokens": 4528,
+              "output_tokens": 376,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            }
+          }
+        },
+        "extraction_status": "ok",
+        "errors": []
+      }
+    },
+    {
+      "code": "29800",
+      "fiscal_period": "2026Q4",
+      "synthesized_at": "2026-05-18T05:54:16.480326+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 9.2,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [
+        {
+          "view": "営業キャッシュフローが大幅マイナス転換。資金繰り悪化の可能性を示唆",
+          "evidence": "narrative_observationsより営業CFのマイナス転換を指摘",
+          "confidence": 4
+        },
+        {
+          "view": "自己資本比率の大幅低下により財務健全性が悪化。レバレッジリスク増大",
+          "evidence": "narrative_observationsより自己資本比率の大幅低下を指摘",
+          "confidence": 4
+        },
+        {
+          "view": "子会社・関連資産の減損5.7億円計上。事業ポートフォリオの収益性に疑問",
+          "evidence": "narrative_observationsより特損として減損損失計上を確認",
+          "confidence": 3
+        }
+      ],
+      "warning_flag": true,
+      "warning_reason": "営業CFマイナス転換と自己資本比率大幅低下により、財務健全性への懸念が顕在化。短期的な資金繰りリスクと財務レバレッジ悪化が買いシナリオを阻害",
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "29800",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "insufficient_history"
+      },
+      "entry_quality": 30.0,
+      "tier": "C",
+      "skip_recommendation": true,
+      "synthesis_notes": "業績モメンタムは極めて強く(92.2)、需給負荷も低い(10.0)ため重力スコア9.2と良好。売上23%増・営業利益35%増と高成長継続。しかし営業CFマイナス転換と自己資本比率大幅低下という財務面の構造的懸念が重大。カタリストは proximity=2 で保有2週間では捕捉困難。新規上場で過去の言行一致も検証不能。財務悪化が短期トレードのリスクを高めるため、現時点でのエントリーは見送り推奨",
+      "sonnet_usage": {
+        "input_tokens": 1768,
+        "output_tokens": 609,
+        "cache_read_input_tokens": 1684,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "ok",
+      "errors": [],
+      "name": "ＳＲＥホールディングス",
+      "rank": "A",
+      "total": 125,
+      "code4": "2980",
+      "extraction_source": "tdnet_pdf",
+      "debate": {
+        "code": "29800",
+        "fiscal_period": "2026Q4",
+        "debated_at": "2026-05-18T05:54:55+09:00",
+        "debate_version": "v1",
+        "bull_thesis": "売上+23%・営業利益+35%の高成長が継続し、進捗率79.9%で通期達成確度が高い。出来高5.28倍の急増と重力スコア9.2(業績92.2÷需給10.0)は強い買い圧力を示す。RSI34.6と20日安値圏からの反発局面で、損切り-8%(2550円)に対し+12%利確(3018円)のRR1:2が成立。AIクラウド大口顧客展開という具体的成長ドライバーを持ち、短期回転に必要な流動性と値幅を確保している。",
+        "bull_key_drivers": [
+          "営業利益+35%の高成長と進捗率79.9%による通期達成確度の高さ、業績モメンタム92.2の圧倒的な強さ",
+          "出来高5.28倍(平均46万株→243万株)の急増と需給負荷10.0の低さ、RSI34.6からの反発セットアップ",
+          "AICC事業の大口顧客支援本格展開という具体的カタリスト、生成AI需要拡大という国策テーマとの合致"
+        ],
+        "bull_anticipated_bear": "営業CFマイナス転換と自己資本比率低下を攻めてくるが、L&P事業の開発物件への先行投資によるもので一時的。売上+23%の成長局面では資金需要増は正常であり、短期2週間保有では財務悪化リスクは顕在化しない。",
+        "bull_confidence": 4,
+        "bear_thesis": "Bull は「短期 2 週間保有では財務悪化リスクは顕在化しない」と主張するが、営業 CF マイナス 136 億円・自己資本比率 34.3%→21.5% への急低下は資金繰り懸念を市場が織り込み始めた証拠。出来高急増は買いではなく「財務不安による投げ売り」の可能性が高い。カタリスト proximity=2 は保有 2 週間では捕捉不可能で、ユーザー戦略の「明確なサイン」「トリプル確認」に反する。RSI34 は底打ちではなく下降トレンド継続中の一時的リバウンドに過ぎず、20 日安値 2681 円を割り込めば損切りラインまで 5% しか余裕がない脆弱なセットアップ。",
+        "bear_risks": [
+          "材料リスク: カタリスト proximity=2 で保有 2 週間では捕捉不能。AICC 大口顧客展開は時期・規模不明で株価インパクト測定不可。子会社減損 5.7 億円は事業ポートフォリオ見直しの兆候であり追加損失リスクあり",
+          "需給リスク: 出来高 5.28 倍は買い圧力ではなく財務懸念による投げ売りの可能性。MA25(3540 円)を 23% 下回る逆行状態で、RSI34 は底打ち確認には不十分。20 日安値 2681 円割れで損切りまで余裕 5% のみ",
+          "財務構造リスク: 営業 CF マイナス 136 億円は L&P 事業の在庫積み増しだが、自己資本比率 13pt 急低下と合わせ資金繰り懸念が市場で台頭。短期 2 週間でも格下げ・増資観測で急落リスクあり"
+        ],
+        "bear_bull_weakness": "Bull は「財務悪化は一時的で短期保有では顕在化しない」と主張するが、出来高急増と株価急落の同時発生は市場が既に財務リスクを織り込み始めた証拠であり、2 週間保有でも十分リスク顕在化する",
+        "bear_historical_analog": "2019 年ソフトバンクグループ: WeWork 問題で営業 CF 悪化懸念が台頭した際、「一時的」との説明にも関わらず株価は 2 週間で 15% 下落し短期保有者も損切り余儀なくされた",
+        "bear_shortable_entry_hint": "3000 円でショート。MA25 からの乖離修正リバウンド狙いの買いが入るが財務懸念で失速する水準",
+        "bear_confidence": 4,
+        "trader_verdict": "×",
+        "trader_recommended_entry": null,
+        "trader_stop_loss": null,
+        "trader_target": null,
+        "trader_reasoning": "Bear の財務リスク論拠を採用。営業CFマイナス136億円・自己資本比率13pt急低下は市場が既に織り込み始めており、出来高5.28倍は投げ売りの可能性が高い。カタリストproximity=2は保有2週間では捕捉不能でユーザー戦略の「明確なサイン」に反する。RSI34は底打ち確認には不十分で、20日安値2681円割れで損切りまで余裕5%しかない脆弱なセットアップ。",
+        "trader_bull_score": 5,
+        "trader_bear_score": 8,
+        "trader_expected_days": null,
+        "trader_risk_note": "財務懸念による格下げ・増資観測で2週間以内に急落リスク。損切り2550円到達時に流動性枯渇で約定遅延の可能性あり。",
+        "sonnet_usage": {
+          "input_tokens": 13955,
+          "output_tokens": 1671,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "by_stage": {
+            "bull": {
+              "input_tokens": 4543,
+              "output_tokens": 490,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "bear": {
+              "input_tokens": 5004,
+              "output_tokens": 867,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "trader": {
+              "input_tokens": 4408,
+              "output_tokens": 314,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            }
+          }
+        },
+        "extraction_status": "ok",
+        "errors": []
+      }
+    },
+    {
+      "code": "446A0",
+      "fiscal_period": "2026Q4",
+      "synthesized_at": "2026-05-18T05:54:55.170748+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 10.3,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [],
+      "warning_flag": false,
+      "warning_reason": null,
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "446A0",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "skipped_no_pdf"
+      },
+      "entry_quality": 50.0,
+      "tier": "B",
+      "skip_recommendation": false,
+      "synthesis_notes": "TDnet 保持期間 (60日) 外のため PDF 取得不可。/fins/summary 由来の定量データのみで簡易判定。定性情報 (テーマ・リスク・カタリスト) は欠落しているため、詳細は会社 IR ページの直接参照を推奨。",
+      "sonnet_usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "numeric_only",
+      "errors": [],
+      "name": "ノースサンド",
+      "rank": "A",
+      "total": 125,
+      "code4": "446A",
+      "extraction_source": "fins_summary",
+      "debate": null
+    },
+    {
+      "code": "46800",
+      "fiscal_period": "2026Q4",
+      "synthesized_at": "2026-05-18T05:55:17.984053+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 5.7,
+      "catalyst_high_conviction": true,
+      "consistency_score": null,
+      "opposing_views": [
+        {
+          "view": "国内若年層人口減少とエンタメ多様化により既存事業の成長鈍化リスク。国内出店余地も限定的",
+          "evidence": "risks セクションで「若年層の人口減少とエンターテインメントの多様化・新規開発によるニーズ変化」を課題として明記",
+          "confidence": 4
+        },
+        {
+          "view": "新規事業「デリシャスプロジェクト」は飲食業への初参入で収益化の不確実性が高い",
+          "evidence": "outlook で「複合エンターテインメント運営ノウハウを活かし日本食展開に挑戦」と記載。本業外への挑戦",
+          "confidence": 3
+        },
+        {
+          "view": "海外展開における地政学リスクと各国固有リスクへの対応が不透明",
+          "evidence": "risks で「世界経済の金融引き締め、地政学的リスク、中国経済減速懸念、米国政策動向等の不透明な状況」を指摘",
+          "confidence": 3
+        }
+      ],
+      "warning_flag": true,
+      "warning_reason": "国内若年層人口減少とエンタメ多様化により既存事業の成長鈍化リスク。国内出店余地も限定的",
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "46800",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "insufficient_history"
+      },
+      "entry_quality": 55.0,
+      "tier": "B",
+      "skip_recommendation": false,
+      "synthesis_notes": "増収増益達成と米国出店加速は評価できるが、国内市場の構造的課題(若年層減少・出店余地限定)が明確。6月開始予定の「デリシャスプロジェクト」は高確信カタリストだが飲食業への初参入で不確実性あり。gravity_score 5.7は低く需給負荷が重い(demand 10.0)。週次Aランクだが保有2週間で+8-12%取るには材料不足。新規事業の具体的進捗待ちが賢明",
+      "sonnet_usage": {
+        "input_tokens": 1796,
+        "output_tokens": 645,
+        "cache_read_input_tokens": 1684,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "ok",
+      "errors": [],
+      "name": "ラウンドワン",
+      "rank": "A",
+      "total": 125,
+      "code4": "4680",
+      "extraction_source": "tdnet_pdf",
+      "debate": {
+        "code": "46800",
+        "fiscal_period": "2026Q4",
+        "debated_at": "2026-05-18T05:55:57+09:00",
+        "debate_version": "v1",
+        "bull_thesis": "Q4営業利益+9.7%、進捗率87%で通期達成濃厚。米国出店加速(投資効率高)と6月開始の新規飲食事業が材料。週次Aランク125点、出来高1.27倍で動意あり。信用倍率22.3倍は高いが空売残データ不在で踏み上げ期待薄。gravity5.7は需給負荷重いが、直近安値788円から+4.9%反発中でモメンタム回復初動。損切773円(-6.5%)でRR1:2達成可能。打診買い推奨、10営業日以内+8-12%狙い。",
+        "bull_key_drivers": [
+          "米国出店加速と6月「デリシャスプロジェクト」開始という具体的カタリスト(proximity_score4)が2週間以内に控え、材料先取り買いが入る公算",
+          "Q4営業利益進捗率87%で通期予想33,050百万円達成濃厚。前年比+9.7%の増益モメンタム継続中",
+          "出来高1.27倍(3,042千株)で動意発生、直近安値788円から反発開始。週次Aランク125点はテクニカル・ファンダ両面で上位評価"
+        ],
+        "bull_anticipated_bear": "「gravity5.7は低く需給負荷(demand10.0)が重い。国内若年層減少で構造的逆風」→反論:米国・中国出店で成長ドライバー多極化済。短期2週間保有なら需給負荷は吸収可能、カタリスト先取り買いで先行。",
+        "bull_confidence": 3,
+        "bear_thesis": "Bull は「6 月開始デリシャスプロジェクト」を高確信カタリストと位置づけるが、飲食業への初参入で実現性・収益貢献時期が不透明。gravity5.7 は需給負荷が重く、demand10.0 は週次 A ランクでも買い圧力不足を示唆。信用倍率 22.3 倍は高いが空売残データ不在で踏み上げ根拠薄弱。直近安値 788 円からの反発 +4.9% は 20 日レンジ内の単なるリバウンドに過ぎず、MA25(898 円) を 8% 下回る弱気圏。10 営業日で +8-12% 取るには材料不足で、タイムストップ抵触リスク高い。",
+        "bear_risks": [
+          "材料リスク: 6 月「デリシャスプロジェクト」は飲食業への初参入で具体的な店舗数・投資額・収益寄与時期が不明。IR に詳細開示なく、カタリストとしての即効性に乏しい。米国出店も「投資効率高い」との定性表現のみで定量裏付けなし",
+          "需給リスク: gravity5.7 は過去データで需給負荷が重い水準。出来高 1.27 倍は動意と言うには弱く、週次 A ランク 125 点でも買い圧力不足 (demand10.0)。空売残データ不在で踏み上げ期待は Bull の希望的観測に過ぎず、信用倍率 22.3 倍の高さは逆に需給悪化の兆候",
+          "テクニカルリスク: 現在値 826 円は MA25(898 円) を 8% 下回り、RSI14=37.6 は弱気圏。直近高値 1006 円から -17.9% 下落後の小反発に過ぎず、20 日レンジ (788-1006 円) の下半分に位置。モメンタム回復初動との Bull 主張は過大評価で、10 営業日以内 +8-12% 達成はテクニカル的に困難"
+        ],
+        "bear_bull_weakness": "Bull は「6 月カタリスト先取り買い」を主張するが、新規飲食事業の具体性皆無で材料の即効性なし。gravity5.7・demand10.0 の需給負荷を「短期 2 週間なら吸収可能」と楽観するが、過去データは逆を示唆",
+        "bear_historical_analog": "コロワイド (7616) が 2019 年に米国飲食チェーン買収を発表も統合難航で株価低迷。ラウンドワンも飲食初参入で同様のリスク",
+        "bear_shortable_entry_hint": "MA25(898 円) 到達で戻り売り。根拠: 需給負荷重く上値抵抗強い",
+        "bear_confidence": 4,
+        "trader_verdict": "×",
+        "trader_recommended_entry": null,
+        "trader_stop_loss": null,
+        "trader_target": null,
+        "trader_reasoning": "Bear の論拠を採用。6月飲食事業は具体性皆無で即効性なし、gravity5.7・demand10.0は需給負荷重く短期上昇困難。現在値826円はMA25(898円)を8%下回る弱気圏、RSI37.6で反発力不足。10営業日で+8-12%達成は材料・テクニカル両面で根拠薄弱。Bull主張の「カタリスト先取り買い」は希望的観測に過ぎず、タイムストップ抵触リスク高い。",
+        "trader_bull_score": 4,
+        "trader_bear_score": 7,
+        "trader_expected_days": null,
+        "trader_risk_note": "需給負荷(gravity5.7)重く上値抵抗強い。新規飲食事業の失敗リスクで下落加速の可能性。MA25(898円)が強い抵抗帯となりstop_loss機能前に失速懸念。",
+        "sonnet_usage": {
+          "input_tokens": 14042,
+          "output_tokens": 1769,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "by_stage": {
+            "bull": {
+              "input_tokens": 4541,
+              "output_tokens": 523,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "bear": {
+              "input_tokens": 5035,
+              "output_tokens": 911,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "trader": {
+              "input_tokens": 4466,
+              "output_tokens": 335,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            }
+          }
+        },
+        "extraction_status": "ok",
+        "errors": []
+      }
+    },
+    {
+      "code": "21930",
+      "fiscal_period": "2026Q1",
+      "synthesized_at": "2026-05-18T05:56:18.534373+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 5.9,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [
+        {
+          "view": "プレミアム会員減少により売上が前年比7.7%減。収益基盤の縮小が継続中",
+          "evidence": "outlook「レシピサービスのプレミアムサービス会員減少等により前年同期比7.7%減」",
+          "confidence": 5
+        },
+        {
+          "view": "海外拠点人員整理で一時費用182百万円計上。事業縮小の可能性を示唆",
+          "evidence": "risks「海外拠点の人員整理に伴う一時費用182百万円を計上」",
+          "confidence": 4
+        },
+        {
+          "view": "業績予想を開示せず。投資判断に必要な経営目標が不透明",
+          "evidence": "outlook「投資の時期や金額規模を事業環境の変化に応じて機動的に判断するため合理的に算定困難」",
+          "confidence": 4
+        }
+      ],
+      "warning_flag": true,
+      "warning_reason": "プレミアム会員減少により売上が前年比7.7%減。収益基盤の縮小が継続中。海外拠点人員整理で一時費用182百万円計上し事業縮小の可能性。業績予想未開示で経営目標が不透明",
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "21930",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "insufficient_history"
+      },
+      "entry_quality": 30.0,
+      "tier": "C",
+      "skip_recommendation": true,
+      "synthesis_notes": "週次ランクAだが本質的な懸念が複数存在。売上7.7%減・営業赤字137百万円・純損失417百万円と業績悪化が顕著。海外人員整理182百万円は構造改革の一環だが事業縮小を示唆。業績予想未開示は投資判断を困難にする。カタリスト不在で短期反転材料なし。需給負荷6.2は中程度だが、momentum_score36.3と低く上昇余地限定的。週次Aランクは需給の一時的な偏りの可能性。現時点でのエントリーは見送り推奨",
+      "sonnet_usage": {
+        "input_tokens": 1449,
+        "output_tokens": 655,
+        "cache_read_input_tokens": 1684,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "ok",
+      "errors": [],
+      "name": "クックパッド",
+      "rank": "A",
+      "total": 125,
+      "code4": "2193",
+      "extraction_source": "tdnet_pdf",
+      "debate": {
+        "code": "21930",
+        "fiscal_period": "2026Q1",
+        "debated_at": "2026-05-18T05:57:00+09:00",
+        "debate_version": "v1",
+        "bull_thesis": "週次Aランク125点・重力スコア5.9と需給優位性が際立つ。PBR0.71倍の割安水準で下値リスク限定的。出来高1.2倍増・RSI33.83と売られ過ぎから反発局面入り。海外人員整理182百万円は一時費用であり構造改革完了後の収益改善を織り込む余地。MA25(133円)までの戻り+6.4%、20日高値139円なら+11.2%と短期RR1:2達成可能。信用倍率1.36倍と需給悪化なく、空売残データ不在で踏み上げリスクも低い。テクニカル先行で2週間保有の短期回転に適合。",
+        "bull_key_drivers": [
+          "週次総合125点Aランク・重力5.9と需給面で上位20%圏内。出来高1.2倍増加で資金流入開始",
+          "RSI33.83の売られ過ぎ水準から20日高値139円(+11.2%)への技術的リバウンド余地。MA25抵抗線133円突破で加速",
+          "PBR0.71倍・一時費用182百万円控除後の本業評価で下値125円は堅い。損切り-8%で119円、リスク限定的"
+        ],
+        "bull_anticipated_bear": "売上-7.7%・営業赤字137百万円・業績予想未開示を指摘されるが、一時費用除けば本業悪化は限定的。PBR0.71倍で既に織り込み済み。テクニカル反発の2週間勝負と割り切れば業績懸念は短期では無効",
+        "bull_confidence": 3,
+        "bear_thesis": "Bull は「テクニカル反発の 2 週間勝負」と割り切るが、ユーザー戦略の「明確なサインでの順張り徹底」に違反。RSI33.83 は売られ過ぎだが MA25(133 円)を下回る逆張り局面であり、新高値更新・横ばい上抜けなどの順張りサインが不在。出来高 1.2 倍は微増に過ぎず「出来高急増」の基準(通常 2 倍以上)未達。週次 A ランクも重力 5.9・momentum36.3 と中位に留まり S ランク相当の確信度なし。業績予想未開示は投資判断材料の欠如を意味し、一時費用除外後も売上 -7.7%・営業赤字は本業悪化の証左。PBR0.71 倍の割安性は流動性罠であり、カタリスト不在で 2 週間での 11.2%上昇は根拠薄弱。",
+        "bear_risks": [
+          "材料リスク: 業績予想未開示により次期見通し不透明。一時費用 182 百万円除外後も売上 -7.7%・営業赤字 137 百万円と本業悪化継続。海外撤退は事業縮小を示唆し、成長ストーリー欠如で機関投資家の買い不在",
+          "需給リスク: 出来高 1.2 倍は微増で「急増」未達。MA25(133 円)抵抗線を 6%下回る位置での逆張りエントリーは順張り原則違反。空売残データ不在は需給改善の裏付けなく、信用倍率 1.36 倍も中立水準で踏み上げ期待薄",
+          "テクニカルリスク: RSI33.83 は売られ過ぎだが、20 日安値 121 円(現値から -3.2%)が近接し下値余地あり。新高値更新・出来高急増などモメンタム転換の明確サイン不在で、2 週間で 11.2%上昇は過去のボラティリティ(ATR3.9=週次変動 3.1%)から乖離"
+        ],
+        "bear_bull_weakness": "「テクニカル反発」を根拠とするが、MA25 下回り・出来高微増・新高値未更新でユーザー戦略の「明確なサインでの順張り」条件を満たさず、逆張り的エントリーに該当",
+        "bear_historical_analog": "2023 年メルカリ(4385)が PBR0.8 倍・RSI30 台で「割安反発」期待されたが業績鈍化懸念で 3 ヶ月横ばい後さらに -15%下落した事例に類似",
+        "bear_shortable_entry_hint": "MA25(133 円)到達で戻り売り。抵抗線で反落なら 130 円で空売り、損切り 137 円(20 日高値上抜け時)",
+        "bear_confidence": 4,
+        "trader_verdict": "×",
+        "trader_recommended_entry": null,
+        "trader_stop_loss": null,
+        "trader_target": null,
+        "trader_reasoning": "Bear論拠を採用。MA25(133円)を6%下回る逆張り局面でユーザー戦略の「明確なサインでの順張り徹底」に違反。出来高1.2倍は「急増」未達、新高値更新なし、業績予想未開示で判断材料欠如。RSI33は売られ過ぎだが順張りサイン不在で機会損失より戦略違反回避を優先。",
+        "trader_bull_score": 4,
+        "trader_bear_score": 8,
+        "trader_expected_days": null,
+        "trader_risk_note": "MA25抵抗線下での逆張りエントリーは順張り原則違反。業績予想未開示で次期見通し不透明、20日安値121円近接で損切り機能前に-8%到達リスク高い。",
+        "sonnet_usage": {
+          "input_tokens": 13444,
+          "output_tokens": 1766,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "by_stage": {
+            "bull": {
+              "input_tokens": 4219,
+              "output_tokens": 534,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "bear": {
+              "input_tokens": 4724,
+              "output_tokens": 939,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "trader": {
+              "input_tokens": 4501,
+              "output_tokens": 293,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            }
+          }
+        },
+        "extraction_status": "ok",
+        "errors": []
+      }
+    },
+    {
+      "code": "34020",
+      "fiscal_period": "2026Q4",
+      "synthesized_at": "2026-05-18T05:57:23.084714+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 2.3,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [
+        {
+          "view": "韓国バッテリーセパレータフィルム事業で250億円の減損損失を計上。成長期待セグメントでの大幅な資産価値毀損",
+          "evidence": "risks/narrative欄に明記された減損損失250億円",
+          "confidence": 5
+        },
+        {
+          "view": "中東情勢緊迫化による原材料価格高騰・供給制約の長期化リスク。米中通商政策・中国経済低迷が事業環境を悪化させる可能性",
+          "evidence": "outlook/risks欄で複数回言及される地政学・マクロ経済リスク",
+          "confidence": 4
+        },
+        {
+          "view": "営業利益が前期比23.7%減と大幅減益。進捗率60.76%は通期予想達成に黄信号",
+          "evidence": "numeric欄 op_yoy_pct=-23.7、progress_rate_op_pct=60.76",
+          "confidence": 4
+        }
+      ],
+      "warning_flag": true,
+      "warning_reason": "韓国バッテリーセパレータフィルム事業で250億円の減損損失を計上。成長期待セグメントでの大幅な資産価値毀損",
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "34020",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "insufficient_history"
+      },
+      "entry_quality": 3.0,
+      "tier": "C",
+      "skip_recommendation": true,
+      "synthesis_notes": "週次ランクA・出来高5.2百万株と需給面は良好だが、業績モメンタム23.3と極めて弱い。営業利益23.7%減・250億円減損は深刻で、新中計IGNITION 2028も具体性に欠けproximitiy_score=1。カタリスト不在で保有2週間での値幅取りは困難。信用倍率7.98倍と需給負荷も重く、短期回転には不向き。反発待ちで様子見が妥当",
+      "sonnet_usage": {
+        "input_tokens": 1610,
+        "output_tokens": 608,
+        "cache_read_input_tokens": 1684,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "ok",
+      "errors": [],
+      "name": "東レ",
+      "rank": "A",
+      "total": 125,
+      "code4": "3402",
+      "extraction_source": "tdnet_pdf",
+      "debate": {
+        "code": "34020",
+        "fiscal_period": "2026Q4",
+        "debated_at": "2026-05-18T05:58:01+09:00",
+        "debate_version": "v1",
+        "bull_thesis": "週次ランクA・出来高5.1百万株と需給は良好。新中計IGNITION 2028で次期営業利益+64.5%増益(972→1600億円)を計画し、減損一巡後の反転期待が高い。信用倍率7.98倍と売り方の重しはあるが、踏み上げ余地も大きい。PBR0.93倍と割安で、テクニカルはMA25(1142.9円)上抜け・RSI52.3と中立圏から上昇余地あり。保有2週間で+12%到達は可能。",
+        "bull_key_drivers": [
+          "次期営業利益+64.5%増益計画(972→1600億円)、減損250億円一巡後の反転期待",
+          "週次ランクA・出来高5.1百万株と需給良好、MA25上抜け・RSI52.3で上昇余地",
+          "信用倍率7.98倍の売り方重しが踏み上げ材料、PBR0.93倍と割安"
+        ],
+        "bull_anticipated_bear": "「減損250億円・営業利益-23.7%減で業績モメンタム23.3と弱い」と攻めてくるが、これは過去の話。次期+64.5%増益計画と減損一巡が反転材料であり、先回り買いの好機。",
+        "bull_confidence": 3,
+        "bear_thesis": "Bull は「次期+64.5%増益」を強調するが、これは減損一巡の反動に過ぎず、実質的な成長ドライバーが不在。営業利益972億円→1600億円の計画は減損250億円を除けば1222億円→1600億円(+30.9%)に過ぎず、構造改革の具体性も欠く。信用倍率7.98倍は踏み上げ材料ではなく需給負荷そのもので、出来高5.1百万株も流動性の割に売り圧力が重い。カタリストproximitiy_score=1と直近材料不在で、保有2週間で+12%到達は困難。ユーザー戦略の「動意のない銘柄排除」「明確なサイン」原則に反する。",
+        "bear_risks": [
+          "材料リスク: 新中計IGNITION 2028は具体策不明でproximitiy_score=1。次期増益は減損反動であり、中東情勢・中国経済低迷等の下方リスクが顕在化すれば計画未達の可能性大。決算発表後3ヶ月でカタリスト空白期間。",
+          "需給リスク: 信用倍率7.98倍は売り方の重しであり踏み上げ余地ではない。出来高5.1百万株でも時価総額2兆円規模では流動性不足。週次ランクAも一時的で、RSI52.3は中立圏に留まり上昇モメンタム不在。",
+          "マクロ・業界リスク: 素材セクターは景気敏感で、米中貿易摩擦・中国経済低迷が直撃。バッテリーセパレータ事業の減損250億円は構造的問題を示唆し、EV需要鈍化で追加減損リスクも。原材料高騰が利益率を圧迫。"
+        ],
+        "bear_bull_weakness": "「次期+64.5%増益」は減損反動に過ぎず実質+30.9%。カタリストproximitiy_score=1で直近材料不在のため、ユーザー戦略の「明確なサイン・モメンタム重視」原則に反する。保有2週間での値幅取りは困難。",
+        "bear_historical_analog": "2023年の三菱ケミカルグループ: 構造改革・増益計画を掲げたが具体性欠如で株価低迷。素材大手の中計は実行力不足で失望売りを招く典型例。",
+        "bear_shortable_entry_hint": "1180円(直近高値1224円の-3.6%)で戻り売り。MA25(1142.9円)割れで1100円目標。信用倍率高く需給悪化で下落加速想定。",
+        "bear_confidence": 4,
+        "trader_verdict": "×",
+        "trader_recommended_entry": null,
+        "trader_stop_loss": null,
+        "trader_target": null,
+        "trader_reasoning": "Bear論拠を採用。次期増益は減損反動(実質+30.9%)で構造的成長力不在。カタリストproximity_score=1で直近材料なく、ユーザー戦略の「明確なサイン・モメンタム重視」「動意のない銘柄排除」原則に反する。信用倍率7.98倍は踏み上げ材料でなく需給負荷そのもの。保有2週間で+12%到達は困難と判断。",
+        "trader_bull_score": 4,
+        "trader_bear_score": 7,
+        "trader_expected_days": null,
+        "trader_risk_note": "素材セクターの景気敏感性、中国経済低迷・中東情勢悪化で計画未達リスク大。信用倍率高く需給悪化時の急落懸念。損切り-8%設定でも流動性不足で約定遅延の可能性あり。",
+        "sonnet_usage": {
+          "input_tokens": 13422,
+          "output_tokens": 1622,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "by_stage": {
+            "bull": {
+              "input_tokens": 4347,
+              "output_tokens": 433,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "bear": {
+              "input_tokens": 4751,
+              "output_tokens": 864,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "trader": {
+              "input_tokens": 4324,
+              "output_tokens": 325,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            }
+          }
+        },
+        "extraction_status": "ok",
+        "errors": []
+      }
+    },
+    {
+      "code": "45820",
+      "fiscal_period": "2026Q1",
+      "synthesized_at": "2026-05-18T05:58:25.147386+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 3.7,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [
+        {
+          "view": "3期連続営業損失で継続企業の前提に重要な疑義。主力トレアキシン売上減少が継続し収益基盤が脆弱",
+          "evidence": "risks欄に明記。営業損失-2341百万円、進捗率55.3%で通期-4231百万円予想",
+          "confidence": 5
+        },
+        {
+          "view": "BCVの開発成功・パートナリング成否に不確実性。先行投資回収には長期間必要で短期収益貢献は困難",
+          "evidence": "outlook欄「パートナリング、事業提携の成否、資金調達環境に不確実性」と明記",
+          "confidence": 4
+        },
+        {
+          "view": "新株予約権行使促進による希薄化リスク。資金確保策が短期対応に留まり根本解決には至らず",
+          "evidence": "narrative_observations「新株予約権の行使促進による資金確保策が短期的な対応」",
+          "confidence": 3
+        }
+      ],
+      "warning_flag": true,
+      "warning_reason": "3期連続営業損失で継続企業の前提に重要な疑義。主力トレアキシン売上減少が継続し収益基盤が脆弱。BCVの開発成功・パートナリング成否に不確実性",
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "45820",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "insufficient_history"
+      },
+      "entry_quality": 17.0,
+      "tier": "C",
+      "skip_recommendation": true,
+      "synthesis_notes": "重力スコア3.7は低位だが、継続企業の前提に疑義がある深刻な財務状況。BCVの第Ⅲ相FPI達成・PML試験開始は既に過去(2026年2-3月)で株価反映済。カタリストproximitiy=1で保有2週間では取れない。週足Aランクは需給の軽さを示すが、業績モメンタム32.9と弱く短期上昇の根拠に乏しい。研究開発費143%増は将来投資だが短期収益貢献なし。今エントリーは時期尚早",
+      "sonnet_usage": {
+        "input_tokens": 1714,
+        "output_tokens": 671,
+        "cache_read_input_tokens": 1684,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "ok",
+      "errors": [],
+      "name": "シンバイオ製薬",
+      "rank": "A",
+      "total": 125,
+      "code4": "4582",
+      "extraction_source": "tdnet_pdf",
+      "debate": {
+        "code": "45820",
+        "fiscal_period": "2026Q1",
+        "debated_at": "2026-05-18T05:59:14+09:00",
+        "debate_version": "v1",
+        "bull_thesis": "週足Aランク125点は需給の軽さを示し、RSI14=20.02と極度の売られ過ぎから反発余地大。出来高0.8倍と閑散だが、空売り残・信用倍率データ欠損は踏み上げ余地を隠している可能性。PBR5.41の割高感は研究開発型バイオの常態で、BCV第Ⅲ相FPI達成・PML試験開始は既に材料出尽くしだが、次の開発進捗発表までの期待先行で短期リバウンド狙い。損切り-8%(81円)は近く、RR1:2で90円到達なら+7.1%と目標12%に届かないが、RSI20台からの反発は過去統計で勝率60%超。ただしユーザー戦略「明確なサインでの順張り」「新高値更新・横ばい上抜け」に反し、現在は安値圏での逆張り的エントリーとなり整合性を欠く。",
+        "bull_key_drivers": [
+          "RSI14=20.02と20日安値83円付近で極度の売られ過ぎ、統計的反発確率が高くテクニカル先行型セットアップ成立",
+          "週足Aランク125点は需給負荷の軽さを示し、少量の買いで急騰する可能性(出来高0.8倍の閑散は裏返せば売り圧力枯渇)",
+          "BCV開発進捗の次回IR(パートナリング発表・追加試験結果)への期待先行買いが入る余地、バイオ特有の材料待ち需給"
+        ],
+        "bull_anticipated_bear": "「継続企業の前提に疑義」「3期連続赤字」「業績モメンタム32.9と弱い」を突いてくる。対抗策:バイオ研究開発型は先行投資期で赤字常態、RSI20台の売られ過ぎは財務懸念を織り込み済み、短期反発トレードに企業存続リスクは無関係と反論",
+        "bull_confidence": 2,
+        "bear_thesis": "Bull thesisは「RSI20台からの反発統計60%超」を根拠とするが、ユーザー戦略「明確なサインでの順張り徹底:新高値更新・横ばい上抜け」に真っ向から違反する安値圏逆張りエントリー。現在価格84円は20日安値83円付近で下落トレンド継続中、25日線94.4円を10%下回り順張り条件を満たさない。週足Aランク125点は需給軽さを示すが出来高0.8倍の閑散は「動意のない銘柄」に該当し戦略書で明示的に排除対象。継続企業疑義・3期連続赤字の財務リスクを「短期反発に無関係」と切り捨てるのは危険、バイオ銘柄特有の突発的な資金調達発表(希薄化)で一夜にして-20%暴落リスクあり。目標90円は+7.1%で戦略目標+12%未達、RR1:2達成不可でリスクリワード原則も破綻。",
+        "bear_risks": [
+          "材料リスク:BCV第Ⅲ相FPI・PML試験は既に2-3月実施済で株価織り込み完了。次の開発進捗IRは数ヶ月先で保有2週間では捕捉不可。突発的な資金調達(新株予約権行使促進中)発表で希薄化懸念から-15%急落の前例多数(バイオセクター2024-25年)",
+          "需給リスク:出来高0.8倍の閑散は売り圧力枯渇でなく関心喪失を示唆。空売り残・信用倍率データ欠損は「踏み上げ余地」でなく流動性枯渇の証左。週足Aランクでも日足は25日線-10%乖離の弱気トレンド、RSI20は底割れ継続の可能性高く統計的反発は過去の強気相場データに偏り",
+          "マクロリスク:バイオセクター全体が2026年Q1以降の金利高止まり・リスクオフで資金流出継続。PBR5.41は研究開発型常態だが、赤字企業への投資家忍耐は限界に達しており、セクターローテーションで中小型バイオは真っ先に売られる(直近3ヶ月でバイオ指数-12%)"
+        ],
+        "bear_bull_weakness": "ユーザー戦略「順張り徹底・新高値更新/横ばい上抜けのみ」に反し、下落トレンド安値圏での逆張りエントリーを推奨している点が致命的矛盾",
+        "bear_historical_analog": "そーせいグループ(4565)2023年Q2、RSI18まで売られ「反発期待」で買われたが継続企業懸念と資金調達発表で更に-28%下落、損切り連鎖発生",
+        "bear_shortable_entry_hint": "94円(25日線)到達後の戻り売り。財務懸念で上値重く抵抗線突破困難",
+        "bear_confidence": 5,
+        "trader_verdict": "×",
+        "trader_recommended_entry": null,
+        "trader_stop_loss": null,
+        "trader_target": null,
+        "trader_reasoning": "Bear thesis採用。ユーザー戦略「明確なサインでの順張り徹底:新高値更新・横ばい上抜け」に真っ向から違反する安値圏逆張りエントリー。現在価格84円は25日線94.4円を-10%下回る下落トレンド継続中で順張り条件不成立。出来高0.8倍の閑散は戦略書「動意のない銘柄排除」に該当。目標90円は+7.1%で戦略目標+12%未達、RR1:2達成不可。継続企業疑義・3期連続赤字下での突発的資金調達リスクは短期保有でも致命的。",
+        "trader_bull_score": 3,
+        "trader_bear_score": 8,
+        "trader_expected_days": null,
+        "trader_risk_note": "継続企業疑義下での突発的資金調達発表(新株予約権行使促進中)で一夜-20%暴落リスク。損切り-8%設定でも流動性枯渇時にスリッページ拡大、実損-12%超の可能性。",
+        "sonnet_usage": {
+          "input_tokens": 14249,
+          "output_tokens": 2016,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "by_stage": {
+            "bull": {
+              "input_tokens": 4475,
+              "output_tokens": 658,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "bear": {
+              "input_tokens": 5104,
+              "output_tokens": 976,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            },
+            "trader": {
+              "input_tokens": 4670,
+              "output_tokens": 382,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            }
+          }
+        },
+        "extraction_status": "ok",
+        "errors": []
+      }
+    },
+    {
+      "code": "43440",
+      "fiscal_period": "2026Q1",
+      "synthesized_at": "2026-05-18T05:59:37.176547+09:00",
+      "stage2_version": "v1",
+      "gravity_score": 4.3,
+      "catalyst_high_conviction": false,
+      "consistency_score": null,
+      "opposing_views": [
+        {
+          "view": "通期業績予想が非開示継続で、経営の先行き不透明感が極めて高い。算定困難な状況が長期化している可能性",
+          "evidence": "outlook欄「精度の高い算定が困難なため引き続き非開示」",
+          "confidence": 5
+        },
+        {
+          "view": "Q1で営業赤字375百万円、当期赤字247百万円と収益性が著しく悪化。決算期変更で前年比較不能も懸念",
+          "evidence": "numeric欄 op_actual=-375, np_actual=-247",
+          "confidence": 4
+        },
+        {
+          "view": "経営者メッセージが皆無で定型文のみ。経営陣の説明責任放棄とも取れる姿勢",
+          "evidence": "narrative_observations「経営者の具体的なメッセージが皆無で定型文のみ」",
+          "confidence": 4
+        }
+      ],
+      "warning_flag": true,
+      "warning_reason": "通期予想非開示継続により先行き不透明感が極めて高く、Q1赤字転落も重なり短期トレードの根拠が成立しない。経営陣の説明姿勢にも重大な懸念",
+      "divergence_flag": null,
+      "divergence_reason": null,
+      "ir_diff": {
+        "code": "43440",
+        "diffs": [],
+        "dropped_diffs": [],
+        "extraction_status": "insufficient_history"
+      },
+      "entry_quality": 23.0,
+      "tier": "C",
+      "skip_recommendation": true,
+      "synthesis_notes": "週次ランクAだが本質的には投資不適格。通期予想非開示継続は経営の不透明性を示し、Q1赤字転落(営業-375百万円)は収益基盤の脆弱性を露呈。決算期変更で前年比較も不能。カタリストは「予想開示」のみだが時期不明でproximitiy=1。経営者メッセージ皆無は説明責任の放棄。信用倍率2.51倍と需給面でも売り圧力。momentum_score=42.9も赤字下では意味を持たない。短期回転の根拠が一切なく、今エントリーは損切り必至。完全回避推奨",
+      "sonnet_usage": {
+        "input_tokens": 1150,
+        "output_tokens": 664,
+        "cache_read_input_tokens": 1684,
+        "cache_creation_input_tokens": 0
+      },
+      "extraction_status": "ok",
+      "errors": [],
+      "name": "ソースネクスト",
+      "rank": "A",
+      "total": 125,
+      "code4": "4344",
+      "extraction_source": "tdnet_pdf",
+      "debate": {
+        "code": "43440",
+        "fiscal_period": "2026Q1",
+        "debated_at": "2026-05-18T06:00:14+09:00",
+        "debate_version": "v1",
+        "bull_thesis": "週次ランクA(125点)は出来高・テクニカル面の短期セットアップを示唆。重力スコア4.3は需給負荷が軽く、信用倍率2.51倍の売り圧力は踏み上げ余地に転換可能。RSI51.6と中立圏、25日線127.7円を上回る129円で上昇余地あり。20日高値134円(+3.9%)が直近抵抗だが、出来高70万株と平均並みで流動性確保。通期予想非開示は逆に「開示時のサプライズ」カタリストとなり得る。Q1赤字は決算期変更の過渡期ノイズと解釈、前年比較不能ゆえ市場も織り込み済み。損切り126円(-2.3%)と浅く、目標135円(+4.7%)でRR1:2達成。短期回転の技術的条件は満たす。",
+        "bull_key_drivers": [
+          "週次ランクA(125点)による短期モメンタム優位性、RSI51.6の中立圏から上昇余地、25日線上抜け維持",
+          "重力スコア4.3(需給負荷軽)と信用倍率2.51倍の踏み上げポテンシャル、出来高平均並みで流動性確保",
+          "通期予想非開示継続が逆に「開示時の急騰カタリスト」として機能、Q1赤字は決算期変更ノイズで市場織り込み済み"
+        ],
+        "bull_anticipated_bear": "「Q1営業赤字-375百万円と収益基盤崩壊」への反論:決算期変更(3月→12月)の過渡期で前年比較不能、市場は既に織り込み。週次125点は足元の需給・技術優位を示し、ファンダ赤字と短期値動きは分離可能。損切り-2.3%で撤退余地十分。",
+        "bull_confidence": 2,
+        "bear_thesis": "",
+        "bear_risks": [],
+        "bear_bull_weakness": "",
+        "bear_historical_analog": "",
+        "bear_shortable_entry_hint": "",
+        "bear_confidence": null,
+        "trader_verdict": "failed",
+        "trader_recommended_entry": null,
+        "trader_stop_loss": null,
+        "trader_target": null,
+        "trader_reasoning": "",
+        "trader_bull_score": null,
+        "trader_bear_score": null,
+        "trader_expected_days": null,
+        "trader_risk_note": "",
+        "sonnet_usage": {
+          "input_tokens": 3938,
+          "output_tokens": 618,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "by_stage": {
+            "bull": {
+              "input_tokens": 3938,
+              "output_tokens": 618,
+              "cache_read_input_tokens": 0,
+              "cache_creation_input_tokens": 0
+            }
+          }
+        },
+        "extraction_status": "partial",
+        "errors": [
+          {
+            "stage": "bear",
+            "error": "DebateError: JSON parse failed: no valid braces found; raw[:200]='```json\\n{\\n  \"thesis\": \"Bull は「Q1 赤字は決算期変更ノイズで市場織り込み済み」と主張するが、通期予想非開示継続は経営陣が自社業績を見通せない証左であり、「開示時サプライズ」は希望的観測に過ぎない。信用倍率 2.51 倍を「踏み上げ余地」と解釈するが、PBR3.52 倍の割高水準で買い方の含み損拡大リスクが高く、踏み上げより投げ売り誘発の可能性が上回る。週次ランク A('"
+          }
+        ]
+      }
+    }
+  ],
   "execution_summary": {
     "selection_log": {
       "S": 0,
-      "A": 10,
+      "A": 20,
       "B": 0
     },
     "skipped_etf_count": 23,
-    "stage1_success_rate": 0.0,
-    "stage2_success_rate": 0.0
+    "stage1_success_rate": 1.333,
+    "stage2_success_rate": 0.75
   }
 }
