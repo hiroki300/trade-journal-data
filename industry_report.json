@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
   "source": "theme_keyword_matching",
-  "generated_at": "2026-05-14T00:04:29+09:00",
+  "generated_at": "2026-05-16T09:27:52+09:00",
   "frequency": "weekly",
   "execution_summary": {
     "total_themes_evaluated": 3,
@@ -70,7 +70,7 @@
         }
       ],
       "rank": 1,
-      "news_summary": "タカラバイオ（4974）は2026年"
+      "news_summary": "直近1週間で、バイオ・創薬テーマでは、カイ"
     },
     {
       "name": "半導体",
@@ -123,7 +123,7 @@
         }
       ],
       "rank": 2,
-      "news_summary": "直近の主立った材料として、ソニー半導体ソリューションズ"
+      "news_summary": "直近の半導体関連ニュースとして、平田機工が"
     },
     {
       "name": "AI",
@@ -156,7 +156,7 @@
         }
       ],
       "rank": 3,
-      "news_summary": "直近の主立った材料として、データセクション（3905"
+      "news_summary": "直近1週間では、AI関連株は利益確定売りや金利"
     }
   ]
 }
