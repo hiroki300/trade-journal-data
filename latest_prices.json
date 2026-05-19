@@ -1,1026 +1,1026 @@
 {
   "13060": {
-    "close": 405.9,
-    "prev_close": 409.9,
-    "change_pct": -0.976,
-    "as_of": "2026-05-18"
+    "close": 408.3,
+    "prev_close": 405.9,
+    "change_pct": 0.591,
+    "as_of": "2026-05-19"
   },
   "13560": {
-    "close": 125.0,
-    "prev_close": 122.6,
-    "change_pct": 1.958,
-    "as_of": "2026-05-18"
+    "close": 123.4,
+    "prev_close": 125.0,
+    "change_pct": -1.28,
+    "as_of": "2026-05-19"
   },
   "13660": {
-    "close": 90.0,
-    "prev_close": 88.0,
-    "change_pct": 2.273,
-    "as_of": "2026-05-18"
+    "close": 91.0,
+    "prev_close": 90.0,
+    "change_pct": 1.111,
+    "as_of": "2026-05-19"
   },
   "14590": {
-    "close": 143.0,
-    "prev_close": 142.0,
-    "change_pct": 0.704,
-    "as_of": "2026-05-18"
+    "close": 145.0,
+    "prev_close": 143.0,
+    "change_pct": 1.399,
+    "as_of": "2026-05-19"
   },
   "14750": {
-    "close": 396.0,
-    "prev_close": 399.7,
-    "change_pct": -0.926,
-    "as_of": "2026-05-18"
+    "close": 398.3,
+    "prev_close": 396.0,
+    "change_pct": 0.581,
+    "as_of": "2026-05-19"
   },
   "14890": {
-    "close": 3195.0,
-    "prev_close": 3252.0,
-    "change_pct": -1.753,
-    "as_of": "2026-05-18"
+    "close": 3230.0,
+    "prev_close": 3195.0,
+    "change_pct": 1.095,
+    "as_of": "2026-05-19"
   },
   "15680": {
-    "close": 888.8,
-    "prev_close": 909.2,
-    "change_pct": -2.244,
-    "as_of": "2026-05-18"
+    "close": 901.4,
+    "prev_close": 888.8,
+    "change_pct": 1.418,
+    "as_of": "2026-05-19"
   },
   "15790": {
-    "close": 658.4,
-    "prev_close": 672.6,
-    "change_pct": -2.111,
-    "as_of": "2026-05-18"
+    "close": 655.5,
+    "prev_close": 658.4,
+    "change_pct": -0.44,
+    "as_of": "2026-05-19"
   },
   "15800": {
-    "close": 879.5,
-    "prev_close": 870.5,
-    "change_pct": 1.034,
-    "as_of": "2026-05-18"
+    "close": 883.5,
+    "prev_close": 879.5,
+    "change_pct": 0.455,
+    "as_of": "2026-05-19"
   },
   "16150": {
-    "close": 643.6,
-    "prev_close": 639.7,
-    "change_pct": 0.61,
-    "as_of": "2026-05-18"
+    "close": 664.2,
+    "prev_close": 643.6,
+    "change_pct": 3.201,
+    "as_of": "2026-05-19"
   },
   "16290": {
-    "close": 286.1,
-    "prev_close": 296.8,
-    "change_pct": -3.605,
-    "as_of": "2026-05-18"
+    "close": 285.8,
+    "prev_close": 286.1,
+    "change_pct": -0.105,
+    "as_of": "2026-05-19"
   },
   "16550": {
-    "close": 843.4,
-    "prev_close": 851.9,
-    "change_pct": -0.998,
-    "as_of": "2026-05-18"
+    "close": 847.0,
+    "prev_close": 843.4,
+    "change_pct": 0.427,
+    "as_of": "2026-05-19"
   },
   "16780": {
-    "close": 304.2,
-    "prev_close": 306.8,
-    "change_pct": -0.847,
-    "as_of": "2026-05-18"
+    "close": 306.7,
+    "prev_close": 304.2,
+    "change_pct": 0.822,
+    "as_of": "2026-05-19"
   },
   "17210": {
-    "close": 5496.0,
-    "prev_close": 5681.0,
-    "change_pct": -3.256,
-    "as_of": "2026-05-18"
+    "close": 5447.0,
+    "prev_close": 5496.0,
+    "change_pct": -0.892,
+    "as_of": "2026-05-19"
   },
   "1803": {
-    "close": 2698.5,
-    "prev_close": 2782.0,
-    "change_pct": -3.001,
-    "as_of": "2026-05-18"
+    "close": 2751.0,
+    "prev_close": 2698.5,
+    "change_pct": 1.946,
+    "as_of": "2026-05-19"
   },
   "18030": {
-    "close": 2698.5,
-    "prev_close": 2782.0,
-    "change_pct": -3.001,
-    "as_of": "2026-05-18"
+    "close": 2751.0,
+    "prev_close": 2698.5,
+    "change_pct": 1.946,
+    "as_of": "2026-05-19"
   },
   "18080": {
-    "close": 2844.0,
-    "prev_close": 2684.0,
-    "change_pct": 5.961,
-    "as_of": "2026-05-18"
+    "close": 2790.5,
+    "prev_close": 2844.0,
+    "change_pct": -1.881,
+    "as_of": "2026-05-19"
   },
   "18610": {
-    "close": 1426.0,
-    "prev_close": 1425.0,
-    "change_pct": 0.07,
-    "as_of": "2026-05-18"
+    "close": 1468.0,
+    "prev_close": 1426.0,
+    "change_pct": 2.945,
+    "as_of": "2026-05-19"
   },
   "186A0": {
-    "close": 1892.0,
-    "prev_close": 1932.0,
-    "change_pct": -2.07,
-    "as_of": "2026-05-18"
+    "close": 2115.0,
+    "prev_close": 1892.0,
+    "change_pct": 11.786,
+    "as_of": "2026-05-19"
   },
   "18780": {
-    "close": 3483.0,
-    "prev_close": 3457.0,
-    "change_pct": 0.752,
-    "as_of": "2026-05-18"
+    "close": 3463.0,
+    "prev_close": 3483.0,
+    "change_pct": -0.574,
+    "as_of": "2026-05-19"
   },
   "18850": {
-    "close": 2521.0,
-    "prev_close": 2597.0,
-    "change_pct": -2.926,
-    "as_of": "2026-05-18"
+    "close": 2471.0,
+    "prev_close": 2521.0,
+    "change_pct": -1.983,
+    "as_of": "2026-05-19"
   },
   "19110": {
-    "close": 1258.5,
-    "prev_close": 1295.5,
-    "change_pct": -2.856,
-    "as_of": "2026-05-18"
+    "close": 1264.5,
+    "prev_close": 1258.5,
+    "change_pct": 0.477,
+    "as_of": "2026-05-19"
   },
   "19630": {
-    "close": 2594.0,
-    "prev_close": 2710.5,
-    "change_pct": -4.298,
-    "as_of": "2026-05-18"
+    "close": 2647.0,
+    "prev_close": 2594.0,
+    "change_pct": 2.043,
+    "as_of": "2026-05-19"
   },
   "200A0": {
-    "close": 4266.0,
-    "prev_close": 4099.0,
-    "change_pct": 4.074,
-    "as_of": "2026-05-18"
+    "close": 4077.0,
+    "prev_close": 4266.0,
+    "change_pct": -4.43,
+    "as_of": "2026-05-19"
   },
   "206A0": {
-    "close": 154.0,
-    "prev_close": 171.0,
-    "change_pct": -9.942,
-    "as_of": "2026-05-18"
+    "close": 158.0,
+    "prev_close": 154.0,
+    "change_pct": 2.597,
+    "as_of": "2026-05-19"
   },
   "21270": {
-    "close": 633.4,
-    "prev_close": 638.3,
-    "change_pct": -0.768,
-    "as_of": "2026-05-18"
+    "close": 660.2,
+    "prev_close": 633.4,
+    "change_pct": 4.231,
+    "as_of": "2026-05-19"
   },
   "213A0": {
-    "close": 395.4,
-    "prev_close": 376.1,
-    "change_pct": 5.132,
-    "as_of": "2026-05-18"
+    "close": 379.7,
+    "prev_close": 395.4,
+    "change_pct": -3.971,
+    "as_of": "2026-05-19"
   },
   "21460": {
-    "close": 176.0,
-    "prev_close": 182.0,
-    "change_pct": -3.297,
-    "as_of": "2026-05-18"
+    "close": 180.0,
+    "prev_close": 176.0,
+    "change_pct": 2.273,
+    "as_of": "2026-05-19"
   },
   "21570": {
-    "close": 993.0,
-    "prev_close": 1014.0,
-    "change_pct": -2.071,
-    "as_of": "2026-05-18"
+    "close": 998.0,
+    "prev_close": 993.0,
+    "change_pct": 0.504,
+    "as_of": "2026-05-19"
   },
   "215A0": {
-    "close": 1151.0,
-    "prev_close": 1121.0,
-    "change_pct": 2.676,
-    "as_of": "2026-05-18"
+    "close": 1202.0,
+    "prev_close": 1151.0,
+    "change_pct": 4.431,
+    "as_of": "2026-05-19"
   },
   "21600": {
-    "close": 2688.0,
-    "prev_close": 2955.0,
-    "change_pct": -9.036,
-    "as_of": "2026-05-18"
+    "close": 2830.0,
+    "prev_close": 2688.0,
+    "change_pct": 5.283,
+    "as_of": "2026-05-19"
   },
   "21700": {
-    "close": 534.0,
-    "prev_close": 532.0,
-    "change_pct": 0.376,
-    "as_of": "2026-05-18"
+    "close": 559.0,
+    "prev_close": 534.0,
+    "change_pct": 4.682,
+    "as_of": "2026-05-19"
   },
   "2193": {
-    "close": 126.0,
-    "prev_close": 125.0,
-    "change_pct": 0.8,
-    "as_of": "2026-05-18"
+    "close": 125.0,
+    "prev_close": 126.0,
+    "change_pct": -0.794,
+    "as_of": "2026-05-19"
   },
   "21930": {
-    "close": 126.0,
-    "prev_close": 125.0,
-    "change_pct": 0.8,
-    "as_of": "2026-05-18"
+    "close": 125.0,
+    "prev_close": 126.0,
+    "change_pct": -0.794,
+    "as_of": "2026-05-19"
   },
   "22290": {
-    "close": 2930.0,
-    "prev_close": 2904.5,
-    "change_pct": 0.878,
-    "as_of": "2026-05-18"
+    "close": 3000.0,
+    "prev_close": 2930.0,
+    "change_pct": 2.389,
+    "as_of": "2026-05-19"
   },
   "23150": {
-    "close": 61.0,
-    "prev_close": 62.0,
-    "change_pct": -1.613,
-    "as_of": "2026-05-18"
+    "close": 65.0,
+    "prev_close": 61.0,
+    "change_pct": 6.557,
+    "as_of": "2026-05-19"
   },
   "23340": {
-    "close": 585.0,
-    "prev_close": 543.0,
-    "change_pct": 7.735,
-    "as_of": "2026-05-18"
+    "close": 570.0,
+    "prev_close": 585.0,
+    "change_pct": -2.564,
+    "as_of": "2026-05-19"
   },
   "23410": {
-    "close": 173.0,
-    "prev_close": 167.0,
-    "change_pct": 3.593,
-    "as_of": "2026-05-18"
+    "close": 169.0,
+    "prev_close": 173.0,
+    "change_pct": -2.312,
+    "as_of": "2026-05-19"
   },
   "2353": {
-    "close": 247.0,
-    "prev_close": 252.0,
-    "change_pct": -1.984,
-    "as_of": "2026-05-18"
+    "close": 249.0,
+    "prev_close": 247.0,
+    "change_pct": 0.81,
+    "as_of": "2026-05-19"
   },
   "23530": {
-    "close": 247.0,
-    "prev_close": 252.0,
-    "change_pct": -1.984,
-    "as_of": "2026-05-18"
+    "close": 249.0,
+    "prev_close": 247.0,
+    "change_pct": 0.81,
+    "as_of": "2026-05-19"
   },
   "238A0": {
-    "close": 126.5,
-    "prev_close": 128.3,
-    "change_pct": -1.403,
-    "as_of": "2026-05-18"
+    "close": 126.4,
+    "prev_close": 126.5,
+    "change_pct": -0.079,
+    "as_of": "2026-05-19"
   },
   "24130": {
-    "close": 1355.5,
-    "prev_close": 1355.0,
-    "change_pct": 0.037,
-    "as_of": "2026-05-18"
+    "close": 1421.5,
+    "prev_close": 1355.5,
+    "change_pct": 4.869,
+    "as_of": "2026-05-19"
   },
   "24320": {
-    "close": 2720.0,
-    "prev_close": 2715.5,
-    "change_pct": 0.166,
-    "as_of": "2026-05-18"
+    "close": 2757.5,
+    "prev_close": 2720.0,
+    "change_pct": 1.379,
+    "as_of": "2026-05-19"
   },
   "247A0": {
-    "close": 875.0,
-    "prev_close": 900.0,
-    "change_pct": -2.778,
-    "as_of": "2026-05-18"
+    "close": 835.0,
+    "prev_close": 875.0,
+    "change_pct": -4.571,
+    "as_of": "2026-05-19"
   },
   "2492": {
-    "close": 420.0,
-    "prev_close": 394.0,
-    "change_pct": 6.599,
-    "as_of": "2026-05-18"
+    "close": 400.0,
+    "prev_close": 420.0,
+    "change_pct": -4.762,
+    "as_of": "2026-05-19"
   },
   "24920": {
-    "close": 420.0,
-    "prev_close": 394.0,
-    "change_pct": 6.599,
-    "as_of": "2026-05-18"
+    "close": 400.0,
+    "prev_close": 420.0,
+    "change_pct": -4.762,
+    "as_of": "2026-05-19"
   },
   "25010": {
-    "close": 1605.0,
-    "prev_close": 1591.5,
-    "change_pct": 0.848,
-    "as_of": "2026-05-18"
+    "close": 1649.0,
+    "prev_close": 1605.0,
+    "change_pct": 2.741,
+    "as_of": "2026-05-19"
   },
   "25020": {
-    "close": 1543.5,
-    "prev_close": 1536.0,
-    "change_pct": 0.488,
-    "as_of": "2026-05-18"
+    "close": 1580.5,
+    "prev_close": 1543.5,
+    "change_pct": 2.397,
+    "as_of": "2026-05-19"
   },
   "25030": {
-    "close": 2601.5,
-    "prev_close": 2623.0,
-    "change_pct": -0.82,
-    "as_of": "2026-05-18"
+    "close": 2749.5,
+    "prev_close": 2601.5,
+    "change_pct": 5.689,
+    "as_of": "2026-05-19"
   },
   "25160": {
-    "close": 631.3,
-    "prev_close": 629.9,
-    "change_pct": 0.222,
-    "as_of": "2026-05-18"
+    "close": 651.6,
+    "prev_close": 631.3,
+    "change_pct": 3.216,
+    "as_of": "2026-05-19"
   },
   "25310": {
-    "close": 1825.5,
-    "prev_close": 1823.0,
-    "change_pct": 0.137,
-    "as_of": "2026-05-18"
+    "close": 1871.5,
+    "prev_close": 1825.5,
+    "change_pct": 2.52,
+    "as_of": "2026-05-19"
   },
   "25630": {
-    "close": 393.3,
-    "prev_close": 397.2,
-    "change_pct": -0.982,
-    "as_of": "2026-05-18"
+    "close": 393.5,
+    "prev_close": 393.3,
+    "change_pct": 0.051,
+    "as_of": "2026-05-19"
   },
   "25870": {
-    "close": 4225.0,
-    "prev_close": 4196.0,
-    "change_pct": 0.691,
-    "as_of": "2026-05-18"
+    "close": 4270.0,
+    "prev_close": 4225.0,
+    "change_pct": 1.065,
+    "as_of": "2026-05-19"
   },
   "26210": {
     "close": 1017.0,
-    "prev_close": 1028.0,
-    "change_pct": -1.07,
-    "as_of": "2026-05-18"
+    "prev_close": 1017.0,
+    "change_pct": 0.0,
+    "as_of": "2026-05-19"
   },
   "26440": {
-    "close": 3786.0,
-    "prev_close": 3819.0,
-    "change_pct": -0.864,
-    "as_of": "2026-05-18"
+    "close": 3656.0,
+    "prev_close": 3786.0,
+    "change_pct": -3.434,
+    "as_of": "2026-05-19"
   },
   "26700": {
-    "close": 2654.0,
-    "prev_close": 2694.0,
-    "change_pct": -1.485,
-    "as_of": "2026-05-18"
+    "close": 2685.5,
+    "prev_close": 2654.0,
+    "change_pct": 1.187,
+    "as_of": "2026-05-19"
   },
   "26780": {
-    "close": 1190.0,
-    "prev_close": 1234.0,
-    "change_pct": -3.566,
-    "as_of": "2026-05-18"
+    "close": 1219.0,
+    "prev_close": 1190.0,
+    "change_pct": 2.437,
+    "as_of": "2026-05-19"
   },
   "278A0": {
-    "close": 12750.0,
-    "prev_close": 12190.0,
-    "change_pct": 4.594,
-    "as_of": "2026-05-18"
+    "close": 12560.0,
+    "prev_close": 12750.0,
+    "change_pct": -1.49,
+    "as_of": "2026-05-19"
   },
   "28010": {
-    "close": 1415.5,
-    "prev_close": 1408.0,
-    "change_pct": 0.533,
-    "as_of": "2026-05-18"
+    "close": 1449.5,
+    "prev_close": 1415.5,
+    "change_pct": 2.402,
+    "as_of": "2026-05-19"
   },
   "281A0": {
-    "close": 823.0,
-    "prev_close": 765.0,
-    "change_pct": 7.582,
-    "as_of": "2026-05-18"
+    "close": 842.0,
+    "prev_close": 823.0,
+    "change_pct": 2.309,
+    "as_of": "2026-05-19"
   },
   "28970": {
-    "close": 2664.5,
-    "prev_close": 2684.0,
-    "change_pct": -0.727,
-    "as_of": "2026-05-18"
+    "close": 2739.0,
+    "prev_close": 2664.5,
+    "change_pct": 2.796,
+    "as_of": "2026-05-19"
   },
   "290A0": {
-    "close": 1463.0,
-    "prev_close": 1450.0,
-    "change_pct": 0.897,
-    "as_of": "2026-05-18"
+    "close": 1558.0,
+    "prev_close": 1463.0,
+    "change_pct": 6.494,
+    "as_of": "2026-05-19"
   },
   "29140": {
-    "close": 6343.0,
-    "prev_close": 6301.0,
-    "change_pct": 0.667,
-    "as_of": "2026-05-18"
+    "close": 6453.0,
+    "prev_close": 6343.0,
+    "change_pct": 1.734,
+    "as_of": "2026-05-19"
   },
   "29310": {
-    "close": 358.0,
-    "prev_close": 377.0,
-    "change_pct": -5.04,
-    "as_of": "2026-05-18"
+    "close": 366.0,
+    "prev_close": 358.0,
+    "change_pct": 2.235,
+    "as_of": "2026-05-19"
   },
   "2980": {
-    "close": 2726.0,
-    "prev_close": 2706.0,
-    "change_pct": 0.739,
-    "as_of": "2026-05-18"
+    "close": 2632.0,
+    "prev_close": 2726.0,
+    "change_pct": -3.448,
+    "as_of": "2026-05-19"
   },
   "29800": {
-    "close": 2726.0,
-    "prev_close": 2706.0,
-    "change_pct": 0.739,
-    "as_of": "2026-05-18"
+    "close": 2632.0,
+    "prev_close": 2726.0,
+    "change_pct": -3.448,
+    "as_of": "2026-05-19"
   },
   "30030": {
-    "close": 1722.5,
-    "prev_close": 1760.5,
-    "change_pct": -2.158,
-    "as_of": "2026-05-18"
+    "close": 1749.0,
+    "prev_close": 1722.5,
+    "change_pct": 1.538,
+    "as_of": "2026-05-19"
   },
   "3011": {
-    "close": 148.0,
-    "prev_close": 153.0,
-    "change_pct": -3.268,
-    "as_of": "2026-05-18"
+    "close": 150.0,
+    "prev_close": 148.0,
+    "change_pct": 1.351,
+    "as_of": "2026-05-19"
   },
   "30110": {
-    "close": 148.0,
-    "prev_close": 153.0,
-    "change_pct": -3.268,
-    "as_of": "2026-05-18"
+    "close": 150.0,
+    "prev_close": 148.0,
+    "change_pct": 1.351,
+    "as_of": "2026-05-19"
   },
   "30480": {
-    "close": 1733.5,
-    "prev_close": 1723.5,
-    "change_pct": 0.58,
-    "as_of": "2026-05-18"
+    "close": 1772.5,
+    "prev_close": 1733.5,
+    "change_pct": 2.25,
+    "as_of": "2026-05-19"
   },
   "30700": {
-    "close": 85.0,
+    "close": 88.0,
     "prev_close": 85.0,
-    "change_pct": 0.0,
-    "as_of": "2026-05-18"
+    "change_pct": 3.529,
+    "as_of": "2026-05-19"
   },
   "30880": {
-    "close": 2215.0,
-    "prev_close": 2291.5,
-    "change_pct": -3.338,
-    "as_of": "2026-05-18"
+    "close": 2289.5,
+    "prev_close": 2215.0,
+    "change_pct": 3.363,
+    "as_of": "2026-05-19"
   },
   "30920": {
-    "close": 1026.5,
-    "prev_close": 1044.0,
-    "change_pct": -1.676,
-    "as_of": "2026-05-18"
+    "close": 1045.5,
+    "prev_close": 1026.5,
+    "change_pct": 1.851,
+    "as_of": "2026-05-19"
   },
   "30990": {
-    "close": 3231.0,
-    "prev_close": 3301.0,
-    "change_pct": -2.121,
-    "as_of": "2026-05-18"
+    "close": 3228.0,
+    "prev_close": 3231.0,
+    "change_pct": -0.093,
+    "as_of": "2026-05-19"
   },
   "31030": {
-    "close": 1315.0,
-    "prev_close": 1415.0,
-    "change_pct": -7.067,
-    "as_of": "2026-05-18"
+    "close": 1412.0,
+    "prev_close": 1315.0,
+    "change_pct": 7.376,
+    "as_of": "2026-05-19"
   },
   "31160": {
-    "close": 2244.0,
-    "prev_close": 2285.5,
-    "change_pct": -1.816,
-    "as_of": "2026-05-18"
+    "close": 2278.5,
+    "prev_close": 2244.0,
+    "change_pct": 1.537,
+    "as_of": "2026-05-19"
   },
   "31320": {
-    "close": 3353.0,
-    "prev_close": 3241.0,
-    "change_pct": 3.456,
-    "as_of": "2026-05-18"
+    "close": 3230.0,
+    "prev_close": 3353.0,
+    "change_pct": -3.668,
+    "as_of": "2026-05-19"
   },
   "314A0": {
-    "close": 341.3,
-    "prev_close": 343.8,
-    "change_pct": -0.727,
-    "as_of": "2026-05-18"
+    "close": 342.5,
+    "prev_close": 341.3,
+    "change_pct": 0.352,
+    "as_of": "2026-05-19"
   },
   "318A0": {
-    "close": 571.1,
-    "prev_close": 571.0,
-    "change_pct": 0.018,
-    "as_of": "2026-05-18"
+    "close": 551.0,
+    "prev_close": 571.1,
+    "change_pct": -3.52,
+    "as_of": "2026-05-19"
   },
   "31960": {
-    "close": 1582.0,
-    "prev_close": 1570.0,
-    "change_pct": 0.764,
-    "as_of": "2026-05-18"
+    "close": 1613.0,
+    "prev_close": 1582.0,
+    "change_pct": 1.96,
+    "as_of": "2026-05-19"
   },
   "32310": {
-    "close": 950.0,
-    "prev_close": 974.3,
-    "change_pct": -2.494,
-    "as_of": "2026-05-18"
+    "close": 972.0,
+    "prev_close": 950.0,
+    "change_pct": 2.316,
+    "as_of": "2026-05-19"
   },
   "33150": {
-    "close": 100.0,
-    "prev_close": 99.0,
-    "change_pct": 1.01,
-    "as_of": "2026-05-18"
+    "close": 102.0,
+    "prev_close": 100.0,
+    "change_pct": 2.0,
+    "as_of": "2026-05-19"
   },
   "33500": {
-    "close": 304.0,
-    "prev_close": 328.0,
-    "change_pct": -7.317,
-    "as_of": "2026-05-18"
+    "close": 313.0,
+    "prev_close": 304.0,
+    "change_pct": 2.961,
+    "as_of": "2026-05-19"
   },
   "33820": {
-    "close": 1878.5,
-    "prev_close": 1862.5,
-    "change_pct": 0.859,
-    "as_of": "2026-05-18"
+    "close": 1947.0,
+    "prev_close": 1878.5,
+    "change_pct": 3.647,
+    "as_of": "2026-05-19"
   },
   "33910": {
-    "close": 2031.0,
-    "prev_close": 2106.5,
-    "change_pct": -3.584,
-    "as_of": "2026-05-18"
+    "close": 2091.0,
+    "prev_close": 2031.0,
+    "change_pct": 2.954,
+    "as_of": "2026-05-19"
   },
   "3402": {
-    "close": 1076.5,
-    "prev_close": 1150.0,
-    "change_pct": -6.391,
-    "as_of": "2026-05-18"
+    "close": 1082.0,
+    "prev_close": 1076.5,
+    "change_pct": 0.511,
+    "as_of": "2026-05-19"
   },
   "34020": {
-    "close": 1076.5,
-    "prev_close": 1150.0,
-    "change_pct": -6.391,
-    "as_of": "2026-05-18"
+    "close": 1082.0,
+    "prev_close": 1076.5,
+    "change_pct": 0.511,
+    "as_of": "2026-05-19"
   },
   "34360": {
-    "close": 2992.0,
-    "prev_close": 3090.0,
-    "change_pct": -3.172,
-    "as_of": "2026-05-18"
+    "close": 2960.0,
+    "prev_close": 2992.0,
+    "change_pct": -1.07,
+    "as_of": "2026-05-19"
   },
   "3635": {
-    "close": 1492.5,
-    "prev_close": 1518.0,
-    "change_pct": -1.68,
-    "as_of": "2026-05-18"
+    "close": 1553.5,
+    "prev_close": 1492.5,
+    "change_pct": 4.087,
+    "as_of": "2026-05-19"
   },
   "36350": {
-    "close": 1492.5,
-    "prev_close": 1518.0,
-    "change_pct": -1.68,
-    "as_of": "2026-05-18"
+    "close": 1553.5,
+    "prev_close": 1492.5,
+    "change_pct": 4.087,
+    "as_of": "2026-05-19"
   },
   "36590": {
-    "close": 2190.5,
-    "prev_close": 2243.0,
-    "change_pct": -2.341,
-    "as_of": "2026-05-18"
+    "close": 2291.5,
+    "prev_close": 2190.5,
+    "change_pct": 4.611,
+    "as_of": "2026-05-19"
   },
   "3660": {
-    "close": 388.0,
-    "prev_close": 392.0,
-    "change_pct": -1.02,
-    "as_of": "2026-05-18"
+    "close": 390.0,
+    "prev_close": 388.0,
+    "change_pct": 0.515,
+    "as_of": "2026-05-19"
   },
   "36600": {
-    "close": 388.0,
-    "prev_close": 392.0,
-    "change_pct": -1.02,
-    "as_of": "2026-05-18"
+    "close": 390.0,
+    "prev_close": 388.0,
+    "change_pct": 0.515,
+    "as_of": "2026-05-19"
   },
   "36680": {
-    "close": 377.0,
-    "prev_close": 381.0,
-    "change_pct": -1.05,
-    "as_of": "2026-05-18"
+    "close": 388.0,
+    "prev_close": 377.0,
+    "change_pct": 2.918,
+    "as_of": "2026-05-19"
   },
   "36810": {
-    "close": 21.0,
-    "prev_close": 24.0,
-    "change_pct": -12.5,
-    "as_of": "2026-05-18"
+    "close": 19.0,
+    "prev_close": 21.0,
+    "change_pct": -9.524,
+    "as_of": "2026-05-19"
   },
   "36870": {
-    "close": 1624.0,
-    "prev_close": 1554.0,
-    "change_pct": 4.505,
-    "as_of": "2026-05-18"
+    "close": 1565.0,
+    "prev_close": 1624.0,
+    "change_pct": -3.633,
+    "as_of": "2026-05-19"
   },
   "3697": {
-    "close": 643.3,
-    "prev_close": 628.8,
-    "change_pct": 2.306,
-    "as_of": "2026-05-18"
+    "close": 673.4,
+    "prev_close": 643.3,
+    "change_pct": 4.679,
+    "as_of": "2026-05-19"
   },
   "36970": {
-    "close": 643.3,
-    "prev_close": 628.8,
-    "change_pct": 2.306,
-    "as_of": "2026-05-18"
+    "close": 673.4,
+    "prev_close": 643.3,
+    "change_pct": 4.679,
+    "as_of": "2026-05-19"
   },
   "37740": {
-    "close": 3090.0,
-    "prev_close": 3035.0,
-    "change_pct": 1.812,
-    "as_of": "2026-05-18"
+    "close": 3133.0,
+    "prev_close": 3090.0,
+    "change_pct": 1.392,
+    "as_of": "2026-05-19"
   },
   "37760": {
-    "close": 246.0,
-    "prev_close": 250.0,
-    "change_pct": -1.6,
-    "as_of": "2026-05-18"
+    "close": 250.0,
+    "prev_close": 246.0,
+    "change_pct": 1.626,
+    "as_of": "2026-05-19"
   },
   "37780": {
-    "close": 3070.0,
-    "prev_close": 3060.0,
-    "change_pct": 0.327,
-    "as_of": "2026-05-18"
+    "close": 2929.0,
+    "prev_close": 3070.0,
+    "change_pct": -4.593,
+    "as_of": "2026-05-19"
   },
   "38250": {
-    "close": 202.0,
-    "prev_close": 208.0,
-    "change_pct": -2.885,
-    "as_of": "2026-05-18"
+    "close": 196.0,
+    "prev_close": 202.0,
+    "change_pct": -2.97,
+    "as_of": "2026-05-19"
   },
   "38530": {
-    "close": 1789.0,
-    "prev_close": 1524.0,
-    "change_pct": 17.388,
-    "as_of": "2026-05-18"
+    "close": 1787.0,
+    "prev_close": 1789.0,
+    "change_pct": -0.112,
+    "as_of": "2026-05-19"
   },
   "3861": {
-    "close": 810.0,
-    "prev_close": 857.0,
-    "change_pct": -5.484,
-    "as_of": "2026-05-18"
+    "close": 815.1,
+    "prev_close": 810.0,
+    "change_pct": 0.63,
+    "as_of": "2026-05-19"
   },
   "38610": {
-    "close": 810.0,
-    "prev_close": 857.0,
-    "change_pct": -5.484,
-    "as_of": "2026-05-18"
+    "close": 815.1,
+    "prev_close": 810.0,
+    "change_pct": 0.63,
+    "as_of": "2026-05-19"
   },
   "38630": {
-    "close": 1474.0,
-    "prev_close": 1450.0,
-    "change_pct": 1.655,
-    "as_of": "2026-05-18"
+    "close": 1437.0,
+    "prev_close": 1474.0,
+    "change_pct": -2.51,
+    "as_of": "2026-05-19"
   },
   "3905": {
-    "close": 2843.0,
-    "prev_close": 2343.0,
-    "change_pct": 21.34,
-    "as_of": "2026-05-18"
+    "close": 3345.0,
+    "prev_close": 2843.0,
+    "change_pct": 17.657,
+    "as_of": "2026-05-19"
   },
   "39050": {
-    "close": 2843.0,
-    "prev_close": 2343.0,
-    "change_pct": 21.34,
-    "as_of": "2026-05-18"
+    "close": 3345.0,
+    "prev_close": 2843.0,
+    "change_pct": 17.657,
+    "as_of": "2026-05-19"
   },
   "3923": {
-    "close": 832.4,
-    "prev_close": 810.0,
-    "change_pct": 2.765,
-    "as_of": "2026-05-18"
+    "close": 880.0,
+    "prev_close": 832.4,
+    "change_pct": 5.718,
+    "as_of": "2026-05-19"
   },
   "39230": {
-    "close": 832.4,
-    "prev_close": 810.0,
-    "change_pct": 2.765,
-    "as_of": "2026-05-18"
+    "close": 880.0,
+    "prev_close": 832.4,
+    "change_pct": 5.718,
+    "as_of": "2026-05-19"
   },
   "40050": {
-    "close": 603.8,
-    "prev_close": 623.6,
-    "change_pct": -3.175,
-    "as_of": "2026-05-18"
+    "close": 609.7,
+    "prev_close": 603.8,
+    "change_pct": 0.977,
+    "as_of": "2026-05-19"
   },
   "40220": {
-    "close": 2040.0,
-    "prev_close": 2048.0,
-    "change_pct": -0.391,
-    "as_of": "2026-05-18"
+    "close": 1944.0,
+    "prev_close": 2040.0,
+    "change_pct": -4.706,
+    "as_of": "2026-05-19"
   },
   "40430": {
-    "close": 4418.0,
-    "prev_close": 4645.0,
-    "change_pct": -4.887,
-    "as_of": "2026-05-18"
+    "close": 4337.0,
+    "prev_close": 4418.0,
+    "change_pct": -1.833,
+    "as_of": "2026-05-19"
   },
   "40460": {
-    "close": 1843.0,
-    "prev_close": 1831.0,
-    "change_pct": 0.655,
-    "as_of": "2026-05-18"
+    "close": 1838.0,
+    "prev_close": 1843.0,
+    "change_pct": -0.271,
+    "as_of": "2026-05-19"
   },
   "408A0": {
-    "close": 303.1,
-    "prev_close": 306.5,
-    "change_pct": -1.109,
-    "as_of": "2026-05-18"
+    "close": 294.6,
+    "prev_close": 303.1,
+    "change_pct": -2.804,
+    "as_of": "2026-05-19"
   },
   "40910": {
-    "close": 5994.0,
-    "prev_close": 6116.0,
-    "change_pct": -1.995,
-    "as_of": "2026-05-18"
+    "close": 5973.0,
+    "prev_close": 5994.0,
+    "change_pct": -0.35,
+    "as_of": "2026-05-19"
   },
   "41140": {
-    "close": 2036.5,
-    "prev_close": 2097.0,
-    "change_pct": -2.885,
-    "as_of": "2026-05-18"
+    "close": 2058.0,
+    "prev_close": 2036.5,
+    "change_pct": 1.056,
+    "as_of": "2026-05-19"
   },
   "41690": {
-    "close": 281.0,
-    "prev_close": 294.0,
-    "change_pct": -4.422,
-    "as_of": "2026-05-18"
+    "close": 273.0,
+    "prev_close": 281.0,
+    "change_pct": -2.847,
+    "as_of": "2026-05-19"
   },
   "4180": {
-    "close": 973.0,
-    "prev_close": 967.0,
-    "change_pct": 0.62,
-    "as_of": "2026-05-18"
+    "close": 1006.0,
+    "prev_close": 973.0,
+    "change_pct": 3.392,
+    "as_of": "2026-05-19"
   },
   "41800": {
-    "close": 973.0,
-    "prev_close": 967.0,
-    "change_pct": 0.62,
-    "as_of": "2026-05-18"
+    "close": 1006.0,
+    "prev_close": 973.0,
+    "change_pct": 3.392,
+    "as_of": "2026-05-19"
   },
   "41830": {
-    "close": 2090.0,
-    "prev_close": 2149.5,
-    "change_pct": -2.768,
-    "as_of": "2026-05-18"
+    "close": 2088.5,
+    "prev_close": 2090.0,
+    "change_pct": -0.072,
+    "as_of": "2026-05-19"
   },
   "42040": {
-    "close": 2317.5,
-    "prev_close": 2334.5,
-    "change_pct": -0.728,
-    "as_of": "2026-05-18"
+    "close": 2298.5,
+    "prev_close": 2317.5,
+    "change_pct": -0.82,
+    "as_of": "2026-05-19"
   },
   "42050": {
-    "close": 2167.0,
-    "prev_close": 2245.0,
-    "change_pct": -3.474,
-    "as_of": "2026-05-18"
+    "close": 2143.5,
+    "prev_close": 2167.0,
+    "change_pct": -1.084,
+    "as_of": "2026-05-19"
   },
   "42590": {
-    "close": 979.0,
-    "prev_close": 956.0,
-    "change_pct": 2.406,
-    "as_of": "2026-05-18"
+    "close": 1058.0,
+    "prev_close": 979.0,
+    "change_pct": 8.069,
+    "as_of": "2026-05-19"
   },
   "43070": {
-    "close": 4561.0,
-    "prev_close": 4332.0,
-    "change_pct": 5.286,
-    "as_of": "2026-05-18"
+    "close": 4800.0,
+    "prev_close": 4561.0,
+    "change_pct": 5.24,
+    "as_of": "2026-05-19"
   },
   "43240": {
-    "close": 3061.0,
-    "prev_close": 3035.0,
-    "change_pct": 0.857,
-    "as_of": "2026-05-18"
+    "close": 3188.0,
+    "prev_close": 3061.0,
+    "change_pct": 4.149,
+    "as_of": "2026-05-19"
   },
   "4344": {
-    "close": 129.0,
+    "close": 133.0,
     "prev_close": 129.0,
-    "change_pct": 0.0,
-    "as_of": "2026-05-18"
+    "change_pct": 3.101,
+    "as_of": "2026-05-19"
   },
   "43440": {
-    "close": 129.0,
+    "close": 133.0,
     "prev_close": 129.0,
-    "change_pct": 0.0,
-    "as_of": "2026-05-18"
+    "change_pct": 3.101,
+    "as_of": "2026-05-19"
   },
   "4369": {
-    "close": 3415.0,
-    "prev_close": 3430.0,
-    "change_pct": -0.437,
-    "as_of": "2026-05-18"
+    "close": 3330.0,
+    "prev_close": 3415.0,
+    "change_pct": -2.489,
+    "as_of": "2026-05-19"
   },
   "43690": {
-    "close": 3415.0,
-    "prev_close": 3430.0,
-    "change_pct": -0.437,
-    "as_of": "2026-05-18"
+    "close": 3330.0,
+    "prev_close": 3415.0,
+    "change_pct": -2.489,
+    "as_of": "2026-05-19"
   },
   "43850": {
-    "close": 4072.0,
-    "prev_close": 4173.0,
-    "change_pct": -2.42,
-    "as_of": "2026-05-18"
+    "close": 4209.0,
+    "prev_close": 4072.0,
+    "change_pct": 3.364,
+    "as_of": "2026-05-19"
   },
   "4419": {
-    "close": 1104.0,
-    "prev_close": 1142.0,
-    "change_pct": -3.327,
-    "as_of": "2026-05-18"
+    "close": 1205.0,
+    "prev_close": 1104.0,
+    "change_pct": 9.149,
+    "as_of": "2026-05-19"
   },
   "44190": {
-    "close": 1104.0,
-    "prev_close": 1142.0,
-    "change_pct": -3.327,
-    "as_of": "2026-05-18"
+    "close": 1205.0,
+    "prev_close": 1104.0,
+    "change_pct": 9.149,
+    "as_of": "2026-05-19"
   },
   "44430": {
-    "close": 1337.0,
-    "prev_close": 1308.0,
-    "change_pct": 2.217,
-    "as_of": "2026-05-18"
+    "close": 1405.0,
+    "prev_close": 1337.0,
+    "change_pct": 5.086,
+    "as_of": "2026-05-19"
   },
   "446A": {
-    "close": 1214.0,
-    "prev_close": 1130.0,
-    "change_pct": 7.434,
-    "as_of": "2026-05-18"
+    "close": 1201.0,
+    "prev_close": 1214.0,
+    "change_pct": -1.071,
+    "as_of": "2026-05-19"
   },
   "446A0": {
-    "close": 1214.0,
-    "prev_close": 1130.0,
-    "change_pct": 7.434,
-    "as_of": "2026-05-18"
+    "close": 1201.0,
+    "prev_close": 1214.0,
+    "change_pct": -1.071,
+    "as_of": "2026-05-19"
   },
   "45030": {
-    "close": 2300.0,
-    "prev_close": 2324.5,
-    "change_pct": -1.054,
-    "as_of": "2026-05-18"
+    "close": 2317.0,
+    "prev_close": 2300.0,
+    "change_pct": 0.739,
+    "as_of": "2026-05-19"
   },
   "45060": {
-    "close": 1620.0,
-    "prev_close": 1709.0,
-    "change_pct": -5.208,
-    "as_of": "2026-05-18"
+    "close": 1557.0,
+    "prev_close": 1620.0,
+    "change_pct": -3.889,
+    "as_of": "2026-05-19"
   },
   "45070": {
-    "close": 3049.0,
-    "prev_close": 3080.0,
-    "change_pct": -1.006,
-    "as_of": "2026-05-18"
+    "close": 3028.0,
+    "prev_close": 3049.0,
+    "change_pct": -0.689,
+    "as_of": "2026-05-19"
   },
   "45230": {
-    "close": 4429.0,
-    "prev_close": 4723.0,
-    "change_pct": -6.225,
-    "as_of": "2026-05-18"
+    "close": 4466.0,
+    "prev_close": 4429.0,
+    "change_pct": 0.835,
+    "as_of": "2026-05-19"
   },
   "45280": {
-    "close": 2441.5,
-    "prev_close": 2533.5,
-    "change_pct": -3.631,
-    "as_of": "2026-05-18"
+    "close": 2425.0,
+    "prev_close": 2441.5,
+    "change_pct": -0.676,
+    "as_of": "2026-05-19"
   },
   "45430": {
-    "close": 2279.0,
-    "prev_close": 1922.0,
-    "change_pct": 18.574,
-    "as_of": "2026-05-18"
+    "close": 2294.0,
+    "prev_close": 2279.0,
+    "change_pct": 0.658,
+    "as_of": "2026-05-19"
   },
   "45650": {
-    "close": 1120.0,
-    "prev_close": 1172.0,
-    "change_pct": -4.437,
-    "as_of": "2026-05-18"
+    "close": 1141.0,
+    "prev_close": 1120.0,
+    "change_pct": 1.875,
+    "as_of": "2026-05-19"
   },
   "45680": {
-    "close": 2620.5,
-    "prev_close": 2574.0,
-    "change_pct": 1.807,
-    "as_of": "2026-05-18"
+    "close": 2636.0,
+    "prev_close": 2620.5,
+    "change_pct": 0.591,
+    "as_of": "2026-05-19"
   },
   "45760": {
-    "close": 80.0,
-    "prev_close": 79.0,
-    "change_pct": 1.266,
-    "as_of": "2026-05-18"
+    "close": 82.0,
+    "prev_close": 80.0,
+    "change_pct": 2.5,
+    "as_of": "2026-05-19"
   },
   "4582": {
-    "close": 83.0,
-    "prev_close": 84.0,
-    "change_pct": -1.19,
-    "as_of": "2026-05-18"
+    "close": 81.0,
+    "prev_close": 83.0,
+    "change_pct": -2.41,
+    "as_of": "2026-05-19"
   },
   "45820": {
-    "close": 83.0,
-    "prev_close": 84.0,
-    "change_pct": -1.19,
-    "as_of": "2026-05-18"
+    "close": 81.0,
+    "prev_close": 83.0,
+    "change_pct": -2.41,
+    "as_of": "2026-05-19"
   },
   "45830": {
     "close": 90.0,
-    "prev_close": 92.0,
-    "change_pct": -2.174,
-    "as_of": "2026-05-18"
+    "prev_close": 90.0,
+    "change_pct": 0.0,
+    "as_of": "2026-05-19"
   },
   "45910": {
-    "close": 73.0,
-    "prev_close": 75.0,
-    "change_pct": -2.667,
-    "as_of": "2026-05-18"
+    "close": 76.0,
+    "prev_close": 73.0,
+    "change_pct": 4.11,
+    "as_of": "2026-05-19"
   },
   "45920": {
-    "close": 1692.0,
-    "prev_close": 1811.0,
-    "change_pct": -6.571,
-    "as_of": "2026-05-18"
+    "close": 1581.0,
+    "prev_close": 1692.0,
+    "change_pct": -6.56,
+    "as_of": "2026-05-19"
   },
   "45940": {
-    "close": 51.0,
-    "prev_close": 49.0,
-    "change_pct": 4.082,
-    "as_of": "2026-05-18"
+    "close": 53.0,
+    "prev_close": 51.0,
+    "change_pct": 3.922,
+    "as_of": "2026-05-19"
   },
   "45960": {
-    "close": 70.0,
-    "prev_close": 71.0,
-    "change_pct": -1.408,
-    "as_of": "2026-05-18"
+    "close": 71.0,
+    "prev_close": 70.0,
+    "change_pct": 1.429,
+    "as_of": "2026-05-19"
   },
   "464A0": {
-    "close": 3230.0,
-    "prev_close": 3300.0,
-    "change_pct": -2.121,
-    "as_of": "2026-05-18"
+    "close": 3565.0,
+    "prev_close": 3230.0,
+    "change_pct": 10.372,
+    "as_of": "2026-05-19"
   },
   "46610": {
-    "close": 2136.5,
-    "prev_close": 2161.0,
-    "change_pct": -1.134,
-    "as_of": "2026-05-18"
+    "close": 2218.5,
+    "prev_close": 2136.5,
+    "change_pct": 3.838,
+    "as_of": "2026-05-19"
   },
   "46660": {
-    "close": 1756.0,
-    "prev_close": 1792.0,
-    "change_pct": -2.009,
-    "as_of": "2026-05-18"
+    "close": 1773.0,
+    "prev_close": 1756.0,
+    "change_pct": 0.968,
+    "as_of": "2026-05-19"
   },
   "4680": {
-    "close": 854.8,
-    "prev_close": 826.4,
-    "change_pct": 3.437,
-    "as_of": "2026-05-18"
+    "close": 888.7,
+    "prev_close": 854.8,
+    "change_pct": 3.966,
+    "as_of": "2026-05-19"
   },
   "46800": {
-    "close": 854.8,
-    "prev_close": 826.4,
-    "change_pct": 3.437,
-    "as_of": "2026-05-18"
+    "close": 888.7,
+    "prev_close": 854.8,
+    "change_pct": 3.966,
+    "as_of": "2026-05-19"
   },
   "46810": {
-    "close": 1760.0,
-    "prev_close": 1727.5,
-    "change_pct": 1.881,
-    "as_of": "2026-05-18"
+    "close": 1772.0,
+    "prev_close": 1760.0,
+    "change_pct": 0.682,
+    "as_of": "2026-05-19"
   },
   "46840": {
-    "close": 4141.0,
-    "prev_close": 4032.0,
-    "change_pct": 2.703,
-    "as_of": "2026-05-18"
+    "close": 4266.0,
+    "prev_close": 4141.0,
+    "change_pct": 3.019,
+    "as_of": "2026-05-19"
   },
   "47040": {
-    "close": 5905.0,
-    "prev_close": 5537.0,
-    "change_pct": 6.646,
-    "as_of": "2026-05-18"
+    "close": 6113.0,
+    "prev_close": 5905.0,
+    "change_pct": 3.522,
+    "as_of": "2026-05-19"
   },
   "47550": {
-    "close": 763.7,
-    "prev_close": 778.3,
-    "change_pct": -1.876,
-    "as_of": "2026-05-18"
+    "close": 795.8,
+    "prev_close": 763.7,
+    "change_pct": 4.203,
+    "as_of": "2026-05-19"
   },
   "47840": {
-    "close": 609.0,
-    "prev_close": 629.0,
-    "change_pct": -3.18,
-    "as_of": "2026-05-18"
+    "close": 608.0,
+    "prev_close": 609.0,
+    "change_pct": -0.164,
+    "as_of": "2026-05-19"
   },
   "48830": {
-    "close": 64.0,
+    "close": 65.0,
     "prev_close": 64.0,
-    "change_pct": 0.0,
-    "as_of": "2026-05-18"
+    "change_pct": 1.562,
+    "as_of": "2026-05-19"
   },
   "48880": {
-    "close": 433.0,
-    "prev_close": 413.0,
-    "change_pct": 4.843,
-    "as_of": "2026-05-18"
+    "close": 432.0,
+    "prev_close": 433.0,
+    "change_pct": -0.231,
+    "as_of": "2026-05-19"
   },
   "49010": {
-    "close": 3148.0,
-    "prev_close": 3110.0,
-    "change_pct": 1.222,
-    "as_of": "2026-05-18"
+    "close": 3171.0,
+    "prev_close": 3148.0,
+    "change_pct": 0.731,
+    "as_of": "2026-05-19"
   },
   "49270": {
-    "close": 1270.5,
-    "prev_close": 1274.5,
-    "change_pct": -0.314,
-    "as_of": "2026-05-18"
+    "close": 1291.5,
+    "prev_close": 1270.5,
+    "change_pct": 1.653,
+    "as_of": "2026-05-19"
   },
   "49740": {
     "close": 1143.0,
     "prev_close": 1143.0,
     "change_pct": 0.0,
-    "as_of": "2026-05-18"
+    "as_of": "2026-05-19"
   },
   "49800": {
-    "close": 4187.0,
-    "prev_close": 3849.0,
-    "change_pct": 8.782,
-    "as_of": "2026-05-18"
+    "close": 3872.0,
+    "prev_close": 4187.0,
+    "change_pct": -7.523,
+    "as_of": "2026-05-19"
   },
   "50160": {
-    "close": 4050.0,
-    "prev_close": 4175.0,
-    "change_pct": -2.994,
-    "as_of": "2026-05-18"
+    "close": 3850.0,
+    "prev_close": 4050.0,
+    "change_pct": -4.938,
+    "as_of": "2026-05-19"
   },
   "50200": {
-    "close": 1358.0,
-    "prev_close": 1386.0,
-    "change_pct": -2.02,
-    "as_of": "2026-05-18"
+    "close": 1360.0,
+    "prev_close": 1358.0,
+    "change_pct": 0.147,
+    "as_of": "2026-05-19"
   },
   "_meta": {
-    "generated_at": "2026-05-19T10:30:39+09:00",
+    "generated_at": "2026-05-20T08:43:02+09:00",
     "source": "jquants_v2",
     "code_count": 170,
     "fetched": 170,
