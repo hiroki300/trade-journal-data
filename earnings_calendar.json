@@ -1,42 +1,11 @@
 {
   "schema_version": "1.1",
   "source": "estimated_from_summary",
-  "generated_at": "2026-05-18T06:00:15+09:00",
+  "generated_at": "2026-05-25T06:08:36+09:00",
   "date_range": {
-    "from": "2026-05-15",
-    "to": "2026-05-25"
+    "from": "2026-05-22",
+    "to": "2026-06-01"
   },
   "upcoming_7d": [],
-  "recent_3d": [
-    {
-      "code": "39050",
-      "name": "データセクション",
-      "rank": "A",
-      "vol_ratio": 2.0,
-      "disclosure_date": "2026-05-15",
-      "title": "通期決算短信",
-      "doc_type": "FYFinancialStatements_Consolidated_JP",
-      "days_ago": 3
-    },
-    {
-      "code": "38610",
-      "name": "王子ホールディングス",
-      "rank": "A",
-      "vol_ratio": 1.2,
-      "disclosure_date": "2026-05-15",
-      "title": "通期決算短信",
-      "doc_type": "FYFinancialStatements_Consolidated_JP",
-      "days_ago": 3
-    },
-    {
-      "code": "43440",
-      "name": "ソースネクスト",
-      "rank": "A",
-      "vol_ratio": 1.3,
-      "disclosure_date": "2026-05-15",
-      "title": "第1四半期決算短信",
-      "doc_type": "1QFinancialStatements_Consolidated_JP",
-      "days_ago": 3
-    }
-  ]
+  "recent_3d": []
 }
