@@ -1,12 +1,12 @@
 {
   "schema_version": "1.1",
   "source": "theme_keyword_matching",
-  "generated_at": "2026-05-25T06:09:39+09:00",
+  "generated_at": "2026-05-26T15:14:38+09:00",
   "frequency": "weekly",
   "execution_summary": {
     "total_themes_evaluated": 3,
     "top_n": 3,
-    "gemini_calls": 2
+    "gemini_calls": 3
   },
   "top_themes": [
     {
@@ -70,7 +70,7 @@
         }
       ],
       "rank": 1,
-      "news_summary": "サンバイオ（4592）は、5月20日に"
+      "news_summary": "サンバイオは5月21日、外傷性脳損傷に伴"
     },
     {
       "name": "半導体",
@@ -123,7 +123,7 @@
         }
       ],
       "rank": 2,
-      "news_summary": "米国半導体大手エヌビディアの2-4"
+      "news_summary": "直近の主立った材料として、Nvidiaが2026"
     },
     {
       "name": "AI",
@@ -156,7 +156,7 @@
         }
       ],
       "rank": 3,
-      "news_summary": ""
+      "news_summary": "直近の主立った材料なし。\n\n過去1週間で、"
     }
   ]
 }
