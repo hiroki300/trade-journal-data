@@ -971,18 +971,43 @@
     "change_pct": -20.37,
     "as_of": "2026-05-28"
   },
+  "48880": {
+    "close": 388.0,
+    "prev_close": 392.0,
+    "change_pct": -1.02,
+    "as_of": "2026-05-28"
+  },
+  "49010": {
+    "close": 3322.0,
+    "prev_close": 3224.0,
+    "change_pct": 3.04,
+    "as_of": "2026-05-28"
+  },
+  "4927": {
+    "close": 1275.0,
+    "prev_close": 1253.0,
+    "change_pct": 1.756,
+    "as_of": "2026-05-28"
+  },
+  "49270": {
+    "close": 1275.0,
+    "prev_close": 1253.0,
+    "change_pct": 1.756,
+    "as_of": "2026-05-28"
+  },
+  "49740": {
+    "close": 1143.0,
+    "prev_close": 1143.0,
+    "change_pct": 0.0,
+    "as_of": "2026-05-28"
+  },
   "_meta": {
-    "generated_at": "2026-05-29T08:54:40+09:00",
+    "generated_at": "2026-05-29T09:16:39+09:00",
     "source": "jquants_v2",
     "code_count": 170,
-    "fetched": 162,
-    "missing": 8,
+    "fetched": 167,
+    "missing": 3,
     "missing_codes": [
-      "48880",
-      "49010",
-      "4927",
-      "49270",
-      "49740",
       "49800",
       "50160",
       "50200"
