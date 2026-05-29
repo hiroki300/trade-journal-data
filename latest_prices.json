@@ -1001,16 +1001,30 @@
     "change_pct": 0.0,
     "as_of": "2026-05-28"
   },
+  "49800": {
+    "close": 4029.0,
+    "prev_close": 4052.0,
+    "change_pct": -0.568,
+    "as_of": "2026-05-28"
+  },
+  "50160": {
+    "close": 3900.0,
+    "prev_close": 4022.0,
+    "change_pct": -3.033,
+    "as_of": "2026-05-28"
+  },
+  "50200": {
+    "close": 1291.5,
+    "prev_close": 1296.0,
+    "change_pct": -0.347,
+    "as_of": "2026-05-28"
+  },
   "_meta": {
-    "generated_at": "2026-05-29T09:16:39+09:00",
+    "generated_at": "2026-05-29T10:33:24+09:00",
     "source": "jquants_v2",
     "code_count": 170,
-    "fetched": 167,
-    "missing": 3,
-    "missing_codes": [
-      "49800",
-      "50160",
-      "50200"
-    ]
+    "fetched": 170,
+    "missing": 0,
+    "missing_codes": []
   }
 }
