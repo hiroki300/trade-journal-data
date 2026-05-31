@@ -1,162 +1,76 @@
 {
   "schema_version": "1.1",
   "source": "theme_keyword_matching",
-  "generated_at": "2026-05-26T15:14:38+09:00",
+  "generated_at": "2026-06-01T06:15:01+09:00",
   "frequency": "weekly",
   "execution_summary": {
-    "total_themes_evaluated": 3,
-    "top_n": 3,
-    "gemini_calls": 3
+    "total_themes_evaluated": 1,
+    "top_n": 1,
+    "gemini_calls": 1
   },
   "top_themes": [
     {
       "name": "バイオ・創薬",
       "stock_count": 5,
-      "avg_vol_ratio": 1.06,
-      "g_mark_count": 3,
-      "c_mark_count": 4,
-      "signal_count_sum": 4,
-      "score": 5.36,
+      "avg_vol_ratio": 1.02,
+      "g_mark_count": 4,
+      "c_mark_count": 2,
+      "signal_count_sum": 2,
+      "score": 4.42,
       "top_stocks": [
+        {
+          "code": "49740",
+          "name": "タカラバイオ",
+          "rank": "C",
+          "vol_ratio": 1.3,
+          "price": 1142.0,
+          "g_mark": "×",
+          "c_mark": "×",
+          "signal_count": 1
+        },
         {
           "code": "45820",
           "name": "シンバイオ製薬",
-          "rank": "C",
-          "vol_ratio": 1.5,
-          "price": 83.0,
-          "g_mark": "×",
+          "rank": "A",
+          "vol_ratio": 1.3,
+          "price": 78.0,
+          "g_mark": "○",
           "c_mark": "◎",
-          "signal_count": 1
+          "signal_count": 0
         },
         {
           "code": "45830",
           "name": "カイオム・バイオサイエンス",
           "rank": "B",
-          "vol_ratio": 1.4,
-          "price": 97.0,
+          "vol_ratio": 1.2,
+          "price": 82.0,
           "g_mark": "○",
           "c_mark": "○",
+          "signal_count": 0
+        },
+        {
+          "code": "45940",
+          "name": "ブライトパス・バイオ",
+          "rank": "A",
+          "vol_ratio": 0.8,
+          "price": 52.0,
+          "g_mark": "○",
+          "c_mark": "◎",
           "signal_count": 0
         },
         {
           "code": "45920",
           "name": "サンバイオ",
           "rank": "B",
-          "vol_ratio": 1.0,
-          "price": 1530.0,
-          "g_mark": "○",
-          "c_mark": "○",
-          "signal_count": 1
-        },
-        {
-          "code": "49740",
-          "name": "タカラバイオ",
-          "rank": "B",
-          "vol_ratio": 0.9,
-          "price": 1143.0,
-          "g_mark": "○",
-          "c_mark": "○",
-          "signal_count": 1
-        },
-        {
-          "code": "45940",
-          "name": "ブライトパス・バイオ",
-          "rank": "C",
           "vol_ratio": 0.5,
-          "price": 52.0,
-          "g_mark": "×",
+          "price": 1428.0,
+          "g_mark": "○",
           "c_mark": "○",
           "signal_count": 1
         }
       ],
       "rank": 1,
-      "news_summary": "サンバイオは5月21日、外傷性脳損傷に伴"
-    },
-    {
-      "name": "半導体",
-      "stock_count": 4,
-      "avg_vol_ratio": 1.38,
-      "g_mark_count": 3,
-      "c_mark_count": 4,
-      "signal_count_sum": 1,
-      "score": 5.08,
-      "top_stocks": [
-        {
-          "code": "213A0",
-          "name": "アモーヴァ・アセットマネジメント株式会社　上場インデックスファンド日経半導体株",
-          "rank": "B",
-          "vol_ratio": 1.6,
-          "price": 408.0,
-          "g_mark": "○",
-          "c_mark": "○",
-          "signal_count": 0
-        },
-        {
-          "code": "200A0",
-          "name": "野村アセットマネジメント株式会社　ＮＥＸＴ　ＦＵＮＤＳ　日経半導体株指数連動型上場投信",
-          "rank": "C",
-          "vol_ratio": 1.6,
-          "price": 4410.0,
-          "g_mark": "×",
-          "c_mark": "○",
-          "signal_count": 0
-        },
-        {
-          "code": "26440",
-          "name": "Ｇｌｏｂａｌ　Ｘ　Ｊａｐａｎ株式会社　グローバルＸ　半導体関連−日本株式　ＥＴＦ",
-          "rank": "B",
-          "vol_ratio": 1.4,
-          "price": 3911.0,
-          "g_mark": "○",
-          "c_mark": "○",
-          "signal_count": 0
-        },
-        {
-          "code": "44190",
-          "name": "Ｆｉｎａｔｅｘｔホールディングス",
-          "rank": "B",
-          "vol_ratio": 0.9,
-          "price": 1173.0,
-          "g_mark": "○",
-          "c_mark": "○",
-          "signal_count": 1
-        }
-      ],
-      "rank": 2,
-      "news_summary": "直近の主立った材料として、Nvidiaが2026"
-    },
-    {
-      "name": "AI",
-      "stock_count": 2,
-      "avg_vol_ratio": 0.9,
-      "g_mark_count": 2,
-      "c_mark_count": 2,
-      "signal_count_sum": 1,
-      "score": 3.1,
-      "top_stocks": [
-        {
-          "code": "408A0",
-          "name": "ブラックロック・ジャパン株式会社　ｉシェアーズ　ＡＩ　グローバル・イノベーション　アクティブ　ＥＴＦ",
-          "rank": "B",
-          "vol_ratio": 0.9,
-          "price": 314.7,
-          "g_mark": "○",
-          "c_mark": "○",
-          "signal_count": 0
-        },
-        {
-          "code": "44190",
-          "name": "Ｆｉｎａｔｅｘｔホールディングス",
-          "rank": "B",
-          "vol_ratio": 0.9,
-          "price": 1173.0,
-          "g_mark": "○",
-          "c_mark": "○",
-          "signal_count": 1
-        }
-      ],
-      "rank": 3,
-      "news_summary": "直近の主立った材料なし。\n\n過去1週間で、"
+      "news_summary": "シンバイオ製薬（4582）は5月"
     }
   ]
 }
