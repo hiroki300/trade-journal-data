@@ -1,11 +1,32 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T15:14:13+09:00",
+  "generated_at": "2026-06-01T06:14:52+09:00",
   "execution_summary": {
-    "total_evaluated": 5,
-    "priority_count": 0,
+    "total_evaluated": 20,
+    "priority_count": 1,
     "attention_count": 0,
     "watch_count": 0
   },
-  "stocks": []
+  "stocks": [
+    {
+      "level": "priority",
+      "level_label": "🔥🔥🔥",
+      "code": "39230",
+      "name": "ラクス",
+      "rank": "B",
+      "tier": "S",
+      "gravity_score": 10.0,
+      "entry_quality": 75.0,
+      "extraction_status": "ok",
+      "extraction_source": "tdnet_pdf",
+      "price": 1006.5,
+      "stop_loss": 908.0,
+      "target": 1204.0,
+      "vol_ratio": 1.1,
+      "synthesis_notes": "IT人材事業譲渡でクラウド専業化する戦略転換期。特別利益16,685百万円計上で純利益89.6%増計画は短期的な株価材料として強い。6月に追加株主還元策の開示予定というカタリストが至近(proximity_score=4)で、総還元性向20%以上目標は日本市場で評価されやすい。重力スコア10.0は極めて良好で需給負荷も軽い。ただし履歴不足で言行一致は未検証。競争激化リスクはあるが短期回転では特別利益と還元策期待で十分機能する局面",
+      "warning_flag": false,
+      "warning_reason": null,
+      "skip_recommendation": false
+    }
+  ]
 }
