@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-04T04:55",
+  "generated_at": "2026-06-04T05:01",
   "universe_size": 150,
-  "candidate_count": 0,
+  "candidate_count": 1,
   "note": "候補(要人間深掘り・エッジ未検証)。閾値は井村流の素直な既定値で固定(チューニング禁止)。",
   "diagnostics": {
     "n": 150,
-    "passed": 0,
+    "passed": 1,
     "raw_field_populated": {
       "price": 150,
       "vol_avg20": 68,
@@ -17,17 +17,35 @@
     },
     "metric_populated": {
       "per": 117,
-      "roe_pct": 31,
+      "roe_pct": 148,
       "peg": 70,
       "growth_yoy_pct": 143,
       "adv_jpy": 68
     },
     "fail_reason_counts": {
-      "roe_ge_min": 144,
       "growth_gt_per": 137,
+      "roe_ge_min": 121,
       "peg_le_max": 104,
       "liquidity": 83
     }
   },
-  "candidates": []
+  "candidates": [
+    {
+      "code": "45060",
+      "name": "住友ファーマ",
+      "passed": true,
+      "metrics": {
+        "per": 9.39,
+        "roe_pct": 36.5,
+        "peg": 0.03,
+        "growth_yoy_pct": 13.7,
+        "eps_growth_yoy_pct": 352.2,
+        "adv_jpy": 14815555500,
+        "upward_revision": false
+      },
+      "flags": [],
+      "fail_reasons": [],
+      "label": "候補(要人間深掘り・エッジ未検証)"
+    }
+  ]
 }
