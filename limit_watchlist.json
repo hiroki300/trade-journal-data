@@ -93,7 +93,7 @@
         "price": 1255.0,
         "discount_pct": 2.6,
         "tag": "🎯本命",
-        "notified": false
+        "notified": true
       },
       {
         "price": 1282.0,
@@ -678,7 +678,7 @@
         "price": 936.0,
         "discount_pct": 12.3,
         "tag": "💎絶好",
-        "notified": false
+        "notified": true
       },
       {
         "price": 1002.0,
