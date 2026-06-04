@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-06-04T04:48",
+  "generated_at": "2026-06-04T04:55",
   "universe_size": 150,
   "candidate_count": 0,
   "note": "候補(要人間深掘り・エッジ未検証)。閾値は井村流の素直な既定値で固定(チューニング禁止)。",
+  "diagnostics": {
+    "n": 150,
+    "passed": 0,
+    "raw_field_populated": {
+      "price": 150,
+      "vol_avg20": 68,
+      "sales_yoy_pct": 143,
+      "eps_yoy_pct": 145,
+      "fc_eps": 123,
+      "fc_np": 32,
+      "equity": 149
+    },
+    "metric_populated": {
+      "per": 117,
+      "roe_pct": 31,
+      "peg": 70,
+      "growth_yoy_pct": 143,
+      "adv_jpy": 68
+    },
+    "fail_reason_counts": {
+      "roe_ge_min": 144,
+      "growth_gt_per": 137,
+      "peg_le_max": 104,
+      "liquidity": 83
+    }
+  },
   "candidates": []
 }
