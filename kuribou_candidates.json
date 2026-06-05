@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T07:10",
+  "generated_at": "2026-06-05T22:35",
   "universe_mode": "broad",
   "universe_size": 800,
   "candidate_count": 32,
@@ -20,14 +20,14 @@
     "metric_populated": {
       "per": 704,
       "roe_pct": 793,
-      "peg": 454,
+      "peg": 451,
       "growth_yoy_pct": 785,
       "adv_jpy": 800
     },
     "fail_reason_counts": {
       "growth_gt_per": 688,
       "roe_ge_min": 644,
-      "peg_le_max": 497
+      "peg_le_max": 499
     }
   },
   "candidates": [
@@ -35,6 +35,7 @@
       "code": "45060",
       "name": "住友ファーマ",
       "passed": true,
+      "price": 1437.0,
       "metrics": {
         "per": 8.31,
         "roe_pct": 36.5,
@@ -53,6 +54,7 @@
       "code": "68620",
       "name": "ミナトホールディングス",
       "passed": true,
+      "price": 2269.0,
       "metrics": {
         "per": 7.85,
         "roe_pct": 26.1,
@@ -73,6 +75,7 @@
       "code": "98800",
       "name": "イノテック",
       "passed": true,
+      "price": 4480.0,
       "metrics": {
         "per": 11.25,
         "roe_pct": 15.2,
@@ -93,6 +96,7 @@
       "code": "31860",
       "name": "ネクステージ",
       "passed": true,
+      "price": 3750.0,
       "metrics": {
         "per": 19.57,
         "roe_pct": 18.8,
@@ -113,6 +117,7 @@
       "code": "27370",
       "name": "トーメンデバイス",
       "passed": true,
+      "price": 14680.0,
       "metrics": {
         "per": 9.08,
         "roe_pct": 16.9,
@@ -133,6 +138,7 @@
       "code": "78260",
       "name": "フルヤ金属",
       "passed": true,
+      "price": 8820.0,
       "metrics": {
         "per": 14.46,
         "roe_pct": 20.3,
@@ -153,6 +159,7 @@
       "code": "81540",
       "name": "加賀電子",
       "passed": true,
+      "price": 4980.0,
       "metrics": {
         "per": 11.87,
         "roe_pct": 16.9,
@@ -173,6 +180,7 @@
       "code": "62690",
       "name": "三井海洋開発",
       "passed": true,
+      "price": 10435.0,
       "metrics": {
         "per": 12.31,
         "roe_pct": 23.4,
@@ -193,6 +201,7 @@
       "code": "49710",
       "name": "メック",
       "passed": true,
+      "price": 10440.0,
       "metrics": {
         "per": 34.35,
         "roe_pct": 17.5,
@@ -213,6 +222,7 @@
       "code": "71720",
       "name": "ジャパンインベストメントアドバイザー",
       "passed": true,
+      "price": 2037.0,
       "metrics": {
         "per": 9.49,
         "roe_pct": 15.5,
@@ -233,6 +243,7 @@
       "code": "69460",
       "name": "日本アビオニクス",
       "passed": true,
+      "price": 6010.0,
       "metrics": {
         "per": 21.16,
         "roe_pct": 23.7,
@@ -253,6 +264,7 @@
       "code": "62270",
       "name": "ＡＩメカテック",
       "passed": true,
+      "price": 7440.0,
       "metrics": {
         "per": 45.39,
         "roe_pct": 22.7,
@@ -273,6 +285,7 @@
       "code": "68340",
       "name": "精工技研",
       "passed": true,
+      "price": 28560.0,
       "metrics": {
         "per": 39.89,
         "roe_pct": 18.2,
@@ -293,6 +306,7 @@
       "code": "63310",
       "name": "三菱化工機",
       "passed": true,
+      "price": 3610.0,
       "metrics": {
         "per": 12.0,
         "roe_pct": 16.8,
@@ -313,6 +327,7 @@
       "code": "77770",
       "name": "スリー・ディー・マトリックス",
       "passed": true,
+      "price": 446.0,
       "metrics": {
         "per": 54.19,
         "roe_pct": 19.7,
@@ -333,6 +348,7 @@
       "code": "58380",
       "name": "楽天銀行",
       "passed": true,
+      "price": 4950.0,
       "metrics": {
         "per": 10.62,
         "roe_pct": 18.8,
@@ -353,6 +369,7 @@
       "code": "68570",
       "name": "アドバンテスト",
       "passed": true,
+      "price": 26765.0,
       "metrics": {
         "per": 41.72,
         "roe_pct": 47.2,
@@ -373,6 +390,7 @@
       "code": "61010",
       "name": "ツガミ",
       "passed": true,
+      "price": 6560.0,
       "metrics": {
         "per": 17.72,
         "roe_pct": 15.7,
@@ -393,6 +411,7 @@
       "code": "31070",
       "name": "ダイワボウホールディングス",
       "passed": true,
+      "price": 3513.0,
       "metrics": {
         "per": 12.07,
         "roe_pct": 18.9,
@@ -411,6 +430,7 @@
       "code": "27670",
       "name": "円谷フィールズホールディングス",
       "passed": true,
+      "price": 1378.0,
       "metrics": {
         "per": 6.35,
         "roe_pct": 19.7,
@@ -431,6 +451,7 @@
       "code": "78060",
       "name": "ＭＴＧ",
       "passed": true,
+      "price": 6800.0,
       "metrics": {
         "per": 26.74,
         "roe_pct": 17.1,
@@ -451,6 +472,7 @@
       "code": "71990",
       "name": "プレミアグループ",
       "passed": true,
+      "price": 1950.0,
       "metrics": {
         "per": 10.91,
         "roe_pct": 24.0,
@@ -471,6 +493,7 @@
       "code": "36920",
       "name": "ＦＦＲＩセキュリティ",
       "passed": true,
+      "price": 4975.0,
       "metrics": {
         "per": 34.73,
         "roe_pct": 29.1,
@@ -491,6 +514,7 @@
       "code": "79360",
       "name": "アシックス",
       "passed": true,
+      "price": 4424.0,
       "metrics": {
         "per": 28.74,
         "roe_pct": 34.6,
@@ -511,6 +535,7 @@
       "code": "95520",
       "name": "クオンツ総研ホールディングス",
       "passed": true,
+      "price": 1181.0,
       "metrics": {
         "per": 18.75,
         "roe_pct": 50.3,
@@ -529,6 +554,7 @@
       "code": "47760",
       "name": "サイボウズ",
       "passed": true,
+      "price": 2462.0,
       "metrics": {
         "per": 15.29,
         "roe_pct": 42.3,
@@ -549,6 +575,7 @@
       "code": "62640",
       "name": "マルマエ",
       "passed": true,
+      "price": 2100.0,
       "metrics": {
         "per": 19.71,
         "roe_pct": 28.1,
@@ -569,6 +596,7 @@
       "code": "81360",
       "name": "サンリオ",
       "passed": true,
+      "price": 905.0,
       "metrics": {
         "per": 20.96,
         "roe_pct": 37.7,
@@ -589,6 +617,7 @@
       "code": "87250",
       "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス",
       "passed": true,
+      "price": 4325.0,
       "metrics": {
         "per": 14.77,
         "roe_pct": 16.3,
@@ -607,6 +636,7 @@
       "code": "65320",
       "name": "ベイカレント",
       "passed": true,
+      "price": 5971.0,
       "metrics": {
         "per": 18.44,
         "roe_pct": 32.3,
@@ -627,6 +657,7 @@
       "code": "41940",
       "name": "ビジョナル",
       "passed": true,
+      "price": 7949.0,
       "metrics": {
         "per": 19.82,
         "roe_pct": 20.8,
@@ -647,6 +678,7 @@
       "code": "76850",
       "name": "ＢｕｙＳｅｌｌ　Ｔｅｃｈｎｏｌｏｇｉｅｓ",
       "passed": true,
+      "price": 3740.0,
       "metrics": {
         "per": 24.55,
         "roe_pct": 38.9,
