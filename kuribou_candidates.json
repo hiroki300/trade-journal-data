@@ -1,32 +1,33 @@
 {
-  "generated_at": "2026-06-05T01:39",
+  "generated_at": "2026-06-05T07:10",
   "universe_mode": "broad",
-  "universe_size": 792,
+  "universe_size": 800,
   "candidate_count": 32,
-  "note": "候補(要人間深掘り・エッジ未検証)。閾値は井村流の素直な既定値で固定(チューニング禁止)。",
+  "split_adjusted_count": 1,
+  "note": "候補(要人間深掘り・エッジ未検証)。閾値は井村流の素直な既定値で固定(チューニング禁止)。PER/PEG は株式分割で真値補正済(split_factor)。",
   "diagnostics": {
-    "n": 792,
+    "n": 800,
     "passed": 32,
     "raw_field_populated": {
-      "price": 792,
-      "vol_avg20": 792,
-      "sales_yoy_pct": 778,
-      "eps_yoy_pct": 782,
-      "fc_eps": 708,
-      "fc_np": 146,
-      "equity": 787
+      "price": 800,
+      "vol_avg20": 800,
+      "sales_yoy_pct": 785,
+      "eps_yoy_pct": 789,
+      "fc_eps": 716,
+      "fc_np": 149,
+      "equity": 795
     },
     "metric_populated": {
-      "per": 697,
-      "roe_pct": 785,
-      "peg": 450,
-      "growth_yoy_pct": 778,
-      "adv_jpy": 792
+      "per": 704,
+      "roe_pct": 793,
+      "peg": 454,
+      "growth_yoy_pct": 785,
+      "adv_jpy": 800
     },
     "fail_reason_counts": {
-      "growth_gt_per": 680,
-      "roe_ge_min": 637,
-      "peg_le_max": 490
+      "growth_gt_per": 688,
+      "roe_ge_min": 644,
+      "peg_le_max": 497
     }
   },
   "candidates": [
@@ -35,16 +36,17 @@
       "name": "住友ファーマ",
       "passed": true,
       "metrics": {
-        "per": 8.18,
+        "per": 8.31,
         "roe_pct": 36.5,
         "peg": 0.02,
         "growth_yoy_pct": 13.7,
         "eps_growth_yoy_pct": 352.2,
-        "adv_jpy": 10796662081,
+        "adv_jpy": 10721780325,
         "upward_revision": false
       },
       "flags": [],
       "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -52,18 +54,39 @@
       "name": "ミナトホールディングス",
       "passed": true,
       "metrics": {
-        "per": 7.39,
+        "per": 7.85,
         "roe_pct": 26.1,
         "peg": 0.02,
         "growth_yoy_pct": 49.0,
         "eps_growth_yoy_pct": 462.4,
-        "adv_jpy": 1416538340,
+        "adv_jpy": 1461201965,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
+      "label": "候補(要人間深掘り・エッジ未検証)"
+    },
+    {
+      "code": "98800",
+      "name": "イノテック",
+      "passed": true,
+      "metrics": {
+        "per": 11.25,
+        "roe_pct": 15.2,
+        "peg": 0.04,
+        "growth_yoy_pct": 11.3,
+        "eps_growth_yoy_pct": 257.6,
+        "adv_jpy": 1504899200,
+        "upward_revision": true
+      },
+      "flags": [
+        "上方修正"
+      ],
+      "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -71,18 +94,19 @@
       "name": "ネクステージ",
       "passed": true,
       "metrics": {
-        "per": 19.42,
+        "per": 19.57,
         "roe_pct": 18.8,
         "peg": 0.07,
         "growth_yoy_pct": 25.0,
         "eps_growth_yoy_pct": 262.2,
-        "adv_jpy": 1297026360,
+        "adv_jpy": 1310887500,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -90,37 +114,19 @@
       "name": "トーメンデバイス",
       "passed": true,
       "metrics": {
-        "per": 8.82,
+        "per": 9.08,
         "roe_pct": 16.9,
         "peg": 0.11,
         "growth_yoy_pct": 50.3,
         "eps_growth_yoy_pct": 79.2,
-        "adv_jpy": 1243744660,
+        "adv_jpy": 1268278600,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "62690",
-      "name": "三井海洋開発",
-      "passed": true,
-      "metrics": {
-        "per": 11.61,
-        "roe_pct": 23.4,
-        "peg": 0.13,
-        "growth_yoy_pct": 31.9,
-        "eps_growth_yoy_pct": 90.5,
-        "adv_jpy": 10200507603,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
-      "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -128,18 +134,19 @@
       "name": "フルヤ金属",
       "passed": true,
       "metrics": {
-        "per": 14.71,
+        "per": 14.46,
         "roe_pct": 20.3,
         "peg": 0.13,
         "growth_yoy_pct": 83.1,
         "eps_growth_yoy_pct": 114.2,
-        "adv_jpy": 7189266630,
+        "adv_jpy": 6900591600,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -152,13 +159,34 @@
         "peg": 0.13,
         "growth_yoy_pct": 20.3,
         "eps_growth_yoy_pct": 93.1,
-        "adv_jpy": 1276060260,
+        "adv_jpy": 1294501200,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
+      "label": "候補(要人間深掘り・エッジ未検証)"
+    },
+    {
+      "code": "62690",
+      "name": "三井海洋開発",
+      "passed": true,
+      "metrics": {
+        "per": 12.31,
+        "roe_pct": 23.4,
+        "peg": 0.14,
+        "growth_yoy_pct": 31.9,
+        "eps_growth_yoy_pct": 90.5,
+        "adv_jpy": 10686640025,
+        "upward_revision": true
+      },
+      "flags": [
+        "上方修正"
+      ],
+      "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -166,56 +194,39 @@
       "name": "メック",
       "passed": true,
       "metrics": {
-        "per": 34.78,
+        "per": 34.35,
         "roe_pct": 17.5,
         "peg": 0.15,
         "growth_yoy_pct": 38.5,
         "eps_growth_yoy_pct": 229.0,
-        "adv_jpy": 4299432060,
+        "adv_jpy": 4154545800,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
-      "code": "81360",
-      "name": "サンリオ",
+      "code": "71720",
+      "name": "ジャパンインベストメントアドバイザー",
       "passed": true,
       "metrics": {
-        "per": 4.27,
-        "roe_pct": 37.7,
-        "peg": 0.16,
-        "growth_yoy_pct": 36.7,
-        "eps_growth_yoy_pct": 27.0,
-        "adv_jpy": 21688808367,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
-      "fail_reasons": [],
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "62270",
-      "name": "ＡＩメカテック",
-      "passed": true,
-      "metrics": {
-        "per": 39.59,
-        "roe_pct": 22.7,
+        "per": 9.49,
+        "roe_pct": 15.5,
         "peg": 0.18,
-        "growth_yoy_pct": 134.4,
-        "eps_growth_yoy_pct": 220.4,
-        "adv_jpy": 8696158680,
+        "growth_yoy_pct": 24.8,
+        "eps_growth_yoy_pct": 53.0,
+        "adv_jpy": 695360505,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -223,56 +234,39 @@
       "name": "日本アビオニクス",
       "passed": true,
       "metrics": {
-        "per": 19.86,
+        "per": 21.16,
         "roe_pct": 23.7,
-        "peg": 0.19,
+        "peg": 0.2,
         "growth_yoy_pct": 45.1,
         "eps_growth_yoy_pct": 103.9,
-        "adv_jpy": 1718891520,
+        "adv_jpy": 1850418900,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
-      "code": "77770",
-      "name": "スリー・ディー・マトリックス",
+      "code": "62270",
+      "name": "ＡＩメカテック",
       "passed": true,
       "metrics": {
-        "per": 47.14,
-        "roe_pct": 19.7,
-        "peg": 0.2,
-        "growth_yoy_pct": 91.8,
-        "eps_growth_yoy_pct": 238.7,
-        "adv_jpy": 1019978668,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
-      "fail_reasons": [],
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "63310",
-      "name": "三菱化工機",
-      "passed": true,
-      "metrics": {
-        "per": 11.5,
-        "roe_pct": 16.8,
+        "per": 45.39,
+        "roe_pct": 22.7,
         "peg": 0.21,
-        "growth_yoy_pct": 42.3,
-        "eps_growth_yoy_pct": 55.0,
-        "adv_jpy": 1200637300,
+        "growth_yoy_pct": 134.4,
+        "eps_growth_yoy_pct": 220.4,
+        "adv_jpy": 10373182800,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -280,18 +274,59 @@
       "name": "精工技研",
       "passed": true,
       "metrics": {
-        "per": 40.72,
+        "per": 39.89,
         "roe_pct": 18.2,
         "peg": 0.22,
         "growth_yoy_pct": 50.6,
         "eps_growth_yoy_pct": 183.5,
-        "adv_jpy": 10320470050,
+        "adv_jpy": 9847773600,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
+      "label": "候補(要人間深掘り・エッジ未検証)"
+    },
+    {
+      "code": "63310",
+      "name": "三菱化工機",
+      "passed": true,
+      "metrics": {
+        "per": 12.0,
+        "roe_pct": 16.8,
+        "peg": 0.22,
+        "growth_yoy_pct": 42.3,
+        "eps_growth_yoy_pct": 55.0,
+        "adv_jpy": 1249583450,
+        "upward_revision": true
+      },
+      "flags": [
+        "上方修正"
+      ],
+      "fail_reasons": [],
+      "split_factor": 1.0,
+      "label": "候補(要人間深掘り・エッジ未検証)"
+    },
+    {
+      "code": "77770",
+      "name": "スリー・ディー・マトリックス",
+      "passed": true,
+      "metrics": {
+        "per": 54.19,
+        "roe_pct": 19.7,
+        "peg": 0.23,
+        "growth_yoy_pct": 91.8,
+        "eps_growth_yoy_pct": 238.7,
+        "adv_jpy": 1444654210,
+        "upward_revision": true
+      },
+      "flags": [
+        "上方修正"
+      ],
+      "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -299,37 +334,19 @@
       "name": "楽天銀行",
       "passed": true,
       "metrics": {
-        "per": 10.63,
+        "per": 10.62,
         "roe_pct": 18.8,
         "peg": 0.24,
         "growth_yoy_pct": 38.5,
         "eps_growth_yoy_pct": 43.9,
-        "adv_jpy": 16272140720,
+        "adv_jpy": 15917269500,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "61010",
-      "name": "ツガミ",
-      "passed": true,
-      "metrics": {
-        "per": 17.07,
-        "roe_pct": 15.7,
-        "peg": 0.3,
-        "growth_yoy_pct": 20.2,
-        "eps_growth_yoy_pct": 56.0,
-        "adv_jpy": 3226461120,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
-      "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -337,18 +354,39 @@
       "name": "アドバンテスト",
       "passed": true,
       "metrics": {
-        "per": 43.91,
+        "per": 41.72,
         "roe_pct": 47.2,
-        "peg": 0.32,
+        "peg": 0.31,
         "growth_yoy_pct": 44.7,
         "eps_growth_yoy_pct": 135.6,
-        "adv_jpy": 238816949850,
+        "adv_jpy": 225139150500,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
+      "label": "候補(要人間深掘り・エッジ未検証)"
+    },
+    {
+      "code": "61010",
+      "name": "ツガミ",
+      "passed": true,
+      "metrics": {
+        "per": 17.72,
+        "roe_pct": 15.7,
+        "peg": 0.32,
+        "growth_yoy_pct": 20.2,
+        "eps_growth_yoy_pct": 56.0,
+        "adv_jpy": 3299516000,
+        "upward_revision": true
+      },
+      "flags": [
+        "上方修正"
+      ],
+      "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -356,16 +394,17 @@
       "name": "ダイワボウホールディングス",
       "passed": true,
       "metrics": {
-        "per": 12.01,
+        "per": 12.07,
         "roe_pct": 18.9,
         "peg": 0.36,
         "growth_yoy_pct": 18.8,
         "eps_growth_yoy_pct": 33.4,
-        "adv_jpy": 1132531426,
+        "adv_jpy": 1115289675,
         "upward_revision": false
       },
       "flags": [],
       "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -373,37 +412,19 @@
       "name": "円谷フィールズホールディングス",
       "passed": true,
       "metrics": {
-        "per": 6.25,
+        "per": 6.35,
         "roe_pct": 19.7,
-        "peg": 0.36,
+        "peg": 0.37,
         "growth_yoy_pct": 23.9,
         "eps_growth_yoy_pct": 17.3,
-        "adv_jpy": 743018315,
+        "adv_jpy": 743368990,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "71990",
-      "name": "プレミアグループ",
-      "passed": true,
-      "metrics": {
-        "per": 10.52,
-        "roe_pct": 24.0,
-        "peg": 0.37,
-        "growth_yoy_pct": 21.0,
-        "eps_growth_yoy_pct": 28.2,
-        "adv_jpy": 1051518501,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
-      "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -411,54 +432,39 @@
       "name": "ＭＴＧ",
       "passed": true,
       "metrics": {
-        "per": 26.35,
+        "per": 26.74,
         "roe_pct": 17.1,
-        "peg": 0.38,
+        "peg": 0.39,
         "growth_yoy_pct": 42.5,
         "eps_growth_yoy_pct": 68.5,
-        "adv_jpy": 1384782800,
+        "adv_jpy": 1368636000,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
-      "code": "95520",
-      "name": "クオンツ総研ホールディングス",
+      "code": "71990",
+      "name": "プレミアグループ",
       "passed": true,
       "metrics": {
-        "per": 17.62,
-        "roe_pct": 50.3,
-        "peg": 0.56,
-        "growth_yoy_pct": 34.4,
-        "eps_growth_yoy_pct": 31.5,
-        "adv_jpy": 937079760,
-        "upward_revision": false
-      },
-      "flags": [],
-      "fail_reasons": [],
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "79360",
-      "name": "アシックス",
-      "passed": true,
-      "metrics": {
-        "per": 28.35,
-        "roe_pct": 34.6,
-        "peg": 0.58,
-        "growth_yoy_pct": 29.7,
-        "eps_growth_yoy_pct": 48.5,
-        "adv_jpy": 19919456180,
+        "per": 10.91,
+        "roe_pct": 24.0,
+        "peg": 0.39,
+        "growth_yoy_pct": 21.0,
+        "eps_growth_yoy_pct": 28.2,
+        "adv_jpy": 1066357500,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -466,18 +472,57 @@
       "name": "ＦＦＲＩセキュリティ",
       "passed": true,
       "metrics": {
-        "per": 35.11,
+        "per": 34.73,
         "roe_pct": 29.1,
         "peg": 0.58,
         "growth_yoy_pct": 43.1,
         "eps_growth_yoy_pct": 60.1,
-        "adv_jpy": 987786370,
+        "adv_jpy": 961344125,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
+      "label": "候補(要人間深掘り・エッジ未検証)"
+    },
+    {
+      "code": "79360",
+      "name": "アシックス",
+      "passed": true,
+      "metrics": {
+        "per": 28.74,
+        "roe_pct": 34.6,
+        "peg": 0.59,
+        "growth_yoy_pct": 29.7,
+        "eps_growth_yoy_pct": 48.5,
+        "adv_jpy": 19740750680,
+        "upward_revision": true
+      },
+      "flags": [
+        "上方修正"
+      ],
+      "fail_reasons": [],
+      "split_factor": 1.0,
+      "label": "候補(要人間深掘り・エッジ未検証)"
+    },
+    {
+      "code": "95520",
+      "name": "クオンツ総研ホールディングス",
+      "passed": true,
+      "metrics": {
+        "per": 18.75,
+        "roe_pct": 50.3,
+        "peg": 0.6,
+        "growth_yoy_pct": 34.4,
+        "eps_growth_yoy_pct": 31.5,
+        "adv_jpy": 1006028945,
+        "upward_revision": false
+      },
+      "flags": [],
+      "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -485,18 +530,19 @@
       "name": "サイボウズ",
       "passed": true,
       "metrics": {
-        "per": 14.91,
+        "per": 15.29,
         "roe_pct": 42.3,
-        "peg": 0.69,
+        "peg": 0.71,
         "growth_yoy_pct": 17.0,
         "eps_growth_yoy_pct": 21.5,
-        "adv_jpy": 1580980800,
+        "adv_jpy": 1590538170,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -504,18 +550,39 @@
       "name": "マルマエ",
       "passed": true,
       "metrics": {
-        "per": 19.86,
+        "per": 19.71,
         "roe_pct": 28.1,
         "peg": 0.77,
         "growth_yoy_pct": 122.7,
         "eps_growth_yoy_pct": 25.7,
-        "adv_jpy": 2651536324,
+        "adv_jpy": 2534710500,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
+      "label": "候補(要人間深掘り・エッジ未検証)"
+    },
+    {
+      "code": "81360",
+      "name": "サンリオ",
+      "passed": true,
+      "metrics": {
+        "per": 20.96,
+        "roe_pct": 37.7,
+        "peg": 0.78,
+        "growth_yoy_pct": 36.7,
+        "eps_growth_yoy_pct": 27.0,
+        "adv_jpy": 20814027125,
+        "upward_revision": true
+      },
+      "flags": [
+        "上方修正"
+      ],
+      "fail_reasons": [],
+      "split_factor": 5.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -523,16 +590,17 @@
       "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス",
       "passed": true,
       "metrics": {
-        "per": 14.5,
+        "per": 14.77,
         "roe_pct": 16.3,
-        "peg": 0.78,
+        "peg": 0.79,
         "growth_yoy_pct": 14.9,
         "eps_growth_yoy_pct": 18.7,
-        "adv_jpy": 22606623861,
+        "adv_jpy": 22465304250,
         "upward_revision": false
       },
       "flags": [],
       "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -540,18 +608,19 @@
       "name": "ベイカレント",
       "passed": true,
       "metrics": {
-        "per": 18.09,
+        "per": 18.44,
         "roe_pct": 32.3,
-        "peg": 0.78,
+        "peg": 0.79,
         "growth_yoy_pct": 27.8,
         "eps_growth_yoy_pct": 23.2,
-        "adv_jpy": 9399963727,
+        "adv_jpy": 9415401205,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -559,37 +628,19 @@
       "name": "ビジョナル",
       "passed": true,
       "metrics": {
-        "per": 19.55,
+        "per": 19.82,
         "roe_pct": 20.8,
-        "peg": 0.85,
+        "peg": 0.86,
         "growth_yoy_pct": 26.2,
         "eps_growth_yoy_pct": 23.1,
-        "adv_jpy": 2183048118,
+        "adv_jpy": 2211690015,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "79720",
-      "name": "イトーキ",
-      "passed": true,
-      "metrics": {
-        "per": 10.45,
-        "roe_pct": 18.9,
-        "peg": 0.86,
-        "growth_yoy_pct": 10.5,
-        "eps_growth_yoy_pct": 12.2,
-        "adv_jpy": 744076841,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
-      "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
@@ -597,37 +648,19 @@
       "name": "ＢｕｙＳｅｌｌ　Ｔｅｃｈｎｏｌｏｇｉｅｓ",
       "passed": true,
       "metrics": {
-        "per": 24.22,
+        "per": 24.55,
         "roe_pct": 38.9,
-        "peg": 0.91,
+        "peg": 0.93,
         "growth_yoy_pct": 37.0,
         "eps_growth_yoy_pct": 26.5,
-        "adv_jpy": 1648459530,
+        "adv_jpy": 1619363900,
         "upward_revision": true
       },
       "flags": [
         "上方修正"
       ],
       "fail_reasons": [],
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "79060",
-      "name": "ヨネックス",
-      "passed": true,
-      "metrics": {
-        "per": 14.77,
-        "roe_pct": 15.0,
-        "peg": 0.98,
-        "growth_yoy_pct": 18.3,
-        "eps_growth_yoy_pct": 15.0,
-        "adv_jpy": 1507330600,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
-      "fail_reasons": [],
+      "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
     }
   ]
