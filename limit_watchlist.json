@@ -6,9 +6,9 @@
     "atr": 107.1,
     "rank": "A",
     "total_score": 125,
-    "ma25": 3076.0,
-    "recent_low_20d": 2747.0,
-    "minus_2sigma": 2913.0,
+    "ma25": 3025.0,
+    "recent_low_20d": 2665.0,
+    "minus_2sigma": 2780.0,
     "macro_multiplier": 1.0,
     "next_earnings": "2026-07-11",
     "vol_ratio": 1.2,
@@ -21,16 +21,16 @@
         "price": 2679.0,
         "discount_pct": 10.7,
         "tag": "💎絶好",
-        "notified": true
+        "notified": false
       },
       {
         "price": 2839.0,
         "discount_pct": 5.4,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "2315",
@@ -39,9 +39,9 @@
     "atr": 3.4,
     "rank": "A",
     "total_score": 125,
-    "ma25": 68.0,
-    "recent_low_20d": 60.0,
-    "minus_2sigma": 60.0,
+    "ma25": 66.0,
+    "recent_low_20d": 58.0,
+    "minus_2sigma": 59.0,
     "macro_multiplier": 1.0,
     "next_earnings": "2026-06-16",
     "vol_ratio": 0.9,
@@ -57,13 +57,13 @@
         "notified": false
       },
       {
-        "price": 60.0,
-        "discount_pct": 6.2,
+        "price": 59.0,
+        "discount_pct": 7.8,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "4927",
@@ -72,9 +72,9 @@
     "atr": 22.2,
     "rank": "A",
     "total_score": 125,
-    "ma25": 1282.0,
+    "ma25": 1275.0,
     "recent_low_20d": 1233.0,
-    "minus_2sigma": 1243.0,
+    "minus_2sigma": 1240.0,
     "macro_multiplier": 1.0,
     "next_earnings": "2026-08-10",
     "vol_ratio": 1.1,
@@ -93,16 +93,16 @@
         "price": 1255.0,
         "discount_pct": 2.6,
         "tag": "🎯本命",
-        "notified": true
+        "notified": false
       },
       {
-        "price": 1282.0,
-        "discount_pct": 0.5,
+        "price": 1275.0,
+        "discount_pct": 1.0,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "290A",
@@ -111,9 +111,9 @@
     "atr": 163.7,
     "rank": "A",
     "total_score": 125,
-    "ma25": 1553.0,
-    "recent_low_20d": 1244.0,
-    "minus_2sigma": 1121.0,
+    "ma25": 1588.0,
+    "recent_low_20d": 1365.0,
+    "minus_2sigma": 1234.0,
     "macro_multiplier": 1.0,
     "next_earnings": "2026-08-14",
     "vol_ratio": 1.4,
@@ -123,25 +123,25 @@
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 1121.0,
-        "discount_pct": 40.9,
+        "price": 1234.0,
+        "discount_pct": 34.9,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 1553.0,
-        "discount_pct": 18.1,
+        "price": 1588.0,
+        "discount_pct": 16.2,
         "tag": "🎯本命",
-        "notified": true
+        "notified": false
       },
       {
         "price": 1650.0,
         "discount_pct": 13.0,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "3668",
@@ -150,11 +150,11 @@
     "atr": 9.9,
     "rank": "A",
     "total_score": 125,
-    "ma25": 403.0,
+    "ma25": 393.0,
     "recent_low_20d": 369.0,
-    "minus_2sigma": 357.0,
+    "minus_2sigma": 369.0,
     "macro_multiplier": 1.0,
-    "next_earnings": "2026-08-06",
+    "next_earnings": "",
     "vol_ratio": 0.9,
     "mr_trend_pct": null,
     "short_balance_pct": null,
@@ -162,19 +162,25 @@
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 357.0,
-        "discount_pct": 10.5,
+        "price": 369.0,
+        "discount_pct": 7.5,
         "tag": "💎絶好",
         "notified": false
       },
       {
         "price": 384.0,
         "discount_pct": 3.8,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 393.0,
+        "discount_pct": 1.5,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "3861",
@@ -183,9 +189,9 @@
     "atr": 21.6,
     "rank": "A",
     "total_score": 125,
-    "ma25": 814.0,
-    "recent_low_20d": 767.8,
-    "minus_2sigma": 762.0,
+    "ma25": 804.0,
+    "recent_low_20d": 754.5,
+    "minus_2sigma": 745.0,
     "macro_multiplier": 1.0,
     "next_earnings": "2026-08-16",
     "vol_ratio": 0.9,
@@ -201,13 +207,13 @@
         "notified": false
       },
       {
-        "price": 768.0,
-        "discount_pct": 1.8,
+        "price": 754.0,
+        "discount_pct": 3.6,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "1963",
@@ -216,9 +222,9 @@
     "atr": 154.3,
     "rank": "A",
     "total_score": 125,
-    "ma25": 2536.0,
-    "recent_low_20d": 2342.0,
-    "minus_2sigma": 2287.0,
+    "ma25": 2593.0,
+    "recent_low_20d": 2343.5,
+    "minus_2sigma": 2388.0,
     "macro_multiplier": 1.0,
     "next_earnings": "2026-08-13",
     "vol_ratio": 0.9,
@@ -240,13 +246,13 @@
         "notified": false
       },
       {
-        "price": 2536.0,
-        "discount_pct": 7.1,
+        "price": 2593.0,
+        "discount_pct": 5.0,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "3092",
@@ -255,9 +261,9 @@
     "atr": 31.7,
     "rank": "A",
     "total_score": 125,
-    "ma25": 1029.0,
+    "ma25": 1021.0,
     "recent_low_20d": 974.5,
-    "minus_2sigma": 979.0,
+    "minus_2sigma": 981.0,
     "macro_multiplier": 1.0,
     "next_earnings": "2026-07-23",
     "vol_ratio": 1.9,
@@ -279,7 +285,7 @@
         "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "1803",
@@ -288,9 +294,9 @@
     "atr": 174.8,
     "rank": "A",
     "total_score": 125,
-    "ma25": 2859.0,
-    "recent_low_20d": 2537.0,
-    "minus_2sigma": 2375.0,
+    "ma25": 2794.0,
+    "recent_low_20d": 2431.0,
+    "minus_2sigma": 2225.0,
     "macro_multiplier": 1.0,
     "next_earnings": "2026-08-09",
     "vol_ratio": 0.8,
@@ -306,13 +312,13 @@
         "notified": false
       },
       {
-        "price": 2537.0,
-        "discount_pct": 5.4,
+        "price": 2431.0,
+        "discount_pct": 9.3,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "3660",
@@ -321,11 +327,11 @@
     "atr": 15.6,
     "rank": "A",
     "total_score": 125,
-    "ma25": 419.0,
+    "ma25": 402.0,
     "recent_low_20d": 355.0,
-    "minus_2sigma": 329.0,
+    "minus_2sigma": 356.0,
     "macro_multiplier": 1.0,
-    "next_earnings": "2026-08-05",
+    "next_earnings": "",
     "vol_ratio": 0.8,
     "mr_trend_pct": null,
     "short_balance_pct": null,
@@ -345,7 +351,46 @@
         "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
+  },
+  {
+    "code": "215A",
+    "name": "タイミー",
+    "current_price": 1142.0,
+    "atr": 45.1,
+    "rank": "A",
+    "total_score": 125,
+    "ma25": 1141.0,
+    "recent_low_20d": 1032.0,
+    "minus_2sigma": 1047.0,
+    "macro_multiplier": 1.0,
+    "next_earnings": "",
+    "vol_ratio": 0.8,
+    "mr_trend_pct": null,
+    "short_balance_pct": null,
+    "short_balance_trend_pct": null,
+    "squeeze_candidate": false,
+    "levels": [
+      {
+        "price": 1007.0,
+        "discount_pct": 11.8,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 1074.0,
+        "discount_pct": 6.0,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 1141.0,
+        "discount_pct": 0.1,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-06-07"
   },
   {
     "code": "3774",
@@ -354,11 +399,11 @@
     "atr": 91.7,
     "rank": "A",
     "total_score": 125,
-    "ma25": 2932.0,
-    "recent_low_20d": 2681.5,
-    "minus_2sigma": 2733.0,
+    "ma25": 3020.0,
+    "recent_low_20d": 2832.0,
+    "minus_2sigma": 2898.0,
     "macro_multiplier": 1.0,
-    "next_earnings": "2026-08-13",
+    "next_earnings": "",
     "vol_ratio": 0.7,
     "mr_trend_pct": null,
     "short_balance_pct": null,
@@ -366,25 +411,25 @@
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 2733.0,
-        "discount_pct": 11.9,
+        "price": 2827.0,
+        "discount_pct": 8.9,
         "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 2932.0,
-        "discount_pct": 5.5,
-        "tag": "🎯本命",
         "notified": false
       },
       {
         "price": 2964.0,
         "discount_pct": 4.4,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 3020.0,
+        "discount_pct": 2.6,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "1808",
@@ -393,9 +438,9 @@
     "atr": 81.9,
     "rank": "A",
     "total_score": 125,
-    "ma25": 2737.0,
-    "recent_low_20d": 2657.5,
-    "minus_2sigma": 2642.0,
+    "ma25": 2719.0,
+    "recent_low_20d": 2555.0,
+    "minus_2sigma": 2588.0,
     "macro_multiplier": 1.0,
     "next_earnings": "2026-08-14",
     "vol_ratio": 0.8,
@@ -411,13 +456,13 @@
         "notified": false
       },
       {
-        "price": 2658.0,
-        "discount_pct": 2.0,
+        "price": 2590.0,
+        "discount_pct": 4.5,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "4205",
@@ -426,9 +471,9 @@
     "atr": 88.6,
     "rank": "A",
     "total_score": 125,
-    "ma25": 2018.0,
-    "recent_low_20d": 1785.0,
-    "minus_2sigma": 1799.0,
+    "ma25": 2098.0,
+    "recent_low_20d": 1936.0,
+    "minus_2sigma": 1984.0,
     "macro_multiplier": 1.0,
     "next_earnings": "2026-08-16",
     "vol_ratio": 0.6,
@@ -438,25 +483,25 @@
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 1799.0,
-        "discount_pct": 17.8,
+        "price": 1924.0,
+        "discount_pct": 12.1,
         "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 2018.0,
-        "discount_pct": 7.8,
-        "tag": "🎯本命",
         "notified": false
       },
       {
         "price": 2057.0,
         "discount_pct": 6.1,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 2098.0,
+        "discount_pct": 4.2,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "2980",
@@ -465,9 +510,9 @@
     "atr": 212.9,
     "rank": "A",
     "total_score": 125,
-    "ma25": 3163.0,
+    "ma25": 2989.0,
     "recent_low_20d": 2401.0,
-    "minus_2sigma": 1888.0,
+    "minus_2sigma": 1791.0,
     "macro_multiplier": 1.0,
     "next_earnings": "2026-08-12",
     "vol_ratio": 1.0,
@@ -483,7 +528,7 @@
         "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "4681",
@@ -492,11 +537,11 @@
     "atr": 42.9,
     "rank": "A",
     "total_score": 125,
-    "ma25": 1736.0,
-    "recent_low_20d": 1632.5,
-    "minus_2sigma": 1663.0,
+    "ma25": 1713.0,
+    "recent_low_20d": 1602.0,
+    "minus_2sigma": 1607.0,
     "macro_multiplier": 1.0,
-    "next_earnings": "2026-08-14",
+    "next_earnings": "",
     "vol_ratio": 1.2,
     "mr_trend_pct": null,
     "short_balance_pct": null,
@@ -513,10 +558,10 @@
         "price": 1634.0,
         "discount_pct": 3.8,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "2931",
@@ -525,9 +570,9 @@
     "atr": 13.2,
     "rank": "A",
     "total_score": 125,
-    "ma25": 386.0,
-    "recent_low_20d": 348.0,
-    "minus_2sigma": 339.0,
+    "ma25": 375.0,
+    "recent_low_20d": 344.0,
+    "minus_2sigma": 331.0,
     "macro_multiplier": 1.0,
     "next_earnings": "2026-08-15",
     "vol_ratio": 0.8,
@@ -537,8 +582,8 @@
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 332.0,
-        "discount_pct": 10.8,
+        "price": 331.0,
+        "discount_pct": 11.0,
         "tag": "💎絶好",
         "notified": false
       },
@@ -546,10 +591,10 @@
         "price": 352.0,
         "discount_pct": 5.4,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "4582",
@@ -558,11 +603,11 @@
     "atr": 4.9,
     "rank": "A",
     "total_score": 125,
-    "ma25": 87.0,
-    "recent_low_20d": 75.0,
-    "minus_2sigma": 75.0,
+    "ma25": 83.0,
+    "recent_low_20d": 71.0,
+    "minus_2sigma": 71.0,
     "macro_multiplier": 1.0,
-    "next_earnings": "2026-07-28",
+    "next_earnings": "",
     "vol_ratio": 1.3,
     "mr_trend_pct": null,
     "short_balance_pct": null,
@@ -576,13 +621,13 @@
         "notified": false
       },
       {
-        "price": 75.0,
-        "discount_pct": 3.8,
+        "price": 71.0,
+        "discount_pct": 9.0,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "2341",
@@ -591,11 +636,11 @@
     "atr": 4.9,
     "rank": "A",
     "total_score": 125,
-    "ma25": 180.0,
-    "recent_low_20d": 159.0,
-    "minus_2sigma": 154.0,
+    "ma25": 172.0,
+    "recent_low_20d": 153.0,
+    "minus_2sigma": 148.0,
     "macro_multiplier": 1.0,
-    "next_earnings": "2026-07-07",
+    "next_earnings": "",
     "vol_ratio": 0.7,
     "mr_trend_pct": null,
     "short_balance_pct": null,
@@ -603,8 +648,8 @@
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 151.0,
-        "discount_pct": 9.0,
+        "price": 148.0,
+        "discount_pct": 10.8,
         "tag": "💎絶好",
         "notified": false
       },
@@ -612,10 +657,10 @@
         "price": 159.0,
         "discount_pct": 4.2,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   },
   {
     "code": "3196",
@@ -624,11 +669,11 @@
     "atr": 25.8,
     "rank": "A",
     "total_score": 125,
-    "ma25": 1595.0,
+    "ma25": 1589.0,
     "recent_low_20d": 1560.0,
-    "minus_2sigma": 1546.0,
+    "minus_2sigma": 1555.0,
     "macro_multiplier": 1.0,
-    "next_earnings": "2026-08-14",
+    "next_earnings": "",
     "vol_ratio": 0.7,
     "mr_trend_pct": null,
     "short_balance_pct": null,
@@ -648,45 +693,12 @@
         "notified": false
       },
       {
-        "price": 1595.0,
-        "discount_pct": 0.3,
+        "price": 1589.0,
+        "discount_pct": 0.7,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-05-31"
-  },
-  {
-    "code": "4565",
-    "name": "ネクセラファーマ",
-    "current_price": 1067.0,
-    "atr": 43.5,
-    "rank": "A",
-    "total_score": 125,
-    "ma25": 1083.0,
-    "recent_low_20d": 948.0,
-    "minus_2sigma": 955.0,
-    "macro_multiplier": 1.0,
-    "next_earnings": "2026-07-31",
-    "vol_ratio": 0.8,
-    "mr_trend_pct": null,
-    "short_balance_pct": null,
-    "short_balance_trend_pct": null,
-    "squeeze_candidate": false,
-    "levels": [
-      {
-        "price": 936.0,
-        "discount_pct": 12.3,
-        "tag": "💎絶好",
-        "notified": true
-      },
-      {
-        "price": 1002.0,
-        "discount_pct": 6.1,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-05-31"
+    "generated_at": "2026-06-07"
   }
 ]
