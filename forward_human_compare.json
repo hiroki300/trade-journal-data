@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-06-07T15:24+09:00",
+  "n_trades": 0,
+  "human": {
+    "n": 0,
+    "avg_rr_after_friction": null,
+    "win_rate": null
+  },
+  "baseline_avg_rr": null,
+  "delta_vs_baseline": null,
+  "beats_baseline": false,
+  "meets_criterion": false,
+  "preregister": {
+    "success_rr": 0.05,
+    "min_trades": 30
+  },
+  "verdict": "保留",
+  "status": "判定保留: 人間トレード 0/30 (データ不足)",
+  "label": "B3本命: 人間判断がエッジを足すかの検証 (検証中)"
+}
