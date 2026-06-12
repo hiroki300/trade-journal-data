@@ -420,13 +420,13 @@
         "price": 2964.0,
         "discount_pct": 4.4,
         "tag": "🎯本命",
-        "notified": false
+        "notified": true
       },
       {
         "price": 3020.0,
         "discount_pct": 2.6,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-06-07"
