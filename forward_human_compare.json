@@ -1,20 +1,46 @@
 {
-  "generated_at": "2026-06-07T15:24+09:00",
+  "generated_at": "2026-06-14T15:40+09:00",
   "n_trades": 0,
+  "trades_source": "local(repo)",
   "human": {
     "n": 0,
     "avg_rr_after_friction": null,
-    "win_rate": null
+    "win_rate": null,
+    "ci95": null,
+    "sd": null,
+    "se": null
   },
   "baseline_avg_rr": null,
+  "paired": {
+    "n_paired": 0,
+    "n_unmatched": 0,
+    "mean_excess_rr": null,
+    "ci95": null,
+    "sd": null,
+    "se": null,
+    "beats_baseline": false,
+    "_note": "主ゲート: 同週baselineを差引いた人間の超過R (レジーム相殺・N=トレード数。同週baseline 3件未満の縮退週は unmatched 扱い)"
+  },
+  "decomposition": null,
+  "direct": {
+    "delta_vs_baseline": null,
+    "_note": "参考: 独立2標本の差 (レジーム未調整=ノイズ最大)"
+  },
   "delta_vs_baseline": null,
   "beats_baseline": false,
   "meets_criterion": false,
+  "meets_expansion": false,
   "preregister": {
     "success_rr": 0.05,
-    "min_trades": 30
+    "expansion_rr": 0.3,
+    "min_trades": 30,
+    "n_basis": "trade_count",
+    "min_week_baseline_n": 3,
+    "stopping_rule": "判定の読み値は n(人間トレード数) と n_paired(成熟ペア数) が初めて min_trades に到達した週の週次出力を正とする。以後の再判定は +30 トレードごとの節目のみ (毎週の再読みで有利な週を選ばない=optional stopping 防止)。",
+    "expansion_rr_note": "expansion_rr=0.3 は 2026-06-11 較正済 (EXPANSION_RR_CALIBRATION.md: forward 非依存の資金/時間/機会費用の感度表)。拡大2〜4倍シナリオで時間コストを上回るバー。実データの読み値からの逆算・事後変更は禁止 (前提が変わった場合のみ N=30 前に一度だけ再較正可)。",
+    "discipline": "質>件数: N不足なら期間延長が正。見送りも記録(R対象外で別カウント=習慣維持)。本ゲートは仮説検定でなく方向性デシジョンルール — 点推定はノイズ下、必ず±CIで解釈。"
   },
   "verdict": "保留",
-  "status": "判定保留: 人間トレード 0/30 (データ不足)",
-  "label": "B3本命: 人間判断がエッジを足すかの検証 (検証中)"
+  "status": "判定保留: 人間トレード 0/30 (データ不足)。質>件数 — 不足なら期間延長が正。",
+  "label": "B3本命: 人間判断がエッジを足すかの検証 (検証中)。主ゲート=週マッチ matched-control (同週baseline差引・N=トレード数)、分解=選定エッジの分析専用、直接比較=参考。比較は方向性判断(仮説検定でない)・±CI併記。"
 }
