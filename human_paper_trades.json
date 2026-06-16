@@ -1,0 +1,191 @@
+{
+  "_generated_at": "2026-06-16T09:22:22.260Z",
+  "_note": "人間紙トレ記録 (journal export)。forward_tracker が機械baseline と比較。未決済は exit null=採点対象外・R計算は backend。skips=見送り週の記録 (R対象外・習慣維持)。",
+  "trades": [
+    {
+      "code": "70110",
+      "entry_date": "2026-04-07",
+      "entry_price": 4390,
+      "exit_date": "2014-04-13",
+      "exit_price": 4832,
+      "note": "現物 100株"
+    },
+    {
+      "code": "70110",
+      "entry_date": "2026-04-07",
+      "entry_price": 4820,
+      "exit_date": "2026-04-23",
+      "exit_price": 4714,
+      "note": "現物 100株"
+    },
+    {
+      "code": "70110",
+      "entry_date": "2026-04-07",
+      "entry_price": 4390,
+      "exit_date": "2026-04-23",
+      "exit_price": 4714,
+      "note": "現物 100株"
+    },
+    {
+      "code": "25870",
+      "entry_date": "2026-04-24",
+      "entry_price": 4450,
+      "exit_date": "2026-05-07",
+      "exit_price": 4480,
+      "note": "現物 100株"
+    },
+    {
+      "code": "46660",
+      "entry_date": "2026-04-28",
+      "entry_price": 1830,
+      "exit_date": "2026-05-07",
+      "exit_price": 1860,
+      "note": "現物 200株"
+    },
+    {
+      "code": "70110",
+      "entry_date": "2026-04-07",
+      "entry_price": 4390,
+      "exit_date": "2026-05-11",
+      "exit_price": 4487,
+      "note": "現物 100株"
+    },
+    {
+      "code": "50160",
+      "entry_date": "2026-05-12",
+      "entry_price": 4909,
+      "exit_date": "2026-04-28",
+      "exit_price": 4402.3,
+      "note": "現物 100株"
+    },
+    {
+      "code": "70110",
+      "entry_date": "2026-04-23",
+      "entry_price": 0,
+      "exit_date": "2026-05-14",
+      "exit_price": 4341,
+      "note": "現物 100株"
+    },
+    {
+      "code": "18020",
+      "entry_date": "2026-04-28",
+      "entry_price": 3959,
+      "exit_date": "2026-05-29",
+      "exit_price": 3248,
+      "note": "現物 100株"
+    },
+    {
+      "code": "50160",
+      "entry_date": "2026-05-25",
+      "entry_price": 4250,
+      "exit_date": "2026-05-29",
+      "exit_price": 3776,
+      "note": "信用 100株"
+    },
+    {
+      "code": "70110",
+      "entry_date": "2026-04-23",
+      "entry_price": 0,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 100株 未決済"
+    },
+    {
+      "code": "70110",
+      "entry_date": "2026-05-12",
+      "entry_price": 4120,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 100株 未決済"
+    },
+    {
+      "code": "70110",
+      "entry_date": "2026-05-15",
+      "entry_price": 4090,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 100株 未決済"
+    },
+    {
+      "code": "73110",
+      "entry_date": "2026-04-07",
+      "entry_price": 4820,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 100株 未決済"
+    },
+    {
+      "code": "70440",
+      "entry_date": "2026-04-24",
+      "entry_price": 4390,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 100株 未決済"
+    },
+    {
+      "code": "32310",
+      "entry_date": "2026-04-28",
+      "entry_price": 993,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 200株 未決済"
+    },
+    {
+      "code": "38610",
+      "entry_date": "2026-04-28",
+      "entry_price": 829,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 200株 未決済"
+    },
+    {
+      "code": "67030",
+      "entry_date": "2026-05-14",
+      "entry_price": 3320,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 100株 未決済"
+    },
+    {
+      "code": "42590",
+      "entry_date": "2026-05-25",
+      "entry_price": 1280,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 200株 未決済"
+    },
+    {
+      "code": "83060",
+      "entry_date": "2026-05-28",
+      "entry_price": 2970,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 100株 未決済"
+    },
+    {
+      "code": "50160",
+      "entry_date": "2026-06-04",
+      "entry_price": 3880,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 100株 未決済"
+    },
+    {
+      "code": "58030",
+      "entry_date": "2024-06-04",
+      "entry_price": 4707,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "信用 200株 未決済"
+    },
+    {
+      "code": "58030",
+      "entry_date": "2026-06-09",
+      "entry_price": 4444,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "信用 100株 未決済"
+    }
+  ],
+  "skips": []
+}
