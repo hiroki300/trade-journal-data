@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-06-19T08:53:10.401Z",
+  "_generated_at": "2026-06-19T15:22:01.859Z",
   "_note": "人間紙トレ記録 (journal export)。決済済=取引ログ FIFO(異常値除外)、未決済=保有タブ。forward_tracker が機械baseline と比較。未決済は exit null=採点対象外・R計算は backend。skips=見送り週の記録 (R対象外・習慣維持)。",
   "trades": [
     {
