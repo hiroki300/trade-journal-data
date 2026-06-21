@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-14T15:40+09:00",
+  "generated_at": "2026-06-21T15:51+09:00",
   "label": "検証中・エッジ未確定 (機械baseline=人間が超えるべきバー / 主=整合レンズ単一決済)",
-  "n_snapshots": 93,
+  "n_snapshots": 121,
   "n_matured": 0,
   "n_matured_note": "参考値: いずれかのレンズ(学術10日が先に成熟)が採点できた snapshot 数。判定/進捗の母数はこれでなく summary.consistency_lens.n (整合レンズ=30日単一決済)。",
   "summary": {
