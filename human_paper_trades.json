@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-06-22T09:28:30.755Z",
+  "_generated_at": "2026-06-24T08:22:27.722Z",
   "_note": "人間紙トレ記録 (journal export)。決済済=取引ログ FIFO(異常値除外)、未決済=保有タブ。forward_tracker が機械baseline と比較。未決済は exit null=採点対象外・R計算は backend。skips=見送り週の記録 (R対象外・習慣維持)。",
   "trades": [
     {
@@ -75,6 +75,14 @@
       "note": "現物 100株"
     },
     {
+      "code": "58030",
+      "entry_date": "2024-06-04",
+      "entry_price": 4707,
+      "exit_date": "2026-06-23",
+      "exit_price": 6589.2,
+      "note": "信用 100株"
+    },
+    {
       "code": "32310",
       "entry_date": "2026-05-08",
       "entry_price": 993,
@@ -104,7 +112,23 @@
       "entry_price": 4619,
       "exit_date": null,
       "exit_price": null,
-      "note": "信用 300株 未決済｜信用買建 6ヵ月"
+      "note": "信用 200株 未決済｜信用買建 6ヵ月"
+    },
+    {
+      "code": "24130",
+      "entry_date": "2026-06-24",
+      "entry_price": 1700.5,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 200株 未決済｜SS取込"
+    },
+    {
+      "code": "81540",
+      "entry_date": "2026-06-24",
+      "entry_price": 4247.5,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 200株 未決済｜SS取込"
     }
   ],
   "skips": []
