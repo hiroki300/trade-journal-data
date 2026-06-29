@@ -88,5 +88,14 @@
     "ma25_dev": 0.21,
     "trend": "uptrend",
     "summary": "🟡 レジーム:CAUTION | 日経HV22.9% / MA25乖離0.21% / uptrend\n⚠️HV22.9% (警戒域)"
+  },
+  {
+    "regime": "normal",
+    "changed_at": "2026-06-29T17:32:14+09:00",
+    "from": "caution",
+    "hv_20d": 18.2,
+    "ma25_dev": 3.57,
+    "trend": "uptrend",
+    "summary": "🟢 レジーム:NORMAL | 日経HV18.2% / MA25乖離3.57% / uptrend"
   }
 ]
