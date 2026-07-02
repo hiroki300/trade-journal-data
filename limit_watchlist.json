@@ -264,7 +264,7 @@
         "price": 7684.0,
         "discount_pct": 10.1,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-06-28"
@@ -336,7 +336,7 @@
         "price": 17147.0,
         "discount_pct": 7.2,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-06-28"
@@ -546,13 +546,13 @@
         "price": 26792.0,
         "discount_pct": 13.9,
         "tag": "🎯本命",
-        "notified": false
+        "notified": true
       },
       {
         "price": 28025.0,
         "discount_pct": 9.9,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-06-28"
