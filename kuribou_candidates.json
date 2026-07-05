@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-06-28T04:28",
+  "generated_at": "2026-07-05T04:04",
   "universe_mode": "broad",
   "universe_size": 800,
-  "candidate_count": 28,
-  "split_adjusted_count": 0,
+  "candidate_count": 23,
+  "split_adjusted_count": 1,
   "note": "候補(要人間深掘り・エッジ未検証)。閾値は井村流の素直な既定値で固定(チューニング禁止)。PER/PEG は株式分割で真値補正済(split_factor)。",
   "diagnostics": {
     "n": 800,
-    "passed": 28,
+    "passed": 24,
     "raw_field_populated": {
       "price": 800,
       "vol_avg20": 800,
-      "sales_yoy_pct": 783,
-      "eps_yoy_pct": 788,
-      "fc_eps": 717,
-      "fc_np": 157,
-      "equity": 793
+      "sales_yoy_pct": 780,
+      "eps_yoy_pct": 786,
+      "fc_eps": 715,
+      "fc_np": 161,
+      "equity": 791
     },
     "metric_populated": {
-      "per": 705,
-      "roe_pct": 791,
-      "peg": 449,
-      "growth_yoy_pct": 783,
+      "per": 703,
+      "roe_pct": 789,
+      "peg": 447,
+      "growth_yoy_pct": 780,
       "adv_jpy": 800
     },
     "fail_reason_counts": {
-      "growth_gt_per": 694,
-      "roe_ge_min": 650,
-      "peg_le_max": 505
+      "growth_gt_per": 697,
+      "roe_ge_min": 647,
+      "peg_le_max": 504
     }
   },
   "candidates": [
@@ -35,16 +35,39 @@
       "code": "68380",
       "name": "多摩川ホールディングス",
       "passed": true,
-      "price": 1941.0,
+      "price": 1747.0,
       "metrics": {
-        "per": 9.43,
+        "per": 8.49,
         "roe_pct": 20.1,
         "peg": 0.01,
         "growth_yoy_pct": 48.6,
         "eps_growth_yoy_pct": 774.7,
         "pbr": null,
-        "dividend_yield": 0.52,
-        "adv_jpy": 1018937655,
+        "dividend_yield": 0.57,
+        "adv_jpy": 889528725,
+        "upward_revision": true
+      },
+      "flags": [
+        "上方修正"
+      ],
+      "fail_reasons": [],
+      "split_factor": 1.0,
+      "label": "候補(要人間深掘り・エッジ未検証)"
+    },
+    {
+      "code": "68620",
+      "name": "ミナトホールディングス",
+      "passed": true,
+      "price": 2139.0,
+      "metrics": {
+        "per": 7.4,
+        "roe_pct": 26.1,
+        "peg": 0.02,
+        "growth_yoy_pct": 49.0,
+        "eps_growth_yoy_pct": 462.4,
+        "pbr": 1.97,
+        "dividend_yield": 1.4,
+        "adv_jpy": 898797105,
         "upward_revision": true
       },
       "flags": [
@@ -58,65 +81,19 @@
       "code": "45060",
       "name": "住友ファーマ",
       "passed": true,
-      "price": 1444.0,
+      "price": 1557.0,
       "metrics": {
-        "per": 8.35,
+        "per": 9.01,
         "roe_pct": 36.5,
-        "peg": 0.02,
+        "peg": 0.03,
         "growth_yoy_pct": 13.7,
         "eps_growth_yoy_pct": 352.2,
-        "pbr": 1.96,
+        "pbr": 2.12,
         "dividend_yield": null,
-        "adv_jpy": 6105982880,
+        "adv_jpy": 5946253065,
         "upward_revision": false
       },
       "flags": [],
-      "fail_reasons": [],
-      "split_factor": 1.0,
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "68620",
-      "name": "ミナトホールディングス",
-      "passed": true,
-      "price": 2179.0,
-      "metrics": {
-        "per": 7.54,
-        "roe_pct": 26.1,
-        "peg": 0.02,
-        "growth_yoy_pct": 49.0,
-        "eps_growth_yoy_pct": 462.4,
-        "pbr": 2.01,
-        "dividend_yield": 1.38,
-        "adv_jpy": 1031418755,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
-      "fail_reasons": [],
-      "split_factor": 1.0,
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "98800",
-      "name": "イノテック",
-      "passed": true,
-      "price": 4130.0,
-      "metrics": {
-        "per": 10.37,
-        "roe_pct": 15.2,
-        "peg": 0.04,
-        "growth_yoy_pct": 11.3,
-        "eps_growth_yoy_pct": 257.6,
-        "pbr": 1.91,
-        "dividend_yield": 3.15,
-        "adv_jpy": 686240800,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
       "fail_reasons": [],
       "split_factor": 1.0,
       "label": "候補(要人間深掘り・エッジ未検証)"
@@ -125,60 +102,16 @@
       "code": "31860",
       "name": "ネクステージ",
       "passed": true,
-      "price": 3920.0,
+      "price": 4055.0,
       "metrics": {
-        "per": 20.46,
+        "per": 21.17,
         "roe_pct": 18.8,
         "peg": 0.08,
         "growth_yoy_pct": 25.0,
         "eps_growth_yoy_pct": 262.2,
         "pbr": null,
-        "dividend_yield": 1.28,
-        "adv_jpy": 1847182400,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
-      "fail_reasons": [],
-      "split_factor": 1.0,
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "77770",
-      "name": "スリー・ディー・マトリックス",
-      "passed": true,
-      "price": 328.0,
-      "metrics": {
-        "per": 26.41,
-        "roe_pct": 61.1,
-        "peg": 0.11,
-        "growth_yoy_pct": 57.0,
-        "eps_growth_yoy_pct": 238.5,
-        "pbr": 6.42,
-        "dividend_yield": 0.0,
-        "adv_jpy": 1660122800,
-        "upward_revision": false
-      },
-      "flags": [],
-      "fail_reasons": [],
-      "split_factor": 1.0,
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "81540",
-      "name": "加賀電子",
-      "passed": true,
-      "price": 4250.0,
-      "metrics": {
-        "per": 10.13,
-        "roe_pct": 16.9,
-        "peg": 0.11,
-        "growth_yoy_pct": 20.3,
-        "eps_growth_yoy_pct": 93.1,
-        "pbr": 1.1,
-        "dividend_yield": 3.29,
-        "adv_jpy": 1016366250,
+        "dividend_yield": 1.23,
+        "adv_jpy": 1933545650,
         "upward_revision": true
       },
       "flags": [
@@ -192,16 +125,39 @@
       "code": "78260",
       "name": "フルヤ金属",
       "passed": true,
-      "price": 8550.0,
+      "price": 7690.0,
       "metrics": {
-        "per": 14.02,
+        "per": 12.61,
         "roe_pct": 20.3,
-        "peg": 0.12,
+        "peg": 0.11,
         "growth_yoy_pct": 83.1,
         "eps_growth_yoy_pct": 114.2,
         "pbr": null,
-        "dividend_yield": 1.81,
-        "adv_jpy": 4256232750,
+        "dividend_yield": 2.02,
+        "adv_jpy": 3489337500,
+        "upward_revision": true
+      },
+      "flags": [
+        "上方修正"
+      ],
+      "fail_reasons": [],
+      "split_factor": 1.0,
+      "label": "候補(要人間深掘り・エッジ未検証)"
+    },
+    {
+      "code": "81540",
+      "name": "加賀電子",
+      "passed": true,
+      "price": 4205.0,
+      "metrics": {
+        "per": 10.02,
+        "roe_pct": 16.9,
+        "peg": 0.11,
+        "growth_yoy_pct": 20.3,
+        "eps_growth_yoy_pct": 93.1,
+        "pbr": 1.09,
+        "dividend_yield": 3.33,
+        "adv_jpy": 749120750,
         "upward_revision": true
       },
       "flags": [
@@ -215,16 +171,16 @@
       "code": "62690",
       "name": "三井海洋開発",
       "passed": true,
-      "price": 9698.0,
+      "price": 9354.0,
       "metrics": {
-        "per": 11.44,
+        "per": 11.04,
         "roe_pct": 23.4,
-        "peg": 0.13,
+        "peg": 0.12,
         "growth_yoy_pct": 31.9,
         "eps_growth_yoy_pct": 90.5,
         "pbr": null,
-        "dividend_yield": 2.06,
-        "adv_jpy": 7477158000,
+        "dividend_yield": 2.14,
+        "adv_jpy": 6232757280,
         "upward_revision": true
       },
       "flags": [
@@ -235,19 +191,40 @@
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
+      "code": "77770",
+      "name": "スリー・ディー・マトリックス",
+      "passed": true,
+      "price": 357.0,
+      "metrics": {
+        "per": 28.74,
+        "roe_pct": 61.1,
+        "peg": 0.12,
+        "growth_yoy_pct": 57.0,
+        "eps_growth_yoy_pct": 238.5,
+        "pbr": 6.99,
+        "dividend_yield": 0.0,
+        "adv_jpy": 1489734225,
+        "upward_revision": false
+      },
+      "flags": [],
+      "fail_reasons": [],
+      "split_factor": 1.0,
+      "label": "候補(要人間深掘り・エッジ未検証)"
+    },
+    {
       "code": "27370",
       "name": "トーメンデバイス",
       "passed": true,
-      "price": 18470.0,
+      "price": 16730.0,
       "metrics": {
-        "per": 11.42,
+        "per": 10.34,
         "roe_pct": 16.9,
-        "peg": 0.14,
+        "peg": 0.13,
         "growth_yoy_pct": 50.3,
         "eps_growth_yoy_pct": 79.2,
-        "pbr": 2.12,
-        "dividend_yield": 3.25,
-        "adv_jpy": 1521004500,
+        "pbr": 1.92,
+        "dividend_yield": 3.59,
+        "adv_jpy": 1371274450,
         "upward_revision": true
       },
       "flags": [
@@ -261,16 +238,16 @@
       "code": "49710",
       "name": "メック",
       "passed": true,
-      "price": 10410.0,
+      "price": 10360.0,
       "metrics": {
-        "per": 34.25,
+        "per": 34.09,
         "roe_pct": 17.5,
         "peg": 0.15,
         "growth_yoy_pct": 38.5,
         "eps_growth_yoy_pct": 229.0,
         "pbr": null,
         "dividend_yield": 1.06,
-        "adv_jpy": 3099733650,
+        "adv_jpy": 2960836200,
         "upward_revision": true
       },
       "flags": [
@@ -284,39 +261,16 @@
       "code": "69460",
       "name": "日本アビオニクス",
       "passed": true,
-      "price": 4885.0,
+      "price": 5430.0,
       "metrics": {
-        "per": 17.2,
+        "per": 19.12,
         "roe_pct": 23.7,
-        "peg": 0.17,
+        "peg": 0.18,
         "growth_yoy_pct": 45.1,
         "eps_growth_yoy_pct": 103.9,
-        "pbr": 4.49,
-        "dividend_yield": 0.31,
-        "adv_jpy": 1012538375,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
-      "fail_reasons": [],
-      "split_factor": 1.0,
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "62270",
-      "name": "ＡＩメカテック",
-      "passed": true,
-      "price": 6590.0,
-      "metrics": {
-        "per": 40.2,
-        "roe_pct": 22.7,
-        "peg": 0.18,
-        "growth_yoy_pct": 134.4,
-        "eps_growth_yoy_pct": 220.4,
-        "pbr": null,
-        "dividend_yield": 0.26,
-        "adv_jpy": 11445446100,
+        "pbr": 4.99,
+        "dividend_yield": 0.28,
+        "adv_jpy": 966268500,
         "upward_revision": true
       },
       "flags": [
@@ -330,16 +284,16 @@
       "code": "71720",
       "name": "ジャパンインベストメントアドバイザー",
       "passed": true,
-      "price": 2066.0,
+      "price": 2072.0,
       "metrics": {
-        "per": 9.62,
+        "per": 9.65,
         "roe_pct": 15.5,
         "peg": 0.18,
         "growth_yoy_pct": 24.8,
         "eps_growth_yoy_pct": 53.0,
         "pbr": null,
-        "dividend_yield": 5.23,
-        "adv_jpy": 639230730,
+        "dividend_yield": 5.21,
+        "adv_jpy": 605055080,
         "upward_revision": true
       },
       "flags": [
@@ -350,19 +304,19 @@
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
-      "code": "63310",
-      "name": "三菱化工機",
+      "code": "62270",
+      "name": "ＡＩメカテック",
       "passed": true,
-      "price": 3830.0,
+      "price": 6940.0,
       "metrics": {
-        "per": 12.74,
-        "roe_pct": 16.8,
-        "peg": 0.23,
-        "growth_yoy_pct": 42.3,
-        "eps_growth_yoy_pct": 55.0,
-        "pbr": 1.94,
-        "dividend_yield": 3.13,
-        "adv_jpy": 863492650,
+        "per": 42.34,
+        "roe_pct": 22.7,
+        "peg": 0.19,
+        "growth_yoy_pct": 134.4,
+        "eps_growth_yoy_pct": 220.4,
+        "pbr": null,
+        "dividend_yield": 0.24,
+        "adv_jpy": 11314629000,
         "upward_revision": true
       },
       "flags": [
@@ -376,16 +330,39 @@
       "code": "68340",
       "name": "精工技研",
       "passed": true,
-      "price": 31100.0,
+      "price": 26540.0,
       "metrics": {
-        "per": 43.44,
+        "per": 37.07,
         "roe_pct": 18.2,
-        "peg": 0.24,
+        "peg": 0.2,
         "growth_yoy_pct": 50.6,
         "eps_growth_yoy_pct": 183.5,
-        "pbr": 8.22,
-        "dividend_yield": 0.39,
-        "adv_jpy": 8425767500,
+        "pbr": 7.01,
+        "dividend_yield": 0.45,
+        "adv_jpy": 7073175400,
+        "upward_revision": true
+      },
+      "flags": [
+        "上方修正"
+      ],
+      "fail_reasons": [],
+      "split_factor": 1.0,
+      "label": "候補(要人間深掘り・エッジ未検証)"
+    },
+    {
+      "code": "63310",
+      "name": "三菱化工機",
+      "passed": true,
+      "price": 3820.0,
+      "metrics": {
+        "per": 12.7,
+        "roe_pct": 16.8,
+        "peg": 0.23,
+        "growth_yoy_pct": 42.3,
+        "eps_growth_yoy_pct": 55.0,
+        "pbr": 1.94,
+        "dividend_yield": 3.14,
+        "adv_jpy": 674592900,
         "upward_revision": true
       },
       "flags": [
@@ -399,16 +376,16 @@
       "code": "58380",
       "name": "楽天銀行",
       "passed": true,
-      "price": 5039.0,
+      "price": 5395.0,
       "metrics": {
-        "per": 10.81,
+        "per": 11.58,
         "roe_pct": 18.8,
-        "peg": 0.25,
+        "peg": 0.26,
         "growth_yoy_pct": 38.5,
         "eps_growth_yoy_pct": 43.9,
-        "pbr": 2.37,
+        "pbr": 2.54,
         "dividend_yield": 0.0,
-        "adv_jpy": 10572527460,
+        "adv_jpy": 8310350100,
         "upward_revision": true
       },
       "flags": [
@@ -422,16 +399,16 @@
       "code": "31070",
       "name": "ダイワボウホールディングス",
       "passed": true,
-      "price": 3420.0,
+      "price": 3504.0,
       "metrics": {
-        "per": 11.75,
+        "per": 12.04,
         "roe_pct": 18.9,
-        "peg": 0.35,
+        "peg": 0.36,
         "growth_yoy_pct": 18.8,
         "eps_growth_yoy_pct": 33.4,
-        "pbr": 1.75,
-        "dividend_yield": 3.22,
-        "adv_jpy": 1094194800,
+        "pbr": 1.79,
+        "dividend_yield": 3.14,
+        "adv_jpy": 1131897120,
         "upward_revision": false
       },
       "flags": [],
@@ -440,42 +417,19 @@
       "label": "候補(要人間深掘り・エッジ未検証)"
     },
     {
-      "code": "61010",
-      "name": "ツガミ",
-      "passed": true,
-      "price": 7370.0,
-      "metrics": {
-        "per": 19.9,
-        "roe_pct": 15.7,
-        "peg": 0.36,
-        "growth_yoy_pct": 20.2,
-        "eps_growth_yoy_pct": 56.0,
-        "pbr": 4.29,
-        "dividend_yield": 1.33,
-        "adv_jpy": 3624787100,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
-      "fail_reasons": [],
-      "split_factor": 1.0,
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
       "code": "78060",
       "name": "ＭＴＧ",
       "passed": true,
-      "price": 7260.0,
+      "price": 8100.0,
       "metrics": {
-        "per": 28.55,
+        "per": 31.85,
         "roe_pct": 17.1,
-        "peg": 0.42,
+        "peg": 0.46,
         "growth_yoy_pct": 42.5,
         "eps_growth_yoy_pct": 68.5,
         "pbr": null,
-        "dividend_yield": 0.45,
-        "adv_jpy": 753624300,
+        "dividend_yield": 0.41,
+        "adv_jpy": 821056500,
         "upward_revision": true
       },
       "flags": [
@@ -489,39 +443,16 @@
       "code": "36920",
       "name": "ＦＦＲＩセキュリティ",
       "passed": true,
-      "price": 4440.0,
+      "price": 5380.0,
       "metrics": {
-        "per": 30.99,
+        "per": 37.56,
         "roe_pct": 29.1,
-        "peg": 0.52,
+        "peg": 0.62,
         "growth_yoy_pct": 43.1,
         "eps_growth_yoy_pct": 60.1,
-        "pbr": 9.3,
-        "dividend_yield": 0.41,
-        "adv_jpy": 637317600,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
-      "fail_reasons": [],
-      "split_factor": 1.0,
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "79360",
-      "name": "アシックス",
-      "passed": true,
-      "price": 4456.0,
-      "metrics": {
-        "per": 28.95,
-        "roe_pct": 34.6,
-        "peg": 0.6,
-        "growth_yoy_pct": 29.7,
-        "eps_growth_yoy_pct": 48.5,
-        "pbr": null,
-        "dividend_yield": 0.85,
-        "adv_jpy": 15047778320,
+        "pbr": 11.26,
+        "dividend_yield": 0.33,
+        "adv_jpy": 714464000,
         "upward_revision": true
       },
       "flags": [
@@ -535,106 +466,16 @@
       "code": "47760",
       "name": "サイボウズ",
       "passed": true,
-      "price": 2136.0,
+      "price": 2533.0,
       "metrics": {
-        "per": 13.27,
+        "per": 15.73,
         "roe_pct": 42.3,
-        "peg": 0.62,
+        "peg": 0.73,
         "growth_yoy_pct": 17.0,
         "eps_growth_yoy_pct": 21.5,
         "pbr": null,
-        "dividend_yield": 2.34,
-        "adv_jpy": 927269640,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
-      "fail_reasons": [],
-      "split_factor": 1.0,
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "65320",
-      "name": "ベイカレント",
-      "passed": true,
-      "price": 5531.0,
-      "metrics": {
-        "per": 17.08,
-        "roe_pct": 32.3,
-        "peg": 0.74,
-        "growth_yoy_pct": 27.8,
-        "eps_growth_yoy_pct": 23.2,
-        "pbr": 7.18,
-        "dividend_yield": 2.35,
-        "adv_jpy": 7634522265,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
-      "fail_reasons": [],
-      "split_factor": 1.0,
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "87250",
-      "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス",
-      "passed": true,
-      "price": 4241.0,
-      "metrics": {
-        "per": 14.48,
-        "roe_pct": 16.3,
-        "peg": 0.77,
-        "growth_yoy_pct": 14.9,
-        "eps_growth_yoy_pct": 18.7,
-        "pbr": 1.29,
-        "dividend_yield": 4.01,
-        "adv_jpy": 19044613395,
-        "upward_revision": false
-      },
-      "flags": [],
-      "fail_reasons": [],
-      "split_factor": 1.0,
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "76850",
-      "name": "ＢｕｙＳｅｌｌ　Ｔｅｃｈｎｏｌｏｇｉｅｓ",
-      "passed": true,
-      "price": 3380.0,
-      "metrics": {
-        "per": 22.19,
-        "roe_pct": 38.9,
-        "peg": 0.84,
-        "growth_yoy_pct": 37.0,
-        "eps_growth_yoy_pct": 26.5,
-        "pbr": null,
-        "dividend_yield": 0.65,
-        "adv_jpy": 1135494100,
-        "upward_revision": true
-      },
-      "flags": [
-        "上方修正"
-      ],
-      "fail_reasons": [],
-      "split_factor": 1.0,
-      "label": "候補(要人間深掘り・エッジ未検証)"
-    },
-    {
-      "code": "79060",
-      "name": "ヨネックス",
-      "passed": true,
-      "price": 2297.0,
-      "metrics": {
-        "per": 14.89,
-        "roe_pct": 15.0,
-        "peg": 0.99,
-        "growth_yoy_pct": 18.3,
-        "eps_growth_yoy_pct": 15.0,
-        "pbr": 2.44,
-        "dividend_yield": 1.22,
-        "adv_jpy": 1036360460,
+        "dividend_yield": 1.97,
+        "adv_jpy": 1022318800,
         "upward_revision": true
       },
       "flags": [
@@ -648,16 +489,62 @@
       "code": "62640",
       "name": "マルマエ",
       "passed": true,
-      "price": 2731.0,
+      "price": 2962.0,
       "metrics": {
-        "per": 25.63,
-        "roe_pct": 28.1,
-        "peg": 1.0,
-        "growth_yoy_pct": 122.7,
-        "eps_growth_yoy_pct": 25.7,
+        "per": 23.4,
+        "roe_pct": 21.7,
+        "peg": 0.81,
+        "growth_yoy_pct": 92.9,
+        "eps_growth_yoy_pct": 28.9,
         "pbr": null,
         "dividend_yield": null,
-        "adv_jpy": 3030235670,
+        "adv_jpy": 3578466250,
+        "upward_revision": true
+      },
+      "flags": [
+        "上方修正"
+      ],
+      "fail_reasons": [],
+      "split_factor": 1.0,
+      "label": "候補(要人間深掘り・エッジ未検証)"
+    },
+    {
+      "code": "76850",
+      "name": "ＢｕｙＳｅｌｌ　Ｔｅｃｈｎｏｌｏｇｉｅｓ",
+      "passed": true,
+      "price": 3565.0,
+      "metrics": {
+        "per": 23.4,
+        "roe_pct": 38.9,
+        "peg": 0.88,
+        "growth_yoy_pct": 37.0,
+        "eps_growth_yoy_pct": 26.5,
+        "pbr": null,
+        "dividend_yield": 0.62,
+        "adv_jpy": 1251867575,
+        "upward_revision": true
+      },
+      "flags": [
+        "上方修正"
+      ],
+      "fail_reasons": [],
+      "split_factor": 1.0,
+      "label": "候補(要人間深掘り・エッジ未検証)"
+    },
+    {
+      "code": "65320",
+      "name": "ベイカレント",
+      "passed": true,
+      "price": 6671.0,
+      "metrics": {
+        "per": 20.6,
+        "roe_pct": 32.3,
+        "peg": 0.89,
+        "growth_yoy_pct": 27.8,
+        "eps_growth_yoy_pct": 23.2,
+        "pbr": 8.66,
+        "dividend_yield": 1.95,
+        "adv_jpy": 9796296790,
         "upward_revision": true
       },
       "flags": [
