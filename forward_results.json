@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-28T15:17+09:00",
+  "generated_at": "2026-07-05T15:04+09:00",
   "label": "検証中・エッジ未確定 (機械baseline=人間が超えるべきバー / 主=整合レンズ単一決済)",
-  "n_snapshots": 149,
-  "n_matured": 64,
+  "n_snapshots": 172,
+  "n_matured": 93,
   "n_matured_note": "参考値: いずれかのレンズ(学術10日が先に成熟)が採点できた snapshot 数。判定/進捗の母数はこれでなく summary.consistency_lens.n (整合レンズ=30日単一決済)。",
   "summary": {
     "academic_market_adj": {
       "10": {
-        "n": 64,
-        "mean_market_adj": 0.0001
+        "n": 93,
+        "mean_market_adj": 0.007
       },
       "20": {
         "n": 0,
@@ -1130,6 +1130,499 @@
         "10": {
           "raw": -0.0335,
           "market_adj": -0.0963
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#68620",
+      "snapshot_date": "2026-06-14",
+      "code": "68620",
+      "name": "ミナトホールディングス",
+      "academic": {
+        "10": {
+          "raw": 0.0408,
+          "market_adj": 0.0474
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#45060",
+      "snapshot_date": "2026-06-14",
+      "code": "45060",
+      "name": "住友ファーマ",
+      "academic": {
+        "10": {
+          "raw": 0.0779,
+          "market_adj": 0.0845
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#98800",
+      "snapshot_date": "2026-06-14",
+      "code": "98800",
+      "name": "イノテック",
+      "academic": {
+        "10": {
+          "raw": -0.0426,
+          "market_adj": -0.036
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#31860",
+      "snapshot_date": "2026-06-14",
+      "code": "31860",
+      "name": "ネクステージ",
+      "academic": {
+        "10": {
+          "raw": 0.1047,
+          "market_adj": 0.1113
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#27370",
+      "snapshot_date": "2026-06-14",
+      "code": "27370",
+      "name": "トーメンデバイス",
+      "academic": {
+        "10": {
+          "raw": 0.1738,
+          "market_adj": 0.1804
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#81540",
+      "snapshot_date": "2026-06-14",
+      "code": "81540",
+      "name": "加賀電子",
+      "academic": {
+        "10": {
+          "raw": -0.0648,
+          "market_adj": -0.0582
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#77770",
+      "snapshot_date": "2026-06-14",
+      "code": "77770",
+      "name": "スリー・ディー・マトリックス",
+      "academic": {
+        "10": {
+          "raw": 0.0557,
+          "market_adj": 0.0623
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#62690",
+      "snapshot_date": "2026-06-14",
+      "code": "62690",
+      "name": "三井海洋開発",
+      "academic": {
+        "10": {
+          "raw": -0.057,
+          "market_adj": -0.0504
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#78260",
+      "snapshot_date": "2026-06-14",
+      "code": "78260",
+      "name": "フルヤ金属",
+      "academic": {
+        "10": {
+          "raw": -0.0792,
+          "market_adj": -0.0726
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#49710",
+      "snapshot_date": "2026-06-14",
+      "code": "49710",
+      "name": "メック",
+      "academic": {
+        "10": {
+          "raw": -0.0287,
+          "market_adj": -0.0221
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#69460",
+      "snapshot_date": "2026-06-14",
+      "code": "69460",
+      "name": "日本アビオニクス",
+      "academic": {
+        "10": {
+          "raw": -0.0325,
+          "market_adj": -0.0259
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#68340",
+      "snapshot_date": "2026-06-14",
+      "code": "68340",
+      "name": "精工技研",
+      "academic": {
+        "10": {
+          "raw": 0.1361,
+          "market_adj": 0.1427
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#71720",
+      "snapshot_date": "2026-06-14",
+      "code": "71720",
+      "name": "ジャパンインベストメントアドバイザー",
+      "academic": {
+        "10": {
+          "raw": -0.0059,
+          "market_adj": 0.0007
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#62270",
+      "snapshot_date": "2026-06-14",
+      "code": "62270",
+      "name": "ＡＩメカテック",
+      "academic": {
+        "10": {
+          "raw": -0.193,
+          "market_adj": -0.1864
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#63310",
+      "snapshot_date": "2026-06-14",
+      "code": "63310",
+      "name": "三菱化工機",
+      "academic": {
+        "10": {
+          "raw": -0.0221,
+          "market_adj": -0.0155
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#58380",
+      "snapshot_date": "2026-06-14",
+      "code": "58380",
+      "name": "楽天銀行",
+      "academic": {
+        "10": {
+          "raw": -0.0043,
+          "market_adj": 0.0023
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#68570",
+      "snapshot_date": "2026-06-14",
+      "code": "68570",
+      "name": "アドバンテスト",
+      "academic": {
+        "10": {
+          "raw": 0.086,
+          "market_adj": 0.0926
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#61010",
+      "snapshot_date": "2026-06-14",
+      "code": "61010",
+      "name": "ツガミ",
+      "academic": {
+        "10": {
+          "raw": 0.0672,
+          "market_adj": 0.0738
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#31070",
+      "snapshot_date": "2026-06-14",
+      "code": "31070",
+      "name": "ダイワボウホールディングス",
+      "academic": {
+        "10": {
+          "raw": 0.0144,
+          "market_adj": 0.021
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#78060",
+      "snapshot_date": "2026-06-14",
+      "code": "78060",
+      "name": "ＭＴＧ",
+      "academic": {
+        "10": {
+          "raw": 0.0465,
+          "market_adj": 0.0531
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#95520",
+      "snapshot_date": "2026-06-14",
+      "code": "95520",
+      "name": "クオンツ総研ホールディングス",
+      "academic": {
+        "10": {
+          "raw": -0.2011,
+          "market_adj": -0.1945
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#36920",
+      "snapshot_date": "2026-06-14",
+      "code": "36920",
+      "name": "ＦＦＲＩセキュリティ",
+      "academic": {
+        "10": {
+          "raw": -0.0275,
+          "market_adj": -0.0209
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#79360",
+      "snapshot_date": "2026-06-14",
+      "code": "79360",
+      "name": "アシックス",
+      "academic": {
+        "10": {
+          "raw": -0.0013,
+          "market_adj": 0.0053
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#67770",
+      "snapshot_date": "2026-06-14",
+      "code": "67770",
+      "name": "ｓａｎｔｅｃ　Ｈｏｌｄｉｎｇｓ",
+      "academic": {
+        "10": {
+          "raw": 0.0523,
+          "market_adj": 0.0589
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#47760",
+      "snapshot_date": "2026-06-14",
+      "code": "47760",
+      "name": "サイボウズ",
+      "academic": {
+        "10": {
+          "raw": -0.014,
+          "market_adj": -0.0074
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#81360",
+      "snapshot_date": "2026-06-14",
+      "code": "81360",
+      "name": "サンリオ",
+      "academic": {
+        "10": {
+          "raw": 0.3323,
+          "market_adj": 0.3389
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#65320",
+      "snapshot_date": "2026-06-14",
+      "code": "65320",
+      "name": "ベイカレント",
+      "academic": {
+        "10": {
+          "raw": 0.1065,
+          "market_adj": 0.1131
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#62640",
+      "snapshot_date": "2026-06-14",
+      "code": "62640",
+      "name": "マルマエ",
+      "academic": {
+        "10": {
+          "raw": 0.0011,
+          "market_adj": 0.0077
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-14#76850",
+      "snapshot_date": "2026-06-14",
+      "code": "76850",
+      "name": "ＢｕｙＳｅｌｌ　Ｔｅｃｈｎｏｌｏｇｉｅｓ",
+      "academic": {
+        "10": {
+          "raw": -0.0686,
+          "market_adj": -0.062
         },
         "20": null,
         "40": null

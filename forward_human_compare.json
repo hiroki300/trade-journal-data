@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-28T15:17+09:00",
-  "n_trades": 18,
+  "generated_at": "2026-07-05T15:04+09:00",
+  "n_trades": 23,
   "trades_source": "published(trade-journal-data)",
   "human": {
-    "n": 12,
-    "avg_rr_after_friction": 0.853,
-    "win_rate": 0.75,
+    "n": 18,
+    "avg_rr_after_friction": 0.739,
+    "win_rate": 0.667,
     "ci95": {
-      "lo": -0.236,
-      "hi": 2.195
+      "lo": -0.123,
+      "hi": 1.746
     },
-    "sd": 2.179,
-    "se": 0.629
+    "sd": 2.057,
+    "se": 0.485
   },
   "baseline_avg_rr": null,
   "paired": {
     "n_paired": 0,
-    "n_unmatched": 12,
+    "n_unmatched": 18,
     "mean_excess_rr": null,
     "ci95": null,
     "sd": null,
@@ -26,13 +26,13 @@
   },
   "decomposition": {
     "n": 10,
-    "avg_rr_after_friction": -0.265,
+    "avg_rr_after_friction": -0.194,
     "ci95": {
-      "lo": -0.93,
-      "hi": 0.47
+      "lo": -0.829,
+      "hi": 0.54
     },
-    "sd": 1.228,
-    "se": 0.388,
+    "sd": 1.199,
+    "se": 0.379,
     "_note": "分析専用: 人間選定×機械執行。選定エッジの切り分け (選定に還流しない)"
   },
   "direct": {
@@ -54,6 +54,6 @@
     "discipline": "質>件数: N不足なら期間延長が正。見送りも記録(R対象外で別カウント=習慣維持)。本ゲートは仮説検定でなく方向性デシジョンルール — 点推定はノイズ下、必ず±CIで解釈。"
   },
   "verdict": "保留",
-  "status": "判定保留: 人間トレード 12/30 (データ不足)。質>件数 — 不足なら期間延長が正。",
+  "status": "判定保留: 人間トレード 18/30 (データ不足)。質>件数 — 不足なら期間延長が正。",
   "label": "B3本命: 人間判断がエッジを足すかの検証 (検証中)。主ゲート=週マッチ matched-control (同週baseline差引・N=トレード数)、分解=選定エッジの分析専用、直接比較=参考。比較は方向性判断(仮説検定でない)・±CI併記。"
 }
