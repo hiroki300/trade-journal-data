@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-07-09T09:24:26.752Z",
+  "_generated_at": "2026-07-10T10:02:50.711Z",
   "_note": "人間紙トレ記録 (journal export)。決済済=取引ログ FIFO(異常値除外)、未決済=保有タブ。forward_tracker が機械baseline と比較。未決済は exit null=採点対象外・R計算は backend。skips=見送り週の記録 (R対象外・習慣維持)。",
   "trades": [
     {
@@ -149,10 +149,10 @@
     {
       "code": "81540",
       "entry_date": "2026-06-24",
-      "entry_price": 4250,
+      "entry_price": 4256.7,
       "exit_date": null,
       "exit_price": null,
-      "note": "現物 100株 未決済｜SS取込"
+      "note": "現物 300株 未決済｜SS取込"
     },
     {
       "code": "68620",
