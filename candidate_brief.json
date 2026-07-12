@@ -1,642 +1,321 @@
 {
-  "generated_at": "2026-07-05T13:04+09:00",
+  "generated_at": "2026-07-12T12:36+09:00",
   "source": "kuribou_candidates.json",
   "universe_mode": "broad",
   "note": "候補(要人間深掘り・エッジ未検証)。数字→言葉はルール翻訳(幻覚ゼロ)。需給は表示であって足切りフィルタではない。最終判断は人間+一次情報。",
-  "count": 23,
+  "count": 25,
   "candidates": [
     {
       "code": "78260",
       "name": "フルヤ金属",
       "ticker": "7826",
       "metrics": {
-        "per": 12.61,
+        "per": 12.12,
         "roe_pct": 20.3,
         "peg": 0.11,
         "growth_yoy_pct": 83.1,
         "eps_growth_yoy_pct": 114.2,
         "pbr": null,
-        "dividend_yield": 2.02,
-        "adv_jpy": 3489337500,
+        "dividend_yield": 2.1,
+        "adv_jpy": 3133581700,
         "upward_revision": true
       },
       "demand_supply": {
-        "margin_ratio": 2.01,
-        "margin_buy": 1072000,
-        "margin_sell": 533800,
-        "margin_trend_pct": -96.9,
-        "vol_ratio": 1.04,
-        "vol_avg20": 453750,
-        "bb_pct_b": 0.09,
-        "bb_bandwidth": 0.267,
+        "margin_ratio": 69.79,
+        "margin_buy": 1144600,
+        "margin_sell": 16400,
+        "margin_trend_pct": 3375.3,
+        "vol_ratio": 1.12,
+        "vol_avg20": 424030,
+        "bb_pct_b": 0.23,
+        "bb_bandwidth": 0.413,
         "short_balance_pct": null,
         "short_balance_trend_pct": null,
         "as_of_short": null
       },
       "brief": {
         "guardian": null,
-        "value": "割安(PER12.6倍)／資本効率が非常に高い⭐(ROE20.3%)／急拡大・一過性注意(売上+83.1%)／⚠️2倍超・持続性要確認(EPS+114.2%)／数値は割安だが急増の歪み・割引必要(PEG0.11)／配当あり(利回り2.0%)",
+        "value": "割安(PER12.1倍)／資本効率が非常に高い⭐(ROE20.3%)／急拡大・一過性注意(売上+83.1%)／⚠️2倍超・持続性要確認(EPS+114.2%)／数値は割安だが急増の歪み・割引必要(PEG0.11)／配当あり(利回り2.1%)",
         "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "信用は健全(倍率2.01)／回転は軽い(2.4日)／✨倍率が軽くなる(-96.9%)／出来高は平常(出来高比1.04)／🟢下限近く・売られすぎ(反発余地)(%b0.09・幅26.7%)",
-        "days_to_cover": 2.4,
+        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率69.79)／回転は軽い(2.7日)／⚠️しこり拡大(+3375.3%)／出来高は平常(出来高比1.12)",
+        "days_to_cover": 2.7,
         "squeeze": false,
-        "one_liner": "強み3点・注意2点（人間が一次情報で最終判断）（🔁4週連続候補）",
+        "one_liner": "強み3点・注意2点（人間が一次情報で最終判断）（🔁5週連続候補）",
         "link": "https://kabutan.jp/stock/?code=7826",
         "as_of_short": null,
         "next_earnings": null,
-        "streak": 4
+        "streak": 5
       },
       "flags": [
         "⚠️",
+        "⚠️",
+        "⚠️⚠️",
         "⚠️"
       ],
-      "text": "【フルヤ金属(7826)】\n💰割安/質: 割安(PER12.6倍)／資本効率が非常に高い⭐(ROE20.3%)／急拡大・一過性注意(売上+83.1%)／⚠️2倍超・持続性要確認(EPS+114.2%)／数値は割安だが急増の歪み・割引必要(PEG0.11)／配当あり(利回り2.0%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 信用は健全(倍率2.01)／回転は軽い(2.4日)／✨倍率が軽くなる(-96.9%)／出来高は平常(出来高比1.04)／🟢下限近く・売られすぎ(反発余地)(%b0.09・幅26.7%)\n→ 強み3点・注意2点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=7826"
+      "text": "【フルヤ金属(7826)】\n💰割安/質: 割安(PER12.1倍)／資本効率が非常に高い⭐(ROE20.3%)／急拡大・一過性注意(売上+83.1%)／⚠️2倍超・持続性要確認(EPS+114.2%)／数値は割安だが急増の歪み・割引必要(PEG0.11)／配当あり(利回り2.1%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率69.79)／回転は軽い(2.7日)／⚠️しこり拡大(+3375.3%)／出来高は平常(出来高比1.12)\n→ 強み3点・注意2点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=7826"
     },
     {
       "code": "81540",
       "name": "加賀電子",
       "ticker": "8154",
       "metrics": {
-        "per": 10.02,
+        "per": 10.15,
         "roe_pct": 16.9,
         "peg": 0.11,
         "growth_yoy_pct": 20.3,
         "eps_growth_yoy_pct": 93.1,
-        "pbr": 1.09,
-        "dividend_yield": 3.33,
-        "adv_jpy": 749120750,
+        "pbr": 1.11,
+        "dividend_yield": 3.29,
+        "adv_jpy": 693890100,
         "upward_revision": true
       },
       "demand_supply": {
-        "margin_ratio": 2.87,
-        "margin_buy": 67800,
-        "margin_sell": 23600,
-        "margin_trend_pct": 33.4,
-        "vol_ratio": 0.87,
-        "vol_avg20": 178150,
-        "bb_pct_b": 0.23,
-        "bb_bandwidth": 0.156,
+        "margin_ratio": 3.73,
+        "margin_buy": 91400,
+        "margin_sell": 24500,
+        "margin_trend_pct": 29.9,
+        "vol_ratio": 0.8,
+        "vol_avg20": 162885,
+        "bb_pct_b": 0.42,
+        "bb_bandwidth": 0.101,
         "short_balance_pct": null,
         "short_balance_trend_pct": null,
         "as_of_short": null
       },
       "brief": {
         "guardian": null,
-        "value": "割安(PER10.0倍)／資本効率は良好(ROE16.9%)／しっかり増収(売上+20.3%)／力強い増益(EPS+93.1%)／成長対比でも割安・本物(PEG0.11)／資産対比は妥当(PBR1.09)／配当あり(利回り3.3%)",
+        "value": "割安(PER10.2倍)／資本効率は良好(ROE16.9%)／しっかり増収(売上+20.3%)／力強い増益(EPS+93.1%)／成長対比でも割安・本物(PEG0.11)／資産対比は妥当(PBR1.11)／配当あり(利回り3.3%)",
         "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "信用は健全(倍率2.87)／回転は軽い(0.4日)／⚠️しこり拡大(+33.4%)／出来高は平常(出来高比0.87)",
-        "days_to_cover": 0.4,
+        "demand_supply": "⚠️やや重い(倍率3.73)／回転は軽い(0.6日)／⚠️しこり拡大(+29.9%)／出来高は平常(出来高比0.80)",
+        "days_to_cover": 0.6,
         "squeeze": false,
-        "one_liner": "強み2点（人間が一次情報で最終判断）（🔁4週連続候補）",
+        "one_liner": "強み2点（人間が一次情報で最終判断）（🔁5週連続候補）",
         "link": "https://kabutan.jp/stock/?code=8154",
         "as_of_short": null,
         "next_earnings": null,
-        "streak": 4
+        "streak": 5
       },
       "flags": [
+        "⚠️",
         "⚠️"
       ],
-      "text": "【加賀電子(8154)】\n💰割安/質: 割安(PER10.0倍)／資本効率は良好(ROE16.9%)／しっかり増収(売上+20.3%)／力強い増益(EPS+93.1%)／成長対比でも割安・本物(PEG0.11)／資産対比は妥当(PBR1.09)／配当あり(利回り3.3%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 信用は健全(倍率2.87)／回転は軽い(0.4日)／⚠️しこり拡大(+33.4%)／出来高は平常(出来高比0.87)\n→ 強み2点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=8154"
-    },
-    {
-      "code": "62690",
-      "name": "三井海洋開発",
-      "ticker": "6269",
-      "metrics": {
-        "per": 11.04,
-        "roe_pct": 23.4,
-        "peg": 0.12,
-        "growth_yoy_pct": 31.9,
-        "eps_growth_yoy_pct": 90.5,
-        "pbr": null,
-        "dividend_yield": 2.14,
-        "adv_jpy": 6232757280,
-        "upward_revision": true
-      },
-      "demand_supply": {
-        "margin_ratio": 8.61,
-        "margin_buy": 1519500,
-        "margin_sell": 176500,
-        "margin_trend_pct": -82.3,
-        "vol_ratio": 0.82,
-        "vol_avg20": 666320,
-        "bb_pct_b": 0.25,
-        "bb_bandwidth": 0.144,
-        "short_balance_pct": null,
-        "short_balance_trend_pct": null,
-        "as_of_short": null
-      },
-      "brief": {
-        "guardian": null,
-        "value": "割安(PER11.0倍)／資本効率が非常に高い⭐(ROE23.4%)／しっかり増収(売上+31.9%)／力強い増益(EPS+90.5%)／成長対比でも割安・本物(PEG0.12)／配当あり(利回り2.1%)",
-        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "⚠️信用買残が重い(倍率8.61)／回転は軽い(2.3日)／✨倍率が軽くなる(-82.3%)／出来高は平常(出来高比0.82)",
-        "days_to_cover": 2.3,
-        "squeeze": false,
-        "one_liner": "強み3点（人間が一次情報で最終判断）（🔁4週連続候補）",
-        "link": "https://kabutan.jp/stock/?code=6269",
-        "as_of_short": null,
-        "next_earnings": null,
-        "streak": 4
-      },
-      "flags": [
-        "⚠️"
-      ],
-      "text": "【三井海洋開発(6269)】\n💰割安/質: 割安(PER11.0倍)／資本効率が非常に高い⭐(ROE23.4%)／しっかり増収(売上+31.9%)／力強い増益(EPS+90.5%)／成長対比でも割安・本物(PEG0.12)／配当あり(利回り2.1%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️信用買残が重い(倍率8.61)／回転は軽い(2.3日)／✨倍率が軽くなる(-82.3%)／出来高は平常(出来高比0.82)\n→ 強み3点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=6269"
+      "text": "【加賀電子(8154)】\n💰割安/質: 割安(PER10.2倍)／資本効率は良好(ROE16.9%)／しっかり増収(売上+20.3%)／力強い増益(EPS+93.1%)／成長対比でも割安・本物(PEG0.11)／資産対比は妥当(PBR1.11)／配当あり(利回り3.3%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️やや重い(倍率3.73)／回転は軽い(0.6日)／⚠️しこり拡大(+29.9%)／出来高は平常(出来高比0.80)\n→ 強み2点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=8154"
     },
     {
       "code": "27370",
       "name": "トーメンデバイス",
       "ticker": "2737",
       "metrics": {
-        "per": 10.34,
+        "per": 9.7,
         "roe_pct": 16.9,
-        "peg": 0.13,
+        "peg": 0.12,
         "growth_yoy_pct": 50.3,
         "eps_growth_yoy_pct": 79.2,
-        "pbr": 1.92,
-        "dividend_yield": 3.59,
-        "adv_jpy": 1371274450,
+        "pbr": 1.8,
+        "dividend_yield": 3.82,
+        "adv_jpy": 1296543150,
         "upward_revision": true
       },
       "demand_supply": {
-        "margin_ratio": 135.86,
-        "margin_buy": 95100,
-        "margin_sell": 700,
-        "margin_trend_pct": 36.7,
-        "vol_ratio": 1.19,
-        "vol_avg20": 81965,
-        "bb_pct_b": 0.57,
-        "bb_bandwidth": 0.365,
+        "margin_ratio": 970.0,
+        "margin_buy": 97000,
+        "margin_sell": 100,
+        "margin_trend_pct": 614.0,
+        "vol_ratio": 0.77,
+        "vol_avg20": 82635,
+        "bb_pct_b": 0.28,
+        "bb_bandwidth": 0.269,
         "short_balance_pct": null,
         "short_balance_trend_pct": null,
         "as_of_short": null
       },
       "brief": {
         "guardian": null,
-        "value": "割安(PER10.3倍)／資本効率は良好(ROE16.9%)／急拡大・一過性注意(売上+50.3%)／力強い増益(EPS+79.2%)／成長対比でも割安・本物(PEG0.13)／資産対比は妥当(PBR1.92)／配当あり(利回り3.6%)",
+        "value": "割安(PER9.7倍)／資本効率は良好(ROE16.9%)／急拡大・一過性注意(売上+50.3%)／力強い増益(EPS+79.2%)／成長対比でも割安・本物(PEG0.12)／資産対比は妥当(PBR1.80)／配当あり(利回り3.8%)",
         "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率135.86)／回転は軽い(1.2日)／⚠️しこり拡大(+36.7%)／出来高は平常(出来高比1.19)",
+        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率970.00)／回転は軽い(1.2日)／⚠️しこり拡大(+614.0%)／⚠️出来高が低調・動意待ち(出来高比0.77)",
         "days_to_cover": 1.2,
         "squeeze": false,
-        "one_liner": "強み2点（人間が一次情報で最終判断）（🔁4週連続候補）",
+        "one_liner": "強み2点（人間が一次情報で最終判断）（🔁5週連続候補）",
         "link": "https://kabutan.jp/stock/?code=2737",
         "as_of_short": null,
         "next_earnings": null,
-        "streak": 4
+        "streak": 5
       },
       "flags": [
         "⚠️⚠️",
+        "⚠️",
         "⚠️"
       ],
-      "text": "【トーメンデバイス(2737)】\n💰割安/質: 割安(PER10.3倍)／資本効率は良好(ROE16.9%)／急拡大・一過性注意(売上+50.3%)／力強い増益(EPS+79.2%)／成長対比でも割安・本物(PEG0.13)／資産対比は妥当(PBR1.92)／配当あり(利回り3.6%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率135.86)／回転は軽い(1.2日)／⚠️しこり拡大(+36.7%)／出来高は平常(出来高比1.19)\n→ 強み2点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=2737"
+      "text": "【トーメンデバイス(2737)】\n💰割安/質: 割安(PER9.7倍)／資本効率は良好(ROE16.9%)／急拡大・一過性注意(売上+50.3%)／力強い増益(EPS+79.2%)／成長対比でも割安・本物(PEG0.12)／資産対比は妥当(PBR1.80)／配当あり(利回り3.8%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率970.00)／回転は軽い(1.2日)／⚠️しこり拡大(+614.0%)／⚠️出来高が低調・動意待ち(出来高比0.77)\n→ 強み2点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=2737"
+    },
+    {
+      "code": "62690",
+      "name": "三井海洋開発",
+      "ticker": "6269",
+      "metrics": {
+        "per": 11.65,
+        "roe_pct": 23.4,
+        "peg": 0.13,
+        "growth_yoy_pct": 31.9,
+        "eps_growth_yoy_pct": 90.5,
+        "pbr": null,
+        "dividend_yield": 2.03,
+        "adv_jpy": 6364623380,
+        "upward_revision": true
+      },
+      "demand_supply": {
+        "margin_ratio": 39.43,
+        "margin_buy": 1490300,
+        "margin_sell": 37800,
+        "margin_trend_pct": 358.0,
+        "vol_ratio": 0.58,
+        "vol_avg20": 644780,
+        "bb_pct_b": 0.6,
+        "bb_bandwidth": 0.14,
+        "short_balance_pct": null,
+        "short_balance_trend_pct": null,
+        "as_of_short": null
+      },
+      "brief": {
+        "guardian": null,
+        "value": "割安(PER11.7倍)／資本効率が非常に高い⭐(ROE23.4%)／しっかり増収(売上+31.9%)／力強い増益(EPS+90.5%)／成長対比でも割安・本物(PEG0.13)／配当あり(利回り2.0%)",
+        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
+        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率39.43)／回転は軽い(2.3日)／⚠️しこり拡大(+358.0%)／⚠️出来高が低調・動意待ち(出来高比0.58)",
+        "days_to_cover": 2.3,
+        "squeeze": false,
+        "one_liner": "強み3点（人間が一次情報で最終判断）（🔁5週連続候補）",
+        "link": "https://kabutan.jp/stock/?code=6269",
+        "as_of_short": null,
+        "next_earnings": null,
+        "streak": 5
+      },
+      "flags": [
+        "⚠️⚠️",
+        "⚠️",
+        "⚠️"
+      ],
+      "text": "【三井海洋開発(6269)】\n💰割安/質: 割安(PER11.7倍)／資本効率が非常に高い⭐(ROE23.4%)／しっかり増収(売上+31.9%)／力強い増益(EPS+90.5%)／成長対比でも割安・本物(PEG0.13)／配当あり(利回り2.0%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率39.43)／回転は軽い(2.3日)／⚠️しこり拡大(+358.0%)／⚠️出来高が低調・動意待ち(出来高比0.58)\n→ 強み3点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=6269"
     },
     {
       "code": "49710",
       "name": "メック",
       "ticker": "4971",
       "metrics": {
-        "per": 34.09,
+        "per": 30.4,
         "roe_pct": 17.5,
-        "peg": 0.15,
+        "peg": 0.13,
         "growth_yoy_pct": 38.5,
         "eps_growth_yoy_pct": 229.0,
         "pbr": null,
-        "dividend_yield": 1.06,
-        "adv_jpy": 2960836200,
+        "dividend_yield": 1.19,
+        "adv_jpy": 2575188000,
         "upward_revision": true
       },
       "demand_supply": {
-        "margin_ratio": 2.31,
-        "margin_buy": 139400,
-        "margin_sell": 60300,
-        "margin_trend_pct": -45.0,
-        "vol_ratio": 1.34,
-        "vol_avg20": 285795,
-        "bb_pct_b": 0.42,
-        "bb_bandwidth": 0.253,
+        "margin_ratio": 4.0,
+        "margin_buy": 148300,
+        "margin_sell": 37100,
+        "margin_trend_pct": 72.9,
+        "vol_ratio": 0.85,
+        "vol_avg20": 278700,
+        "bb_pct_b": 0.15,
+        "bb_bandwidth": 0.325,
         "short_balance_pct": null,
         "short_balance_trend_pct": null,
         "as_of_short": null
       },
       "brief": {
         "guardian": null,
-        "value": "PERは高め(34.1倍)／資本効率は良好(ROE17.5%)／しっかり増収(売上+38.5%)／⚠️3倍超・一時要因濃厚(EPS+229.0%)／数値は割安だが急増の歪み・割引必要(PEG0.15)／配当は控えめ(利回り1.1%)",
+        "value": "PERは高め(30.4倍)／資本効率は良好(ROE17.5%)／しっかり増収(売上+38.5%)／⚠️3倍超・一時要因濃厚(EPS+229.0%)／数値は割安だが急増の歪み・割引必要(PEG0.13)／配当は控えめ(利回り1.2%)",
         "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "信用は健全(倍率2.31)／回転は軽い(0.5日)／✨倍率が軽くなる(-45.0%)／出来高は平常(出来高比1.34)",
+        "demand_supply": "⚠️やや重い(倍率4.00)／回転は軽い(0.5日)／⚠️しこり拡大(+72.9%)／出来高は平常(出来高比0.85)／🟢下限近く・売られすぎ(反発余地)(%b0.15・幅32.5%)",
         "days_to_cover": 0.5,
         "squeeze": false,
-        "one_liner": "強み2点・注意2点（人間が一次情報で最終判断）（🔁4週連続候補）",
+        "one_liner": "強み2点・注意2点（人間が一次情報で最終判断）（🔁5週連続候補）",
         "link": "https://kabutan.jp/stock/?code=4971",
         "as_of_short": null,
         "next_earnings": null,
-        "streak": 4
+        "streak": 5
+      },
+      "flags": [
+        "⚠️",
+        "⚠️",
+        "⚠️",
+        "⚠️"
+      ],
+      "text": "【メック(4971)】\n💰割安/質: PERは高め(30.4倍)／資本効率は良好(ROE17.5%)／しっかり増収(売上+38.5%)／⚠️3倍超・一時要因濃厚(EPS+229.0%)／数値は割安だが急増の歪み・割引必要(PEG0.13)／配当は控えめ(利回り1.2%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️やや重い(倍率4.00)／回転は軽い(0.5日)／⚠️しこり拡大(+72.9%)／出来高は平常(出来高比0.85)／🟢下限近く・売られすぎ(反発余地)(%b0.15・幅32.5%)\n→ 強み2点・注意2点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=4971"
+    },
+    {
+      "code": "31860",
+      "name": "ネクステージ",
+      "ticker": "3186",
+      "metrics": {
+        "per": 15.96,
+        "roe_pct": 20.2,
+        "peg": 0.14,
+        "growth_yoy_pct": 26.6,
+        "eps_growth_yoy_pct": 113.7,
+        "pbr": null,
+        "dividend_yield": 1.43,
+        "adv_jpy": 2556474025,
+        "upward_revision": true
+      },
+      "demand_supply": {
+        "margin_ratio": 0.59,
+        "margin_buy": 176400,
+        "margin_sell": 298300,
+        "margin_trend_pct": 12.4,
+        "vol_ratio": 1.25,
+        "vol_avg20": 733565,
+        "bb_pct_b": -0.04,
+        "bb_bandwidth": 0.206,
+        "short_balance_pct": null,
+        "short_balance_trend_pct": null,
+        "as_of_short": null
+      },
+      "brief": {
+        "guardian": null,
+        "value": "妥当〜やや割高(PER16.0倍)／資本効率が非常に高い⭐(ROE20.2%)／しっかり増収(売上+26.6%)／⚠️2倍超・持続性要確認(EPS+113.7%)／数値は割安だが急増の歪み・割引必要(PEG0.14)／配当は控えめ(利回り1.4%)",
+        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
+        "demand_supply": "🚀売り長・踏み上げ余地(倍率0.59)／回転は軽い(0.2日)／出来高は平常(出来高比1.25)／🔵−2σ下抜け・急落(底値圏の可能性)(%b-0.04・幅20.6%)",
+        "days_to_cover": 0.2,
+        "squeeze": false,
+        "one_liner": "強み3点・注意2点（人間が一次情報で最終判断）（🔁5週連続候補）",
+        "link": "https://kabutan.jp/stock/?code=3186",
+        "as_of_short": null,
+        "next_earnings": null,
+        "streak": 5
       },
       "flags": [
         "⚠️",
         "⚠️"
       ],
-      "text": "【メック(4971)】\n💰割安/質: PERは高め(34.1倍)／資本効率は良好(ROE17.5%)／しっかり増収(売上+38.5%)／⚠️3倍超・一時要因濃厚(EPS+229.0%)／数値は割安だが急増の歪み・割引必要(PEG0.15)／配当は控えめ(利回り1.1%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 信用は健全(倍率2.31)／回転は軽い(0.5日)／✨倍率が軽くなる(-45.0%)／出来高は平常(出来高比1.34)\n→ 強み2点・注意2点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=4971"
+      "text": "【ネクステージ(3186)】\n💰割安/質: 妥当〜やや割高(PER16.0倍)／資本効率が非常に高い⭐(ROE20.2%)／しっかり増収(売上+26.6%)／⚠️2倍超・持続性要確認(EPS+113.7%)／数値は割安だが急増の歪み・割引必要(PEG0.14)／配当は控えめ(利回り1.4%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 🚀売り長・踏み上げ余地(倍率0.59)／回転は軽い(0.2日)／出来高は平常(出来高比1.25)／🔵−2σ下抜け・急落(底値圏の可能性)(%b-0.04・幅20.6%)\n→ 強み3点・注意2点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=3186"
     },
     {
       "code": "69460",
       "name": "日本アビオニクス",
       "ticker": "6946",
       "metrics": {
-        "per": 19.12,
+        "per": 17.41,
         "roe_pct": 23.7,
-        "peg": 0.18,
+        "peg": 0.17,
         "growth_yoy_pct": 45.1,
         "eps_growth_yoy_pct": 103.9,
-        "pbr": 4.99,
-        "dividend_yield": 0.28,
-        "adv_jpy": 966268500,
+        "pbr": 4.54,
+        "dividend_yield": 0.3,
+        "adv_jpy": 909904725,
         "upward_revision": true
       },
       "demand_supply": {
         "margin_ratio": null,
-        "margin_buy": 657900,
+        "margin_buy": 623600,
         "margin_sell": 0,
         "margin_trend_pct": null,
-        "vol_ratio": 0.89,
-        "vol_avg20": 177950,
-        "bb_pct_b": 0.84,
-        "bb_bandwidth": 0.173,
-        "short_balance_pct": null,
-        "short_balance_trend_pct": null,
-        "as_of_short": null
-      },
-      "brief": {
-        "guardian": null,
-        "value": "妥当〜やや割高(PER19.1倍)／資本効率が非常に高い⭐(ROE23.7%)／急拡大・一過性注意(売上+45.1%)／⚠️2倍超・持続性要確認(EPS+103.9%)／数値は割安だが急増の歪み・割引必要(PEG0.18)／資産対比は高め(PBR4.99)／配当は控えめ(利回り0.3%)",
-        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "回転は普通(3.7日)／出来高は平常(出来高比0.89)／🟠上限近く・過熱気味(%b0.84・幅17.3%)",
-        "days_to_cover": 3.7,
-        "squeeze": false,
-        "one_liner": "強み3点・注意2点（人間が一次情報で最終判断）（🔁4週連続候補）",
-        "link": "https://kabutan.jp/stock/?code=6946",
-        "as_of_short": null,
-        "next_earnings": null,
-        "streak": 4
-      },
-      "flags": [
-        "⚠️",
-        "⚠️"
-      ],
-      "text": "【日本アビオニクス(6946)】\n💰割安/質: 妥当〜やや割高(PER19.1倍)／資本効率が非常に高い⭐(ROE23.7%)／急拡大・一過性注意(売上+45.1%)／⚠️2倍超・持続性要確認(EPS+103.9%)／数値は割安だが急増の歪み・割引必要(PEG0.18)／資産対比は高め(PBR4.99)／配当は控えめ(利回り0.3%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 回転は普通(3.7日)／出来高は平常(出来高比0.89)／🟠上限近く・過熱気味(%b0.84・幅17.3%)\n→ 強み3点・注意2点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=6946"
-    },
-    {
-      "code": "71720",
-      "name": "ジャパンインベストメントアドバイザー",
-      "ticker": "7172",
-      "metrics": {
-        "per": 9.65,
-        "roe_pct": 15.5,
-        "peg": 0.18,
-        "growth_yoy_pct": 24.8,
-        "eps_growth_yoy_pct": 53.0,
-        "pbr": null,
-        "dividend_yield": 5.21,
-        "adv_jpy": 605055080,
-        "upward_revision": true
-      },
-      "demand_supply": {
-        "margin_ratio": 2.41,
-        "margin_buy": 1511700,
-        "margin_sell": 626900,
-        "margin_trend_pct": -96.2,
-        "vol_ratio": 0.76,
-        "vol_avg20": 292015,
-        "bb_pct_b": 0.72,
-        "bb_bandwidth": 0.056,
-        "short_balance_pct": null,
-        "short_balance_trend_pct": null,
-        "as_of_short": null
-      },
-      "brief": {
-        "guardian": null,
-        "value": "割安(PER9.7倍)／資本効率は良好(ROE15.5%)／しっかり増収(売上+24.8%)／力強い増益(EPS+53.0%)／成長対比でも割安・本物(PEG0.18)／💰高配当・下支え(利回り5.2%)",
-        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "信用は健全(倍率2.41)／回転は普通(5.2日)／✨倍率が軽くなる(-96.2%)／⚠️出来高が低調・動意待ち(出来高比0.76)",
-        "days_to_cover": 5.2,
-        "squeeze": false,
-        "one_liner": "強み2点（人間が一次情報で最終判断）（🔁4週連続候補）",
-        "link": "https://kabutan.jp/stock/?code=7172",
-        "as_of_short": null,
-        "next_earnings": null,
-        "streak": 4
-      },
-      "flags": [
-        "⚠️"
-      ],
-      "text": "【ジャパンインベストメントアドバイザー(7172)】\n💰割安/質: 割安(PER9.7倍)／資本効率は良好(ROE15.5%)／しっかり増収(売上+24.8%)／力強い増益(EPS+53.0%)／成長対比でも割安・本物(PEG0.18)／💰高配当・下支え(利回り5.2%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 信用は健全(倍率2.41)／回転は普通(5.2日)／✨倍率が軽くなる(-96.2%)／⚠️出来高が低調・動意待ち(出来高比0.76)\n→ 強み2点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=7172"
-    },
-    {
-      "code": "62270",
-      "name": "ＡＩメカテック",
-      "ticker": "6227",
-      "metrics": {
-        "per": 42.34,
-        "roe_pct": 22.7,
-        "peg": 0.19,
-        "growth_yoy_pct": 134.4,
-        "eps_growth_yoy_pct": 220.4,
-        "pbr": null,
-        "dividend_yield": 0.24,
-        "adv_jpy": 11314629000,
-        "upward_revision": true
-      },
-      "demand_supply": {
-        "margin_ratio": 10.74,
-        "margin_buy": 2658000,
-        "margin_sell": 247500,
-        "margin_trend_pct": 6.5,
-        "vol_ratio": 0.64,
-        "vol_avg20": 1630350,
+        "vol_ratio": 0.93,
+        "vol_avg20": 184005,
         "bb_pct_b": 0.3,
-        "bb_bandwidth": 0.268,
-        "short_balance_pct": null,
-        "short_balance_trend_pct": null,
-        "as_of_short": null
-      },
-      "brief": {
-        "guardian": null,
-        "value": "PERは高め(42.3倍)／資本効率が非常に高い⭐(ROE22.7%)／急拡大・一過性注意(売上+134.4%)／⚠️3倍超・一時要因濃厚(EPS+220.4%)／数値は割安だが急増の歪み・割引必要(PEG0.19)／配当は控えめ(利回り0.2%)",
-        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率10.74)／回転は軽い(1.6日)／⚠️出来高が低調・動意待ち(出来高比0.64)",
-        "days_to_cover": 1.6,
-        "squeeze": false,
-        "one_liner": "強み3点・注意2点（人間が一次情報で最終判断）（🔁4週連続候補）",
-        "link": "https://kabutan.jp/stock/?code=6227",
-        "as_of_short": null,
-        "next_earnings": null,
-        "streak": 4
-      },
-      "flags": [
-        "⚠️",
-        "⚠️",
-        "⚠️⚠️",
-        "⚠️"
-      ],
-      "text": "【ＡＩメカテック(6227)】\n💰割安/質: PERは高め(42.3倍)／資本効率が非常に高い⭐(ROE22.7%)／急拡大・一過性注意(売上+134.4%)／⚠️3倍超・一時要因濃厚(EPS+220.4%)／数値は割安だが急増の歪み・割引必要(PEG0.19)／配当は控えめ(利回り0.2%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率10.74)／回転は軽い(1.6日)／⚠️出来高が低調・動意待ち(出来高比0.64)\n→ 強み3点・注意2点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=6227"
-    },
-    {
-      "code": "68340",
-      "name": "精工技研",
-      "ticker": "6834",
-      "metrics": {
-        "per": 37.07,
-        "roe_pct": 18.2,
-        "peg": 0.2,
-        "growth_yoy_pct": 50.6,
-        "eps_growth_yoy_pct": 183.5,
-        "pbr": 7.01,
-        "dividend_yield": 0.45,
-        "adv_jpy": 7073175400,
-        "upward_revision": true
-      },
-      "demand_supply": {
-        "margin_ratio": 2.11,
-        "margin_buy": 247200,
-        "margin_sell": 117000,
-        "margin_trend_pct": 2.0,
-        "vol_ratio": 0.66,
-        "vol_avg20": 266510,
-        "bb_pct_b": 0.33,
-        "bb_bandwidth": 0.339,
-        "short_balance_pct": null,
-        "short_balance_trend_pct": null,
-        "as_of_short": null
-      },
-      "brief": {
-        "guardian": null,
-        "value": "PERは高め(37.1倍)／資本効率は良好(ROE18.2%)／急拡大・一過性注意(売上+50.6%)／⚠️2倍超・持続性要確認(EPS+183.5%)／数値は割安だが急増の歪み・割引必要(PEG0.20)／資産対比は高め(PBR7.01)／配当は控えめ(利回り0.5%)",
-        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "信用は健全(倍率2.11)／回転は軽い(0.9日)／⚠️出来高が低調・動意待ち(出来高比0.66)",
-        "days_to_cover": 0.9,
-        "squeeze": false,
-        "one_liner": "強み2点・注意2点（人間が一次情報で最終判断）（🔁4週連続候補）",
-        "link": "https://kabutan.jp/stock/?code=6834",
-        "as_of_short": null,
-        "next_earnings": null,
-        "streak": 4
-      },
-      "flags": [
-        "⚠️",
-        "⚠️",
-        "⚠️"
-      ],
-      "text": "【精工技研(6834)】\n💰割安/質: PERは高め(37.1倍)／資本効率は良好(ROE18.2%)／急拡大・一過性注意(売上+50.6%)／⚠️2倍超・持続性要確認(EPS+183.5%)／数値は割安だが急増の歪み・割引必要(PEG0.20)／資産対比は高め(PBR7.01)／配当は控えめ(利回り0.5%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 信用は健全(倍率2.11)／回転は軽い(0.9日)／⚠️出来高が低調・動意待ち(出来高比0.66)\n→ 強み2点・注意2点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=6834"
-    },
-    {
-      "code": "63310",
-      "name": "三菱化工機",
-      "ticker": "6331",
-      "metrics": {
-        "per": 12.7,
-        "roe_pct": 16.8,
-        "peg": 0.23,
-        "growth_yoy_pct": 42.3,
-        "eps_growth_yoy_pct": 55.0,
-        "pbr": 1.94,
-        "dividend_yield": 3.14,
-        "adv_jpy": 674592900,
-        "upward_revision": true
-      },
-      "demand_supply": {
-        "margin_ratio": 44.57,
-        "margin_buy": 615000,
-        "margin_sell": 13800,
-        "margin_trend_pct": 87.8,
-        "vol_ratio": 0.76,
-        "vol_avg20": 176595,
-        "bb_pct_b": 0.52,
-        "bb_bandwidth": 0.183,
-        "short_balance_pct": null,
-        "short_balance_trend_pct": null,
-        "as_of_short": null
-      },
-      "brief": {
-        "guardian": null,
-        "value": "割安(PER12.7倍)／資本効率は良好(ROE16.8%)／急拡大・一過性注意(売上+42.3%)／力強い増益(EPS+55.0%)／成長対比でも割安・本物(PEG0.23)／資産対比は妥当(PBR1.94)／配当あり(利回り3.1%)",
-        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率44.57)／回転は普通(3.5日)／⚠️しこり拡大(+87.8%)／⚠️出来高が低調・動意待ち(出来高比0.76)",
-        "days_to_cover": 3.5,
-        "squeeze": false,
-        "one_liner": "強み2点（人間が一次情報で最終判断）（🔁4週連続候補）",
-        "link": "https://kabutan.jp/stock/?code=6331",
-        "as_of_short": null,
-        "next_earnings": null,
-        "streak": 4
-      },
-      "flags": [
-        "⚠️⚠️",
-        "⚠️",
-        "⚠️"
-      ],
-      "text": "【三菱化工機(6331)】\n💰割安/質: 割安(PER12.7倍)／資本効率は良好(ROE16.8%)／急拡大・一過性注意(売上+42.3%)／力強い増益(EPS+55.0%)／成長対比でも割安・本物(PEG0.23)／資産対比は妥当(PBR1.94)／配当あり(利回り3.1%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率44.57)／回転は普通(3.5日)／⚠️しこり拡大(+87.8%)／⚠️出来高が低調・動意待ち(出来高比0.76)\n→ 強み2点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=6331"
-    },
-    {
-      "code": "58380",
-      "name": "楽天銀行",
-      "ticker": "5838",
-      "metrics": {
-        "per": 11.58,
-        "roe_pct": 18.8,
-        "peg": 0.26,
-        "growth_yoy_pct": 38.5,
-        "eps_growth_yoy_pct": 43.9,
-        "pbr": 2.54,
-        "dividend_yield": 0.0,
-        "adv_jpy": 8310350100,
-        "upward_revision": true
-      },
-      "demand_supply": {
-        "margin_ratio": 115.22,
-        "margin_buy": 2477300,
-        "margin_sell": 21500,
-        "margin_trend_pct": 44.6,
-        "vol_ratio": 0.63,
-        "vol_avg20": 1540380,
-        "bb_pct_b": 0.98,
-        "bb_bandwidth": 0.115,
-        "short_balance_pct": null,
-        "short_balance_trend_pct": null,
-        "as_of_short": null
-      },
-      "brief": {
-        "guardian": null,
-        "value": "割安(PER11.6倍)／資本効率は良好(ROE18.8%)／しっかり増収(売上+38.5%)／力強い増益(EPS+43.9%)／成長対比でも割安・本物(PEG0.26)／資産対比は高め(PBR2.54)／無配",
-        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率115.22)／回転は軽い(1.6日)／⚠️しこり拡大(+44.6%)／⚠️出来高が低調・動意待ち(出来高比0.63)／🟠上限近く・過熱気味(%b0.98・幅11.5%)",
-        "days_to_cover": 1.6,
-        "squeeze": false,
-        "one_liner": "強み2点（人間が一次情報で最終判断）（🔁4週連続候補）",
-        "link": "https://kabutan.jp/stock/?code=5838",
-        "as_of_short": null,
-        "next_earnings": null,
-        "streak": 4
-      },
-      "flags": [
-        "⚠️⚠️",
-        "⚠️",
-        "⚠️"
-      ],
-      "text": "【楽天銀行(5838)】\n💰割安/質: 割安(PER11.6倍)／資本効率は良好(ROE18.8%)／しっかり増収(売上+38.5%)／力強い増益(EPS+43.9%)／成長対比でも割安・本物(PEG0.26)／資産対比は高め(PBR2.54)／無配\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率115.22)／回転は軽い(1.6日)／⚠️しこり拡大(+44.6%)／⚠️出来高が低調・動意待ち(出来高比0.63)／🟠上限近く・過熱気味(%b0.98・幅11.5%)\n→ 強み2点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=5838"
-    },
-    {
-      "code": "31070",
-      "name": "ダイワボウホールディングス",
-      "ticker": "3107",
-      "metrics": {
-        "per": 12.04,
-        "roe_pct": 18.9,
-        "peg": 0.36,
-        "growth_yoy_pct": 18.8,
-        "eps_growth_yoy_pct": 33.4,
-        "pbr": 1.79,
-        "dividend_yield": 3.14,
-        "adv_jpy": 1131897120,
-        "upward_revision": false
-      },
-      "demand_supply": {
-        "margin_ratio": 1.12,
-        "margin_buy": 51900,
-        "margin_sell": 46300,
-        "margin_trend_pct": -61.8,
-        "vol_ratio": 1.1,
-        "vol_avg20": 323030,
-        "bb_pct_b": 0.85,
-        "bb_bandwidth": 0.072,
-        "short_balance_pct": null,
-        "short_balance_trend_pct": null,
-        "as_of_short": null
-      },
-      "brief": {
-        "guardian": null,
-        "value": "割安(PER12.0倍)／資本効率は良好(ROE18.9%)／しっかり増収(売上+18.8%)／力強い増益(EPS+33.4%)／成長対比でも割安・本物(PEG0.36)／資産対比は妥当(PBR1.79)／配当あり(利回り3.1%)",
-        "earnings": "増収増益◎",
-        "demand_supply": "信用は健全(倍率1.12)／回転は軽い(0.2日)／✨倍率が軽くなる(-61.8%)／出来高は平常(出来高比1.10)／🟠上限近く・過熱気味(%b0.85・幅7.2%)",
-        "days_to_cover": 0.2,
-        "squeeze": false,
-        "one_liner": "強み1点（人間が一次情報で最終判断）（🔁4週連続候補）",
-        "link": "https://kabutan.jp/stock/?code=3107",
-        "as_of_short": null,
-        "next_earnings": null,
-        "streak": 4
-      },
-      "flags": [],
-      "text": "【ダイワボウホールディングス(3107)】\n💰割安/質: 割安(PER12.0倍)／資本効率は良好(ROE18.9%)／しっかり増収(売上+18.8%)／力強い増益(EPS+33.4%)／成長対比でも割安・本物(PEG0.36)／資産対比は妥当(PBR1.79)／配当あり(利回り3.1%)\n📊業績: 増収増益◎\n🔄需給: 信用は健全(倍率1.12)／回転は軽い(0.2日)／✨倍率が軽くなる(-61.8%)／出来高は平常(出来高比1.10)／🟠上限近く・過熱気味(%b0.85・幅7.2%)\n→ 強み1点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=3107"
-    },
-    {
-      "code": "78060",
-      "name": "ＭＴＧ",
-      "ticker": "7806",
-      "metrics": {
-        "per": 31.85,
-        "roe_pct": 17.1,
-        "peg": 0.46,
-        "growth_yoy_pct": 42.5,
-        "eps_growth_yoy_pct": 68.5,
-        "pbr": null,
-        "dividend_yield": 0.41,
-        "adv_jpy": 821056500,
-        "upward_revision": true
-      },
-      "demand_supply": {
-        "margin_ratio": 2.59,
-        "margin_buy": 128100,
-        "margin_sell": 49400,
-        "margin_trend_pct": 15.7,
-        "vol_ratio": 2.15,
-        "vol_avg20": 101365,
-        "bb_pct_b": 1.08,
-        "bb_bandwidth": 0.171,
-        "short_balance_pct": null,
-        "short_balance_trend_pct": null,
-        "as_of_short": null
-      },
-      "brief": {
-        "guardian": null,
-        "value": "PERは高め(31.9倍)／資本効率は良好(ROE17.1%)／急拡大・一過性注意(売上+42.5%)／力強い増益(EPS+68.5%)／成長対比でも割安・本物(PEG0.46)／配当は控えめ(利回り0.4%)",
-        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "信用は健全(倍率2.59)／回転は軽い(1.3日)／⚠️しこり拡大(+15.7%)／🔥🔥強い注目(出来高比2.15)／🔴+2σ上抜け・強い過熱圏(%b1.08・幅17.1%)",
-        "days_to_cover": 1.3,
-        "squeeze": false,
-        "one_liner": "強み2点（人間が一次情報で最終判断）（🔁4週連続候補）",
-        "link": "https://kabutan.jp/stock/?code=7806",
-        "as_of_short": null,
-        "next_earnings": null,
-        "streak": 4
-      },
-      "flags": [
-        "⚠️"
-      ],
-      "text": "【ＭＴＧ(7806)】\n💰割安/質: PERは高め(31.9倍)／資本効率は良好(ROE17.1%)／急拡大・一過性注意(売上+42.5%)／力強い増益(EPS+68.5%)／成長対比でも割安・本物(PEG0.46)／配当は控えめ(利回り0.4%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 信用は健全(倍率2.59)／回転は軽い(1.3日)／⚠️しこり拡大(+15.7%)／🔥🔥強い注目(出来高比2.15)／🔴+2σ上抜け・強い過熱圏(%b1.08・幅17.1%)\n→ 強み2点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=7806"
-    },
-    {
-      "code": "36920",
-      "name": "ＦＦＲＩセキュリティ",
-      "ticker": "3692",
-      "metrics": {
-        "per": 37.56,
-        "roe_pct": 29.1,
-        "peg": 0.62,
-        "growth_yoy_pct": 43.1,
-        "eps_growth_yoy_pct": 60.1,
-        "pbr": 11.26,
-        "dividend_yield": 0.33,
-        "adv_jpy": 714464000,
-        "upward_revision": true
-      },
-      "demand_supply": {
-        "margin_ratio": 1.42,
-        "margin_buy": 549400,
-        "margin_sell": 386900,
-        "margin_trend_pct": 11.5,
-        "vol_ratio": 1.72,
-        "vol_avg20": 132800,
-        "bb_pct_b": 1.02,
         "bb_bandwidth": 0.192,
         "short_balance_pct": null,
         "short_balance_trend_pct": null,
@@ -644,287 +323,713 @@
       },
       "brief": {
         "guardian": null,
-        "value": "PERは高め(37.6倍)／資本効率が非常に高い⭐(ROE29.1%)／急拡大・一過性注意(売上+43.1%)／力強い増益(EPS+60.1%)／成長対比で妥当(PEG0.62)／資産対比は高め(PBR11.26)／配当は控えめ(利回り0.3%)",
+        "value": "妥当〜やや割高(PER17.4倍)／資本効率が非常に高い⭐(ROE23.7%)／急拡大・一過性注意(売上+45.1%)／⚠️2倍超・持続性要確認(EPS+103.9%)／数値は割安だが急増の歪み・割引必要(PEG0.17)／資産対比は高め(PBR4.54)／配当は控えめ(利回り0.3%)",
         "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "信用は健全(倍率1.42)／回転は普通(4.1日)／🔥注目(出来高比1.72)／🔴+2σ上抜け・強い過熱圏(%b1.02・幅19.2%)",
-        "days_to_cover": 4.1,
+        "demand_supply": "回転は普通(3.4日)／出来高は平常(出来高比0.93)",
+        "days_to_cover": 3.4,
         "squeeze": false,
-        "one_liner": "強み3点（人間が一次情報で最終判断）（🔁4週連続候補）",
-        "link": "https://kabutan.jp/stock/?code=3692",
+        "one_liner": "強み3点・注意2点（人間が一次情報で最終判断）（🔁5週連続候補）",
+        "link": "https://kabutan.jp/stock/?code=6946",
         "as_of_short": null,
         "next_earnings": null,
-        "streak": 4
+        "streak": 5
       },
-      "flags": [],
-      "text": "【ＦＦＲＩセキュリティ(3692)】\n💰割安/質: PERは高め(37.6倍)／資本効率が非常に高い⭐(ROE29.1%)／急拡大・一過性注意(売上+43.1%)／力強い増益(EPS+60.1%)／成長対比で妥当(PEG0.62)／資産対比は高め(PBR11.26)／配当は控えめ(利回り0.3%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 信用は健全(倍率1.42)／回転は普通(4.1日)／🔥注目(出来高比1.72)／🔴+2σ上抜け・強い過熱圏(%b1.02・幅19.2%)\n→ 強み3点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=3692"
+      "flags": [
+        "⚠️",
+        "⚠️"
+      ],
+      "text": "【日本アビオニクス(6946)】\n💰割安/質: 妥当〜やや割高(PER17.4倍)／資本効率が非常に高い⭐(ROE23.7%)／急拡大・一過性注意(売上+45.1%)／⚠️2倍超・持続性要確認(EPS+103.9%)／数値は割安だが急増の歪み・割引必要(PEG0.17)／資産対比は高め(PBR4.54)／配当は控えめ(利回り0.3%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 回転は普通(3.4日)／出来高は平常(出来高比0.93)\n→ 強み3点・注意2点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=6946"
     },
     {
-      "code": "47760",
-      "name": "サイボウズ",
-      "ticker": "4776",
+      "code": "68340",
+      "name": "精工技研",
+      "ticker": "6834",
       "metrics": {
-        "per": 15.73,
-        "roe_pct": 42.3,
-        "peg": 0.73,
-        "growth_yoy_pct": 17.0,
-        "eps_growth_yoy_pct": 21.5,
-        "pbr": null,
-        "dividend_yield": 1.97,
-        "adv_jpy": 1022318800,
+        "per": 32.56,
+        "roe_pct": 18.2,
+        "peg": 0.18,
+        "growth_yoy_pct": 50.6,
+        "eps_growth_yoy_pct": 183.5,
+        "pbr": 6.16,
+        "dividend_yield": 0.51,
+        "adv_jpy": 5536707750,
         "upward_revision": true
       },
       "demand_supply": {
-        "margin_ratio": 3.8,
-        "margin_buy": 1267700,
-        "margin_sell": 333300,
-        "margin_trend_pct": -4.0,
-        "vol_ratio": 1.09,
-        "vol_avg20": 403600,
-        "bb_pct_b": 1.12,
-        "bb_bandwidth": 0.153,
+        "margin_ratio": 3.21,
+        "margin_buy": 287800,
+        "margin_sell": 89700,
+        "margin_trend_pct": 51.9,
+        "vol_ratio": 0.57,
+        "vol_avg20": 237525,
+        "bb_pct_b": 0.14,
+        "bb_bandwidth": 0.434,
         "short_balance_pct": null,
         "short_balance_trend_pct": null,
         "as_of_short": null
       },
       "brief": {
         "guardian": null,
-        "value": "妥当〜やや割高(PER15.7倍)／資本効率が非常に高い⭐(ROE42.3%)／しっかり増収(売上+17.0%)／順調な増益(EPS+21.5%)／成長対比で妥当(PEG0.73)／配当は控えめ(利回り2.0%)",
+        "value": "PERは高め(32.6倍)／資本効率は良好(ROE18.2%)／急拡大・一過性注意(売上+50.6%)／⚠️2倍超・持続性要確認(EPS+183.5%)／数値は割安だが急増の歪み・割引必要(PEG0.18)／資産対比は高め(PBR6.16)／配当は控えめ(利回り0.5%)",
         "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "⚠️やや重い(倍率3.80)／回転は普通(3.1日)／出来高は平常(出来高比1.09)／🔴+2σ上抜け・強い過熱圏(%b1.12・幅15.3%)",
-        "days_to_cover": 3.1,
+        "demand_supply": "⚠️やや重い(倍率3.21)／回転は軽い(1.2日)／⚠️しこり拡大(+51.9%)／⚠️出来高が低調・動意待ち(出来高比0.57)／🟢下限近く・売られすぎ(反発余地)(%b0.14・幅43.4%)",
+        "days_to_cover": 1.2,
         "squeeze": false,
-        "one_liner": "強み3点（人間が一次情報で最終判断）（🔁4週連続候補）",
-        "link": "https://kabutan.jp/stock/?code=4776",
+        "one_liner": "強み2点・注意2点（人間が一次情報で最終判断）（🔁5週連続候補）",
+        "link": "https://kabutan.jp/stock/?code=6834",
         "as_of_short": null,
         "next_earnings": null,
-        "streak": 4
+        "streak": 5
+      },
+      "flags": [
+        "⚠️",
+        "⚠️",
+        "⚠️",
+        "⚠️",
+        "⚠️"
+      ],
+      "text": "【精工技研(6834)】\n💰割安/質: PERは高め(32.6倍)／資本効率は良好(ROE18.2%)／急拡大・一過性注意(売上+50.6%)／⚠️2倍超・持続性要確認(EPS+183.5%)／数値は割安だが急増の歪み・割引必要(PEG0.18)／資産対比は高め(PBR6.16)／配当は控えめ(利回り0.5%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️やや重い(倍率3.21)／回転は軽い(1.2日)／⚠️しこり拡大(+51.9%)／⚠️出来高が低調・動意待ち(出来高比0.57)／🟢下限近く・売られすぎ(反発余地)(%b0.14・幅43.4%)\n→ 強み2点・注意2点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=6834"
+    },
+    {
+      "code": "71720",
+      "name": "ジャパンインベストメントアドバイザー",
+      "ticker": "7172",
+      "metrics": {
+        "per": 9.63,
+        "roe_pct": 15.5,
+        "peg": 0.18,
+        "growth_yoy_pct": 24.8,
+        "eps_growth_yoy_pct": 53.0,
+        "pbr": null,
+        "dividend_yield": 5.22,
+        "adv_jpy": 584340900,
+        "upward_revision": true
+      },
+      "demand_supply": {
+        "margin_ratio": 86.22,
+        "margin_buy": 1586400,
+        "margin_sell": 18400,
+        "margin_trend_pct": 3475.4,
+        "vol_ratio": 0.65,
+        "vol_avg20": 282700,
+        "bb_pct_b": 0.54,
+        "bb_bandwidth": 0.043,
+        "short_balance_pct": null,
+        "short_balance_trend_pct": null,
+        "as_of_short": null
+      },
+      "brief": {
+        "guardian": null,
+        "value": "割安(PER9.6倍)／資本効率は良好(ROE15.5%)／しっかり増収(売上+24.8%)／力強い増益(EPS+53.0%)／成長対比でも割安・本物(PEG0.18)／💰高配当・下支え(利回り5.2%)",
+        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
+        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率86.22)／回転は普通(5.6日)／⚠️しこり拡大(+3475.4%)／⚠️出来高が低調・動意待ち(出来高比0.65)",
+        "days_to_cover": 5.6,
+        "squeeze": false,
+        "one_liner": "強み2点（人間が一次情報で最終判断）（🔁5週連続候補）",
+        "link": "https://kabutan.jp/stock/?code=7172",
+        "as_of_short": null,
+        "next_earnings": null,
+        "streak": 5
+      },
+      "flags": [
+        "⚠️⚠️",
+        "⚠️",
+        "⚠️"
+      ],
+      "text": "【ジャパンインベストメントアドバイザー(7172)】\n💰割安/質: 割安(PER9.6倍)／資本効率は良好(ROE15.5%)／しっかり増収(売上+24.8%)／力強い増益(EPS+53.0%)／成長対比でも割安・本物(PEG0.18)／💰高配当・下支え(利回り5.2%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率86.22)／回転は普通(5.6日)／⚠️しこり拡大(+3475.4%)／⚠️出来高が低調・動意待ち(出来高比0.65)\n→ 強み2点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=7172"
+    },
+    {
+      "code": "62270",
+      "name": "ＡＩメカテック",
+      "ticker": "6227",
+      "metrics": {
+        "per": 41.42,
+        "roe_pct": 22.7,
+        "peg": 0.19,
+        "growth_yoy_pct": 134.4,
+        "eps_growth_yoy_pct": 220.4,
+        "pbr": null,
+        "dividend_yield": 0.25,
+        "adv_jpy": 9103454850,
+        "upward_revision": true
+      },
+      "demand_supply": {
+        "margin_ratio": 8.23,
+        "margin_buy": 2688600,
+        "margin_sell": 326700,
+        "margin_trend_pct": -23.4,
+        "vol_ratio": 0.05,
+        "vol_avg20": 1340715,
+        "bb_pct_b": 0.41,
+        "bb_bandwidth": 0.413,
+        "short_balance_pct": null,
+        "short_balance_trend_pct": null,
+        "as_of_short": null
+      },
+      "brief": {
+        "guardian": null,
+        "value": "PERは高め(41.4倍)／資本効率が非常に高い⭐(ROE22.7%)／急拡大・一過性注意(売上+134.4%)／⚠️3倍超・一時要因濃厚(EPS+220.4%)／数値は割安だが急増の歪み・割引必要(PEG0.19)／配当は控えめ(利回り0.2%)",
+        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
+        "demand_supply": "⚠️信用買残が重い(倍率8.23)／回転は軽い(2.0日)／✨倍率が軽くなる(-23.4%)／⚠️出来高が低調・動意待ち(出来高比0.05)",
+        "days_to_cover": 2.0,
+        "squeeze": false,
+        "one_liner": "強み3点・注意2点（人間が一次情報で最終判断）（🔁5週連続候補）",
+        "link": "https://kabutan.jp/stock/?code=6227",
+        "as_of_short": null,
+        "next_earnings": null,
+        "streak": 5
+      },
+      "flags": [
+        "⚠️",
+        "⚠️",
+        "⚠️",
+        "⚠️"
+      ],
+      "text": "【ＡＩメカテック(6227)】\n💰割安/質: PERは高め(41.4倍)／資本効率が非常に高い⭐(ROE22.7%)／急拡大・一過性注意(売上+134.4%)／⚠️3倍超・一時要因濃厚(EPS+220.4%)／数値は割安だが急増の歪み・割引必要(PEG0.19)／配当は控えめ(利回り0.2%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️信用買残が重い(倍率8.23)／回転は軽い(2.0日)／✨倍率が軽くなる(-23.4%)／⚠️出来高が低調・動意待ち(出来高比0.05)\n→ 強み3点・注意2点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=6227"
+    },
+    {
+      "code": "63310",
+      "name": "三菱化工機",
+      "ticker": "6331",
+      "metrics": {
+        "per": 11.82,
+        "roe_pct": 16.8,
+        "peg": 0.21,
+        "growth_yoy_pct": 42.3,
+        "eps_growth_yoy_pct": 55.0,
+        "pbr": 1.8,
+        "dividend_yield": 3.38,
+        "adv_jpy": 621449550,
+        "upward_revision": true
+      },
+      "demand_supply": {
+        "margin_ratio": 34.49,
+        "margin_buy": 617400,
+        "margin_sell": 17900,
+        "margin_trend_pct": -22.6,
+        "vol_ratio": 0.77,
+        "vol_avg20": 174810,
+        "bb_pct_b": 0.1,
+        "bb_bandwidth": 0.178,
+        "short_balance_pct": null,
+        "short_balance_trend_pct": null,
+        "as_of_short": null
+      },
+      "brief": {
+        "guardian": null,
+        "value": "割安(PER11.8倍)／資本効率は良好(ROE16.8%)／急拡大・一過性注意(売上+42.3%)／力強い増益(EPS+55.0%)／成長対比でも割安・本物(PEG0.21)／資産対比は妥当(PBR1.80)／配当あり(利回り3.4%)",
+        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
+        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率34.49)／回転は普通(3.5日)／✨倍率が軽くなる(-22.6%)／⚠️出来高が低調・動意待ち(出来高比0.77)／🟢下限近く・売られすぎ(反発余地)(%b0.10・幅17.8%)",
+        "days_to_cover": 3.5,
+        "squeeze": false,
+        "one_liner": "強み2点（人間が一次情報で最終判断）（🔁5週連続候補）",
+        "link": "https://kabutan.jp/stock/?code=6331",
+        "as_of_short": null,
+        "next_earnings": null,
+        "streak": 5
+      },
+      "flags": [
+        "⚠️⚠️",
+        "⚠️"
+      ],
+      "text": "【三菱化工機(6331)】\n💰割安/質: 割安(PER11.8倍)／資本効率は良好(ROE16.8%)／急拡大・一過性注意(売上+42.3%)／力強い増益(EPS+55.0%)／成長対比でも割安・本物(PEG0.21)／資産対比は妥当(PBR1.80)／配当あり(利回り3.4%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率34.49)／回転は普通(3.5日)／✨倍率が軽くなる(-22.6%)／⚠️出来高が低調・動意待ち(出来高比0.77)／🟢下限近く・売られすぎ(反発余地)(%b0.10・幅17.8%)\n→ 強み2点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=6331"
+    },
+    {
+      "code": "58380",
+      "name": "楽天銀行",
+      "ticker": "5838",
+      "metrics": {
+        "per": 12.31,
+        "roe_pct": 18.8,
+        "peg": 0.28,
+        "growth_yoy_pct": 38.5,
+        "eps_growth_yoy_pct": 43.9,
+        "pbr": 2.7,
+        "dividend_yield": 0.0,
+        "adv_jpy": 7259793125,
+        "upward_revision": true
+      },
+      "demand_supply": {
+        "margin_ratio": 68.08,
+        "margin_buy": 2253400,
+        "margin_sell": 33100,
+        "margin_trend_pct": -40.9,
+        "vol_ratio": 0.85,
+        "vol_avg20": 1265875,
+        "bb_pct_b": 0.95,
+        "bb_bandwidth": 0.193,
+        "short_balance_pct": null,
+        "short_balance_trend_pct": null,
+        "as_of_short": null
+      },
+      "brief": {
+        "guardian": null,
+        "value": "割安(PER12.3倍)／資本効率は良好(ROE18.8%)／しっかり増収(売上+38.5%)／力強い増益(EPS+43.9%)／成長対比でも割安・本物(PEG0.28)／資産対比は高め(PBR2.70)／無配",
+        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
+        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率68.08)／回転は軽い(1.8日)／✨倍率が軽くなる(-40.9%)／出来高は平常(出来高比0.85)／🟠上限近く・過熱気味(%b0.95・幅19.3%)",
+        "days_to_cover": 1.8,
+        "squeeze": false,
+        "one_liner": "強み2点（人間が一次情報で最終判断）（🔁5週連続候補）",
+        "link": "https://kabutan.jp/stock/?code=5838",
+        "as_of_short": null,
+        "next_earnings": null,
+        "streak": 5
+      },
+      "flags": [
+        "⚠️⚠️"
+      ],
+      "text": "【楽天銀行(5838)】\n💰割安/質: 割安(PER12.3倍)／資本効率は良好(ROE18.8%)／しっかり増収(売上+38.5%)／力強い増益(EPS+43.9%)／成長対比でも割安・本物(PEG0.28)／資産対比は高め(PBR2.70)／無配\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率68.08)／回転は軽い(1.8日)／✨倍率が軽くなる(-40.9%)／出来高は平常(出来高比0.85)／🟠上限近く・過熱気味(%b0.95・幅19.3%)\n→ 強み2点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=5838"
+    },
+    {
+      "code": "31070",
+      "name": "ダイワボウホールディングス",
+      "ticker": "3107",
+      "metrics": {
+        "per": 11.65,
+        "roe_pct": 18.9,
+        "peg": 0.35,
+        "growth_yoy_pct": 18.8,
+        "eps_growth_yoy_pct": 33.4,
+        "pbr": 1.74,
+        "dividend_yield": 3.24,
+        "adv_jpy": 1015361280,
+        "upward_revision": false
+      },
+      "demand_supply": {
+        "margin_ratio": 2.48,
+        "margin_buy": 48900,
+        "margin_sell": 19700,
+        "margin_trend_pct": 121.4,
+        "vol_ratio": 1.4,
+        "vol_avg20": 299340,
+        "bb_pct_b": 0.43,
+        "bb_bandwidth": 0.07,
+        "short_balance_pct": null,
+        "short_balance_trend_pct": null,
+        "as_of_short": null
+      },
+      "brief": {
+        "guardian": null,
+        "value": "割安(PER11.7倍)／資本効率は良好(ROE18.9%)／しっかり増収(売上+18.8%)／力強い増益(EPS+33.4%)／成長対比でも割安・本物(PEG0.35)／資産対比は妥当(PBR1.74)／配当あり(利回り3.2%)",
+        "earnings": "増収増益◎",
+        "demand_supply": "信用は健全(倍率2.48)／回転は軽い(0.2日)／⚠️しこり拡大(+121.4%)／出来高は平常(出来高比1.40)",
+        "days_to_cover": 0.2,
+        "squeeze": false,
+        "one_liner": "強み1点（人間が一次情報で最終判断）（🔁5週連続候補）",
+        "link": "https://kabutan.jp/stock/?code=3107",
+        "as_of_short": null,
+        "next_earnings": null,
+        "streak": 5
       },
       "flags": [
         "⚠️"
       ],
-      "text": "【サイボウズ(4776)】\n💰割安/質: 妥当〜やや割高(PER15.7倍)／資本効率が非常に高い⭐(ROE42.3%)／しっかり増収(売上+17.0%)／順調な増益(EPS+21.5%)／成長対比で妥当(PEG0.73)／配当は控えめ(利回り2.0%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️やや重い(倍率3.80)／回転は普通(3.1日)／出来高は平常(出来高比1.09)／🔴+2σ上抜け・強い過熱圏(%b1.12・幅15.3%)\n→ 強み3点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=4776"
+      "text": "【ダイワボウホールディングス(3107)】\n💰割安/質: 割安(PER11.7倍)／資本効率は良好(ROE18.9%)／しっかり増収(売上+18.8%)／力強い増益(EPS+33.4%)／成長対比でも割安・本物(PEG0.35)／資産対比は妥当(PBR1.74)／配当あり(利回り3.2%)\n📊業績: 増収増益◎\n🔄需給: 信用は健全(倍率2.48)／回転は軽い(0.2日)／⚠️しこり拡大(+121.4%)／出来高は平常(出来高比1.40)\n→ 強み1点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=3107"
+    },
+    {
+      "code": "27670",
+      "name": "円谷フィールズホールディングス",
+      "ticker": "2767",
+      "metrics": {
+        "per": 6.62,
+        "roe_pct": 19.7,
+        "peg": 0.38,
+        "growth_yoy_pct": 23.9,
+        "eps_growth_yoy_pct": 17.3,
+        "pbr": 1.47,
+        "dividend_yield": 4.88,
+        "adv_jpy": 580651225,
+        "upward_revision": true
+      },
+      "demand_supply": {
+        "margin_ratio": 147.6,
+        "margin_buy": 1180800,
+        "margin_sell": 8000,
+        "margin_trend_pct": 4.1,
+        "vol_ratio": 0.62,
+        "vol_avg20": 404635,
+        "bb_pct_b": 0.85,
+        "bb_bandwidth": 0.107,
+        "short_balance_pct": null,
+        "short_balance_trend_pct": null,
+        "as_of_short": null
+      },
+      "brief": {
+        "guardian": null,
+        "value": "とても割安(PER6.6倍)／資本効率は良好(ROE19.7%)／しっかり増収(売上+23.9%)／順調な増益(EPS+17.3%)／成長対比でも割安・本物(PEG0.38)／資産対比は妥当(PBR1.47)／💰高配当・下支え(利回り4.9%)",
+        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
+        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率147.60)／回転は軽い(2.9日)／⚠️出来高が低調・動意待ち(出来高比0.62)／🟠上限近く・過熱気味(%b0.85・幅10.7%)",
+        "days_to_cover": 2.9,
+        "squeeze": false,
+        "one_liner": "強み2点（人間が一次情報で最終判断）",
+        "link": "https://kabutan.jp/stock/?code=2767",
+        "as_of_short": null,
+        "next_earnings": null,
+        "streak": null
+      },
+      "flags": [
+        "⚠️⚠️",
+        "⚠️"
+      ],
+      "text": "【円谷フィールズホールディングス(2767)】\n💰割安/質: とても割安(PER6.6倍)／資本効率は良好(ROE19.7%)／しっかり増収(売上+23.9%)／順調な増益(EPS+17.3%)／成長対比でも割安・本物(PEG0.38)／資産対比は妥当(PBR1.47)／💰高配当・下支え(利回り4.9%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率147.60)／回転は軽い(2.9日)／⚠️出来高が低調・動意待ち(出来高比0.62)／🟠上限近く・過熱気味(%b0.85・幅10.7%)\n→ 強み2点（人間が一次情報で最終判断）\nhttps://kabutan.jp/stock/?code=2767"
+    },
+    {
+      "code": "78060",
+      "name": "ＭＴＧ",
+      "ticker": "7806",
+      "metrics": {
+        "per": 29.69,
+        "roe_pct": 17.1,
+        "peg": 0.43,
+        "growth_yoy_pct": 42.5,
+        "eps_growth_yoy_pct": 68.5,
+        "pbr": null,
+        "dividend_yield": 0.44,
+        "adv_jpy": 774101500,
+        "upward_revision": true
+      },
+      "demand_supply": {
+        "margin_ratio": 2.06,
+        "margin_buy": 126400,
+        "margin_sell": 61400,
+        "margin_trend_pct": -20.6,
+        "vol_ratio": 1.25,
+        "vol_avg20": 102530,
+        "bb_pct_b": 0.46,
+        "bb_bandwidth": 0.164,
+        "short_balance_pct": null,
+        "short_balance_trend_pct": null,
+        "as_of_short": null
+      },
+      "brief": {
+        "guardian": null,
+        "value": "PERは高め(29.7倍)／資本効率は良好(ROE17.1%)／急拡大・一過性注意(売上+42.5%)／力強い増益(EPS+68.5%)／成長対比でも割安・本物(PEG0.43)／配当は控えめ(利回り0.4%)",
+        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
+        "demand_supply": "信用は健全(倍率2.06)／回転は軽い(1.2日)／✨倍率が軽くなる(-20.6%)／出来高は平常(出来高比1.25)",
+        "days_to_cover": 1.2,
+        "squeeze": false,
+        "one_liner": "強み2点（人間が一次情報で最終判断）（🔁5週連続候補）",
+        "link": "https://kabutan.jp/stock/?code=7806",
+        "as_of_short": null,
+        "next_earnings": null,
+        "streak": 5
+      },
+      "flags": [],
+      "text": "【ＭＴＧ(7806)】\n💰割安/質: PERは高め(29.7倍)／資本効率は良好(ROE17.1%)／急拡大・一過性注意(売上+42.5%)／力強い増益(EPS+68.5%)／成長対比でも割安・本物(PEG0.43)／配当は控えめ(利回り0.4%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 信用は健全(倍率2.06)／回転は軽い(1.2日)／✨倍率が軽くなる(-20.6%)／出来高は平常(出来高比1.25)\n→ 強み2点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=7806"
+    },
+    {
+      "code": "67770",
+      "name": "ｓａｎｔｅｃ　Ｈｏｌｄｉｎｇｓ",
+      "ticker": "6777",
+      "metrics": {
+        "per": 27.78,
+        "roe_pct": 27.5,
+        "peg": 0.54,
+        "growth_yoy_pct": 31.1,
+        "eps_growth_yoy_pct": 51.3,
+        "pbr": 8.78,
+        "dividend_yield": 1.11,
+        "adv_jpy": 2984924250,
+        "upward_revision": true
+      },
+      "demand_supply": {
+        "margin_ratio": null,
+        "margin_buy": 225700,
+        "margin_sell": 0,
+        "margin_trend_pct": -10.0,
+        "vol_ratio": 0.57,
+        "vol_avg20": 143575,
+        "bb_pct_b": 0.1,
+        "bb_bandwidth": 0.455,
+        "short_balance_pct": null,
+        "short_balance_trend_pct": null,
+        "as_of_short": null
+      },
+      "brief": {
+        "guardian": null,
+        "value": "PERは高め(27.8倍)／資本効率が非常に高い⭐(ROE27.5%)／しっかり増収(売上+31.1%)／力強い増益(EPS+51.3%)／成長対比で妥当(PEG0.54)／資産対比は高め(PBR8.78)／配当は控えめ(利回り1.1%)",
+        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
+        "demand_supply": "回転は軽い(1.6日)／⚠️出来高が低調・動意待ち(出来高比0.57)／🟢下限近く・売られすぎ(反発余地)(%b0.10・幅45.5%)",
+        "days_to_cover": 1.6,
+        "squeeze": false,
+        "one_liner": "強み3点（人間が一次情報で最終判断）",
+        "link": "https://kabutan.jp/stock/?code=6777",
+        "as_of_short": null,
+        "next_earnings": null,
+        "streak": null
+      },
+      "flags": [
+        "⚠️"
+      ],
+      "text": "【ｓａｎｔｅｃ　Ｈｏｌｄｉｎｇｓ(6777)】\n💰割安/質: PERは高め(27.8倍)／資本効率が非常に高い⭐(ROE27.5%)／しっかり増収(売上+31.1%)／力強い増益(EPS+51.3%)／成長対比で妥当(PEG0.54)／資産対比は高め(PBR8.78)／配当は控えめ(利回り1.1%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 回転は軽い(1.6日)／⚠️出来高が低調・動意待ち(出来高比0.57)／🟢下限近く・売られすぎ(反発余地)(%b0.10・幅45.5%)\n→ 強み3点（人間が一次情報で最終判断）\nhttps://kabutan.jp/stock/?code=6777"
     },
     {
       "code": "62640",
       "name": "マルマエ",
       "ticker": "6264",
       "metrics": {
-        "per": 23.4,
+        "per": 17.5,
         "roe_pct": 21.7,
-        "peg": 0.81,
+        "peg": 0.61,
         "growth_yoy_pct": 92.9,
         "eps_growth_yoy_pct": 28.9,
         "pbr": null,
         "dividend_yield": null,
-        "adv_jpy": 3578466250,
+        "adv_jpy": 3571377400,
         "upward_revision": true
       },
       "demand_supply": {
-        "margin_ratio": 9.69,
-        "margin_buy": 950100,
-        "margin_sell": 98000,
-        "margin_trend_pct": 13.6,
-        "vol_ratio": 1.19,
-        "vol_avg20": 1208125,
-        "bb_pct_b": 0.75,
-        "bb_bandwidth": 0.565,
+        "margin_ratio": 15.49,
+        "margin_buy": 1220900,
+        "margin_sell": 78800,
+        "margin_trend_pct": 59.8,
+        "vol_ratio": 1.47,
+        "vol_avg20": 1612360,
+        "bb_pct_b": 0.1,
+        "bb_bandwidth": 0.42,
         "short_balance_pct": null,
         "short_balance_trend_pct": null,
         "as_of_short": null
       },
       "brief": {
         "guardian": null,
-        "value": "PERは高め(23.4倍)／資本効率が非常に高い⭐(ROE21.7%)／急拡大・一過性注意(売上+92.9%)／順調な増益(EPS+28.9%)／成長対比で妥当(PEG0.81)",
+        "value": "妥当〜やや割高(PER17.5倍)／資本効率が非常に高い⭐(ROE21.7%)／急拡大・一過性注意(売上+92.9%)／順調な増益(EPS+28.9%)／成長対比で妥当(PEG0.61)",
         "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "⚠️信用買残が重い(倍率9.69)／回転は軽い(0.8日)／出来高は平常(出来高比1.19)",
+        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率15.49)／回転は軽い(0.8日)／⚠️しこり拡大(+59.8%)／出来高は平常(出来高比1.47)／🟢下限近く・売られすぎ(反発余地)(%b0.10・幅42.0%)",
         "days_to_cover": 0.8,
         "squeeze": false,
-        "one_liner": "強み3点（人間が一次情報で最終判断）（🔁2週連続候補）",
+        "one_liner": "強み3点（人間が一次情報で最終判断）（🔁3週連続候補）",
         "link": "https://kabutan.jp/stock/?code=6264",
         "as_of_short": null,
         "next_earnings": null,
-        "streak": 2
+        "streak": 3
+      },
+      "flags": [
+        "⚠️⚠️",
+        "⚠️"
+      ],
+      "text": "【マルマエ(6264)】\n💰割安/質: 妥当〜やや割高(PER17.5倍)／資本効率が非常に高い⭐(ROE21.7%)／急拡大・一過性注意(売上+92.9%)／順調な増益(EPS+28.9%)／成長対比で妥当(PEG0.61)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率15.49)／回転は軽い(0.8日)／⚠️しこり拡大(+59.8%)／出来高は平常(出来高比1.47)／🟢下限近く・売られすぎ(反発余地)(%b0.10・幅42.0%)\n→ 強み3点（人間が一次情報で最終判断）（🔁3週連続候補）\nhttps://kabutan.jp/stock/?code=6264"
+    },
+    {
+      "code": "36920",
+      "name": "ＦＦＲＩセキュリティ",
+      "ticker": "3692",
+      "metrics": {
+        "per": 37.28,
+        "roe_pct": 29.1,
+        "peg": 0.62,
+        "growth_yoy_pct": 43.1,
+        "eps_growth_yoy_pct": 60.1,
+        "pbr": 11.18,
+        "dividend_yield": 0.34,
+        "adv_jpy": 649370700,
+        "upward_revision": true
+      },
+      "demand_supply": {
+        "margin_ratio": 1.65,
+        "margin_buy": 511900,
+        "margin_sell": 310600,
+        "margin_trend_pct": 16.1,
+        "vol_ratio": 0.57,
+        "vol_avg20": 121605,
+        "bb_pct_b": 0.79,
+        "bb_bandwidth": 0.216,
+        "short_balance_pct": null,
+        "short_balance_trend_pct": null,
+        "as_of_short": null
+      },
+      "brief": {
+        "guardian": null,
+        "value": "PERは高め(37.3倍)／資本効率が非常に高い⭐(ROE29.1%)／急拡大・一過性注意(売上+43.1%)／力強い増益(EPS+60.1%)／成長対比で妥当(PEG0.62)／資産対比は高め(PBR11.18)／配当は控えめ(利回り0.3%)",
+        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
+        "demand_supply": "信用は健全(倍率1.65)／回転は普通(4.2日)／⚠️しこり拡大(+16.1%)／⚠️出来高が低調・動意待ち(出来高比0.57)",
+        "days_to_cover": 4.2,
+        "squeeze": false,
+        "one_liner": "強み3点（人間が一次情報で最終判断）（🔁5週連続候補）",
+        "link": "https://kabutan.jp/stock/?code=3692",
+        "as_of_short": null,
+        "next_earnings": null,
+        "streak": 5
+      },
+      "flags": [
+        "⚠️",
+        "⚠️"
+      ],
+      "text": "【ＦＦＲＩセキュリティ(3692)】\n💰割安/質: PERは高め(37.3倍)／資本効率が非常に高い⭐(ROE29.1%)／急拡大・一過性注意(売上+43.1%)／力強い増益(EPS+60.1%)／成長対比で妥当(PEG0.62)／資産対比は高め(PBR11.18)／配当は控えめ(利回り0.3%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 信用は健全(倍率1.65)／回転は普通(4.2日)／⚠️しこり拡大(+16.1%)／⚠️出来高が低調・動意待ち(出来高比0.57)\n→ 強み3点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=3692"
+    },
+    {
+      "code": "47760",
+      "name": "サイボウズ",
+      "ticker": "4776",
+      "metrics": {
+        "per": 16.16,
+        "roe_pct": 42.3,
+        "peg": 0.75,
+        "growth_yoy_pct": 17.0,
+        "eps_growth_yoy_pct": 21.5,
+        "pbr": null,
+        "dividend_yield": 1.92,
+        "adv_jpy": 1004267920,
+        "upward_revision": true
+      },
+      "demand_supply": {
+        "margin_ratio": 2.96,
+        "margin_buy": 1125700,
+        "margin_sell": 380700,
+        "margin_trend_pct": -22.3,
+        "vol_ratio": 0.72,
+        "vol_avg20": 385960,
+        "bb_pct_b": 0.85,
+        "bb_bandwidth": 0.265,
+        "short_balance_pct": null,
+        "short_balance_trend_pct": null,
+        "as_of_short": null
+      },
+      "brief": {
+        "guardian": null,
+        "value": "妥当〜やや割高(PER16.2倍)／資本効率が非常に高い⭐(ROE42.3%)／しっかり増収(売上+17.0%)／順調な増益(EPS+21.5%)／成長対比で妥当(PEG0.75)／配当は控えめ(利回り1.9%)",
+        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
+        "demand_supply": "信用は健全(倍率2.96)／回転は軽い(2.9日)／✨倍率が軽くなる(-22.3%)／⚠️出来高が低調・動意待ち(出来高比0.72)／🟠上限近く・過熱気味(%b0.85・幅26.5%)",
+        "days_to_cover": 2.9,
+        "squeeze": false,
+        "one_liner": "強み3点（人間が一次情報で最終判断）（🔁5週連続候補）",
+        "link": "https://kabutan.jp/stock/?code=4776",
+        "as_of_short": null,
+        "next_earnings": null,
+        "streak": 5
       },
       "flags": [
         "⚠️"
       ],
-      "text": "【マルマエ(6264)】\n💰割安/質: PERは高め(23.4倍)／資本効率が非常に高い⭐(ROE21.7%)／急拡大・一過性注意(売上+92.9%)／順調な増益(EPS+28.9%)／成長対比で妥当(PEG0.81)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️信用買残が重い(倍率9.69)／回転は軽い(0.8日)／出来高は平常(出来高比1.19)\n→ 強み3点（人間が一次情報で最終判断）（🔁2週連続候補）\nhttps://kabutan.jp/stock/?code=6264"
+      "text": "【サイボウズ(4776)】\n💰割安/質: 妥当〜やや割高(PER16.2倍)／資本効率が非常に高い⭐(ROE42.3%)／しっかり増収(売上+17.0%)／順調な増益(EPS+21.5%)／成長対比で妥当(PEG0.75)／配当は控えめ(利回り1.9%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 信用は健全(倍率2.96)／回転は軽い(2.9日)／✨倍率が軽くなる(-22.3%)／⚠️出来高が低調・動意待ち(出来高比0.72)／🟠上限近く・過熱気味(%b0.85・幅26.5%)\n→ 強み3点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=4776"
     },
     {
       "code": "76850",
       "name": "ＢｕｙＳｅｌｌ　Ｔｅｃｈｎｏｌｏｇｉｅｓ",
       "ticker": "7685",
       "metrics": {
-        "per": 23.4,
+        "per": 23.01,
         "roe_pct": 38.9,
-        "peg": 0.88,
+        "peg": 0.87,
         "growth_yoy_pct": 37.0,
         "eps_growth_yoy_pct": 26.5,
         "pbr": null,
-        "dividend_yield": 0.62,
-        "adv_jpy": 1251867575,
+        "dividend_yield": 0.63,
+        "adv_jpy": 1249953100,
         "upward_revision": true
       },
       "demand_supply": {
         "margin_ratio": null,
-        "margin_buy": 389300,
+        "margin_buy": 409800,
         "margin_sell": 0,
         "margin_trend_pct": null,
-        "vol_ratio": 0.91,
-        "vol_avg20": 351155,
-        "bb_pct_b": 0.53,
-        "bb_bandwidth": 0.175,
+        "vol_ratio": 0.84,
+        "vol_avg20": 356620,
+        "bb_pct_b": 0.52,
+        "bb_bandwidth": 0.124,
         "short_balance_pct": null,
         "short_balance_trend_pct": null,
         "as_of_short": null
       },
       "brief": {
         "guardian": null,
-        "value": "PERは高め(23.4倍)／資本効率が非常に高い⭐(ROE38.9%)／しっかり増収(売上+37.0%)／順調な増益(EPS+26.5%)／成長対比で妥当(PEG0.88)／配当は控えめ(利回り0.6%)",
+        "value": "PERは高め(23.0倍)／資本効率が非常に高い⭐(ROE38.9%)／しっかり増収(売上+37.0%)／順調な増益(EPS+26.5%)／成長対比で妥当(PEG0.87)／配当は控えめ(利回り0.6%)",
         "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "回転は軽い(1.1日)／出来高は平常(出来高比0.91)",
+        "demand_supply": "回転は軽い(1.1日)／出来高は平常(出来高比0.84)",
         "days_to_cover": 1.1,
         "squeeze": false,
-        "one_liner": "強み3点（人間が一次情報で最終判断）（🔁4週連続候補）",
+        "one_liner": "強み3点（人間が一次情報で最終判断）（🔁5週連続候補）",
         "link": "https://kabutan.jp/stock/?code=7685",
         "as_of_short": null,
         "next_earnings": null,
-        "streak": 4
+        "streak": 5
       },
       "flags": [],
-      "text": "【ＢｕｙＳｅｌｌ　Ｔｅｃｈｎｏｌｏｇｉｅｓ(7685)】\n💰割安/質: PERは高め(23.4倍)／資本効率が非常に高い⭐(ROE38.9%)／しっかり増収(売上+37.0%)／順調な増益(EPS+26.5%)／成長対比で妥当(PEG0.88)／配当は控えめ(利回り0.6%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 回転は軽い(1.1日)／出来高は平常(出来高比0.91)\n→ 強み3点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=7685"
+      "text": "【ＢｕｙＳｅｌｌ　Ｔｅｃｈｎｏｌｏｇｉｅｓ(7685)】\n💰割安/質: PERは高め(23.0倍)／資本効率が非常に高い⭐(ROE38.9%)／しっかり増収(売上+37.0%)／順調な増益(EPS+26.5%)／成長対比で妥当(PEG0.87)／配当は控えめ(利回り0.6%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 回転は軽い(1.1日)／出来高は平常(出来高比0.84)\n→ 強み3点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=7685"
     },
     {
       "code": "65320",
       "name": "ベイカレント",
       "ticker": "6532",
       "metrics": {
-        "per": 20.6,
+        "per": 20.67,
         "roe_pct": 32.3,
         "peg": 0.89,
         "growth_yoy_pct": 27.8,
         "eps_growth_yoy_pct": 23.2,
-        "pbr": 8.66,
-        "dividend_yield": 1.95,
-        "adv_jpy": 9796296790,
+        "pbr": 8.68,
+        "dividend_yield": 1.94,
+        "adv_jpy": 9999320240,
         "upward_revision": true
       },
       "demand_supply": {
-        "margin_ratio": 6.69,
-        "margin_buy": 901500,
-        "margin_sell": 134700,
-        "margin_trend_pct": -42.9,
-        "vol_ratio": 1.5,
-        "vol_avg20": 1468490,
-        "bb_pct_b": 1.1,
-        "bb_bandwidth": 0.255,
+        "margin_ratio": 3.5,
+        "margin_buy": 720400,
+        "margin_sell": 205600,
+        "margin_trend_pct": -47.6,
+        "vol_ratio": 1.1,
+        "vol_avg20": 1494220,
+        "bb_pct_b": 0.8,
+        "bb_bandwidth": 0.37,
         "short_balance_pct": null,
         "short_balance_trend_pct": null,
         "as_of_short": null
       },
       "brief": {
         "guardian": null,
-        "value": "PERは高め(20.6倍)／資本効率が非常に高い⭐(ROE32.3%)／しっかり増収(売上+27.8%)／順調な増益(EPS+23.2%)／成長対比で妥当(PEG0.89)／資産対比は高め(PBR8.66)／配当は控えめ(利回り1.9%)",
+        "value": "PERは高め(20.7倍)／資本効率が非常に高い⭐(ROE32.3%)／しっかり増収(売上+27.8%)／順調な増益(EPS+23.2%)／成長対比で妥当(PEG0.89)／資産対比は高め(PBR8.68)／配当は控えめ(利回り1.9%)",
         "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "⚠️信用買残が重い(倍率6.69)／回転は軽い(0.6日)／✨倍率が軽くなる(-42.9%)／🔥注目(出来高比1.50)／🔴+2σ上抜け・強い過熱圏(%b1.10・幅25.5%)",
-        "days_to_cover": 0.6,
+        "demand_supply": "⚠️やや重い(倍率3.50)／回転は軽い(0.5日)／✨倍率が軽くなる(-47.6%)／出来高は平常(出来高比1.10)／🟠上限近く・過熱気味(%b0.80・幅37.0%)",
+        "days_to_cover": 0.5,
         "squeeze": false,
-        "one_liner": "強み3点（人間が一次情報で最終判断）（🔁4週連続候補）",
+        "one_liner": "強み3点（人間が一次情報で最終判断）（🔁5週連続候補）",
         "link": "https://kabutan.jp/stock/?code=6532",
         "as_of_short": null,
         "next_earnings": null,
-        "streak": 4
+        "streak": 5
       },
       "flags": [
         "⚠️"
       ],
-      "text": "【ベイカレント(6532)】\n💰割安/質: PERは高め(20.6倍)／資本効率が非常に高い⭐(ROE32.3%)／しっかり増収(売上+27.8%)／順調な増益(EPS+23.2%)／成長対比で妥当(PEG0.89)／資産対比は高め(PBR8.66)／配当は控えめ(利回り1.9%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️信用買残が重い(倍率6.69)／回転は軽い(0.6日)／✨倍率が軽くなる(-42.9%)／🔥注目(出来高比1.50)／🔴+2σ上抜け・強い過熱圏(%b1.10・幅25.5%)\n→ 強み3点（人間が一次情報で最終判断）（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=6532"
+      "text": "【ベイカレント(6532)】\n💰割安/質: PERは高め(20.7倍)／資本効率が非常に高い⭐(ROE32.3%)／しっかり増収(売上+27.8%)／順調な増益(EPS+23.2%)／成長対比で妥当(PEG0.89)／資産対比は高め(PBR8.68)／配当は控えめ(利回り1.9%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️やや重い(倍率3.50)／回転は軽い(0.5日)／✨倍率が軽くなる(-47.6%)／出来高は平常(出来高比1.10)／🟠上限近く・過熱気味(%b0.80・幅37.0%)\n→ 強み3点（人間が一次情報で最終判断）（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=6532"
     },
     {
       "code": "68380",
       "name": "多摩川ホールディングス",
       "ticker": "6838",
       "metrics": {
-        "per": 8.49,
+        "per": 7.49,
         "roe_pct": 20.1,
         "peg": 0.01,
         "growth_yoy_pct": 48.6,
         "eps_growth_yoy_pct": 774.7,
         "pbr": null,
-        "dividend_yield": 0.57,
-        "adv_jpy": 889528725,
+        "dividend_yield": 0.65,
+        "adv_jpy": 686529240,
         "upward_revision": true
       },
       "demand_supply": {
         "margin_ratio": null,
-        "margin_buy": 985600,
+        "margin_buy": 973800,
         "margin_sell": 0,
         "margin_trend_pct": null,
-        "vol_ratio": 0.57,
-        "vol_avg20": 509175,
-        "bb_pct_b": 0.21,
-        "bb_bandwidth": 0.343,
+        "vol_ratio": 0.42,
+        "vol_avg20": 445220,
+        "bb_pct_b": 0.13,
+        "bb_bandwidth": 0.471,
         "short_balance_pct": null,
         "short_balance_trend_pct": null,
         "as_of_short": null
       },
       "brief": {
         "guardian": "⚠️ データ番人: 割安すぎ(PEG0.01)＝利益急増の歪み／利益が4倍超(EPS+774.7%)＝ほぼ確実に一時要因 — 一次情報で要確認",
-        "value": "割安(PER8.5倍)／資本効率が非常に高い⭐(ROE20.1%)／急拡大・一過性注意(売上+48.6%)／⚠️3倍超・一時要因濃厚(EPS+774.7%)／数値は割安だが急増の歪み・割引必要(PEG0.01)／配当は控えめ(利回り0.6%)",
+        "value": "とても割安(PER7.5倍)／資本効率が非常に高い⭐(ROE20.1%)／急拡大・一過性注意(売上+48.6%)／⚠️3倍超・一時要因濃厚(EPS+774.7%)／数値は割安だが急増の歪み・割引必要(PEG0.01)／配当は控えめ(利回り0.7%)",
         "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "回転は軽い(1.9日)／⚠️出来高が低調・動意待ち(出来高比0.57)",
-        "days_to_cover": 1.9,
-        "squeeze": false,
-        "one_liner": "⚠️ データ番人作動：まず数値の確認が必要（🔁3週連続候補）",
-        "link": "https://kabutan.jp/stock/?code=6838",
-        "as_of_short": null,
-        "next_earnings": null,
-        "streak": 3
-      },
-      "flags": [
-        "⚠️",
-        "⚠️",
-        "⚠️"
-      ],
-      "text": "【多摩川ホールディングス(6838)】\n⚠️ データ番人: 割安すぎ(PEG0.01)＝利益急増の歪み／利益が4倍超(EPS+774.7%)＝ほぼ確実に一時要因 — 一次情報で要確認\n💰割安/質: 割安(PER8.5倍)／資本効率が非常に高い⭐(ROE20.1%)／急拡大・一過性注意(売上+48.6%)／⚠️3倍超・一時要因濃厚(EPS+774.7%)／数値は割安だが急増の歪み・割引必要(PEG0.01)／配当は控えめ(利回り0.6%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 回転は軽い(1.9日)／⚠️出来高が低調・動意待ち(出来高比0.57)\n→ ⚠️ データ番人作動：まず数値の確認が必要（🔁3週連続候補）\nhttps://kabutan.jp/stock/?code=6838"
-    },
-    {
-      "code": "68620",
-      "name": "ミナトホールディングス",
-      "ticker": "6862",
-      "metrics": {
-        "per": 7.4,
-        "roe_pct": 26.1,
-        "peg": 0.02,
-        "growth_yoy_pct": 49.0,
-        "eps_growth_yoy_pct": 462.4,
-        "pbr": 1.97,
-        "dividend_yield": 1.4,
-        "adv_jpy": 898797105,
-        "upward_revision": true
-      },
-      "demand_supply": {
-        "margin_ratio": 15102.0,
-        "margin_buy": 1510200,
-        "margin_sell": 100,
-        "margin_trend_pct": 2638.2,
-        "vol_ratio": 0.41,
-        "vol_avg20": 420195,
-        "bb_pct_b": 0.48,
-        "bb_bandwidth": 0.266,
-        "short_balance_pct": null,
-        "short_balance_trend_pct": null,
-        "as_of_short": null
-      },
-      "brief": {
-        "guardian": "⚠️ データ番人: 割安すぎ(PEG0.02)＝利益急増の歪み／利益が4倍超(EPS+462.4%)＝ほぼ確実に一時要因 — 一次情報で要確認",
-        "value": "とても割安(PER7.4倍)／資本効率が非常に高い⭐(ROE26.1%)／急拡大・一過性注意(売上+49.0%)／⚠️3倍超・一時要因濃厚(EPS+462.4%)／数値は割安だが急増の歪み・割引必要(PEG0.02)／資産対比は妥当(PBR1.97)／配当は控えめ(利回り1.4%)",
-        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率15102.00)／回転は普通(3.6日)／⚠️しこり拡大(+2638.2%)／⚠️出来高が低調・動意待ち(出来高比0.41)",
-        "days_to_cover": 3.6,
+        "demand_supply": "回転は軽い(2.2日)／⚠️出来高が低調・動意待ち(出来高比0.42)／🟢下限近く・売られすぎ(反発余地)(%b0.13・幅47.1%)",
+        "days_to_cover": 2.2,
         "squeeze": false,
         "one_liner": "⚠️ データ番人作動：まず数値の確認が必要（🔁4週連続候補）",
-        "link": "https://kabutan.jp/stock/?code=6862",
+        "link": "https://kabutan.jp/stock/?code=6838",
         "as_of_short": null,
         "next_earnings": null,
         "streak": 4
@@ -932,52 +1037,98 @@
       "flags": [
         "⚠️",
         "⚠️",
-        "⚠️⚠️",
-        "⚠️",
         "⚠️"
       ],
-      "text": "【ミナトホールディングス(6862)】\n⚠️ データ番人: 割安すぎ(PEG0.02)＝利益急増の歪み／利益が4倍超(EPS+462.4%)＝ほぼ確実に一時要因 — 一次情報で要確認\n💰割安/質: とても割安(PER7.4倍)／資本効率が非常に高い⭐(ROE26.1%)／急拡大・一過性注意(売上+49.0%)／⚠️3倍超・一時要因濃厚(EPS+462.4%)／数値は割安だが急増の歪み・割引必要(PEG0.02)／資産対比は妥当(PBR1.97)／配当は控えめ(利回り1.4%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率15102.00)／回転は普通(3.6日)／⚠️しこり拡大(+2638.2%)／⚠️出来高が低調・動意待ち(出来高比0.41)\n→ ⚠️ データ番人作動：まず数値の確認が必要（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=6862"
+      "text": "【多摩川ホールディングス(6838)】\n⚠️ データ番人: 割安すぎ(PEG0.01)＝利益急増の歪み／利益が4倍超(EPS+774.7%)＝ほぼ確実に一時要因 — 一次情報で要確認\n💰割安/質: とても割安(PER7.5倍)／資本効率が非常に高い⭐(ROE20.1%)／急拡大・一過性注意(売上+48.6%)／⚠️3倍超・一時要因濃厚(EPS+774.7%)／数値は割安だが急増の歪み・割引必要(PEG0.01)／配当は控えめ(利回り0.7%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 回転は軽い(2.2日)／⚠️出来高が低調・動意待ち(出来高比0.42)／🟢下限近く・売られすぎ(反発余地)(%b0.13・幅47.1%)\n→ ⚠️ データ番人作動：まず数値の確認が必要（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=6838"
     },
     {
       "code": "45060",
       "name": "住友ファーマ",
       "ticker": "4506",
       "metrics": {
-        "per": 9.01,
+        "per": 8.1,
         "roe_pct": 36.5,
-        "peg": 0.03,
+        "peg": 0.02,
         "growth_yoy_pct": 13.7,
         "eps_growth_yoy_pct": 352.2,
-        "pbr": 2.12,
+        "pbr": 1.9,
         "dividend_yield": null,
-        "adv_jpy": 5946253065,
+        "adv_jpy": 4621295000,
         "upward_revision": false
       },
       "demand_supply": {
-        "margin_ratio": 34.64,
-        "margin_buy": 8220900,
-        "margin_sell": 237300,
-        "margin_trend_pct": 26.9,
-        "vol_ratio": 1.1,
-        "vol_avg20": 3819045,
-        "bb_pct_b": 0.95,
-        "bb_bandwidth": 0.136,
+        "margin_ratio": 28.32,
+        "margin_buy": 7764000,
+        "margin_sell": 274200,
+        "margin_trend_pct": -18.3,
+        "vol_ratio": 1.37,
+        "vol_avg20": 3300925,
+        "bb_pct_b": 0.06,
+        "bb_bandwidth": 0.121,
         "short_balance_pct": null,
         "short_balance_trend_pct": null,
         "as_of_short": null
       },
       "brief": {
-        "guardian": "⚠️ データ番人: 割安すぎ(PEG0.03)＝利益急増の歪み／利益が4倍超(EPS+352.2%)＝ほぼ確実に一時要因 — 一次情報で要確認",
-        "value": "割安(PER9.0倍)／資本効率が非常に高い⭐(ROE36.5%)／緩やか増収(売上+13.7%)／⚠️3倍超・一時要因濃厚(EPS+352.2%)／数値は割安だが急増の歪み・割引必要(PEG0.03)／資産対比は妥当(PBR2.12)",
+        "guardian": "⚠️ データ番人: 割安すぎ(PEG0.02)＝利益急増の歪み／利益が4倍超(EPS+352.2%)＝ほぼ確実に一時要因 — 一次情報で要確認",
+        "value": "割安(PER8.1倍)／資本効率が非常に高い⭐(ROE36.5%)／緩やか増収(売上+13.7%)／⚠️3倍超・一時要因濃厚(EPS+352.2%)／数値は割安だが急増の歪み・割引必要(PEG0.02)／資産対比は妥当(PBR1.90)",
         "earnings": "増収増益◎",
-        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率34.64)／回転は軽い(2.2日)／⚠️しこり拡大(+26.9%)／出来高は平常(出来高比1.10)／🟠上限近く・過熱気味(%b0.95・幅13.6%)",
-        "days_to_cover": 2.2,
+        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率28.32)／回転は軽い(2.4日)／✨倍率が軽くなる(-18.3%)／出来高は平常(出来高比1.37)／🟢下限近く・売られすぎ(反発余地)(%b0.06・幅12.1%)",
+        "days_to_cover": 2.4,
         "squeeze": false,
-        "one_liner": "⚠️ データ番人作動：まず数値の確認が必要（🔁4週連続候補）",
+        "one_liner": "⚠️ データ番人作動：まず数値の確認が必要（🔁5週連続候補）",
         "link": "https://kabutan.jp/stock/?code=4506",
         "as_of_short": null,
         "next_earnings": null,
-        "streak": 4
+        "streak": 5
+      },
+      "flags": [
+        "⚠️",
+        "⚠️",
+        "⚠️⚠️"
+      ],
+      "text": "【住友ファーマ(4506)】\n⚠️ データ番人: 割安すぎ(PEG0.02)＝利益急増の歪み／利益が4倍超(EPS+352.2%)＝ほぼ確実に一時要因 — 一次情報で要確認\n💰割安/質: 割安(PER8.1倍)／資本効率が非常に高い⭐(ROE36.5%)／緩やか増収(売上+13.7%)／⚠️3倍超・一時要因濃厚(EPS+352.2%)／数値は割安だが急増の歪み・割引必要(PEG0.02)／資産対比は妥当(PBR1.90)\n📊業績: 増収増益◎\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率28.32)／回転は軽い(2.4日)／✨倍率が軽くなる(-18.3%)／出来高は平常(出来高比1.37)／🟢下限近く・売られすぎ(反発余地)(%b0.06・幅12.1%)\n→ ⚠️ データ番人作動：まず数値の確認が必要（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=4506"
+    },
+    {
+      "code": "68620",
+      "name": "ミナトホールディングス",
+      "ticker": "6862",
+      "metrics": {
+        "per": 7.07,
+        "roe_pct": 26.1,
+        "peg": 0.02,
+        "growth_yoy_pct": 49.0,
+        "eps_growth_yoy_pct": 462.4,
+        "pbr": 1.88,
+        "dividend_yield": 1.47,
+        "adv_jpy": 752866520,
+        "upward_revision": true
+      },
+      "demand_supply": {
+        "margin_ratio": 2800.2,
+        "margin_buy": 1400100,
+        "margin_sell": 500,
+        "margin_trend_pct": -81.5,
+        "vol_ratio": 0.27,
+        "vol_avg20": 368330,
+        "bb_pct_b": 0.3,
+        "bb_bandwidth": 0.254,
+        "short_balance_pct": null,
+        "short_balance_trend_pct": null,
+        "as_of_short": null
+      },
+      "brief": {
+        "guardian": "⚠️ データ番人: 割安すぎ(PEG0.02)＝利益急増の歪み／利益が4倍超(EPS+462.4%)＝ほぼ確実に一時要因 — 一次情報で要確認",
+        "value": "とても割安(PER7.1倍)／資本効率が非常に高い⭐(ROE26.1%)／急拡大・一過性注意(売上+49.0%)／⚠️3倍超・一時要因濃厚(EPS+462.4%)／数値は割安だが急増の歪み・割引必要(PEG0.02)／資産対比は妥当(PBR1.88)／配当は控えめ(利回り1.5%)",
+        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
+        "demand_supply": "⚠️⚠️信用買残が非常に重い・上値の蓋(倍率2800.20)／回転は普通(3.8日)／✨倍率が軽くなる(-81.5%)／⚠️出来高が低調・動意待ち(出来高比0.27)",
+        "days_to_cover": 3.8,
+        "squeeze": false,
+        "one_liner": "⚠️ データ番人作動：まず数値の確認が必要（🔁5週連続候補）",
+        "link": "https://kabutan.jp/stock/?code=6862",
+        "as_of_short": null,
+        "next_earnings": null,
+        "streak": 5
       },
       "flags": [
         "⚠️",
@@ -985,103 +1136,55 @@
         "⚠️⚠️",
         "⚠️"
       ],
-      "text": "【住友ファーマ(4506)】\n⚠️ データ番人: 割安すぎ(PEG0.03)＝利益急増の歪み／利益が4倍超(EPS+352.2%)＝ほぼ確実に一時要因 — 一次情報で要確認\n💰割安/質: 割安(PER9.0倍)／資本効率が非常に高い⭐(ROE36.5%)／緩やか増収(売上+13.7%)／⚠️3倍超・一時要因濃厚(EPS+352.2%)／数値は割安だが急増の歪み・割引必要(PEG0.03)／資産対比は妥当(PBR2.12)\n📊業績: 増収増益◎\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率34.64)／回転は軽い(2.2日)／⚠️しこり拡大(+26.9%)／出来高は平常(出来高比1.10)／🟠上限近く・過熱気味(%b0.95・幅13.6%)\n→ ⚠️ データ番人作動：まず数値の確認が必要（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=4506"
-    },
-    {
-      "code": "31860",
-      "name": "ネクステージ",
-      "ticker": "3186",
-      "metrics": {
-        "per": 21.17,
-        "roe_pct": 18.8,
-        "peg": 0.08,
-        "growth_yoy_pct": 25.0,
-        "eps_growth_yoy_pct": 262.2,
-        "pbr": null,
-        "dividend_yield": 1.23,
-        "adv_jpy": 1933545650,
-        "upward_revision": true
-      },
-      "demand_supply": {
-        "margin_ratio": 0.53,
-        "margin_buy": 166100,
-        "margin_sell": 315600,
-        "margin_trend_pct": 12.0,
-        "vol_ratio": 0.72,
-        "vol_avg20": 476830,
-        "bb_pct_b": 0.7,
-        "bb_bandwidth": 0.22,
-        "short_balance_pct": null,
-        "short_balance_trend_pct": null,
-        "as_of_short": null
-      },
-      "brief": {
-        "guardian": "⚠️ データ番人: 割安すぎ(PEG0.08)＝利益急増の歪み — 一次情報で要確認",
-        "value": "PERは高め(21.2倍)／資本効率は良好(ROE18.8%)／しっかり増収(売上+25.0%)／⚠️3倍超・一時要因濃厚(EPS+262.2%)／数値は割安だが急増の歪み・割引必要(PEG0.08)／配当は控えめ(利回り1.2%)",
-        "earnings": "増収増益◎／🆙会社予想を上方修正(強気)",
-        "demand_supply": "🚀売り長・踏み上げ余地(倍率0.53)／回転は軽い(0.3日)／⚠️出来高が低調・動意待ち(出来高比0.72)",
-        "days_to_cover": 0.3,
-        "squeeze": false,
-        "one_liner": "⚠️ データ番人作動：まず数値の確認が必要（🔁4週連続候補）",
-        "link": "https://kabutan.jp/stock/?code=3186",
-        "as_of_short": null,
-        "next_earnings": null,
-        "streak": 4
-      },
-      "flags": [
-        "⚠️",
-        "⚠️",
-        "⚠️"
-      ],
-      "text": "【ネクステージ(3186)】\n⚠️ データ番人: 割安すぎ(PEG0.08)＝利益急増の歪み — 一次情報で要確認\n💰割安/質: PERは高め(21.2倍)／資本効率は良好(ROE18.8%)／しっかり増収(売上+25.0%)／⚠️3倍超・一時要因濃厚(EPS+262.2%)／数値は割安だが急増の歪み・割引必要(PEG0.08)／配当は控えめ(利回り1.2%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: 🚀売り長・踏み上げ余地(倍率0.53)／回転は軽い(0.3日)／⚠️出来高が低調・動意待ち(出来高比0.72)\n→ ⚠️ データ番人作動：まず数値の確認が必要（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=3186"
+      "text": "【ミナトホールディングス(6862)】\n⚠️ データ番人: 割安すぎ(PEG0.02)＝利益急増の歪み／利益が4倍超(EPS+462.4%)＝ほぼ確実に一時要因 — 一次情報で要確認\n💰割安/質: とても割安(PER7.1倍)／資本効率が非常に高い⭐(ROE26.1%)／急拡大・一過性注意(売上+49.0%)／⚠️3倍超・一時要因濃厚(EPS+462.4%)／数値は割安だが急増の歪み・割引必要(PEG0.02)／資産対比は妥当(PBR1.88)／配当は控えめ(利回り1.5%)\n📊業績: 増収増益◎／🆙会社予想を上方修正(強気)\n🔄需給: ⚠️⚠️信用買残が非常に重い・上値の蓋(倍率2800.20)／回転は普通(3.8日)／✨倍率が軽くなる(-81.5%)／⚠️出来高が低調・動意待ち(出来高比0.27)\n→ ⚠️ データ番人作動：まず数値の確認が必要（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=6862"
     },
     {
       "code": "77770",
       "name": "スリー・ディー・マトリックス",
       "ticker": "7777",
       "metrics": {
-        "per": 28.74,
+        "per": 28.26,
         "roe_pct": 61.1,
         "peg": 0.12,
         "growth_yoy_pct": 57.0,
         "eps_growth_yoy_pct": 238.5,
-        "pbr": 6.99,
+        "pbr": 6.87,
         "dividend_yield": 0.0,
-        "adv_jpy": 1489734225,
+        "adv_jpy": 972003240,
         "upward_revision": false
       },
       "demand_supply": {
         "margin_ratio": null,
-        "margin_buy": 13159000,
+        "margin_buy": 12900000,
         "margin_sell": 0,
         "margin_trend_pct": -3.8,
-        "vol_ratio": 0.44,
-        "vol_avg20": 4172925,
-        "bb_pct_b": 0.45,
-        "bb_bandwidth": 0.493,
+        "vol_ratio": 0.48,
+        "vol_avg20": 2769240,
+        "bb_pct_b": 0.53,
+        "bb_bandwidth": 0.179,
         "short_balance_pct": null,
         "short_balance_trend_pct": null,
         "as_of_short": null
       },
       "brief": {
         "guardian": "⚠️ データ番人: ROEが異常に高い(61.1%)＝自己資本が薄い/借入過多の可能性 — 一次情報で要確認",
-        "value": "PERは高め(28.7倍)／資本効率が非常に高い⭐(ROE61.1%)／急拡大・一過性注意(売上+57.0%)／⚠️3倍超・一時要因濃厚(EPS+238.5%)／数値は割安だが急増の歪み・割引必要(PEG0.12)／資産対比は高め(PBR6.99)／無配",
+        "value": "PERは高め(28.3倍)／資本効率が非常に高い⭐(ROE61.1%)／急拡大・一過性注意(売上+57.0%)／⚠️3倍超・一時要因濃厚(EPS+238.5%)／数値は割安だが急増の歪み・割引必要(PEG0.12)／資産対比は高め(PBR6.87)／無配",
         "earnings": "増収増益◎",
-        "demand_supply": "回転は普通(3.2日)／⚠️出来高が低調・動意待ち(出来高比0.44)",
-        "days_to_cover": 3.2,
+        "demand_supply": "回転は普通(4.7日)／⚠️出来高が低調・動意待ち(出来高比0.48)",
+        "days_to_cover": 4.7,
         "squeeze": false,
-        "one_liner": "⚠️ データ番人作動：まず数値の確認が必要（🔁4週連続候補）",
+        "one_liner": "⚠️ データ番人作動：まず数値の確認が必要（🔁5週連続候補）",
         "link": "https://kabutan.jp/stock/?code=7777",
         "as_of_short": null,
         "next_earnings": null,
-        "streak": 4
+        "streak": 5
       },
       "flags": [
         "⚠️",
         "⚠️",
         "⚠️"
       ],
-      "text": "【スリー・ディー・マトリックス(7777)】\n⚠️ データ番人: ROEが異常に高い(61.1%)＝自己資本が薄い/借入過多の可能性 — 一次情報で要確認\n💰割安/質: PERは高め(28.7倍)／資本効率が非常に高い⭐(ROE61.1%)／急拡大・一過性注意(売上+57.0%)／⚠️3倍超・一時要因濃厚(EPS+238.5%)／数値は割安だが急増の歪み・割引必要(PEG0.12)／資産対比は高め(PBR6.99)／無配\n📊業績: 増収増益◎\n🔄需給: 回転は普通(3.2日)／⚠️出来高が低調・動意待ち(出来高比0.44)\n→ ⚠️ データ番人作動：まず数値の確認が必要（🔁4週連続候補）\nhttps://kabutan.jp/stock/?code=7777"
+      "text": "【スリー・ディー・マトリックス(7777)】\n⚠️ データ番人: ROEが異常に高い(61.1%)＝自己資本が薄い/借入過多の可能性 — 一次情報で要確認\n💰割安/質: PERは高め(28.3倍)／資本効率が非常に高い⭐(ROE61.1%)／急拡大・一過性注意(売上+57.0%)／⚠️3倍超・一時要因濃厚(EPS+238.5%)／数値は割安だが急増の歪み・割引必要(PEG0.12)／資産対比は高め(PBR6.87)／無配\n📊業績: 増収増益◎\n🔄需給: 回転は普通(4.7日)／⚠️出来高が低調・動意待ち(出来高比0.48)\n→ ⚠️ データ番人作動：まず数値の確認が必要（🔁5週連続候補）\nhttps://kabutan.jp/stock/?code=7777"
     }
   ]
 }
