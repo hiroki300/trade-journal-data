@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-05T15:04+09:00",
+  "generated_at": "2026-07-12T14:27+09:00",
   "label": "検証中・エッジ未確定 (機械baseline=人間が超えるべきバー / 主=整合レンズ単一決済)",
-  "n_snapshots": 172,
-  "n_matured": 93,
+  "n_snapshots": 197,
+  "n_matured": 121,
   "n_matured_note": "参考値: いずれかのレンズ(学術10日が先に成熟)が採点できた snapshot 数。判定/進捗の母数はこれでなく summary.consistency_lens.n (整合レンズ=30日単一決済)。",
   "summary": {
     "academic_market_adj": {
       "10": {
-        "n": 93,
-        "mean_market_adj": 0.007
+        "n": 121,
+        "mean_market_adj": 0.0045
       },
       "20": {
-        "n": 0,
-        "mean_market_adj": null
+        "n": 64,
+        "mean_market_adj": -0.0101
       },
       "40": {
         "n": 0,
@@ -60,7 +60,10 @@
           "raw": -0.0413,
           "market_adj": -0.1041
         },
-        "20": null,
+        "20": {
+          "raw": 0.0254,
+          "market_adj": -0.0396
+        },
         "40": null
       },
       "consistency": null,
@@ -77,7 +80,10 @@
           "raw": 0.1148,
           "market_adj": 0.0519
         },
-        "20": null,
+        "20": {
+          "raw": -0.01,
+          "market_adj": -0.0751
+        },
         "40": null
       },
       "consistency": null,
@@ -94,7 +100,10 @@
           "raw": 0.0858,
           "market_adj": 0.0229
         },
-        "20": null,
+        "20": {
+          "raw": -0.1001,
+          "market_adj": -0.1652
+        },
         "40": null
       },
       "consistency": null,
@@ -111,7 +120,10 @@
           "raw": 0.1309,
           "market_adj": 0.0681
         },
-        "20": null,
+        "20": {
+          "raw": 0.1504,
+          "market_adj": 0.0853
+        },
         "40": null
       },
       "consistency": null,
@@ -128,7 +140,10 @@
           "raw": 0.2431,
           "market_adj": 0.1802
         },
-        "20": null,
+        "20": {
+          "raw": 0.1354,
+          "market_adj": 0.0703
+        },
         "40": null
       },
       "consistency": null,
@@ -145,7 +160,10 @@
           "raw": 0.1437,
           "market_adj": 0.0808
         },
-        "20": null,
+        "20": {
+          "raw": -0.0946,
+          "market_adj": -0.1597
+        },
         "40": null
       },
       "consistency": null,
@@ -162,7 +180,10 @@
           "raw": -0.081,
           "market_adj": -0.1439
         },
-        "20": null,
+        "20": {
+          "raw": -0.1163,
+          "market_adj": -0.1814
+        },
         "40": null
       },
       "consistency": null,
@@ -179,7 +200,10 @@
           "raw": -0.048,
           "market_adj": -0.1108
         },
-        "20": null,
+        "20": {
+          "raw": -0.0116,
+          "market_adj": -0.0767
+        },
         "40": null
       },
       "consistency": null,
@@ -196,7 +220,10 @@
           "raw": 0.2095,
           "market_adj": 0.1467
         },
-        "20": null,
+        "20": {
+          "raw": 0.0,
+          "market_adj": -0.0651
+        },
         "40": null
       },
       "consistency": null,
@@ -213,7 +240,10 @@
           "raw": 0.0378,
           "market_adj": -0.0251
         },
-        "20": null,
+        "20": {
+          "raw": 0.0378,
+          "market_adj": -0.0273
+        },
         "40": null
       },
       "consistency": null,
@@ -230,7 +260,10 @@
           "raw": -0.0325,
           "market_adj": -0.0954
         },
-        "20": null,
+        "20": {
+          "raw": 0.0451,
+          "market_adj": -0.0199
+        },
         "40": null
       },
       "consistency": null,
@@ -247,7 +280,10 @@
           "raw": 0.1218,
           "market_adj": 0.0589
         },
-        "20": null,
+        "20": {
+          "raw": -0.0949,
+          "market_adj": -0.16
+        },
         "40": null
       },
       "consistency": null,
@@ -264,7 +300,10 @@
           "raw": 0.2153,
           "market_adj": 0.1524
         },
-        "20": null,
+        "20": {
+          "raw": -0.059,
+          "market_adj": -0.124
+        },
         "40": null
       },
       "consistency": null,
@@ -281,7 +320,10 @@
           "raw": 0.1843,
           "market_adj": 0.1214
         },
-        "20": null,
+        "20": {
+          "raw": 0.13,
+          "market_adj": 0.0649
+        },
         "40": null
       },
       "consistency": null,
@@ -298,7 +340,10 @@
           "raw": -0.2591,
           "market_adj": -0.322
         },
-        "20": null,
+        "20": {
+          "raw": -0.1386,
+          "market_adj": -0.2037
+        },
         "40": null
       },
       "consistency": null,
@@ -315,7 +360,10 @@
           "raw": 0.0345,
           "market_adj": -0.0284
         },
-        "20": null,
+        "20": {
+          "raw": 0.1142,
+          "market_adj": 0.0491
+        },
         "40": null
       },
       "consistency": null,
@@ -332,7 +380,10 @@
           "raw": 0.2748,
           "market_adj": 0.2119
         },
-        "20": null,
+        "20": {
+          "raw": 0.1716,
+          "market_adj": 0.1065
+        },
         "40": null
       },
       "consistency": null,
@@ -349,7 +400,10 @@
           "raw": 0.2508,
           "market_adj": 0.1879
         },
-        "20": null,
+        "20": {
+          "raw": 0.3023,
+          "market_adj": 0.2372
+        },
         "40": null
       },
       "consistency": null,
@@ -366,7 +420,10 @@
           "raw": -0.0448,
           "market_adj": -0.1077
         },
-        "20": null,
+        "20": {
+          "raw": -0.0003,
+          "market_adj": -0.0654
+        },
         "40": null
       },
       "consistency": null,
@@ -383,7 +440,10 @@
           "raw": -0.0239,
           "market_adj": -0.0868
         },
-        "20": null,
+        "20": {
+          "raw": 0.0479,
+          "market_adj": -0.0172
+        },
         "40": null
       },
       "consistency": null,
@@ -400,7 +460,10 @@
           "raw": 0.1412,
           "market_adj": 0.0783
         },
-        "20": null,
+        "20": {
+          "raw": 0.2095,
+          "market_adj": 0.1444
+        },
         "40": null
       },
       "consistency": null,
@@ -417,7 +480,10 @@
           "raw": 0.0373,
           "market_adj": -0.0255
         },
-        "20": null,
+        "20": {
+          "raw": 0.1367,
+          "market_adj": 0.0716
+        },
         "40": null
       },
       "consistency": null,
@@ -434,7 +500,10 @@
           "raw": 0.0425,
           "market_adj": -0.0204
         },
-        "20": null,
+        "20": {
+          "raw": 0.1174,
+          "market_adj": 0.0523
+        },
         "40": null
       },
       "consistency": null,
@@ -451,7 +520,10 @@
           "raw": -0.0156,
           "market_adj": -0.0785
         },
-        "20": null,
+        "20": {
+          "raw": 0.0845,
+          "market_adj": 0.0194
+        },
         "40": null
       },
       "consistency": null,
@@ -468,7 +540,10 @@
           "raw": -0.1276,
           "market_adj": -0.1904
         },
-        "20": null,
+        "20": {
+          "raw": -0.2079,
+          "market_adj": -0.2729
+        },
         "40": null
       },
       "consistency": null,
@@ -485,7 +560,10 @@
           "raw": -0.0308,
           "market_adj": -0.0937
         },
-        "20": null,
+        "20": {
+          "raw": 0.0895,
+          "market_adj": 0.0245
+        },
         "40": null
       },
       "consistency": null,
@@ -502,7 +580,10 @@
           "raw": 0.5769,
           "market_adj": 0.5141
         },
-        "20": null,
+        "20": {
+          "raw": 0.323,
+          "market_adj": 0.2579
+        },
         "40": null
       },
       "consistency": null,
@@ -519,7 +600,10 @@
           "raw": 0.0541,
           "market_adj": -0.0088
         },
-        "20": null,
+        "20": {
+          "raw": 0.2876,
+          "market_adj": 0.2226
+        },
         "40": null
       },
       "consistency": null,
@@ -536,7 +620,10 @@
           "raw": 0.0541,
           "market_adj": -0.0088
         },
-        "20": null,
+        "20": {
+          "raw": 0.0341,
+          "market_adj": -0.031
+        },
         "40": null
       },
       "consistency": null,
@@ -553,7 +640,10 @@
           "raw": -0.0845,
           "market_adj": -0.1474
         },
-        "20": null,
+        "20": {
+          "raw": 0.1429,
+          "market_adj": 0.0778
+        },
         "40": null
       },
       "consistency": null,
@@ -570,7 +660,10 @@
           "raw": -0.1147,
           "market_adj": -0.1776
         },
-        "20": null,
+        "20": {
+          "raw": 0.0366,
+          "market_adj": -0.0284
+        },
         "40": null
       },
       "consistency": null,
@@ -587,7 +680,10 @@
           "raw": -0.0335,
           "market_adj": -0.0963
         },
-        "20": null,
+        "20": {
+          "raw": -0.0307,
+          "market_adj": -0.0958
+        },
         "40": null
       },
       "consistency": null,
@@ -604,7 +700,10 @@
           "raw": -0.0413,
           "market_adj": -0.1041
         },
-        "20": null,
+        "20": {
+          "raw": 0.0254,
+          "market_adj": -0.0396
+        },
         "40": null
       },
       "consistency": null,
@@ -621,7 +720,10 @@
           "raw": 0.1148,
           "market_adj": 0.0519
         },
-        "20": null,
+        "20": {
+          "raw": -0.01,
+          "market_adj": -0.0751
+        },
         "40": null
       },
       "consistency": null,
@@ -638,7 +740,10 @@
           "raw": 0.0858,
           "market_adj": 0.0229
         },
-        "20": null,
+        "20": {
+          "raw": -0.1001,
+          "market_adj": -0.1652
+        },
         "40": null
       },
       "consistency": null,
@@ -655,7 +760,10 @@
           "raw": 0.1309,
           "market_adj": 0.0681
         },
-        "20": null,
+        "20": {
+          "raw": 0.1504,
+          "market_adj": 0.0853
+        },
         "40": null
       },
       "consistency": null,
@@ -672,7 +780,10 @@
           "raw": 0.2431,
           "market_adj": 0.1802
         },
-        "20": null,
+        "20": {
+          "raw": 0.1354,
+          "market_adj": 0.0703
+        },
         "40": null
       },
       "consistency": null,
@@ -689,7 +800,10 @@
           "raw": 0.1437,
           "market_adj": 0.0808
         },
-        "20": null,
+        "20": {
+          "raw": -0.0946,
+          "market_adj": -0.1597
+        },
         "40": null
       },
       "consistency": null,
@@ -706,7 +820,10 @@
           "raw": -0.081,
           "market_adj": -0.1439
         },
-        "20": null,
+        "20": {
+          "raw": -0.1163,
+          "market_adj": -0.1814
+        },
         "40": null
       },
       "consistency": null,
@@ -723,7 +840,10 @@
           "raw": -0.048,
           "market_adj": -0.1108
         },
-        "20": null,
+        "20": {
+          "raw": -0.0116,
+          "market_adj": -0.0767
+        },
         "40": null
       },
       "consistency": null,
@@ -740,7 +860,10 @@
           "raw": 0.2095,
           "market_adj": 0.1467
         },
-        "20": null,
+        "20": {
+          "raw": 0.0,
+          "market_adj": -0.0651
+        },
         "40": null
       },
       "consistency": null,
@@ -757,7 +880,10 @@
           "raw": 0.0378,
           "market_adj": -0.0251
         },
-        "20": null,
+        "20": {
+          "raw": 0.0378,
+          "market_adj": -0.0273
+        },
         "40": null
       },
       "consistency": null,
@@ -774,7 +900,10 @@
           "raw": -0.0325,
           "market_adj": -0.0954
         },
-        "20": null,
+        "20": {
+          "raw": 0.0451,
+          "market_adj": -0.0199
+        },
         "40": null
       },
       "consistency": null,
@@ -791,7 +920,10 @@
           "raw": 0.1218,
           "market_adj": 0.0589
         },
-        "20": null,
+        "20": {
+          "raw": -0.0949,
+          "market_adj": -0.16
+        },
         "40": null
       },
       "consistency": null,
@@ -808,7 +940,10 @@
           "raw": 0.2153,
           "market_adj": 0.1524
         },
-        "20": null,
+        "20": {
+          "raw": -0.059,
+          "market_adj": -0.124
+        },
         "40": null
       },
       "consistency": null,
@@ -825,7 +960,10 @@
           "raw": 0.1843,
           "market_adj": 0.1214
         },
-        "20": null,
+        "20": {
+          "raw": 0.13,
+          "market_adj": 0.0649
+        },
         "40": null
       },
       "consistency": null,
@@ -842,7 +980,10 @@
           "raw": -0.2591,
           "market_adj": -0.322
         },
-        "20": null,
+        "20": {
+          "raw": -0.1386,
+          "market_adj": -0.2037
+        },
         "40": null
       },
       "consistency": null,
@@ -859,7 +1000,10 @@
           "raw": 0.0345,
           "market_adj": -0.0284
         },
-        "20": null,
+        "20": {
+          "raw": 0.1142,
+          "market_adj": 0.0491
+        },
         "40": null
       },
       "consistency": null,
@@ -876,7 +1020,10 @@
           "raw": 0.2748,
           "market_adj": 0.2119
         },
-        "20": null,
+        "20": {
+          "raw": 0.1716,
+          "market_adj": 0.1065
+        },
         "40": null
       },
       "consistency": null,
@@ -893,7 +1040,10 @@
           "raw": 0.2508,
           "market_adj": 0.1879
         },
-        "20": null,
+        "20": {
+          "raw": 0.3023,
+          "market_adj": 0.2372
+        },
         "40": null
       },
       "consistency": null,
@@ -910,7 +1060,10 @@
           "raw": -0.0448,
           "market_adj": -0.1077
         },
-        "20": null,
+        "20": {
+          "raw": -0.0003,
+          "market_adj": -0.0654
+        },
         "40": null
       },
       "consistency": null,
@@ -927,7 +1080,10 @@
           "raw": -0.0239,
           "market_adj": -0.0868
         },
-        "20": null,
+        "20": {
+          "raw": 0.0479,
+          "market_adj": -0.0172
+        },
         "40": null
       },
       "consistency": null,
@@ -944,7 +1100,10 @@
           "raw": 0.1412,
           "market_adj": 0.0783
         },
-        "20": null,
+        "20": {
+          "raw": 0.2095,
+          "market_adj": 0.1444
+        },
         "40": null
       },
       "consistency": null,
@@ -961,7 +1120,10 @@
           "raw": 0.0373,
           "market_adj": -0.0255
         },
-        "20": null,
+        "20": {
+          "raw": 0.1367,
+          "market_adj": 0.0716
+        },
         "40": null
       },
       "consistency": null,
@@ -978,7 +1140,10 @@
           "raw": 0.0425,
           "market_adj": -0.0204
         },
-        "20": null,
+        "20": {
+          "raw": 0.1174,
+          "market_adj": 0.0523
+        },
         "40": null
       },
       "consistency": null,
@@ -995,7 +1160,10 @@
           "raw": -0.0156,
           "market_adj": -0.0785
         },
-        "20": null,
+        "20": {
+          "raw": 0.0845,
+          "market_adj": 0.0194
+        },
         "40": null
       },
       "consistency": null,
@@ -1012,7 +1180,10 @@
           "raw": -0.1276,
           "market_adj": -0.1904
         },
-        "20": null,
+        "20": {
+          "raw": -0.2079,
+          "market_adj": -0.2729
+        },
         "40": null
       },
       "consistency": null,
@@ -1029,7 +1200,10 @@
           "raw": -0.0308,
           "market_adj": -0.0937
         },
-        "20": null,
+        "20": {
+          "raw": 0.0895,
+          "market_adj": 0.0245
+        },
         "40": null
       },
       "consistency": null,
@@ -1046,7 +1220,10 @@
           "raw": 0.5769,
           "market_adj": 0.5141
         },
-        "20": null,
+        "20": {
+          "raw": 0.323,
+          "market_adj": 0.2579
+        },
         "40": null
       },
       "consistency": null,
@@ -1063,7 +1240,10 @@
           "raw": 0.0541,
           "market_adj": -0.0088
         },
-        "20": null,
+        "20": {
+          "raw": 0.2876,
+          "market_adj": 0.2226
+        },
         "40": null
       },
       "consistency": null,
@@ -1080,7 +1260,10 @@
           "raw": 0.0541,
           "market_adj": -0.0088
         },
-        "20": null,
+        "20": {
+          "raw": 0.0341,
+          "market_adj": -0.031
+        },
         "40": null
       },
       "consistency": null,
@@ -1097,7 +1280,10 @@
           "raw": -0.0845,
           "market_adj": -0.1474
         },
-        "20": null,
+        "20": {
+          "raw": 0.1429,
+          "market_adj": 0.0778
+        },
         "40": null
       },
       "consistency": null,
@@ -1114,7 +1300,10 @@
           "raw": -0.1147,
           "market_adj": -0.1776
         },
-        "20": null,
+        "20": {
+          "raw": 0.0366,
+          "market_adj": -0.0284
+        },
         "40": null
       },
       "consistency": null,
@@ -1131,7 +1320,10 @@
           "raw": -0.0335,
           "market_adj": -0.0963
         },
-        "20": null,
+        "20": {
+          "raw": -0.0307,
+          "market_adj": -0.0958
+        },
         "40": null
       },
       "consistency": null,
@@ -1623,6 +1815,482 @@
         "10": {
           "raw": -0.0686,
           "market_adj": -0.062
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#68380",
+      "snapshot_date": "2026-06-21",
+      "code": "68380",
+      "name": "多摩川ホールディングス",
+      "academic": {
+        "10": {
+          "raw": -0.1387,
+          "market_adj": -0.1408
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#45060",
+      "snapshot_date": "2026-06-21",
+      "code": "45060",
+      "name": "住友ファーマ",
+      "academic": {
+        "10": {
+          "raw": 0.0696,
+          "market_adj": 0.0675
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#68620",
+      "snapshot_date": "2026-06-21",
+      "code": "68620",
+      "name": "ミナトホールディングス",
+      "academic": {
+        "10": {
+          "raw": -0.112,
+          "market_adj": -0.114
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#98800",
+      "snapshot_date": "2026-06-21",
+      "code": "98800",
+      "name": "イノテック",
+      "academic": {
+        "10": {
+          "raw": -0.1712,
+          "market_adj": -0.1733
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#31860",
+      "snapshot_date": "2026-06-21",
+      "code": "31860",
+      "name": "ネクステージ",
+      "academic": {
+        "10": {
+          "raw": 0.0172,
+          "market_adj": 0.0152
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#77770",
+      "snapshot_date": "2026-06-21",
+      "code": "77770",
+      "name": "スリー・ディー・マトリックス",
+      "academic": {
+        "10": {
+          "raw": 0.1626,
+          "market_adj": 0.1605
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#81540",
+      "snapshot_date": "2026-06-21",
+      "code": "81540",
+      "name": "加賀電子",
+      "academic": {
+        "10": {
+          "raw": -0.0384,
+          "market_adj": -0.0405
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#62690",
+      "snapshot_date": "2026-06-21",
+      "code": "62690",
+      "name": "三井海洋開発",
+      "academic": {
+        "10": {
+          "raw": 0.0382,
+          "market_adj": 0.0362
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#78260",
+      "snapshot_date": "2026-06-21",
+      "code": "78260",
+      "name": "フルヤ金属",
+      "academic": {
+        "10": {
+          "raw": -0.2084,
+          "market_adj": -0.2104
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#27370",
+      "snapshot_date": "2026-06-21",
+      "code": "27370",
+      "name": "トーメンデバイス",
+      "academic": {
+        "10": {
+          "raw": -0.0866,
+          "market_adj": -0.0887
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#49710",
+      "snapshot_date": "2026-06-21",
+      "code": "49710",
+      "name": "メック",
+      "academic": {
+        "10": {
+          "raw": -0.1732,
+          "market_adj": -0.1753
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#69460",
+      "snapshot_date": "2026-06-21",
+      "code": "69460",
+      "name": "日本アビオニクス",
+      "academic": {
+        "10": {
+          "raw": 0.0802,
+          "market_adj": 0.0782
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#71720",
+      "snapshot_date": "2026-06-21",
+      "code": "71720",
+      "name": "ジャパンインベストメントアドバイザー",
+      "academic": {
+        "10": {
+          "raw": 0.0,
+          "market_adj": -0.0021
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#62270",
+      "snapshot_date": "2026-06-21",
+      "code": "62270",
+      "name": "ＡＩメカテック",
+      "academic": {
+        "10": {
+          "raw": -0.1932,
+          "market_adj": -0.1953
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#68340",
+      "snapshot_date": "2026-06-21",
+      "code": "68340",
+      "name": "精工技研",
+      "academic": {
+        "10": {
+          "raw": -0.2257,
+          "market_adj": -0.2277
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#63310",
+      "snapshot_date": "2026-06-21",
+      "code": "63310",
+      "name": "三菱化工機",
+      "academic": {
+        "10": {
+          "raw": -0.0458,
+          "market_adj": -0.0479
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#58380",
+      "snapshot_date": "2026-06-21",
+      "code": "58380",
+      "name": "楽天銀行",
+      "academic": {
+        "10": {
+          "raw": 0.077,
+          "market_adj": 0.075
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#31070",
+      "snapshot_date": "2026-06-21",
+      "code": "31070",
+      "name": "ダイワボウホールディングス",
+      "academic": {
+        "10": {
+          "raw": 0.0467,
+          "market_adj": 0.0446
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#61010",
+      "snapshot_date": "2026-06-21",
+      "code": "61010",
+      "name": "ツガミ",
+      "academic": {
+        "10": {
+          "raw": 0.0411,
+          "market_adj": 0.0391
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#78060",
+      "snapshot_date": "2026-06-21",
+      "code": "78060",
+      "name": "ＭＴＧ",
+      "academic": {
+        "10": {
+          "raw": 0.0599,
+          "market_adj": 0.0578
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#95520",
+      "snapshot_date": "2026-06-21",
+      "code": "95520",
+      "name": "クオンツ総研ホールディングス",
+      "academic": {
+        "10": {
+          "raw": -0.092,
+          "market_adj": -0.0941
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#79360",
+      "snapshot_date": "2026-06-21",
+      "code": "79360",
+      "name": "アシックス",
+      "academic": {
+        "10": {
+          "raw": 0.1017,
+          "market_adj": 0.0996
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#36920",
+      "snapshot_date": "2026-06-21",
+      "code": "36920",
+      "name": "ＦＦＲＩセキュリティ",
+      "academic": {
+        "10": {
+          "raw": 0.0718,
+          "market_adj": 0.0698
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#47760",
+      "snapshot_date": "2026-06-21",
+      "code": "47760",
+      "name": "サイボウズ",
+      "academic": {
+        "10": {
+          "raw": 0.1242,
+          "market_adj": 0.1221
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#65320",
+      "snapshot_date": "2026-06-21",
+      "code": "65320",
+      "name": "ベイカレント",
+      "academic": {
+        "10": {
+          "raw": 0.2484,
+          "market_adj": 0.2464
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#81360",
+      "snapshot_date": "2026-06-21",
+      "code": "81360",
+      "name": "サンリオ",
+      "academic": {
+        "10": {
+          "raw": 0.2216,
+          "market_adj": 0.2195
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#76850",
+      "snapshot_date": "2026-06-21",
+      "code": "76850",
+      "name": "ＢｕｙＳｅｌｌ　Ｔｅｃｈｎｏｌｏｇｉｅｓ",
+      "academic": {
+        "10": {
+          "raw": 0.0029,
+          "market_adj": 0.0008
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-06-21#79060",
+      "snapshot_date": "2026-06-21",
+      "code": "79060",
+      "name": "ヨネックス",
+      "academic": {
+        "10": {
+          "raw": 0.0694,
+          "market_adj": 0.0674
         },
         "20": null,
         "40": null

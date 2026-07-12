@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-05T15:04+09:00",
-  "n_trades": 23,
+  "generated_at": "2026-07-12T14:28+09:00",
+  "n_trades": 22,
   "trades_source": "published(trade-journal-data)",
   "human": {
     "n": 18,
@@ -25,14 +25,14 @@
     "_note": "主ゲート: 同週baselineを差引いた人間の超過R (レジーム相殺・N=トレード数。同週baseline 3件未満の縮退週は unmatched 扱い)"
   },
   "decomposition": {
-    "n": 10,
-    "avg_rr_after_friction": -0.194,
+    "n": 12,
+    "avg_rr_after_friction": -0.085,
     "ci95": {
-      "lo": -0.829,
-      "hi": 0.54
+      "lo": -0.746,
+      "hi": 0.642
     },
-    "sd": 1.199,
-    "se": 0.379,
+    "sd": 1.286,
+    "se": 0.371,
     "_note": "分析専用: 人間選定×機械執行。選定エッジの切り分け (選定に還流しない)"
   },
   "direct": {
