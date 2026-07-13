@@ -264,7 +264,7 @@
         "price": 9756.0,
         "discount_pct": 1.2,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-07-12"
@@ -330,7 +330,7 @@
         "price": 3475.0,
         "discount_pct": 0.3,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-07-12"
@@ -651,7 +651,7 @@
         "price": 7475.0,
         "discount_pct": 1.0,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-07-12"
