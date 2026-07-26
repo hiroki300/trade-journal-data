@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-19T14:21+09:00",
+  "generated_at": "2026-07-26T14:31+09:00",
   "label": "検証中・エッジ未確定 (機械baseline=人間が超えるべきバー / 主=整合レンズ単一決済)",
-  "n_snapshots": 225,
-  "n_matured": 149,
+  "n_snapshots": 252,
+  "n_matured": 172,
   "n_matured_note": "参考値: いずれかのレンズ(学術10日が先に成熟)が採点できた snapshot 数。判定/進捗の母数はこれでなく summary.consistency_lens.n (整合レンズ=30日単一決済)。",
   "summary": {
     "academic_market_adj": {
       "10": {
-        "n": 149,
-        "mean_market_adj": 0.0001
+        "n": 172,
+        "mean_market_adj": -0.0055
       },
       "20": {
-        "n": 93,
-        "mean_market_adj": -0.0087
+        "n": 121,
+        "mean_market_adj": -0.0129
       },
       "40": {
         "n": 0,
@@ -2696,7 +2696,10 @@
           "raw": -0.1387,
           "market_adj": -0.1408
         },
-        "20": null,
+        "20": {
+          "raw": -0.3312,
+          "market_adj": -0.2939
+        },
         "40": null
       },
       "consistency": null,
@@ -2713,7 +2716,10 @@
           "raw": 0.0696,
           "market_adj": 0.0675
         },
-        "20": null,
+        "20": {
+          "raw": -0.1019,
+          "market_adj": -0.0646
+        },
         "40": null
       },
       "consistency": null,
@@ -2730,7 +2736,10 @@
           "raw": -0.112,
           "market_adj": -0.114
         },
-        "20": null,
+        "20": {
+          "raw": -0.2038,
+          "market_adj": -0.1666
+        },
         "40": null
       },
       "consistency": null,
@@ -2747,7 +2756,10 @@
           "raw": -0.1712,
           "market_adj": -0.1733
         },
-        "20": null,
+        "20": {
+          "raw": -0.2689,
+          "market_adj": -0.2317
+        },
         "40": null
       },
       "consistency": null,
@@ -2764,7 +2776,10 @@
           "raw": 0.0172,
           "market_adj": 0.0152
         },
-        "20": null,
+        "20": {
+          "raw": -0.1478,
+          "market_adj": -0.1105
+        },
         "40": null
       },
       "consistency": null,
@@ -2781,7 +2796,10 @@
           "raw": 0.1626,
           "market_adj": 0.1605
         },
-        "20": null,
+        "20": {
+          "raw": 0.092,
+          "market_adj": 0.1293
+        },
         "40": null
       },
       "consistency": null,
@@ -2798,7 +2816,10 @@
           "raw": -0.0384,
           "market_adj": -0.0405
         },
-        "20": null,
+        "20": {
+          "raw": -0.052,
+          "market_adj": -0.0147
+        },
         "40": null
       },
       "consistency": null,
@@ -2815,7 +2836,10 @@
           "raw": 0.0382,
           "market_adj": 0.0362
         },
-        "20": null,
+        "20": {
+          "raw": 0.0321,
+          "market_adj": 0.0694
+        },
         "40": null
       },
       "consistency": null,
@@ -2832,7 +2856,10 @@
           "raw": -0.2084,
           "market_adj": -0.2104
         },
-        "20": null,
+        "20": {
+          "raw": -0.2827,
+          "market_adj": -0.2454
+        },
         "40": null
       },
       "consistency": null,
@@ -2849,7 +2876,10 @@
           "raw": -0.0866,
           "market_adj": -0.0887
         },
-        "20": null,
+        "20": {
+          "raw": -0.0961,
+          "market_adj": -0.0588
+        },
         "40": null
       },
       "consistency": null,
@@ -2866,7 +2896,10 @@
           "raw": -0.1732,
           "market_adj": -0.1753
         },
-        "20": null,
+        "20": {
+          "raw": -0.2779,
+          "market_adj": -0.2406
+        },
         "40": null
       },
       "consistency": null,
@@ -2883,7 +2916,10 @@
           "raw": 0.0802,
           "market_adj": 0.0782
         },
-        "20": null,
+        "20": {
+          "raw": -0.1073,
+          "market_adj": -0.07
+        },
         "40": null
       },
       "consistency": null,
@@ -2900,7 +2936,10 @@
           "raw": 0.0,
           "market_adj": -0.0021
         },
-        "20": null,
+        "20": {
+          "raw": 0.0129,
+          "market_adj": 0.0502
+        },
         "40": null
       },
       "consistency": null,
@@ -2917,7 +2956,10 @@
           "raw": -0.1932,
           "market_adj": -0.1953
         },
-        "20": null,
+        "20": {
+          "raw": -0.1263,
+          "market_adj": -0.089
+        },
         "40": null
       },
       "consistency": null,
@@ -2934,7 +2976,10 @@
           "raw": -0.2257,
           "market_adj": -0.2277
         },
-        "20": null,
+        "20": {
+          "raw": -0.3743,
+          "market_adj": -0.3371
+        },
         "40": null
       },
       "consistency": null,
@@ -2951,7 +2996,10 @@
           "raw": -0.0458,
           "market_adj": -0.0479
         },
-        "20": null,
+        "20": {
+          "raw": -0.2147,
+          "market_adj": -0.1774
+        },
         "40": null
       },
       "consistency": null,
@@ -2968,7 +3016,10 @@
           "raw": 0.077,
           "market_adj": 0.075
         },
-        "20": null,
+        "20": {
+          "raw": 0.0602,
+          "market_adj": 0.0974
+        },
         "40": null
       },
       "consistency": null,
@@ -2985,7 +3036,10 @@
           "raw": 0.0467,
           "market_adj": 0.0446
         },
-        "20": null,
+        "20": {
+          "raw": 0.0401,
+          "market_adj": 0.0774
+        },
         "40": null
       },
       "consistency": null,
@@ -3002,7 +3056,10 @@
           "raw": 0.0411,
           "market_adj": 0.0391
         },
-        "20": null,
+        "20": {
+          "raw": -0.126,
+          "market_adj": -0.0887
+        },
         "40": null
       },
       "consistency": null,
@@ -3019,7 +3076,10 @@
           "raw": 0.0599,
           "market_adj": 0.0578
         },
-        "20": null,
+        "20": {
+          "raw": 0.0299,
+          "market_adj": 0.0672
+        },
         "40": null
       },
       "consistency": null,
@@ -3036,7 +3096,10 @@
           "raw": -0.092,
           "market_adj": -0.0941
         },
-        "20": null,
+        "20": {
+          "raw": -0.1186,
+          "market_adj": -0.0813
+        },
         "40": null
       },
       "consistency": null,
@@ -3053,7 +3116,10 @@
           "raw": 0.1017,
           "market_adj": 0.0996
         },
-        "20": null,
+        "20": {
+          "raw": 0.1318,
+          "market_adj": 0.169
+        },
         "40": null
       },
       "consistency": null,
@@ -3070,7 +3136,10 @@
           "raw": 0.0718,
           "market_adj": 0.0698
         },
-        "20": null,
+        "20": {
+          "raw": -0.032,
+          "market_adj": 0.0052
+        },
         "40": null
       },
       "consistency": null,
@@ -3087,7 +3156,10 @@
           "raw": 0.1242,
           "market_adj": 0.1221
         },
-        "20": null,
+        "20": {
+          "raw": 0.1373,
+          "market_adj": 0.1745
+        },
         "40": null
       },
       "consistency": null,
@@ -3104,7 +3176,10 @@
           "raw": 0.2484,
           "market_adj": 0.2464
         },
-        "20": null,
+        "20": {
+          "raw": 0.183,
+          "market_adj": 0.2203
+        },
         "40": null
       },
       "consistency": null,
@@ -3121,7 +3196,10 @@
           "raw": 0.2216,
           "market_adj": 0.2195
         },
-        "20": null,
+        "20": {
+          "raw": 0.248,
+          "market_adj": 0.2853
+        },
         "40": null
       },
       "consistency": null,
@@ -3138,7 +3216,10 @@
           "raw": 0.0029,
           "market_adj": 0.0008
         },
-        "20": null,
+        "20": {
+          "raw": -0.0332,
+          "market_adj": 0.0041
+        },
         "40": null
       },
       "consistency": null,
@@ -3155,7 +3236,10 @@
           "raw": 0.0694,
           "market_adj": 0.0674
         },
-        "20": null,
+        "20": {
+          "raw": 0.1262,
+          "market_adj": 0.1635
+        },
         "40": null
       },
       "consistency": null,
@@ -3630,6 +3714,397 @@
         "10": {
           "raw": -0.1956,
           "market_adj": -0.1864
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#68380",
+      "snapshot_date": "2026-07-05",
+      "code": "68380",
+      "name": "多摩川ホールディングス",
+      "academic": {
+        "10": {
+          "raw": -0.2235,
+          "market_adj": -0.1842
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#68620",
+      "snapshot_date": "2026-07-05",
+      "code": "68620",
+      "name": "ミナトホールディングス",
+      "academic": {
+        "10": {
+          "raw": -0.1035,
+          "market_adj": -0.0642
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#45060",
+      "snapshot_date": "2026-07-05",
+      "code": "45060",
+      "name": "住友ファーマ",
+      "academic": {
+        "10": {
+          "raw": -0.1603,
+          "market_adj": -0.1211
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#31860",
+      "snapshot_date": "2026-07-05",
+      "code": "31860",
+      "name": "ネクステージ",
+      "academic": {
+        "10": {
+          "raw": -0.1622,
+          "market_adj": -0.123
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#78260",
+      "snapshot_date": "2026-07-05",
+      "code": "78260",
+      "name": "フルヤ金属",
+      "academic": {
+        "10": {
+          "raw": -0.0939,
+          "market_adj": -0.0546
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#81540",
+      "snapshot_date": "2026-07-05",
+      "code": "81540",
+      "name": "加賀電子",
+      "academic": {
+        "10": {
+          "raw": -0.0141,
+          "market_adj": 0.0252
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#62690",
+      "snapshot_date": "2026-07-05",
+      "code": "62690",
+      "name": "三井海洋開発",
+      "academic": {
+        "10": {
+          "raw": -0.0059,
+          "market_adj": 0.0334
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#77770",
+      "snapshot_date": "2026-07-05",
+      "code": "77770",
+      "name": "スリー・ディー・マトリックス",
+      "academic": {
+        "10": {
+          "raw": -0.0607,
+          "market_adj": -0.0214
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#27370",
+      "snapshot_date": "2026-07-05",
+      "code": "27370",
+      "name": "トーメンデバイス",
+      "academic": {
+        "10": {
+          "raw": -0.0104,
+          "market_adj": 0.0289
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#49710",
+      "snapshot_date": "2026-07-05",
+      "code": "49710",
+      "name": "メック",
+      "academic": {
+        "10": {
+          "raw": -0.1266,
+          "market_adj": -0.0873
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#69460",
+      "snapshot_date": "2026-07-05",
+      "code": "69460",
+      "name": "日本アビオニクス",
+      "academic": {
+        "10": {
+          "raw": -0.1736,
+          "market_adj": -0.1343
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#71720",
+      "snapshot_date": "2026-07-05",
+      "code": "71720",
+      "name": "ジャパンインベストメントアドバイザー",
+      "academic": {
+        "10": {
+          "raw": 0.0129,
+          "market_adj": 0.0522
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#62270",
+      "snapshot_date": "2026-07-05",
+      "code": "62270",
+      "name": "ＡＩメカテック",
+      "academic": {
+        "10": {
+          "raw": 0.0829,
+          "market_adj": 0.1222
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#68340",
+      "snapshot_date": "2026-07-05",
+      "code": "68340",
+      "name": "精工技研",
+      "academic": {
+        "10": {
+          "raw": -0.192,
+          "market_adj": -0.1527
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#63310",
+      "snapshot_date": "2026-07-05",
+      "code": "63310",
+      "name": "三菱化工機",
+      "academic": {
+        "10": {
+          "raw": -0.177,
+          "market_adj": -0.1377
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#58380",
+      "snapshot_date": "2026-07-05",
+      "code": "58380",
+      "name": "楽天銀行",
+      "academic": {
+        "10": {
+          "raw": -0.0157,
+          "market_adj": 0.0236
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#31070",
+      "snapshot_date": "2026-07-05",
+      "code": "31070",
+      "name": "ダイワボウホールディングス",
+      "academic": {
+        "10": {
+          "raw": -0.0063,
+          "market_adj": 0.033
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#78060",
+      "snapshot_date": "2026-07-05",
+      "code": "78060",
+      "name": "ＭＴＧ",
+      "academic": {
+        "10": {
+          "raw": -0.0283,
+          "market_adj": 0.011
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#36920",
+      "snapshot_date": "2026-07-05",
+      "code": "36920",
+      "name": "ＦＦＲＩセキュリティ",
+      "academic": {
+        "10": {
+          "raw": -0.0969,
+          "market_adj": -0.0576
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#47760",
+      "snapshot_date": "2026-07-05",
+      "code": "47760",
+      "name": "サイボウズ",
+      "academic": {
+        "10": {
+          "raw": 0.0116,
+          "market_adj": 0.0509
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#62640",
+      "snapshot_date": "2026-07-05",
+      "code": "62640",
+      "name": "マルマエ",
+      "academic": {
+        "10": {
+          "raw": -0.2384,
+          "market_adj": -0.1991
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#76850",
+      "snapshot_date": "2026-07-05",
+      "code": "76850",
+      "name": "ＢｕｙＳｅｌｌ　Ｔｅｃｈｎｏｌｏｇｉｅｓ",
+      "academic": {
+        "10": {
+          "raw": -0.036,
+          "market_adj": 0.0033
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-07-05#65320",
+      "snapshot_date": "2026-07-05",
+      "code": "65320",
+      "name": "ベイカレント",
+      "academic": {
+        "10": {
+          "raw": -0.0524,
+          "market_adj": -0.0131
         },
         "20": null,
         "40": null

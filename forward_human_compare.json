@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-19T14:21+09:00",
-  "n_trades": 25,
+  "generated_at": "2026-07-26T14:31+09:00",
+  "n_trades": 28,
   "trades_source": "published(trade-journal-data)",
   "human": {
-    "n": 18,
-    "avg_rr_after_friction": 0.739,
-    "win_rate": 0.667,
+    "n": 22,
+    "avg_rr_after_friction": 0.502,
+    "win_rate": 0.682,
     "ci95": {
-      "lo": -0.123,
-      "hi": 1.746
+      "lo": -0.302,
+      "hi": 1.351
     },
-    "sd": 2.057,
-    "se": 0.485
+    "sd": 2.009,
+    "se": 0.428
   },
   "baseline_avg_rr": 0.406,
   "paired": {
     "n_paired": 1,
-    "n_unmatched": 17,
+    "n_unmatched": 21,
     "mean_excess_rr": 3.716,
     "ci95": null,
     "sd": null,
@@ -25,21 +25,21 @@
     "_note": "主ゲート: 同週baselineを差引いた人間の超過R (レジーム相殺・N=トレード数。同週baseline 3件未満の縮退週は unmatched 扱い)"
   },
   "decomposition": {
-    "n": 13,
-    "avg_rr_after_friction": -0.172,
+    "n": 14,
+    "avg_rr_after_friction": -0.233,
     "ci95": {
-      "lo": -0.775,
-      "hi": 0.501
+      "lo": -0.812,
+      "hi": 0.46
     },
-    "sd": 1.271,
-    "se": 0.353,
+    "sd": 1.243,
+    "se": 0.332,
     "_note": "分析専用: 人間選定×機械執行。選定エッジの切り分け (選定に還流しない)"
   },
   "direct": {
-    "delta_vs_baseline": 0.333,
+    "delta_vs_baseline": 0.096,
     "_note": "参考: 独立2標本の差 (レジーム未調整=ノイズ最大)"
   },
-  "delta_vs_baseline": 0.333,
+  "delta_vs_baseline": 0.096,
   "beats_baseline": true,
   "meets_criterion": true,
   "meets_expansion": true,
@@ -54,6 +54,6 @@
     "discipline": "質>件数: N不足なら期間延長が正。見送りも記録(R対象外で別カウント=習慣維持)。本ゲートは仮説検定でなく方向性デシジョンルール — 点推定はノイズ下、必ず±CIで解釈。"
   },
   "verdict": "保留",
-  "status": "判定保留: 人間トレード 18/30 (データ不足)。質>件数 — 不足なら期間延長が正。",
+  "status": "判定保留: 人間トレード 22/30 (データ不足)。質>件数 — 不足なら期間延長が正。",
   "label": "B3本命: 人間判断がエッジを足すかの検証 (検証中)。主ゲート=週マッチ matched-control (同週baseline差引・N=トレード数)、分解=選定エッジの分析専用、直接比較=参考。比較は方向性判断(仮説検定でない)・±CI併記。"
 }
