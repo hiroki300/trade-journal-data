@@ -1,45 +1,48 @@
 {
-  "generated_at": "2026-07-26T14:31+09:00",
-  "n_trades": 28,
+  "generated_at": "2026-08-02T14:26+09:00",
+  "n_trades": 30,
   "trades_source": "published(trade-journal-data)",
   "human": {
-    "n": 22,
-    "avg_rr_after_friction": 0.502,
-    "win_rate": 0.682,
+    "n": 26,
+    "avg_rr_after_friction": 0.592,
+    "win_rate": 0.731,
     "ci95": {
-      "lo": -0.302,
-      "hi": 1.351
+      "lo": -0.048,
+      "hi": 1.322
     },
-    "sd": 2.009,
-    "se": 0.428
+    "sd": 1.883,
+    "se": 0.369
   },
-  "baseline_avg_rr": 0.406,
+  "baseline_avg_rr": 0.331,
   "paired": {
-    "n_paired": 1,
-    "n_unmatched": 21,
-    "mean_excess_rr": 3.716,
-    "ci95": null,
-    "sd": null,
-    "se": null,
+    "n_paired": 2,
+    "n_unmatched": 24,
+    "mean_excess_rr": 2.107,
+    "ci95": {
+      "lo": 0.497,
+      "hi": 3.716
+    },
+    "sd": 2.276,
+    "se": 1.61,
     "beats_baseline": true,
     "_note": "主ゲート: 同週baselineを差引いた人間の超過R (レジーム相殺・N=トレード数。同週baseline 3件未満の縮退週は unmatched 扱い)"
   },
   "decomposition": {
-    "n": 14,
-    "avg_rr_after_friction": -0.233,
+    "n": 16,
+    "avg_rr_after_friction": 0.042,
     "ci95": {
-      "lo": -0.812,
-      "hi": 0.46
+      "lo": -0.626,
+      "hi": 0.741
     },
-    "sd": 1.243,
-    "se": 0.332,
+    "sd": 1.38,
+    "se": 0.345,
     "_note": "分析専用: 人間選定×機械執行。選定エッジの切り分け (選定に還流しない)"
   },
   "direct": {
-    "delta_vs_baseline": 0.096,
+    "delta_vs_baseline": 0.261,
     "_note": "参考: 独立2標本の差 (レジーム未調整=ノイズ最大)"
   },
-  "delta_vs_baseline": 0.096,
+  "delta_vs_baseline": 0.261,
   "beats_baseline": true,
   "meets_criterion": true,
   "meets_expansion": true,
@@ -54,6 +57,6 @@
     "discipline": "質>件数: N不足なら期間延長が正。見送りも記録(R対象外で別カウント=習慣維持)。本ゲートは仮説検定でなく方向性デシジョンルール — 点推定はノイズ下、必ず±CIで解釈。"
   },
   "verdict": "保留",
-  "status": "判定保留: 人間トレード 22/30 (データ不足)。質>件数 — 不足なら期間延長が正。",
+  "status": "判定保留: 人間トレード 26/30 (データ不足)。質>件数 — 不足なら期間延長が正。",
   "label": "B3本命: 人間判断がエッジを足すかの検証 (検証中)。主ゲート=週マッチ matched-control (同週baseline差引・N=トレード数)、分解=選定エッジの分析専用、直接比較=参考。比較は方向性判断(仮説検定でない)・±CI併記。"
 }
