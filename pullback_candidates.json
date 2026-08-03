@@ -1,0 +1,2374 @@
+{
+  "generated_at": "2026-08-03T22:17+09:00",
+  "as_of_date": "2026-08-03",
+  "universe_size": 800,
+  "pullback_passed": 62,
+  "candidate_count": 43,
+  "note": "「60日高値から浅く押した ∧ 上昇基調維持 ∧ 直近決算が増収増益」の条件に合致した銘柄の機械抽出です。買いシグナルではありません。閾値は pre-register 済で測定後に変更しません。エッジは未検証 — 最終判断は一次情報でご自身で。",
+  "thresholds": {
+    "dd60_min_pct": 8.0,
+    "dd60_max_pct": 20.0,
+    "ma25_floor_ratio": 0.95,
+    "rsi_min": 30.0,
+    "rsi_max": 50.0,
+    "op_yoy_min_pct": 0.0,
+    "sales_yoy_min_pct": 0.0,
+    "disclosure_max_age_days": 150
+  },
+  "diagnostics": {
+    "n": 800,
+    "pullback_passed": 67,
+    "earnings_evaluated": 62,
+    "profit_metric_used": {
+      "営業利益": 44,
+      "経常利益": 14,
+      "取得不能": 4
+    },
+    "metric_populated": {
+      "close": 800,
+      "ma25": 796,
+      "ma75": 794,
+      "high_60d": 794,
+      "rsi14": 797,
+      "drawdown_60d_pct": 794,
+      "vol_ratio": 799
+    },
+    "earnings_field_populated": {
+      "sales_yoy_pct": 61,
+      "op_yoy_pct": 58,
+      "np_yoy_pct": 61,
+      "fc_revision_flag": 57,
+      "progress_rate_op_pct": 43,
+      "period_type": 62
+    },
+    "fail_reason_counts": {
+      "dd60_range": 492,
+      "uptrend_ma75": 363,
+      "rsi_band": 355,
+      "above_ma25_floor": 197,
+      "op_yoy_positive": 16,
+      "sales_yoy_positive": 9
+    }
+  },
+  "candidates": [
+    {
+      "code": "61340",
+      "ticker": "6134",
+      "name": "ＦＵＪＩ",
+      "price": 7445.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 16.8,
+        "ma25_dev_pct": -3.6,
+        "ma75_dev_pct": 0.5,
+        "rsi14": 48.93,
+        "bb_pct_b": 0.46,
+        "atr": 505.36,
+        "vol_ratio": 1.74,
+        "signals": [
+          "🎯BB-2σ反発"
+        ]
+      },
+      "earnings": {
+        "sales_yoy_pct": 45.9,
+        "op_yoy_pct": 192.6,
+        "np_yoy_pct": 122.1,
+        "eps_yoy_pct": 122.8,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 25.4,
+        "disclosure_date": "2026-08-03",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 14.88,
+        "pbr": 2.82,
+        "dividend_yield": 2.55
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 744500.0,
+        "stop_price": 6849,
+        "actual_risk_yen": 59600.0,
+        "viable": false
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-16.8%／MA25の下(-3.6%)／MA75は+0.5%(上昇基調は維持)／RSI 49(中立)／🎯BB-2σ反発",
+        "earnings": "増収増益◎／(売上+45.9%・営業利益+192.6%・純利益+122.1%)／🆙会社予想を上方修正／通期予想への進捗率 25%(1Q・目安25%どおり)",
+        "valuation": "予想PER 14.9倍／PBR 2.82倍／配当利回り 2.55%",
+        "size": "",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=6134"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【ＦＵＪＩ(6134)】\n📉 押し目: 60日高値から-16.8%／MA25の下(-3.6%)／MA75は+0.5%(上昇基調は維持)／RSI 49(中立)／🎯BB-2σ反発\n📊 業績: 増収増益◎／(売上+45.9%・営業利益+192.6%・純利益+122.1%)／🆙会社予想を上方修正／通期予想への進捗率 25%(1Q・目安25%どおり)\n💰 参考: 予想PER 14.9倍／PBR 2.82倍／配当利回り 2.55%\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=6134"
+    },
+    {
+      "code": "44190",
+      "ticker": "4419",
+      "name": "Ｆｉｎａｔｅｘｔホールディングス",
+      "price": 1489.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 14.8,
+        "ma25_dev_pct": -3.3,
+        "ma75_dev_pct": 12.3,
+        "rsi14": 48.01,
+        "bb_pct_b": 0.17,
+        "atr": 89.93,
+        "vol_ratio": 0.66,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 43.5,
+        "op_yoy_pct": 100.0,
+        "np_yoy_pct": 129.6,
+        "eps_yoy_pct": 126.1,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 56.9,
+        "disclosure_date": "2026-05-12",
+        "profit_metric": "営業利益",
+        "period_type": "FY"
+      },
+      "valuation": {
+        "per": 33.28,
+        "pbr": 7.35,
+        "dividend_yield": 0.0
+      },
+      "size_if_entered": {
+        "shares": 300,
+        "invest_amount": 446700,
+        "stop_price": 1370,
+        "actual_risk_yen": 35700,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-14.8%／MA25の下(-3.3%)／MA75は+12.3%(上昇基調は維持)／RSI 48(中立)／🟢バンド下限近く(%b 0.17)",
+        "earnings": "増収増益◎／(売上+43.5%・営業利益+100.0%・純利益+129.6%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 33.3倍／PBR 7.35倍",
+        "size": "もし-8%ストップ(1,370円)で買う場合の計算: 300株・約446,700円（最大損失 約35,700円 = 資産の1.4%）",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=4419"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【Ｆｉｎａｔｅｘｔホールディングス(4419)】\n📉 押し目: 60日高値から-14.8%／MA25の下(-3.3%)／MA75は+12.3%(上昇基調は維持)／RSI 48(中立)／🟢バンド下限近く(%b 0.17)\n📊 業績: 増収増益◎／(売上+43.5%・営業利益+100.0%・純利益+129.6%)／🆙会社予想を上方修正\n💰 参考: 予想PER 33.3倍／PBR 7.35倍\n🧮 もし-8%ストップ(1,370円)で買う場合の計算: 300株・約446,700円（最大損失 約35,700円 = 資産の1.4%）\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=4419"
+    },
+    {
+      "code": "61360",
+      "ticker": "6136",
+      "name": "オーエスジー",
+      "price": 3619.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 14.3,
+        "ma25_dev_pct": -4.9,
+        "ma75_dev_pct": 3.1,
+        "rsi14": 45.76,
+        "bb_pct_b": 0.15,
+        "atr": 157.86,
+        "vol_ratio": 0.75,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 19.0,
+        "op_yoy_pct": 65.1,
+        "np_yoy_pct": 92.8,
+        "eps_yoy_pct": 97.8,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 52.2,
+        "disclosure_date": "2026-07-10",
+        "profit_metric": "営業利益",
+        "period_type": "2Q"
+      },
+      "valuation": {
+        "per": 14.16,
+        "pbr": 1.64,
+        "dividend_yield": 3.18
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 361900,
+        "stop_price": 3329,
+        "actual_risk_yen": 29000,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-14.3%／MA25の下(-4.9%)／MA75は+3.1%(上昇基調は維持)／RSI 46(中立)／🟢バンド下限近く(%b 0.15)",
+        "earnings": "増収増益◎／(売上+19.0%・営業利益+65.1%・純利益+92.8%)／🆙会社予想を上方修正／通期予想への進捗率 52%(2Q・目安50%どおり)",
+        "valuation": "予想PER 14.2倍／PBR 1.64倍／配当利回り 3.18%",
+        "size": "もし-8%ストップ(3,329円)で買う場合の計算: 100株・約361,900円（最大損失 約29,000円 = 資産の1.2%）",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=6136"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【オーエスジー(6136)】\n📉 押し目: 60日高値から-14.3%／MA25の下(-4.9%)／MA75は+3.1%(上昇基調は維持)／RSI 46(中立)／🟢バンド下限近く(%b 0.15)\n📊 業績: 増収増益◎／(売上+19.0%・営業利益+65.1%・純利益+92.8%)／🆙会社予想を上方修正／通期予想への進捗率 52%(2Q・目安50%どおり)\n💰 参考: 予想PER 14.2倍／PBR 1.64倍／配当利回り 3.18%\n🧮 もし-8%ストップ(3,329円)で買う場合の計算: 100株・約361,900円（最大損失 約29,000円 = 資産の1.2%）\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=6136"
+    },
+    {
+      "code": "83380",
+      "ticker": "8338",
+      "name": "筑波銀行",
+      "price": 628.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 14.0,
+        "ma25_dev_pct": -1.2,
+        "ma75_dev_pct": 0.0,
+        "rsi14": 47.91,
+        "bb_pct_b": 0.38,
+        "atr": 31.64,
+        "vol_ratio": 0.92,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 22.2,
+        "op_yoy_pct": 66.6,
+        "np_yoy_pct": 62.6,
+        "eps_yoy_pct": 60.6,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": null,
+        "disclosure_date": "2026-05-12",
+        "profit_metric": "経常利益",
+        "period_type": "FY"
+      },
+      "valuation": {
+        "per": 7.82,
+        "pbr": 0.73,
+        "dividend_yield": 0.8
+      },
+      "size_if_entered": {
+        "shares": 700,
+        "invest_amount": 439600,
+        "stop_price": 578,
+        "actual_risk_yen": 35000,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-14.0%／MA25をわずかに下回る(-1.2%)／MA75は+0.0%(上昇基調は維持)／RSI 48(中立)",
+        "earnings": "増収増益◎／(売上+22.2%・経常利益+66.6%・純利益+62.6%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 7.8倍／PBR 0.73倍／配当利回り 0.80%",
+        "size": "もし-8%ストップ(578円)で買う場合の計算: 700株・約439,600円（最大損失 約35,000円 = 資産の1.4%）",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=8338"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【筑波銀行(8338)】\n📉 押し目: 60日高値から-14.0%／MA25をわずかに下回る(-1.2%)／MA75は+0.0%(上昇基調は維持)／RSI 48(中立)\n📊 業績: 増収増益◎／(売上+22.2%・経常利益+66.6%・純利益+62.6%)／🆙会社予想を上方修正\n💰 参考: 予想PER 7.8倍／PBR 0.73倍／配当利回り 0.80%\n🧮 もし-8%ストップ(578円)で買う場合の計算: 700株・約439,600円（最大損失 約35,000円 = 資産の1.4%）\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=8338"
+    },
+    {
+      "code": "72110",
+      "ticker": "7211",
+      "name": "三菱自動車工業",
+      "price": 358.1,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 13.8,
+        "ma25_dev_pct": 0.5,
+        "ma75_dev_pct": 4.7,
+        "rsi14": 49.63,
+        "bb_pct_b": 0.4,
+        "atr": 18.37,
+        "vol_ratio": 0.82,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 1.8,
+        "op_yoy_pct": 78.8,
+        "np_yoy_pct": 91.2,
+        "eps_yoy_pct": 90.9,
+        "fc_revision_flag": "downward",
+        "progress_rate_op_pct": 11.2,
+        "disclosure_date": "2026-08-03",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 19.17,
+        "pbr": 0.52,
+        "dividend_yield": 2.79
+      },
+      "size_if_entered": {
+        "shares": 1200,
+        "invest_amount": 429720,
+        "stop_price": 329,
+        "actual_risk_yen": 34920,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [
+        "⚠️"
+      ],
+      "brief": {
+        "pullback": "60日高値から-13.8%／MA25すぐ上(+0.5%)／MA75は+4.7%(上昇基調は維持)／RSI 50(中立)",
+        "earnings": "増収増益◎／(売上+1.8%・営業利益+78.8%・純利益+91.2%)／⚠️会社予想を下方修正／通期予想への進捗率 11%(1Q・目安25%を下回る)",
+        "valuation": "予想PER 19.2倍／PBR 0.52倍／配当利回り 2.79%",
+        "size": "もし-8%ストップ(329円)で買う場合の計算: 1,200株・約429,720円（最大損失 約34,920円 = 資産の1.4%）",
+        "one_liner": "判断材料: 強み1点・注意1点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=7211"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【三菱自動車工業(7211)】\n📉 押し目: 60日高値から-13.8%／MA25すぐ上(+0.5%)／MA75は+4.7%(上昇基調は維持)／RSI 50(中立)\n📊 業績: 増収増益◎／(売上+1.8%・営業利益+78.8%・純利益+91.2%)／⚠️会社予想を下方修正／通期予想への進捗率 11%(1Q・目安25%を下回る)\n💰 参考: 予想PER 19.2倍／PBR 0.52倍／配当利回り 2.79%\n🧮 もし-8%ストップ(329円)で買う場合の計算: 1,200株・約429,720円（最大損失 約34,920円 = 資産の1.4%）\n→ 判断材料: 強み1点・注意1点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=7211"
+    },
+    {
+      "code": "68560",
+      "ticker": "6856",
+      "name": "堀場製作所",
+      "price": 26085.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 13.3,
+        "ma25_dev_pct": -2.4,
+        "ma75_dev_pct": 2.7,
+        "rsi14": 49.07,
+        "bb_pct_b": 0.43,
+        "atr": 1569.64,
+        "vol_ratio": 0.92,
+        "signals": [
+          "🎯BB-2σ反発"
+        ]
+      },
+      "earnings": {
+        "sales_yoy_pct": 17.6,
+        "op_yoy_pct": 6.2,
+        "np_yoy_pct": 6.7,
+        "eps_yoy_pct": 6.6,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 18.4,
+        "disclosure_date": "2026-05-14",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 22.59,
+        "pbr": 3.15,
+        "dividend_yield": 1.88
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 2608500.0,
+        "stop_price": 23998,
+        "actual_risk_yen": 208700.0,
+        "viable": false
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-13.3%／MA25をわずかに下回る(-2.4%)／MA75は+2.7%(上昇基調は維持)／RSI 49(中立)／🎯BB-2σ反発",
+        "earnings": "増収増益◎／(売上+17.6%・営業利益+6.2%・純利益+6.7%)／🆙会社予想を上方修正／通期予想への進捗率 18%(1Q・目安25%を下回る)",
+        "valuation": "予想PER 22.6倍／PBR 3.15倍／配当利回り 1.88%",
+        "size": "",
+        "one_liner": "判断材料: 強み2点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=6856"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【堀場製作所(6856)】\n📉 押し目: 60日高値から-13.3%／MA25をわずかに下回る(-2.4%)／MA75は+2.7%(上昇基調は維持)／RSI 49(中立)／🎯BB-2σ反発\n📊 業績: 増収増益◎／(売上+17.6%・営業利益+6.2%・純利益+6.7%)／🆙会社予想を上方修正／通期予想への進捗率 18%(1Q・目安25%を下回る)\n💰 参考: 予想PER 22.6倍／PBR 3.15倍／配当利回り 1.88%\n→ 判断材料: 強み2点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=6856"
+    },
+    {
+      "code": "53340",
+      "ticker": "5334",
+      "name": "日本特殊陶業",
+      "price": 9773.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 13.2,
+        "ma25_dev_pct": -2.5,
+        "ma75_dev_pct": 0.5,
+        "rsi14": 49.38,
+        "bb_pct_b": 0.47,
+        "atr": 427.79,
+        "vol_ratio": 1.74,
+        "signals": [
+          "🔨下ヒゲ陽線(ハンマー)"
+        ]
+      },
+      "earnings": {
+        "sales_yoy_pct": 19.9,
+        "op_yoy_pct": 23.4,
+        "np_yoy_pct": 304.7,
+        "eps_yoy_pct": 311.2,
+        "fc_revision_flag": "downward",
+        "progress_rate_op_pct": 27.9,
+        "disclosure_date": "2026-07-31",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 36.53,
+        "pbr": 2.5,
+        "dividend_yield": null
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 977300.0,
+        "stop_price": 8991,
+        "actual_risk_yen": 78200.0,
+        "viable": false
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [
+        "⚠️",
+        "⚠️"
+      ],
+      "brief": {
+        "pullback": "60日高値から-13.2%／MA25をわずかに下回る(-2.5%)／MA75は+0.5%(上昇基調は維持)／RSI 49(中立)／🔨下ヒゲ陽線(ハンマー)",
+        "earnings": "増収増益◎／(売上+19.9%・営業利益+23.4%・純利益+304.7%)／⚠️会社予想を下方修正／通期予想への進捗率 28%(1Q・目安25%どおり)／⚠️EPSが4倍超(+311%)＝一時要因の可能性",
+        "valuation": "予想PER 36.5倍／PBR 2.50倍",
+        "size": "",
+        "one_liner": "判断材料: 強み2点・注意2点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=5334"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【日本特殊陶業(5334)】\n📉 押し目: 60日高値から-13.2%／MA25をわずかに下回る(-2.5%)／MA75は+0.5%(上昇基調は維持)／RSI 49(中立)／🔨下ヒゲ陽線(ハンマー)\n📊 業績: 増収増益◎／(売上+19.9%・営業利益+23.4%・純利益+304.7%)／⚠️会社予想を下方修正／通期予想への進捗率 28%(1Q・目安25%どおり)／⚠️EPSが4倍超(+311%)＝一時要因の可能性\n💰 参考: 予想PER 36.5倍／PBR 2.50倍\n→ 判断材料: 強み2点・注意2点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=5334"
+    },
+    {
+      "code": "43850",
+      "ticker": "4385",
+      "name": "メルカリ",
+      "price": 4274.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 12.1,
+        "ma25_dev_pct": -3.9,
+        "ma75_dev_pct": 3.8,
+        "rsi14": 46.25,
+        "bb_pct_b": 0.1,
+        "atr": 190.86,
+        "vol_ratio": 0.71,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 16.1,
+        "op_yoy_pct": 69.7,
+        "np_yoy_pct": 65.6,
+        "eps_yoy_pct": 65.0,
+        "fc_revision_flag": null,
+        "progress_rate_op_pct": null,
+        "disclosure_date": "2026-05-11",
+        "profit_metric": "営業利益",
+        "period_type": "3Q"
+      },
+      "valuation": {
+        "per": null,
+        "pbr": 7.08,
+        "dividend_yield": 0.0
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 427400,
+        "stop_price": 3932,
+        "actual_risk_yen": 34200,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-12.1%／MA25の下(-3.9%)／MA75は+3.8%(上昇基調は維持)／RSI 46(中立)／🟢バンド下限近く(%b 0.1)",
+        "earnings": "増収増益◎／(売上+16.1%・営業利益+69.7%・純利益+65.6%)",
+        "valuation": "PBR 7.08倍",
+        "size": "もし-8%ストップ(3,932円)で買う場合の計算: 100株・約427,400円（最大損失 約34,200円 = 資産の1.4%）",
+        "one_liner": "判断材料: 強み2点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=4385"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【メルカリ(4385)】\n📉 押し目: 60日高値から-12.1%／MA25の下(-3.9%)／MA75は+3.8%(上昇基調は維持)／RSI 46(中立)／🟢バンド下限近く(%b 0.1)\n📊 業績: 増収増益◎／(売上+16.1%・営業利益+69.7%・純利益+65.6%)\n💰 参考: PBR 7.08倍\n🧮 もし-8%ストップ(3,932円)で買う場合の計算: 100株・約427,400円（最大損失 約34,200円 = 資産の1.4%）\n→ 判断材料: 強み2点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=4385"
+    },
+    {
+      "code": "63760",
+      "ticker": "6376",
+      "name": "日機装",
+      "price": 3780.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 12.0,
+        "ma25_dev_pct": -2.1,
+        "ma75_dev_pct": 11.4,
+        "rsi14": 49.59,
+        "bb_pct_b": 0.43,
+        "atr": 200.0,
+        "vol_ratio": 0.61,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 14.6,
+        "op_yoy_pct": 24.9,
+        "np_yoy_pct": 39.4,
+        "eps_yoy_pct": 41.5,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 22.4,
+        "disclosure_date": "2026-05-15",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 18.98,
+        "pbr": 1.56,
+        "dividend_yield": 1.32
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 378000,
+        "stop_price": 3478,
+        "actual_risk_yen": 30200,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-12.0%／MA25をわずかに下回る(-2.1%)／MA75は+11.4%(上昇基調は維持)／RSI 50(中立)",
+        "earnings": "増収増益◎／(売上+14.6%・営業利益+24.9%・純利益+39.4%)／🆙会社予想を上方修正／通期予想への進捗率 22%(1Q・目安25%どおり)",
+        "valuation": "予想PER 19.0倍／PBR 1.56倍／配当利回り 1.32%",
+        "size": "もし-8%ストップ(3,478円)で買う場合の計算: 100株・約378,000円（最大損失 約30,200円 = 資産の1.2%）",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=6376"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【日機装(6376)】\n📉 押し目: 60日高値から-12.0%／MA25をわずかに下回る(-2.1%)／MA75は+11.4%(上昇基調は維持)／RSI 50(中立)\n📊 業績: 増収増益◎／(売上+14.6%・営業利益+24.9%・純利益+39.4%)／🆙会社予想を上方修正／通期予想への進捗率 22%(1Q・目安25%どおり)\n💰 参考: 予想PER 19.0倍／PBR 1.56倍／配当利回り 1.32%\n🧮 もし-8%ストップ(3,478円)で買う場合の計算: 100株・約378,000円（最大損失 約30,200円 = 資産の1.2%）\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=6376"
+    },
+    {
+      "code": "46660",
+      "ticker": "4666",
+      "name": "パーク２４",
+      "price": 1952.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 12.0,
+        "ma25_dev_pct": -2.5,
+        "ma75_dev_pct": 1.4,
+        "rsi14": 44.81,
+        "bb_pct_b": 0.09,
+        "atr": 51.04,
+        "vol_ratio": 1.34,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 4.6,
+        "op_yoy_pct": 9.6,
+        "np_yoy_pct": 495.4,
+        "eps_yoy_pct": 495.0,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 40.7,
+        "disclosure_date": "2026-06-15",
+        "profit_metric": "営業利益",
+        "period_type": "2Q"
+      },
+      "valuation": {
+        "per": 7.57,
+        "pbr": 3.39,
+        "dividend_yield": 3.33
+      },
+      "size_if_entered": {
+        "shares": 200,
+        "invest_amount": 390400,
+        "stop_price": 1796,
+        "actual_risk_yen": 31200,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [
+        "⚠️"
+      ],
+      "brief": {
+        "pullback": "60日高値から-12.0%／MA25をわずかに下回る(-2.5%)／MA75は+1.4%(上昇基調は維持)／RSI 45(下げ止まり圏)／🟢バンド下限近く(%b 0.09)",
+        "earnings": "増収増益◎／(売上+4.6%・営業利益+9.6%・純利益+495.4%)／🆙会社予想を上方修正／通期予想への進捗率 41%(2Q・目安50%どおり)／⚠️EPSが4倍超(+495%)＝一時要因の可能性",
+        "valuation": "予想PER 7.6倍／PBR 3.39倍／配当利回り 3.33%",
+        "size": "もし-8%ストップ(1,796円)で買う場合の計算: 200株・約390,400円（最大損失 約31,200円 = 資産の1.2%）",
+        "one_liner": "判断材料: 強み1点・注意1点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=4666"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【パーク２４(4666)】\n📉 押し目: 60日高値から-12.0%／MA25をわずかに下回る(-2.5%)／MA75は+1.4%(上昇基調は維持)／RSI 45(下げ止まり圏)／🟢バンド下限近く(%b 0.09)\n📊 業績: 増収増益◎／(売上+4.6%・営業利益+9.6%・純利益+495.4%)／🆙会社予想を上方修正／通期予想への進捗率 41%(2Q・目安50%どおり)／⚠️EPSが4倍超(+495%)＝一時要因の可能性\n💰 参考: 予想PER 7.6倍／PBR 3.39倍／配当利回り 3.33%\n🧮 もし-8%ストップ(1,796円)で買う場合の計算: 200株・約390,400円（最大損失 約31,200円 = 資産の1.2%）\n→ 判断材料: 強み1点・注意1点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=4666"
+    },
+    {
+      "code": "69710",
+      "ticker": "6971",
+      "name": "京セラ",
+      "price": 3544.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 11.8,
+        "ma25_dev_pct": -3.9,
+        "ma75_dev_pct": 5.9,
+        "rsi14": 45.76,
+        "bb_pct_b": 0.11,
+        "atr": 148.79,
+        "vol_ratio": 1.17,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 9.9,
+        "op_yoy_pct": 164.7,
+        "np_yoy_pct": 63.1,
+        "eps_yoy_pct": 75.2,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 30.7,
+        "disclosure_date": "2026-07-30",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 29.04,
+        "pbr": 1.4,
+        "dividend_yield": 1.58
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 354400,
+        "stop_price": 3260,
+        "actual_risk_yen": 28400,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-11.8%／MA25の下(-3.9%)／MA75は+5.9%(上昇基調は維持)／RSI 46(中立)／🟢バンド下限近く(%b 0.11)",
+        "earnings": "増収増益◎／(売上+9.9%・営業利益+164.7%・純利益+63.1%)／🆙会社予想を上方修正／通期予想への進捗率 31%(1Q・目安25%を上回る)",
+        "valuation": "予想PER 29.0倍／PBR 1.40倍／配当利回り 1.58%",
+        "size": "もし-8%ストップ(3,260円)で買う場合の計算: 100株・約354,400円（最大損失 約28,400円 = 資産の1.1%）",
+        "one_liner": "判断材料: 強み2点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=6971"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【京セラ(6971)】\n📉 押し目: 60日高値から-11.8%／MA25の下(-3.9%)／MA75は+5.9%(上昇基調は維持)／RSI 46(中立)／🟢バンド下限近く(%b 0.11)\n📊 業績: 増収増益◎／(売上+9.9%・営業利益+164.7%・純利益+63.1%)／🆙会社予想を上方修正／通期予想への進捗率 31%(1Q・目安25%を上回る)\n💰 参考: 予想PER 29.0倍／PBR 1.40倍／配当利回り 1.58%\n🧮 もし-8%ストップ(3,260円)で買う場合の計算: 100株・約354,400円（最大損失 約28,400円 = 資産の1.1%）\n→ 判断材料: 強み2点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=6971"
+    },
+    {
+      "code": "71730",
+      "ticker": "7173",
+      "name": "東京きらぼしフィナンシャルグループ",
+      "price": 1694.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 11.8,
+        "ma25_dev_pct": -3.3,
+        "ma75_dev_pct": 8.8,
+        "rsi14": 48.79,
+        "bb_pct_b": 0.26,
+        "atr": 71.64,
+        "vol_ratio": 0.82,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 31.6,
+        "op_yoy_pct": 24.9,
+        "np_yoy_pct": 24.7,
+        "eps_yoy_pct": -85.6,
+        "fc_revision_flag": "downward",
+        "progress_rate_op_pct": null,
+        "disclosure_date": "2026-08-03",
+        "profit_metric": "経常利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 11.84,
+        "pbr": 0.14,
+        "dividend_yield": 1.77
+      },
+      "size_if_entered": {
+        "shares": 200,
+        "invest_amount": 338800,
+        "stop_price": 1558,
+        "actual_risk_yen": 27200,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [
+        "⚠️"
+      ],
+      "brief": {
+        "pullback": "60日高値から-11.8%／MA25の下(-3.3%)／MA75は+8.8%(上昇基調は維持)／RSI 49(中立)",
+        "earnings": "増収増益◎／(売上+31.6%・経常利益+24.9%・純利益+24.7%)／⚠️会社予想を下方修正",
+        "valuation": "予想PER 11.8倍／PBR 0.14倍／配当利回り 1.77%",
+        "size": "もし-8%ストップ(1,558円)で買う場合の計算: 200株・約338,800円（最大損失 約27,200円 = 資産の1.1%）",
+        "one_liner": "判断材料: 強み2点・注意1点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=7173"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【東京きらぼしフィナンシャルグループ(7173)】\n📉 押し目: 60日高値から-11.8%／MA25の下(-3.3%)／MA75は+8.8%(上昇基調は維持)／RSI 49(中立)\n📊 業績: 増収増益◎／(売上+31.6%・経常利益+24.9%・純利益+24.7%)／⚠️会社予想を下方修正\n💰 参考: 予想PER 11.8倍／PBR 0.14倍／配当利回り 1.77%\n🧮 もし-8%ストップ(1,558円)で買う場合の計算: 200株・約338,800円（最大損失 約27,200円 = 資産の1.1%）\n→ 判断材料: 強み2点・注意1点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=7173"
+    },
+    {
+      "code": "85440",
+      "ticker": "8544",
+      "name": "京葉銀行",
+      "price": 2635.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 11.3,
+        "ma25_dev_pct": -0.7,
+        "ma75_dev_pct": 7.2,
+        "rsi14": 49.4,
+        "bb_pct_b": 0.38,
+        "atr": 130.07,
+        "vol_ratio": 1.41,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 74.2,
+        "op_yoy_pct": 58.0,
+        "np_yoy_pct": 53.6,
+        "eps_yoy_pct": 55.7,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": null,
+        "disclosure_date": "2026-07-31",
+        "profit_metric": "経常利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 16.23,
+        "pbr": 0.98,
+        "dividend_yield": 2.5
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 263500,
+        "stop_price": 2424,
+        "actual_risk_yen": 21100,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-11.3%／MA25をわずかに下回る(-0.7%)／MA75は+7.2%(上昇基調は維持)／RSI 49(中立)",
+        "earnings": "増収増益◎／(売上+74.2%・経常利益+58.0%・純利益+53.6%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 16.2倍／PBR 0.98倍／配当利回り 2.50%",
+        "size": "もし-8%ストップ(2,424円)で買う場合の計算: 100株・約263,500円（最大損失 約21,100円 = 資産の0.8%）",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=8544"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【京葉銀行(8544)】\n📉 押し目: 60日高値から-11.3%／MA25をわずかに下回る(-0.7%)／MA75は+7.2%(上昇基調は維持)／RSI 49(中立)\n📊 業績: 増収増益◎／(売上+74.2%・経常利益+58.0%・純利益+53.6%)／🆙会社予想を上方修正\n💰 参考: 予想PER 16.2倍／PBR 0.98倍／配当利回り 2.50%\n🧮 もし-8%ストップ(2,424円)で買う場合の計算: 100株・約263,500円（最大損失 約21,100円 = 資産の0.8%）\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=8544"
+    },
+    {
+      "code": "46170",
+      "ticker": "4617",
+      "name": "中国塗料",
+      "price": 3450.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 11.2,
+        "ma25_dev_pct": -3.8,
+        "ma75_dev_pct": 2.2,
+        "rsi14": 43.71,
+        "bb_pct_b": -0.03,
+        "atr": 138.93,
+        "vol_ratio": 1.48,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 16.0,
+        "op_yoy_pct": 44.8,
+        "np_yoy_pct": 50.7,
+        "eps_yoy_pct": 50.6,
+        "fc_revision_flag": "none",
+        "progress_rate_op_pct": 32.5,
+        "disclosure_date": "2026-07-31",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 15.56,
+        "pbr": 1.77,
+        "dividend_yield": 2.9
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 345000,
+        "stop_price": 3174,
+        "actual_risk_yen": 27600,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-11.2%／MA25の下(-3.8%)／MA75は+2.2%(上昇基調は維持)／RSI 44(下げ止まり圏)／🔵-2σ下抜け(%b -0.03)",
+        "earnings": "増収増益◎／(売上+16.0%・営業利益+44.8%・純利益+50.7%)／通期予想への進捗率 32%(1Q・目安25%を上回る)",
+        "valuation": "予想PER 15.6倍／PBR 1.77倍／配当利回り 2.90%",
+        "size": "もし-8%ストップ(3,174円)で買う場合の計算: 100株・約345,000円（最大損失 約27,600円 = 資産の1.1%）",
+        "one_liner": "判断材料: 強み2点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=4617"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【中国塗料(4617)】\n📉 押し目: 60日高値から-11.2%／MA25の下(-3.8%)／MA75は+2.2%(上昇基調は維持)／RSI 44(下げ止まり圏)／🔵-2σ下抜け(%b -0.03)\n📊 業績: 増収増益◎／(売上+16.0%・営業利益+44.8%・純利益+50.7%)／通期予想への進捗率 32%(1Q・目安25%を上回る)\n💰 参考: 予想PER 15.6倍／PBR 1.77倍／配当利回り 2.90%\n🧮 もし-8%ストップ(3,174円)で買う場合の計算: 100株・約345,000円（最大損失 約27,600円 = 資産の1.1%）\n→ 判断材料: 強み2点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=4617"
+    },
+    {
+      "code": "22120",
+      "ticker": "2212",
+      "name": "山崎製パン",
+      "price": 3307.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 11.1,
+        "ma25_dev_pct": -0.7,
+        "ma75_dev_pct": 3.0,
+        "rsi14": 48.43,
+        "bb_pct_b": 0.39,
+        "atr": 115.29,
+        "vol_ratio": 1.83,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 4.0,
+        "op_yoy_pct": 3.3,
+        "np_yoy_pct": 5.3,
+        "eps_yoy_pct": 5.7,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 56.0,
+        "disclosure_date": "2026-07-31",
+        "profit_metric": "営業利益",
+        "period_type": "2Q"
+      },
+      "valuation": {
+        "per": 15.33,
+        "pbr": 1.42,
+        "dividend_yield": 1.81
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 330700,
+        "stop_price": 3042,
+        "actual_risk_yen": 26500,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-11.1%／MA25をわずかに下回る(-0.7%)／MA75は+3.0%(上昇基調は維持)／RSI 48(中立)",
+        "earnings": "増収増益◎／(売上+4.0%・営業利益+3.3%・純利益+5.3%)／🆙会社予想を上方修正／通期予想への進捗率 56%(2Q・目安50%どおり)",
+        "valuation": "予想PER 15.3倍／PBR 1.42倍／配当利回り 1.81%",
+        "size": "もし-8%ストップ(3,042円)で買う場合の計算: 100株・約330,700円（最大損失 約26,500円 = 資産の1.1%）",
+        "one_liner": "判断材料: 強み1点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=2212"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【山崎製パン(2212)】\n📉 押し目: 60日高値から-11.1%／MA25をわずかに下回る(-0.7%)／MA75は+3.0%(上昇基調は維持)／RSI 48(中立)\n📊 業績: 増収増益◎／(売上+4.0%・営業利益+3.3%・純利益+5.3%)／🆙会社予想を上方修正／通期予想への進捗率 56%(2Q・目安50%どおり)\n💰 参考: 予想PER 15.3倍／PBR 1.42倍／配当利回り 1.81%\n🧮 もし-8%ストップ(3,042円)で買う場合の計算: 100株・約330,700円（最大損失 約26,500円 = 資産の1.1%）\n→ 判断材料: 強み1点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=2212"
+    },
+    {
+      "code": "90420",
+      "ticker": "9042",
+      "name": "阪急阪神ホールディングス",
+      "price": 4630.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 10.7,
+        "ma25_dev_pct": -0.5,
+        "ma75_dev_pct": 0.9,
+        "rsi14": 47.71,
+        "bb_pct_b": 0.3,
+        "atr": 147.14,
+        "vol_ratio": 1.0,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 9.5,
+        "op_yoy_pct": 2.9,
+        "np_yoy_pct": 7.6,
+        "eps_yoy_pct": 8.9,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 40.7,
+        "disclosure_date": "2026-07-31",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 13.62,
+        "pbr": 0.99,
+        "dividend_yield": 2.16
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 463000,
+        "stop_price": 4260,
+        "actual_risk_yen": 37000,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-10.7%／MA25をわずかに下回る(-0.5%)／MA75は+0.9%(上昇基調は維持)／RSI 48(中立)",
+        "earnings": "増収増益◎／(売上+9.5%・営業利益+2.9%・純利益+7.6%)／🆙会社予想を上方修正／通期予想への進捗率 41%(1Q・目安25%を上回る)",
+        "valuation": "予想PER 13.6倍／PBR 0.99倍／配当利回り 2.16%",
+        "size": "もし-8%ストップ(4,260円)で買う場合の計算: 100株・約463,000円（最大損失 約37,000円 = 資産の1.5%）",
+        "one_liner": "判断材料: 強み1点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=9042"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【阪急阪神ホールディングス(9042)】\n📉 押し目: 60日高値から-10.7%／MA25をわずかに下回る(-0.5%)／MA75は+0.9%(上昇基調は維持)／RSI 48(中立)\n📊 業績: 増収増益◎／(売上+9.5%・営業利益+2.9%・純利益+7.6%)／🆙会社予想を上方修正／通期予想への進捗率 41%(1Q・目安25%を上回る)\n💰 参考: 予想PER 13.6倍／PBR 0.99倍／配当利回り 2.16%\n🧮 もし-8%ストップ(4,260円)で買う場合の計算: 100株・約463,000円（最大損失 約37,000円 = 資産の1.5%）\n→ 判断材料: 強み1点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=9042"
+    },
+    {
+      "code": "60130",
+      "ticker": "6013",
+      "name": "タクマ",
+      "price": 3365.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 10.7,
+        "ma25_dev_pct": -3.4,
+        "ma75_dev_pct": 2.6,
+        "rsi14": 43.98,
+        "bb_pct_b": 0.3,
+        "atr": 86.79,
+        "vol_ratio": 0.86,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 9.6,
+        "op_yoy_pct": 13.9,
+        "np_yoy_pct": 32.2,
+        "eps_yoy_pct": 39.9,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 86.6,
+        "disclosure_date": "2026-05-14",
+        "profit_metric": "営業利益",
+        "period_type": "FY"
+      },
+      "valuation": {
+        "per": 15.65,
+        "pbr": 2.18,
+        "dividend_yield": 3.21
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 336500,
+        "stop_price": 3096,
+        "actual_risk_yen": 26900,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-10.7%／MA25の下(-3.4%)／MA75は+2.6%(上昇基調は維持)／RSI 44(下げ止まり圏)",
+        "earnings": "増収増益◎／(売上+9.6%・営業利益+13.9%・純利益+32.2%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 15.7倍／PBR 2.18倍／配当利回り 3.21%",
+        "size": "もし-8%ストップ(3,096円)で買う場合の計算: 100株・約336,500円（最大損失 約26,900円 = 資産の1.1%）",
+        "one_liner": "判断材料: 強み1点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=6013"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【タクマ(6013)】\n📉 押し目: 60日高値から-10.7%／MA25の下(-3.4%)／MA75は+2.6%(上昇基調は維持)／RSI 44(下げ止まり圏)\n📊 業績: 増収増益◎／(売上+9.6%・営業利益+13.9%・純利益+32.2%)／🆙会社予想を上方修正\n💰 参考: 予想PER 15.7倍／PBR 2.18倍／配当利回り 3.21%\n🧮 もし-8%ストップ(3,096円)で買う場合の計算: 100株・約336,500円（最大損失 約26,900円 = 資産の1.1%）\n→ 判断材料: 強み1点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=6013"
+    },
+    {
+      "code": "71820",
+      "ticker": "7182",
+      "name": "ゆうちょ銀行",
+      "price": 3102.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 10.5,
+        "ma25_dev_pct": -4.5,
+        "ma75_dev_pct": 1.6,
+        "rsi14": 41.41,
+        "bb_pct_b": 0.07,
+        "atr": 112.79,
+        "vol_ratio": 1.17,
+        "signals": [
+          "🔨下ヒゲ陽線(ハンマー)",
+          "🎯BB-2σ反発"
+        ]
+      },
+      "earnings": {
+        "sales_yoy_pct": 13.1,
+        "op_yoy_pct": 29.9,
+        "np_yoy_pct": 26.9,
+        "eps_yoy_pct": 28.4,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": null,
+        "disclosure_date": "2026-05-15",
+        "profit_metric": "経常利益",
+        "period_type": "FY"
+      },
+      "valuation": {
+        "per": 16.74,
+        "pbr": 1.2,
+        "dividend_yield": 3.0
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 310200,
+        "stop_price": 2854,
+        "actual_risk_yen": 24800,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-10.5%／MA25の下(-4.5%)／MA75は+1.6%(上昇基調は維持)／RSI 41(下げ止まり圏)／🟢バンド下限近く(%b 0.07)／🔨下ヒゲ陽線(ハンマー)・🎯BB-2σ反発",
+        "earnings": "増収増益◎／(売上+13.1%・経常利益+29.9%・純利益+26.9%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 16.7倍／PBR 1.20倍／配当利回り 3.00%",
+        "size": "もし-8%ストップ(2,854円)で買う場合の計算: 100株・約310,200円（最大損失 約24,800円 = 資産の1.0%）",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=7182"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【ゆうちょ銀行(7182)】\n📉 押し目: 60日高値から-10.5%／MA25の下(-4.5%)／MA75は+1.6%(上昇基調は維持)／RSI 41(下げ止まり圏)／🟢バンド下限近く(%b 0.07)／🔨下ヒゲ陽線(ハンマー)・🎯BB-2σ反発\n📊 業績: 増収増益◎／(売上+13.1%・経常利益+29.9%・純利益+26.9%)／🆙会社予想を上方修正\n💰 参考: 予想PER 16.7倍／PBR 1.20倍／配当利回り 3.00%\n🧮 もし-8%ストップ(2,854円)で買う場合の計算: 100株・約310,200円（最大損失 約24,800円 = 資産の1.0%）\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=7182"
+    },
+    {
+      "code": "99830",
+      "ticker": "9983",
+      "name": "ファーストリテイリング",
+      "price": 79600.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 10.2,
+        "ma25_dev_pct": -2.0,
+        "ma75_dev_pct": 1.8,
+        "rsi14": 48.78,
+        "bb_pct_b": 0.42,
+        "atr": 2353.57,
+        "vol_ratio": 0.99,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 17.1,
+        "op_yoy_pct": 36.2,
+        "np_yoy_pct": 25.6,
+        "eps_yoy_pct": 25.6,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 84.2,
+        "disclosure_date": "2026-07-09",
+        "profit_metric": "営業利益",
+        "period_type": "3Q"
+      },
+      "valuation": {
+        "per": 48.85,
+        "pbr": 8.95,
+        "dividend_yield": 0.8
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 7960000.0,
+        "stop_price": 73232,
+        "actual_risk_yen": 636800.0,
+        "viable": false
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-10.2%／MA25をわずかに下回る(-2.0%)／MA75は+1.8%(上昇基調は維持)／RSI 49(中立)",
+        "earnings": "増収増益◎／(売上+17.1%・営業利益+36.2%・純利益+25.6%)／🆙会社予想を上方修正／通期予想への進捗率 84%(3Q・目安75%どおり)",
+        "valuation": "予想PER 48.9倍／PBR 8.95倍／配当利回り 0.80%",
+        "size": "",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=9983"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【ファーストリテイリング(9983)】\n📉 押し目: 60日高値から-10.2%／MA25をわずかに下回る(-2.0%)／MA75は+1.8%(上昇基調は維持)／RSI 49(中立)\n📊 業績: 増収増益◎／(売上+17.1%・営業利益+36.2%・純利益+25.6%)／🆙会社予想を上方修正／通期予想への進捗率 84%(3Q・目安75%どおり)\n💰 参考: 予想PER 48.9倍／PBR 8.95倍／配当利回り 0.80%\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=9983"
+    },
+    {
+      "code": "51010",
+      "ticker": "5101",
+      "name": "横浜ゴム",
+      "price": 7332.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 10.2,
+        "ma25_dev_pct": -3.6,
+        "ma75_dev_pct": 3.3,
+        "rsi14": 44.56,
+        "bb_pct_b": 0.02,
+        "atr": 296.21,
+        "vol_ratio": 0.96,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 10.4,
+        "op_yoy_pct": 34.5,
+        "np_yoy_pct": 72.6,
+        "eps_yoy_pct": 74.2,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 13.6,
+        "disclosure_date": "2026-05-15",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 10.57,
+        "pbr": 1.11,
+        "dividend_yield": 2.35
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 733200.0,
+        "stop_price": 6745,
+        "actual_risk_yen": 58700.0,
+        "viable": false
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-10.2%／MA25の下(-3.6%)／MA75は+3.3%(上昇基調は維持)／RSI 45(下げ止まり圏)／🟢バンド下限近く(%b 0.02)",
+        "earnings": "増収増益◎／(売上+10.4%・営業利益+34.5%・純利益+72.6%)／🆙会社予想を上方修正／通期予想への進捗率 14%(1Q・目安25%を下回る)",
+        "valuation": "予想PER 10.6倍／PBR 1.11倍／配当利回り 2.35%",
+        "size": "",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=5101"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【横浜ゴム(5101)】\n📉 押し目: 60日高値から-10.2%／MA25の下(-3.6%)／MA75は+3.3%(上昇基調は維持)／RSI 45(下げ止まり圏)／🟢バンド下限近く(%b 0.02)\n📊 業績: 増収増益◎／(売上+10.4%・営業利益+34.5%・純利益+72.6%)／🆙会社予想を上方修正／通期予想への進捗率 14%(1Q・目安25%を下回る)\n💰 参考: 予想PER 10.6倍／PBR 1.11倍／配当利回り 2.35%\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=5101"
+    },
+    {
+      "code": "33490",
+      "ticker": "3349",
+      "name": "コスモス薬品",
+      "price": 6377.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 10.0,
+        "ma25_dev_pct": -0.8,
+        "ma75_dev_pct": 2.7,
+        "rsi14": 49.6,
+        "bb_pct_b": 0.4,
+        "atr": 281.29,
+        "vol_ratio": 0.91,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 8.7,
+        "op_yoy_pct": 4.8,
+        "np_yoy_pct": 3.4,
+        "eps_yoy_pct": 3.4,
+        "fc_revision_flag": "downward",
+        "progress_rate_op_pct": 98.5,
+        "disclosure_date": "2026-07-13",
+        "profit_metric": "営業利益",
+        "period_type": "FY"
+      },
+      "valuation": {
+        "per": 16.46,
+        "pbr": 1.78,
+        "dividend_yield": 1.32
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 637700.0,
+        "stop_price": 5867,
+        "actual_risk_yen": 51000.0,
+        "viable": false
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [
+        "⚠️"
+      ],
+      "brief": {
+        "pullback": "60日高値から-10.0%／MA25をわずかに下回る(-0.8%)／MA75は+2.7%(上昇基調は維持)／RSI 50(中立)",
+        "earnings": "増収増益◎／(売上+8.7%・営業利益+4.8%・純利益+3.4%)／⚠️会社予想を下方修正",
+        "valuation": "予想PER 16.5倍／PBR 1.78倍／配当利回り 1.32%",
+        "size": "",
+        "one_liner": "判断材料: 強み0点・注意1点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=3349"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【コスモス薬品(3349)】\n📉 押し目: 60日高値から-10.0%／MA25をわずかに下回る(-0.8%)／MA75は+2.7%(上昇基調は維持)／RSI 50(中立)\n📊 業績: 増収増益◎／(売上+8.7%・営業利益+4.8%・純利益+3.4%)／⚠️会社予想を下方修正\n💰 参考: 予想PER 16.5倍／PBR 1.78倍／配当利回り 1.32%\n→ 判断材料: 強み0点・注意1点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=3349"
+    },
+    {
+      "code": "85240",
+      "ticker": "8524",
+      "name": "北洋銀行",
+      "price": 1141.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 10.0,
+        "ma25_dev_pct": -2.4,
+        "ma75_dev_pct": 7.8,
+        "rsi14": 48.27,
+        "bb_pct_b": 0.22,
+        "atr": 52.93,
+        "vol_ratio": 0.95,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 56.6,
+        "op_yoy_pct": 33.7,
+        "np_yoy_pct": 24.2,
+        "eps_yoy_pct": 26.2,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": null,
+        "disclosure_date": "2026-05-13",
+        "profit_metric": "経常利益",
+        "period_type": "FY"
+      },
+      "valuation": {
+        "per": 14.52,
+        "pbr": 1.1,
+        "dividend_yield": 2.8
+      },
+      "size_if_entered": {
+        "shares": 400,
+        "invest_amount": 456400,
+        "stop_price": 1050,
+        "actual_risk_yen": 36400,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-10.0%／MA25をわずかに下回る(-2.4%)／MA75は+7.8%(上昇基調は維持)／RSI 48(中立)",
+        "earnings": "増収増益◎／(売上+56.6%・経常利益+33.7%・純利益+24.2%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 14.5倍／PBR 1.10倍／配当利回り 2.80%",
+        "size": "もし-8%ストップ(1,050円)で買う場合の計算: 400株・約456,400円（最大損失 約36,400円 = 資産の1.5%）",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=8524"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【北洋銀行(8524)】\n📉 押し目: 60日高値から-10.0%／MA25をわずかに下回る(-2.4%)／MA75は+7.8%(上昇基調は維持)／RSI 48(中立)\n📊 業績: 増収増益◎／(売上+56.6%・経常利益+33.7%・純利益+24.2%)／🆙会社予想を上方修正\n💰 参考: 予想PER 14.5倍／PBR 1.10倍／配当利回り 2.80%\n🧮 もし-8%ストップ(1,050円)で買う場合の計算: 400株・約456,400円（最大損失 約36,400円 = 資産の1.5%）\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=8524"
+    },
+    {
+      "code": "90440",
+      "ticker": "9044",
+      "name": "ＮＡＮＫＡＩ",
+      "price": 2916.5,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 9.9,
+        "ma25_dev_pct": -1.2,
+        "ma75_dev_pct": 1.0,
+        "rsi14": 47.59,
+        "bb_pct_b": 0.31,
+        "atr": 87.07,
+        "vol_ratio": 1.55,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 12.6,
+        "op_yoy_pct": 0.3,
+        "np_yoy_pct": 3.3,
+        "eps_yoy_pct": 8.1,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 28.3,
+        "disclosure_date": "2026-07-30",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 13.26,
+        "pbr": 0.95,
+        "dividend_yield": 1.89
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 291650,
+        "stop_price": 2683,
+        "actual_risk_yen": 23350,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-9.9%／MA25をわずかに下回る(-1.2%)／MA75は+1.0%(上昇基調は維持)／RSI 48(中立)",
+        "earnings": "増収増益◎／(売上+12.6%・営業利益+0.3%・純利益+3.3%)／🆙会社予想を上方修正／通期予想への進捗率 28%(1Q・目安25%どおり)",
+        "valuation": "予想PER 13.3倍／PBR 0.95倍／配当利回り 1.89%",
+        "size": "もし-8%ストップ(2,683円)で買う場合の計算: 100株・約291,650円（最大損失 約23,350円 = 資産の0.9%）",
+        "one_liner": "判断材料: 強み2点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=9044"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【ＮＡＮＫＡＩ(9044)】\n📉 押し目: 60日高値から-9.9%／MA25をわずかに下回る(-1.2%)／MA75は+1.0%(上昇基調は維持)／RSI 48(中立)\n📊 業績: 増収増益◎／(売上+12.6%・営業利益+0.3%・純利益+3.3%)／🆙会社予想を上方修正／通期予想への進捗率 28%(1Q・目安25%どおり)\n💰 参考: 予想PER 13.3倍／PBR 0.95倍／配当利回り 1.89%\n🧮 もし-8%ストップ(2,683円)で買う場合の計算: 100株・約291,650円（最大損失 約23,350円 = 資産の0.9%）\n→ 判断材料: 強み2点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=9044"
+    },
+    {
+      "code": "88760",
+      "ticker": "8876",
+      "name": "リログループ",
+      "price": 1987.5,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 9.4,
+        "ma25_dev_pct": -2.8,
+        "ma75_dev_pct": 2.3,
+        "rsi14": 47.17,
+        "bb_pct_b": 0.19,
+        "atr": 43.68,
+        "vol_ratio": 1.39,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 5.7,
+        "op_yoy_pct": 1.2,
+        "np_yoy_pct": -52.3,
+        "eps_yoy_pct": -52.2,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 90.6,
+        "disclosure_date": "2026-05-14",
+        "profit_metric": "営業利益",
+        "period_type": "FY"
+      },
+      "valuation": {
+        "per": 13.38,
+        "pbr": 3.56,
+        "dividend_yield": 3.77
+      },
+      "size_if_entered": {
+        "shares": 200,
+        "invest_amount": 397500,
+        "stop_price": 1828,
+        "actual_risk_yen": 31900,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-9.4%／MA25をわずかに下回る(-2.8%)／MA75は+2.3%(上昇基調は維持)／RSI 47(中立)／🟢バンド下限近く(%b 0.19)",
+        "earnings": "増収増益◎／(売上+5.7%・営業利益+1.2%・純利益-52.3%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 13.4倍／PBR 3.56倍／配当利回り 3.77%",
+        "size": "もし-8%ストップ(1,828円)で買う場合の計算: 200株・約397,500円（最大損失 約31,900円 = 資産の1.3%）",
+        "one_liner": "判断材料: 強み1点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=8876"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【リログループ(8876)】\n📉 押し目: 60日高値から-9.4%／MA25をわずかに下回る(-2.8%)／MA75は+2.3%(上昇基調は維持)／RSI 47(中立)／🟢バンド下限近く(%b 0.19)\n📊 業績: 増収増益◎／(売上+5.7%・営業利益+1.2%・純利益-52.3%)／🆙会社予想を上方修正\n💰 参考: 予想PER 13.4倍／PBR 3.56倍／配当利回り 3.77%\n🧮 もし-8%ストップ(1,828円)で買う場合の計算: 200株・約397,500円（最大損失 約31,900円 = 資産の1.3%）\n→ 判断材料: 強み1点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=8876"
+    },
+    {
+      "code": "71860",
+      "ticker": "7186",
+      "name": "横浜フィナンシャルグループ",
+      "price": 1815.5,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 9.0,
+        "ma25_dev_pct": -2.8,
+        "ma75_dev_pct": 7.0,
+        "rsi14": 46.19,
+        "bb_pct_b": 0.07,
+        "atr": 66.21,
+        "vol_ratio": 1.27,
+        "signals": [
+          "🎯BB-2σ反発"
+        ]
+      },
+      "earnings": {
+        "sales_yoy_pct": 23.0,
+        "op_yoy_pct": 26.3,
+        "np_yoy_pct": 28.6,
+        "eps_yoy_pct": 31.3,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": null,
+        "disclosure_date": "2026-05-12",
+        "profit_metric": "経常利益",
+        "period_type": "FY"
+      },
+      "valuation": {
+        "per": 15.64,
+        "pbr": 1.44,
+        "dividend_yield": 2.59
+      },
+      "size_if_entered": {
+        "shares": 200,
+        "invest_amount": 363100,
+        "stop_price": 1670,
+        "actual_risk_yen": 29100,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-9.0%／MA25をわずかに下回る(-2.8%)／MA75は+7.0%(上昇基調は維持)／RSI 46(中立)／🟢バンド下限近く(%b 0.07)／🎯BB-2σ反発",
+        "earnings": "増収増益◎／(売上+23.0%・経常利益+26.3%・純利益+28.6%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 15.6倍／PBR 1.44倍／配当利回り 2.59%",
+        "size": "もし-8%ストップ(1,670円)で買う場合の計算: 200株・約363,100円（最大損失 約29,100円 = 資産の1.2%）",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=7186"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【横浜フィナンシャルグループ(7186)】\n📉 押し目: 60日高値から-9.0%／MA25をわずかに下回る(-2.8%)／MA75は+7.0%(上昇基調は維持)／RSI 46(中立)／🟢バンド下限近く(%b 0.07)／🎯BB-2σ反発\n📊 業績: 増収増益◎／(売上+23.0%・経常利益+26.3%・純利益+28.6%)／🆙会社予想を上方修正\n💰 参考: 予想PER 15.6倍／PBR 1.44倍／配当利回り 2.59%\n🧮 もし-8%ストップ(1,670円)で買う場合の計算: 200株・約363,100円（最大損失 約29,100円 = 資産の1.2%）\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=7186"
+    },
+    {
+      "code": "59010",
+      "ticker": "5901",
+      "name": "東洋製罐グループホールディングス",
+      "price": 4007.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 9.0,
+        "ma25_dev_pct": -2.0,
+        "ma75_dev_pct": 4.1,
+        "rsi14": 44.33,
+        "bb_pct_b": 0.15,
+        "atr": 89.29,
+        "vol_ratio": 0.8,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 4.4,
+        "op_yoy_pct": 52.0,
+        "np_yoy_pct": 145.5,
+        "eps_yoy_pct": 169.8,
+        "fc_revision_flag": "downward",
+        "progress_rate_op_pct": 173.3,
+        "disclosure_date": "2026-05-14",
+        "profit_metric": "営業利益",
+        "period_type": "FY"
+      },
+      "valuation": {
+        "per": 20.08,
+        "pbr": 0.86,
+        "dividend_yield": 4.64
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 400700,
+        "stop_price": 3686,
+        "actual_risk_yen": 32100,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [
+        "⚠️"
+      ],
+      "brief": {
+        "pullback": "60日高値から-9.0%／MA25をわずかに下回る(-2.0%)／MA75は+4.1%(上昇基調は維持)／RSI 44(下げ止まり圏)／🟢バンド下限近く(%b 0.15)",
+        "earnings": "増収増益◎／(売上+4.4%・営業利益+52.0%・純利益+145.5%)／⚠️会社予想を下方修正",
+        "valuation": "予想PER 20.1倍／PBR 0.86倍／配当利回り 4.64%",
+        "size": "もし-8%ストップ(3,686円)で買う場合の計算: 100株・約400,700円（最大損失 約32,100円 = 資産の1.3%）",
+        "one_liner": "判断材料: 強み1点・注意1点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=5901"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【東洋製罐グループホールディングス(5901)】\n📉 押し目: 60日高値から-9.0%／MA25をわずかに下回る(-2.0%)／MA75は+4.1%(上昇基調は維持)／RSI 44(下げ止まり圏)／🟢バンド下限近く(%b 0.15)\n📊 業績: 増収増益◎／(売上+4.4%・営業利益+52.0%・純利益+145.5%)／⚠️会社予想を下方修正\n💰 参考: 予想PER 20.1倍／PBR 0.86倍／配当利回り 4.64%\n🧮 もし-8%ストップ(3,686円)で買う場合の計算: 100株・約400,700円（最大損失 約32,100円 = 資産の1.3%）\n→ 判断材料: 強み1点・注意1点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=5901"
+    },
+    {
+      "code": "83160",
+      "ticker": "8316",
+      "name": "三井住友フィナンシャルグループ",
+      "price": 6614.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.9,
+        "ma25_dev_pct": -3.1,
+        "ma75_dev_pct": 6.0,
+        "rsi14": 45.13,
+        "bb_pct_b": 0.05,
+        "atr": 225.79,
+        "vol_ratio": 1.55,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 16.6,
+        "op_yoy_pct": 43.4,
+        "np_yoy_pct": 33.0,
+        "eps_yoy_pct": 35.1,
+        "fc_revision_flag": "downward",
+        "progress_rate_op_pct": null,
+        "disclosure_date": "2026-07-31",
+        "profit_metric": "経常利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 29.58,
+        "pbr": 1.6,
+        "dividend_yield": null
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 661400.0,
+        "stop_price": 6085,
+        "actual_risk_yen": 52900.0,
+        "viable": false
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [
+        "⚠️"
+      ],
+      "brief": {
+        "pullback": "60日高値から-8.9%／MA25の下(-3.1%)／MA75は+6.0%(上昇基調は維持)／RSI 45(中立)／🟢バンド下限近く(%b 0.05)",
+        "earnings": "増収増益◎／(売上+16.6%・経常利益+43.4%・純利益+33.0%)／⚠️会社予想を下方修正",
+        "valuation": "予想PER 29.6倍／PBR 1.60倍",
+        "size": "",
+        "one_liner": "判断材料: 強み2点・注意1点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=8316"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【三井住友フィナンシャルグループ(8316)】\n📉 押し目: 60日高値から-8.9%／MA25の下(-3.1%)／MA75は+6.0%(上昇基調は維持)／RSI 45(中立)／🟢バンド下限近く(%b 0.05)\n📊 業績: 増収増益◎／(売上+16.6%・経常利益+43.4%・純利益+33.0%)／⚠️会社予想を下方修正\n💰 参考: 予想PER 29.6倍／PBR 1.60倍\n→ 判断材料: 強み2点・注意1点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=8316"
+    },
+    {
+      "code": "28010",
+      "ticker": "2801",
+      "name": "キッコーマン",
+      "price": 1620.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.9,
+        "ma25_dev_pct": -1.7,
+        "ma75_dev_pct": 5.8,
+        "rsi14": 48.47,
+        "bb_pct_b": 0.3,
+        "atr": 54.57,
+        "vol_ratio": 1.04,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 5.2,
+        "op_yoy_pct": 3.0,
+        "np_yoy_pct": -0.1,
+        "eps_yoy_pct": 1.5,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 96.4,
+        "disclosure_date": "2026-04-24",
+        "profit_metric": "営業利益",
+        "period_type": "FY"
+      },
+      "valuation": {
+        "per": 24.68,
+        "pbr": 2.68,
+        "dividend_yield": 1.54
+      },
+      "size_if_entered": {
+        "shares": 200,
+        "invest_amount": 324000,
+        "stop_price": 1490,
+        "actual_risk_yen": 26000,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-8.9%／MA25をわずかに下回る(-1.7%)／MA75は+5.8%(上昇基調は維持)／RSI 48(中立)",
+        "earnings": "増収増益◎／(売上+5.2%・営業利益+3.0%・純利益-0.1%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 24.7倍／PBR 2.68倍／配当利回り 1.54%",
+        "size": "もし-8%ストップ(1,490円)で買う場合の計算: 200株・約324,000円（最大損失 約26,000円 = 資産の1.0%）",
+        "one_liner": "判断材料: 強み1点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=2801"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【キッコーマン(2801)】\n📉 押し目: 60日高値から-8.9%／MA25をわずかに下回る(-1.7%)／MA75は+5.8%(上昇基調は維持)／RSI 48(中立)\n📊 業績: 増収増益◎／(売上+5.2%・営業利益+3.0%・純利益-0.1%)／🆙会社予想を上方修正\n💰 参考: 予想PER 24.7倍／PBR 2.68倍／配当利回り 1.54%\n🧮 もし-8%ストップ(1,490円)で買う場合の計算: 200株・約324,000円（最大損失 約26,000円 = 資産の1.0%）\n→ 判断材料: 強み1点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=2801"
+    },
+    {
+      "code": "47040",
+      "ticker": "4704",
+      "name": "トレンドマイクロ",
+      "price": 6304.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.8,
+        "ma25_dev_pct": -0.4,
+        "ma75_dev_pct": 4.8,
+        "rsi14": 49.88,
+        "bb_pct_b": 0.36,
+        "atr": 228.71,
+        "vol_ratio": 0.65,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 9.4,
+        "op_yoy_pct": 3.7,
+        "np_yoy_pct": 32.9,
+        "eps_yoy_pct": 33.6,
+        "fc_revision_flag": "downward",
+        "progress_rate_op_pct": 27.6,
+        "disclosure_date": "2026-05-14",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 22.51,
+        "pbr": 6.46,
+        "dividend_yield": null
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 630400.0,
+        "stop_price": 5800,
+        "actual_risk_yen": 50400.0,
+        "viable": false
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [
+        "⚠️"
+      ],
+      "brief": {
+        "pullback": "60日高値から-8.8%／MA25をわずかに下回る(-0.4%)／MA75は+4.8%(上昇基調は維持)／RSI 50(中立)",
+        "earnings": "増収増益◎／(売上+9.4%・営業利益+3.7%・純利益+32.9%)／⚠️会社予想を下方修正／通期予想への進捗率 28%(1Q・目安25%どおり)",
+        "valuation": "予想PER 22.5倍／PBR 6.46倍",
+        "size": "",
+        "one_liner": "判断材料: 強み0点・注意1点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=4704"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【トレンドマイクロ(4704)】\n📉 押し目: 60日高値から-8.8%／MA25をわずかに下回る(-0.4%)／MA75は+4.8%(上昇基調は維持)／RSI 50(中立)\n📊 業績: 増収増益◎／(売上+9.4%・営業利益+3.7%・純利益+32.9%)／⚠️会社予想を下方修正／通期予想への進捗率 28%(1Q・目安25%どおり)\n💰 参考: 予想PER 22.5倍／PBR 6.46倍\n→ 判断材料: 強み0点・注意1点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=4704"
+    },
+    {
+      "code": "79360",
+      "ticker": "7936",
+      "name": "アシックス",
+      "price": 4704.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.6,
+        "ma25_dev_pct": -0.5,
+        "ma75_dev_pct": 2.6,
+        "rsi14": 49.03,
+        "bb_pct_b": 0.3,
+        "atr": 141.71,
+        "vol_ratio": 0.84,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 29.7,
+        "op_yoy_pct": 36.5,
+        "np_yoy_pct": 47.2,
+        "eps_yoy_pct": 48.5,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 35.5,
+        "disclosure_date": "2026-05-13",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 30.56,
+        "pbr": 12.28,
+        "dividend_yield": 0.81
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 470400.0,
+        "stop_price": 4328,
+        "actual_risk_yen": 37600.0,
+        "viable": false
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-8.6%／MA25をわずかに下回る(-0.5%)／MA75は+2.6%(上昇基調は維持)／RSI 49(中立)",
+        "earnings": "増収増益◎／(売上+29.7%・営業利益+36.5%・純利益+47.2%)／🆙会社予想を上方修正／通期予想への進捗率 36%(1Q・目安25%を上回る)",
+        "valuation": "予想PER 30.6倍／PBR 12.28倍／配当利回り 0.81%",
+        "size": "",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=7936"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【アシックス(7936)】\n📉 押し目: 60日高値から-8.6%／MA25をわずかに下回る(-0.5%)／MA75は+2.6%(上昇基調は維持)／RSI 49(中立)\n📊 業績: 増収増益◎／(売上+29.7%・営業利益+36.5%・純利益+47.2%)／🆙会社予想を上方修正／通期予想への進捗率 36%(1Q・目安25%を上回る)\n💰 参考: 予想PER 30.6倍／PBR 12.28倍／配当利回り 0.81%\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=7936"
+    },
+    {
+      "code": "42050",
+      "ticker": "4205",
+      "name": "日本ゼオン",
+      "price": 2244.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.6,
+        "ma25_dev_pct": -1.5,
+        "ma75_dev_pct": 4.1,
+        "rsi14": 48.39,
+        "bb_pct_b": 0.36,
+        "atr": 82.79,
+        "vol_ratio": 1.09,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 6.2,
+        "op_yoy_pct": 34.4,
+        "np_yoy_pct": 69.3,
+        "eps_yoy_pct": 74.5,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 42.9,
+        "disclosure_date": "2026-07-29",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 12.1,
+        "pbr": 1.14,
+        "dividend_yield": 3.52
+      },
+      "size_if_entered": {
+        "shares": 200,
+        "invest_amount": 448800,
+        "stop_price": 2064,
+        "actual_risk_yen": 36000,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-8.6%／MA25をわずかに下回る(-1.5%)／MA75は+4.1%(上昇基調は維持)／RSI 48(中立)",
+        "earnings": "増収増益◎／(売上+6.2%・営業利益+34.4%・純利益+69.3%)／🆙会社予想を上方修正／通期予想への進捗率 43%(1Q・目安25%を上回る)",
+        "valuation": "予想PER 12.1倍／PBR 1.14倍／配当利回り 3.52%",
+        "size": "もし-8%ストップ(2,064円)で買う場合の計算: 200株・約448,800円（最大損失 約36,000円 = 資産の1.4%）",
+        "one_liner": "判断材料: 強み2点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=4205"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【日本ゼオン(4205)】\n📉 押し目: 60日高値から-8.6%／MA25をわずかに下回る(-1.5%)／MA75は+4.1%(上昇基調は維持)／RSI 48(中立)\n📊 業績: 増収増益◎／(売上+6.2%・営業利益+34.4%・純利益+69.3%)／🆙会社予想を上方修正／通期予想への進捗率 43%(1Q・目安25%を上回る)\n💰 参考: 予想PER 12.1倍／PBR 1.14倍／配当利回り 3.52%\n🧮 もし-8%ストップ(2,064円)で買う場合の計算: 200株・約448,800円（最大損失 約36,000円 = 資産の1.4%）\n→ 判断材料: 強み2点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=4205"
+    },
+    {
+      "code": "83360",
+      "ticker": "8336",
+      "name": "武蔵野銀行",
+      "price": 2587.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.5,
+        "ma25_dev_pct": -1.3,
+        "ma75_dev_pct": 3.6,
+        "rsi14": 48.69,
+        "bb_pct_b": 0.32,
+        "atr": 99.29,
+        "vol_ratio": 1.58,
+        "signals": [
+          "🎯BB-2σ反発"
+        ]
+      },
+      "earnings": {
+        "sales_yoy_pct": 64.0,
+        "op_yoy_pct": 47.2,
+        "np_yoy_pct": 12.4,
+        "eps_yoy_pct": -61.9,
+        "fc_revision_flag": "downward",
+        "progress_rate_op_pct": null,
+        "disclosure_date": "2026-07-30",
+        "profit_metric": "経常利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 12.8,
+        "pbr": 0.91,
+        "dividend_yield": 3.17
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 258700,
+        "stop_price": 2380,
+        "actual_risk_yen": 20700,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [
+        "⚠️"
+      ],
+      "brief": {
+        "pullback": "60日高値から-8.5%／MA25をわずかに下回る(-1.3%)／MA75は+3.6%(上昇基調は維持)／RSI 49(中立)／🎯BB-2σ反発",
+        "earnings": "増収増益◎／(売上+64.0%・経常利益+47.2%・純利益+12.4%)／⚠️会社予想を下方修正",
+        "valuation": "予想PER 12.8倍／PBR 0.91倍／配当利回り 3.17%",
+        "size": "もし-8%ストップ(2,380円)で買う場合の計算: 100株・約258,700円（最大損失 約20,700円 = 資産の0.8%）",
+        "one_liner": "判断材料: 強み2点・注意1点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=8336"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【武蔵野銀行(8336)】\n📉 押し目: 60日高値から-8.5%／MA25をわずかに下回る(-1.3%)／MA75は+3.6%(上昇基調は維持)／RSI 49(中立)／🎯BB-2σ反発\n📊 業績: 増収増益◎／(売上+64.0%・経常利益+47.2%・純利益+12.4%)／⚠️会社予想を下方修正\n💰 参考: 予想PER 12.8倍／PBR 0.91倍／配当利回り 3.17%\n🧮 もし-8%ストップ(2,380円)で買う場合の計算: 100株・約258,700円（最大損失 約20,700円 = 資産の0.8%）\n→ 判断材料: 強み2点・注意1点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=8336"
+    },
+    {
+      "code": "45020",
+      "ticker": "4502",
+      "name": "武田薬品工業",
+      "price": 5408.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.4,
+        "ma25_dev_pct": -0.8,
+        "ma75_dev_pct": 2.8,
+        "rsi14": 48.08,
+        "bb_pct_b": 0.34,
+        "atr": 144.29,
+        "vol_ratio": 1.14,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 10.2,
+        "op_yoy_pct": 9.1,
+        "np_yoy_pct": -8.9,
+        "eps_yoy_pct": -9.8,
+        "fc_revision_flag": "downward",
+        "progress_rate_op_pct": 48.0,
+        "disclosure_date": "2026-07-30",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 51.87,
+        "pbr": 1.13,
+        "dividend_yield": 3.77
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 540800.0,
+        "stop_price": 4975,
+        "actual_risk_yen": 43300.0,
+        "viable": false
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [
+        "⚠️"
+      ],
+      "brief": {
+        "pullback": "60日高値から-8.4%／MA25をわずかに下回る(-0.8%)／MA75は+2.8%(上昇基調は維持)／RSI 48(中立)",
+        "earnings": "増収増益◎／(売上+10.2%・営業利益+9.1%・純利益-8.9%)／⚠️会社予想を下方修正／通期予想への進捗率 48%(1Q・目安25%を上回る)",
+        "valuation": "予想PER 51.9倍／PBR 1.13倍／配当利回り 3.77%",
+        "size": "",
+        "one_liner": "判断材料: 強み1点・注意1点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=4502"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【武田薬品工業(4502)】\n📉 押し目: 60日高値から-8.4%／MA25をわずかに下回る(-0.8%)／MA75は+2.8%(上昇基調は維持)／RSI 48(中立)\n📊 業績: 増収増益◎／(売上+10.2%・営業利益+9.1%・純利益-8.9%)／⚠️会社予想を下方修正／通期予想への進捗率 48%(1Q・目安25%を上回る)\n💰 参考: 予想PER 51.9倍／PBR 1.13倍／配当利回り 3.77%\n→ 判断材料: 強み1点・注意1点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=4502"
+    },
+    {
+      "code": "71800",
+      "ticker": "7180",
+      "name": "九州フィナンシャルグループ",
+      "price": 1484.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.4,
+        "ma25_dev_pct": -2.7,
+        "ma75_dev_pct": 4.1,
+        "rsi14": 45.17,
+        "bb_pct_b": 0.16,
+        "atr": 52.64,
+        "vol_ratio": 1.38,
+        "signals": [
+          "🎯BB-2σ反発"
+        ]
+      },
+      "earnings": {
+        "sales_yoy_pct": 4.8,
+        "op_yoy_pct": 25.1,
+        "np_yoy_pct": 24.1,
+        "eps_yoy_pct": 24.7,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": null,
+        "disclosure_date": "2026-05-14",
+        "profit_metric": "経常利益",
+        "period_type": "FY"
+      },
+      "valuation": {
+        "per": 14.19,
+        "pbr": 0.83,
+        "dividend_yield": 2.56
+      },
+      "size_if_entered": {
+        "shares": 300,
+        "invest_amount": 445200,
+        "stop_price": 1365,
+        "actual_risk_yen": 35700,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-8.4%／MA25をわずかに下回る(-2.7%)／MA75は+4.1%(上昇基調は維持)／RSI 45(中立)／🟢バンド下限近く(%b 0.16)／🎯BB-2σ反発",
+        "earnings": "増収増益◎／(売上+4.8%・経常利益+25.1%・純利益+24.1%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 14.2倍／PBR 0.83倍／配当利回り 2.56%",
+        "size": "もし-8%ストップ(1,365円)で買う場合の計算: 300株・約445,200円（最大損失 約35,700円 = 資産の1.4%）",
+        "one_liner": "判断材料: 強み2点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=7180"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【九州フィナンシャルグループ(7180)】\n📉 押し目: 60日高値から-8.4%／MA25をわずかに下回る(-2.7%)／MA75は+4.1%(上昇基調は維持)／RSI 45(中立)／🟢バンド下限近く(%b 0.16)／🎯BB-2σ反発\n📊 業績: 増収増益◎／(売上+4.8%・経常利益+25.1%・純利益+24.1%)／🆙会社予想を上方修正\n💰 参考: 予想PER 14.2倍／PBR 0.83倍／配当利回り 2.56%\n🧮 もし-8%ストップ(1,365円)で買う場合の計算: 300株・約445,200円（最大損失 約35,700円 = 資産の1.4%）\n→ 判断材料: 強み2点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=7180"
+    },
+    {
+      "code": "58310",
+      "ticker": "5831",
+      "name": "しずおかフィナンシャルグループ",
+      "price": 3181.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.3,
+        "ma25_dev_pct": -2.3,
+        "ma75_dev_pct": 5.5,
+        "rsi14": 47.32,
+        "bb_pct_b": 0.13,
+        "atr": 116.71,
+        "vol_ratio": 1.15,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 28.5,
+        "op_yoy_pct": 27.7,
+        "np_yoy_pct": 21.2,
+        "eps_yoy_pct": 22.9,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": null,
+        "disclosure_date": "2026-05-12",
+        "profit_metric": "経常利益",
+        "period_type": "FY"
+      },
+      "valuation": {
+        "per": 16.15,
+        "pbr": 1.37,
+        "dividend_yield": 3.08
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 318100,
+        "stop_price": 2927,
+        "actual_risk_yen": 25400,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-8.3%／MA25をわずかに下回る(-2.3%)／MA75は+5.5%(上昇基調は維持)／RSI 47(中立)／🟢バンド下限近く(%b 0.13)",
+        "earnings": "増収増益◎／(売上+28.5%・経常利益+27.7%・純利益+21.2%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 16.1倍／PBR 1.37倍／配当利回り 3.08%",
+        "size": "もし-8%ストップ(2,927円)で買う場合の計算: 100株・約318,100円（最大損失 約25,400円 = 資産の1.0%）",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=5831"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【しずおかフィナンシャルグループ(5831)】\n📉 押し目: 60日高値から-8.3%／MA25をわずかに下回る(-2.3%)／MA75は+5.5%(上昇基調は維持)／RSI 47(中立)／🟢バンド下限近く(%b 0.13)\n📊 業績: 増収増益◎／(売上+28.5%・経常利益+27.7%・純利益+21.2%)／🆙会社予想を上方修正\n💰 参考: 予想PER 16.1倍／PBR 1.37倍／配当利回り 3.08%\n🧮 もし-8%ストップ(2,927円)で買う場合の計算: 100株・約318,100円（最大損失 約25,400円 = 資産の1.0%）\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=5831"
+    },
+    {
+      "code": "30920",
+      "ticker": "3092",
+      "name": "ＺＯＺＯ",
+      "price": 1139.5,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.3,
+        "ma25_dev_pct": -2.1,
+        "ma75_dev_pct": 4.2,
+        "rsi14": 47.66,
+        "bb_pct_b": 0.22,
+        "atr": 38.82,
+        "vol_ratio": 1.08,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 3.9,
+        "op_yoy_pct": 5.7,
+        "np_yoy_pct": 4.6,
+        "eps_yoy_pct": 5.2,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 24.0,
+        "disclosure_date": "2026-07-31",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 20.28,
+        "pbr": 9.44,
+        "dividend_yield": 3.51
+      },
+      "size_if_entered": {
+        "shares": 400,
+        "invest_amount": 455800,
+        "stop_price": 1048,
+        "actual_risk_yen": 36600,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-8.3%／MA25をわずかに下回る(-2.1%)／MA75は+4.2%(上昇基調は維持)／RSI 48(中立)",
+        "earnings": "増収増益◎／(売上+3.9%・営業利益+5.7%・純利益+4.6%)／🆙会社予想を上方修正／通期予想への進捗率 24%(1Q・目安25%どおり)",
+        "valuation": "予想PER 20.3倍／PBR 9.44倍／配当利回り 3.51%",
+        "size": "もし-8%ストップ(1,048円)で買う場合の計算: 400株・約455,800円（最大損失 約36,600円 = 資産の1.5%）",
+        "one_liner": "判断材料: 強み1点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=3092"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【ＺＯＺＯ(3092)】\n📉 押し目: 60日高値から-8.3%／MA25をわずかに下回る(-2.1%)／MA75は+4.2%(上昇基調は維持)／RSI 48(中立)\n📊 業績: 増収増益◎／(売上+3.9%・営業利益+5.7%・純利益+4.6%)／🆙会社予想を上方修正／通期予想への進捗率 24%(1Q・目安25%どおり)\n💰 参考: 予想PER 20.3倍／PBR 9.44倍／配当利回り 3.51%\n🧮 もし-8%ストップ(1,048円)で買う場合の計算: 400株・約455,800円（最大損失 約36,600円 = 資産の1.5%）\n→ 判断材料: 強み1点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=3092"
+    },
+    {
+      "code": "96270",
+      "ticker": "9627",
+      "name": "アインホールディングス",
+      "price": 5797.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.3,
+        "ma25_dev_pct": 0.7,
+        "ma75_dev_pct": 1.5,
+        "rsi14": 49.94,
+        "bb_pct_b": 0.46,
+        "atr": 173.21,
+        "vol_ratio": 1.43,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 41.8,
+        "op_yoy_pct": 76.8,
+        "np_yoy_pct": 86.4,
+        "eps_yoy_pct": 86.0,
+        "fc_revision_flag": "downward",
+        "progress_rate_op_pct": 91.8,
+        "disclosure_date": "2026-06-11",
+        "profit_metric": "営業利益",
+        "period_type": "FY"
+      },
+      "valuation": {
+        "per": 13.58,
+        "pbr": 1.28,
+        "dividend_yield": 1.73
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 579700.0,
+        "stop_price": 5333,
+        "actual_risk_yen": 46400.0,
+        "viable": false
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [
+        "⚠️"
+      ],
+      "brief": {
+        "pullback": "60日高値から-8.3%／MA25すぐ上(+0.7%)／MA75は+1.5%(上昇基調は維持)／RSI 50(中立)",
+        "earnings": "増収増益◎／(売上+41.8%・営業利益+76.8%・純利益+86.4%)／⚠️会社予想を下方修正",
+        "valuation": "予想PER 13.6倍／PBR 1.28倍／配当利回り 1.73%",
+        "size": "",
+        "one_liner": "判断材料: 強み2点・注意1点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=9627"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【アインホールディングス(9627)】\n📉 押し目: 60日高値から-8.3%／MA25すぐ上(+0.7%)／MA75は+1.5%(上昇基調は維持)／RSI 50(中立)\n📊 業績: 増収増益◎／(売上+41.8%・営業利益+76.8%・純利益+86.4%)／⚠️会社予想を下方修正\n💰 参考: 予想PER 13.6倍／PBR 1.28倍／配当利回り 1.73%\n→ 判断材料: 強み2点・注意1点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=9627"
+    },
+    {
+      "code": "84110",
+      "ticker": "8411",
+      "name": "みずほフィナンシャルグループ",
+      "price": 8094.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.2,
+        "ma25_dev_pct": -1.6,
+        "ma75_dev_pct": 7.1,
+        "rsi14": 48.82,
+        "bb_pct_b": 0.27,
+        "atr": 337.5,
+        "vol_ratio": 1.07,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 18.3,
+        "op_yoy_pct": 62.5,
+        "np_yoy_pct": 45.6,
+        "eps_yoy_pct": 49.7,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": null,
+        "disclosure_date": "2026-07-30",
+        "profit_metric": "経常利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 14.07,
+        "pbr": 1.74,
+        "dividend_yield": 1.85
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 809400.0,
+        "stop_price": 7446,
+        "actual_risk_yen": 64800.0,
+        "viable": false
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-8.2%／MA25をわずかに下回る(-1.6%)／MA75は+7.1%(上昇基調は維持)／RSI 49(中立)",
+        "earnings": "増収増益◎／(売上+18.3%・経常利益+62.5%・純利益+45.6%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 14.1倍／PBR 1.74倍／配当利回り 1.85%",
+        "size": "",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=8411"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【みずほフィナンシャルグループ(8411)】\n📉 押し目: 60日高値から-8.2%／MA25をわずかに下回る(-1.6%)／MA75は+7.1%(上昇基調は維持)／RSI 49(中立)\n📊 業績: 増収増益◎／(売上+18.3%・経常利益+62.5%・純利益+45.6%)／🆙会社予想を上方修正\n💰 参考: 予想PER 14.1倍／PBR 1.74倍／配当利回り 1.85%\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=8411"
+    },
+    {
+      "code": "72020",
+      "ticker": "7202",
+      "name": "いすゞ自動車",
+      "price": 2300.5,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.2,
+        "ma25_dev_pct": -1.2,
+        "ma75_dev_pct": 1.4,
+        "rsi14": 46.98,
+        "bb_pct_b": 0.21,
+        "atr": 78.21,
+        "vol_ratio": 2.69,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 6.8,
+        "op_yoy_pct": 30.7,
+        "np_yoy_pct": 23.0,
+        "eps_yoy_pct": 27.4,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 28.8,
+        "disclosure_date": "2026-08-03",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 9.88,
+        "pbr": 1.07,
+        "dividend_yield": 4.09
+      },
+      "size_if_entered": {
+        "shares": 200,
+        "invest_amount": 460100,
+        "stop_price": 2116,
+        "actual_risk_yen": 36900,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-8.2%／MA25をわずかに下回る(-1.2%)／MA75は+1.4%(上昇基調は維持)／RSI 47(中立)",
+        "earnings": "増収増益◎／(売上+6.8%・営業利益+30.7%・純利益+23.0%)／🆙会社予想を上方修正／通期予想への進捗率 29%(1Q・目安25%どおり)",
+        "valuation": "予想PER 9.9倍／PBR 1.07倍／配当利回り 4.09%",
+        "size": "もし-8%ストップ(2,116円)で買う場合の計算: 200株・約460,100円（最大損失 約36,900円 = 資産の1.5%）",
+        "one_liner": "判断材料: 強み2点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=7202"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【いすゞ自動車(7202)】\n📉 押し目: 60日高値から-8.2%／MA25をわずかに下回る(-1.2%)／MA75は+1.4%(上昇基調は維持)／RSI 47(中立)\n📊 業績: 増収増益◎／(売上+6.8%・営業利益+30.7%・純利益+23.0%)／🆙会社予想を上方修正／通期予想への進捗率 29%(1Q・目安25%どおり)\n💰 参考: 予想PER 9.9倍／PBR 1.07倍／配当利回り 4.09%\n🧮 もし-8%ストップ(2,116円)で買う場合の計算: 200株・約460,100円（最大損失 約36,900円 = 資産の1.5%）\n→ 判断材料: 強み2点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=7202"
+    },
+    {
+      "code": "21810",
+      "ticker": "2181",
+      "name": "パーソルホールディングス",
+      "price": 256.8,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.2,
+        "ma25_dev_pct": -1.0,
+        "ma75_dev_pct": 4.3,
+        "rsi14": 48.22,
+        "bb_pct_b": 0.28,
+        "atr": 6.62,
+        "vol_ratio": 1.01,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 7.2,
+        "op_yoy_pct": 15.8,
+        "np_yoy_pct": 19.0,
+        "eps_yoy_pct": 20.1,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 93.7,
+        "disclosure_date": "2026-05-14",
+        "profit_metric": "営業利益",
+        "period_type": "FY"
+      },
+      "valuation": {
+        "per": 13.1,
+        "pbr": 2.61,
+        "dividend_yield": 5.06
+      },
+      "size_if_entered": {
+        "shares": 1800,
+        "invest_amount": 462240,
+        "stop_price": 236,
+        "actual_risk_yen": 37440,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-8.2%／MA25をわずかに下回る(-1.0%)／MA75は+4.3%(上昇基調は維持)／RSI 48(中立)",
+        "earnings": "増収増益◎／(売上+7.2%・営業利益+15.8%・純利益+19.0%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 13.1倍／PBR 2.61倍／配当利回り 5.06%",
+        "size": "もし-8%ストップ(236円)で買う場合の計算: 1,800株・約462,240円（最大損失 約37,440円 = 資産の1.5%）",
+        "one_liner": "判断材料: 強み1点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=2181"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【パーソルホールディングス(2181)】\n📉 押し目: 60日高値から-8.2%／MA25をわずかに下回る(-1.0%)／MA75は+4.3%(上昇基調は維持)／RSI 48(中立)\n📊 業績: 増収増益◎／(売上+7.2%・営業利益+15.8%・純利益+19.0%)／🆙会社予想を上方修正\n💰 参考: 予想PER 13.1倍／PBR 2.61倍／配当利回り 5.06%\n🧮 もし-8%ストップ(236円)で買う場合の計算: 1,800株・約462,240円（最大損失 約37,440円 = 資産の1.5%）\n→ 判断材料: 強み1点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=2181"
+    },
+    {
+      "code": "83810",
+      "ticker": "8381",
+      "name": "山陰合同銀行",
+      "price": 2348.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.2,
+        "ma25_dev_pct": -2.8,
+        "ma75_dev_pct": 8.5,
+        "rsi14": 47.33,
+        "bb_pct_b": 0.09,
+        "atr": 86.5,
+        "vol_ratio": 1.55,
+        "signals": [
+          "🎯BB-2σ反発"
+        ]
+      },
+      "earnings": {
+        "sales_yoy_pct": 44.4,
+        "op_yoy_pct": 117.8,
+        "np_yoy_pct": 96.6,
+        "eps_yoy_pct": 99.0,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": null,
+        "disclosure_date": "2026-07-31",
+        "profit_metric": "経常利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 13.84,
+        "pbr": 1.1,
+        "dividend_yield": 2.9
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 234800,
+        "stop_price": 2160,
+        "actual_risk_yen": 18800,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-8.2%／MA25をわずかに下回る(-2.8%)／MA75は+8.5%(上昇基調は維持)／RSI 47(中立)／🟢バンド下限近く(%b 0.09)／🎯BB-2σ反発",
+        "earnings": "増収増益◎／(売上+44.4%・経常利益+117.8%・純利益+96.6%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 13.8倍／PBR 1.10倍／配当利回り 2.90%",
+        "size": "もし-8%ストップ(2,160円)で買う場合の計算: 100株・約234,800円（最大損失 約18,800円 = 資産の0.8%）",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=8381"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【山陰合同銀行(8381)】\n📉 押し目: 60日高値から-8.2%／MA25をわずかに下回る(-2.8%)／MA75は+8.5%(上昇基調は維持)／RSI 47(中立)／🟢バンド下限近く(%b 0.09)／🎯BB-2σ反発\n📊 業績: 増収増益◎／(売上+44.4%・経常利益+117.8%・純利益+96.6%)／🆙会社予想を上方修正\n💰 参考: 予想PER 13.8倍／PBR 1.10倍／配当利回り 2.90%\n🧮 もし-8%ストップ(2,160円)で買う場合の計算: 100株・約234,800円（最大損失 約18,800円 = 資産の0.8%）\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=8381"
+    },
+    {
+      "code": "13770",
+      "ticker": "1377",
+      "name": "サカタのタネ",
+      "price": 4330.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.2,
+        "ma25_dev_pct": 0.0,
+        "ma75_dev_pct": 2.7,
+        "rsi14": 49.58,
+        "bb_pct_b": 0.38,
+        "atr": 117.86,
+        "vol_ratio": 1.43,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 12.2,
+        "op_yoy_pct": 7.1,
+        "np_yoy_pct": 25.2,
+        "eps_yoy_pct": 27.8,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 97.2,
+        "disclosure_date": "2026-07-13",
+        "profit_metric": "営業利益",
+        "period_type": "FY"
+      },
+      "valuation": {
+        "per": 18.3,
+        "pbr": 1.03,
+        "dividend_yield": 2.08
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 433000,
+        "stop_price": 3984,
+        "actual_risk_yen": 34600,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-8.2%／MA25すぐ上(+0.0%)／MA75は+2.7%(上昇基調は維持)／RSI 50(中立)",
+        "earnings": "増収増益◎／(売上+12.2%・営業利益+7.1%・純利益+25.2%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 18.3倍／PBR 1.03倍／配当利回り 2.08%",
+        "size": "もし-8%ストップ(3,984円)で買う場合の計算: 100株・約433,000円（最大損失 約34,600円 = 資産の1.4%）",
+        "one_liner": "判断材料: 強み2点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=1377"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【サカタのタネ(1377)】\n📉 押し目: 60日高値から-8.2%／MA25すぐ上(+0.0%)／MA75は+2.7%(上昇基調は維持)／RSI 50(中立)\n📊 業績: 増収増益◎／(売上+12.2%・営業利益+7.1%・純利益+25.2%)／🆙会社予想を上方修正\n💰 参考: 予想PER 18.3倍／PBR 1.03倍／配当利回り 2.08%\n🧮 もし-8%ストップ(3,984円)で買う場合の計算: 100株・約433,000円（最大損失 約34,600円 = 資産の1.4%）\n→ 判断材料: 強み2点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=1377"
+    },
+    {
+      "code": "23270",
+      "ticker": "2327",
+      "name": "日鉄ソリューションズ",
+      "price": 3726.0,
+      "as_of": "2026-08-03",
+      "pullback": {
+        "drawdown_60d_pct": 8.1,
+        "ma25_dev_pct": -0.4,
+        "ma75_dev_pct": 3.9,
+        "rsi14": 49.84,
+        "bb_pct_b": 0.22,
+        "atr": 118.57,
+        "vol_ratio": 1.43,
+        "signals": []
+      },
+      "earnings": {
+        "sales_yoy_pct": 13.3,
+        "op_yoy_pct": 8.8,
+        "np_yoy_pct": 1.9,
+        "eps_yoy_pct": 1.9,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 19.0,
+        "disclosure_date": "2026-07-30",
+        "profit_metric": "営業利益",
+        "period_type": "1Q"
+      },
+      "valuation": {
+        "per": 21.11,
+        "pbr": 2.44,
+        "dividend_yield": 2.33
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 372600,
+        "stop_price": 3428,
+        "actual_risk_yen": 29800,
+        "viable": true
+      },
+      "next_earnings": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-8.1%／MA25をわずかに下回る(-0.4%)／MA75は+3.9%(上昇基調は維持)／RSI 50(中立)",
+        "earnings": "増収増益◎／(売上+13.3%・営業利益+8.8%・純利益+1.9%)／🆙会社予想を上方修正／通期予想への進捗率 19%(1Q・目安25%を下回る)",
+        "valuation": "予想PER 21.1倍／PBR 2.44倍／配当利回り 2.33%",
+        "size": "もし-8%ストップ(3,428円)で買う場合の計算: 100株・約372,600円（最大損失 約29,800円 = 資産の1.2%）",
+        "one_liner": "判断材料: 強み2点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=2327"
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "text": "【日鉄ソリューションズ(2327)】\n📉 押し目: 60日高値から-8.1%／MA25をわずかに下回る(-0.4%)／MA75は+3.9%(上昇基調は維持)／RSI 50(中立)\n📊 業績: 増収増益◎／(売上+13.3%・営業利益+8.8%・純利益+1.9%)／🆙会社予想を上方修正／通期予想への進捗率 19%(1Q・目安25%を下回る)\n💰 参考: 予想PER 21.1倍／PBR 2.44倍／配当利回り 2.33%\n🧮 もし-8%ストップ(3,428円)で買う場合の計算: 100株・約372,600円（最大損失 約29,800円 = 資産の1.2%）\n→ 判断材料: 強み2点・注意0点（一次情報で最終判断を）\nhttps://kabutan.jp/stock/?code=2327"
+    }
+  ]
+}
