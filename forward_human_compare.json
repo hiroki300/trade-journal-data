@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-08-02T14:26+09:00",
-  "n_trades": 30,
+  "generated_at": "2026-08-09T12:41+09:00",
+  "n_trades": 33,
   "trades_source": "published(trade-journal-data)",
   "human": {
-    "n": 26,
-    "avg_rr_after_friction": 0.592,
-    "win_rate": 0.731,
+    "n": 30,
+    "avg_rr_after_friction": 0.573,
+    "win_rate": 0.733,
     "ci95": {
-      "lo": -0.048,
-      "hi": 1.322
+      "lo": -0.015,
+      "hi": 1.221
     },
-    "sd": 1.883,
-    "se": 0.369
+    "sd": 1.759,
+    "se": 0.321
   },
-  "baseline_avg_rr": 0.331,
+  "baseline_avg_rr": 0.18,
   "paired": {
-    "n_paired": 2,
+    "n_paired": 6,
     "n_unmatched": 24,
-    "mean_excess_rr": 2.107,
+    "mean_excess_rr": 0.331,
     "ci95": {
-      "lo": 0.497,
-      "hi": 3.716
+      "lo": -1.229,
+      "hi": 1.915
     },
-    "sd": 2.276,
-    "se": 1.61,
+    "sd": 2.099,
+    "se": 0.857,
     "beats_baseline": true,
     "_note": "主ゲート: 同週baselineを差引いた人間の超過R (レジーム相殺・N=トレード数。同週baseline 3件未満の縮退週は unmatched 扱い)"
   },
   "decomposition": {
-    "n": 16,
-    "avg_rr_after_friction": 0.042,
+    "n": 20,
+    "avg_rr_after_friction": 0.048,
     "ci95": {
-      "lo": -0.626,
-      "hi": 0.741
+      "lo": -0.489,
+      "hi": 0.616
     },
-    "sd": 1.38,
-    "se": 0.345,
+    "sd": 1.338,
+    "se": 0.299,
     "_note": "分析専用: 人間選定×機械執行。選定エッジの切り分け (選定に還流しない)"
   },
   "direct": {
-    "delta_vs_baseline": 0.261,
+    "delta_vs_baseline": 0.393,
     "_note": "参考: 独立2標本の差 (レジーム未調整=ノイズ最大)"
   },
-  "delta_vs_baseline": 0.261,
+  "delta_vs_baseline": 0.393,
   "beats_baseline": true,
   "meets_criterion": true,
   "meets_expansion": true,
@@ -56,7 +56,7 @@
     "expansion_rr_note": "expansion_rr=0.3 は 2026-06-11 較正済 (EXPANSION_RR_CALIBRATION.md: forward 非依存の資金/時間/機会費用の感度表)。拡大2〜4倍シナリオで時間コストを上回るバー。実データの読み値からの逆算・事後変更は禁止 (前提が変わった場合のみ N=30 前に一度だけ再較正可)。",
     "discipline": "質>件数: N不足なら期間延長が正。見送りも記録(R対象外で別カウント=習慣維持)。本ゲートは仮説検定でなく方向性デシジョンルール — 点推定はノイズ下、必ず±CIで解釈。"
   },
-  "verdict": "保留",
-  "status": "判定保留: 人間トレード 26/30 (データ不足)。質>件数 — 不足なら期間延長が正。",
+  "verdict": "保留:ペア化成熟待ち",
+  "status": "判定保留: 人間 N=30 は揃ったが主ゲート(ペア化)の成熟ペアが 6/30。baseline は人間より~6週遅れて成熟する — 紙トレを継続して成熟を待つ (撤退判定ではない)。",
   "label": "B3本命: 人間判断がエッジを足すかの検証 (検証中)。主ゲート=週マッチ matched-control (同週baseline差引・N=トレード数)、分解=選定エッジの分析専用、直接比較=参考。比較は方向性判断(仮説検定でない)・±CI併記。"
 }
