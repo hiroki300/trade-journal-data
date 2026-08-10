@@ -300,7 +300,7 @@
         "price": 6729.0,
         "discount_pct": 3.3,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-08-09"
@@ -456,7 +456,7 @@
         "price": 7678.0,
         "discount_pct": 2.9,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-08-09"
@@ -495,7 +495,7 @@
         "price": 8763.0,
         "discount_pct": 1.0,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-08-09"
@@ -534,7 +534,7 @@
         "price": 3831.0,
         "discount_pct": 1.4,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-08-09"
@@ -633,7 +633,7 @@
         "price": 2930.0,
         "discount_pct": 3.0,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-08-09"
@@ -705,7 +705,7 @@
         "price": 10059.0,
         "discount_pct": 2.5,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-08-09"
@@ -738,13 +738,13 @@
         "price": 11514.0,
         "discount_pct": 11.2,
         "tag": "🎯本命",
-        "notified": false
+        "notified": true
       },
       {
         "price": 11777.0,
         "discount_pct": 9.1,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-08-09"
