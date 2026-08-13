@@ -1,12 +1,15 @@
 {
   "regime": "normal",
   "threshold_adjustment": 0,
-  "hv_20d": 21.9,
-  "ma25_dev": 2.84,
+  "hv_20d": 18.2,
+  "ma25_dev": 3.57,
   "trend": "uptrend",
-  "trend_spread_pct": 1.45,
-  "external": {},
+  "trend_spread_pct": 2.22,
+  "external": {
+    "usd_jpy": 159.8925,
+    "sp500": 7609.8
+  },
   "reasons": [],
-  "summary": "🟢 レジーム:NORMAL | 日経HV21.9% / MA25乖離2.84% / uptrend",
-  "evaluated_at": "2026-08-13T00:07"
+  "summary": "🟢 レジーム:NORMAL | 日経HV18.2% / MA25乖離3.57% / uptrend",
+  "evaluated_at": "2026-06-03T12:48"
 }
