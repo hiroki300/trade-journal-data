@@ -105,7 +105,7 @@
         "price": 2453.0,
         "discount_pct": 5.5,
         "tag": "🎯本命",
-        "notified": false
+        "notified": true
       },
       {
         "price": 2585.0,
@@ -228,7 +228,7 @@
         "price": 6465.0,
         "discount_pct": 7.1,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-08-16"
@@ -339,7 +339,7 @@
         "price": 6678.0,
         "discount_pct": 3.2,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-08-16"
@@ -405,13 +405,13 @@
         "price": 5268.0,
         "discount_pct": 10.4,
         "tag": "🎯本命",
-        "notified": false
+        "notified": true
       },
       {
         "price": 5315.0,
         "discount_pct": 9.6,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-08-16"
@@ -450,7 +450,7 @@
         "price": 4580.0,
         "discount_pct": 4.5,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-08-16"
@@ -483,13 +483,13 @@
         "price": 3997.0,
         "discount_pct": 9.5,
         "tag": "🎯本命",
-        "notified": false
+        "notified": true
       },
       {
         "price": 4029.0,
         "discount_pct": 8.7,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-08-16"
@@ -561,13 +561,13 @@
         "price": 7449.0,
         "discount_pct": 10.1,
         "tag": "🎯本命",
-        "notified": false
+        "notified": true
       },
       {
         "price": 7675.0,
         "discount_pct": 7.4,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-08-16"
@@ -639,7 +639,7 @@
         "price": 3463.0,
         "discount_pct": 4.1,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
     "generated_at": "2026-08-16"
