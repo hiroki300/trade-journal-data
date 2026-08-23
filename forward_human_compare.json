@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-16T11:58+09:00",
-  "n_trades": 36,
+  "generated_at": "2026-08-23T12:01+09:00",
+  "n_trades": 39,
   "trades_source": "published(trade-journal-data)",
   "human": {
-    "n": 30,
-    "avg_rr_after_friction": 0.573,
-    "win_rate": 0.733,
+    "n": 33,
+    "avg_rr_after_friction": 0.484,
+    "win_rate": 0.697,
     "ci95": {
-      "lo": -0.015,
-      "hi": 1.221
+      "lo": -0.072,
+      "hi": 1.062
     },
-    "sd": 1.759,
-    "se": 0.321
+    "sd": 1.721,
+    "se": 0.3
   },
-  "baseline_avg_rr": 0.218,
+  "baseline_avg_rr": 0.143,
   "paired": {
     "n_paired": 8,
-    "n_unmatched": 22,
+    "n_unmatched": 25,
     "mean_excess_rr": 0.268,
     "ci95": {
       "lo": -0.897,
@@ -39,10 +39,10 @@
     "_note": "分析専用: 人間選定×機械執行。選定エッジの切り分け (選定に還流しない)"
   },
   "direct": {
-    "delta_vs_baseline": 0.355,
+    "delta_vs_baseline": 0.341,
     "_note": "参考: 独立2標本の差 (レジーム未調整=ノイズ最大)"
   },
-  "delta_vs_baseline": 0.355,
+  "delta_vs_baseline": 0.341,
   "beats_baseline": true,
   "meets_criterion": true,
   "meets_expansion": true,
@@ -57,6 +57,6 @@
     "discipline": "質>件数: N不足なら期間延長が正。見送りも記録(R対象外で別カウント=習慣維持)。本ゲートは仮説検定でなく方向性デシジョンルール — 点推定はノイズ下、必ず±CIで解釈。"
   },
   "verdict": "保留:ペア化成熟待ち",
-  "status": "判定保留: 人間 N=30 は揃ったが主ゲート(ペア化)の成熟ペアが 8/30。baseline は人間より~6週遅れて成熟する — 紙トレを継続して成熟を待つ (撤退判定ではない)。",
+  "status": "判定保留: 人間 N=33 は揃ったが主ゲート(ペア化)の成熟ペアが 8/30。baseline は人間より~6週遅れて成熟する — 紙トレを継続して成熟を待つ (撤退判定ではない)。",
   "label": "B3本命: 人間判断がエッジを足すかの検証 (検証中)。主ゲート=週マッチ matched-control (同週baseline差引・N=トレード数)、分解=選定エッジの分析専用、直接比較=参考。比較は方向性判断(仮説検定でない)・±CI併記。"
 }
