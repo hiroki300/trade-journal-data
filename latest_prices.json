@@ -851,33 +851,18 @@
     "change_pct": 1.278,
     "as_of": "2026-08-25"
   },
-  "7826": {
-    "close": 8900.0,
-    "prev_close": 8350.0,
-    "change_pct": 6.587,
-    "as_of": "2026-08-25"
-  },
-  "7995": {
-    "close": 6680.0,
-    "prev_close": 6560.0,
-    "change_pct": 1.829,
-    "as_of": "2026-08-25"
-  },
-  "9880": {
-    "close": 3650.0,
-    "prev_close": 3580.0,
-    "change_pct": 1.955,
-    "as_of": "2026-08-25"
-  },
   "_meta": {
-    "generated_at": "2026-08-26T07:56:37+09:00",
+    "generated_at": "2026-08-26T08:03:00+09:00",
     "source": "jquants_v2",
     "code_count": 147,
-    "fetched": 145,
-    "missing": 2,
+    "fetched": 142,
+    "missing": 5,
     "missing_codes": [
       "36810",
-      "49740"
+      "49740",
+      "7826",
+      "7995",
+      "9880"
     ]
   }
 }
