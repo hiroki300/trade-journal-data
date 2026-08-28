@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-08-21T09:15:10.745Z",
+  "_generated_at": "2026-08-28T09:10:59.273Z",
   "_note": "人間紙トレ記録 (journal export)。決済済=取引ログ FIFO(異常値除外)、未決済=保有タブ。forward_tracker が機械baseline と比較。未決済は exit null=採点対象外・R計算は backend。skips=見送り週の記録 (R対象外・習慣維持)。",
   "trades": [
     {
@@ -56,7 +56,7 @@
       "entry_price": 4250,
       "exit_date": "2026-05-29",
       "exit_price": 3776,
-      "note": "信用 100株"
+      "note": "信用買建 100株"
     },
     {
       "code": "50160",
@@ -80,7 +80,7 @@
       "entry_price": 4707,
       "exit_date": "2026-06-23",
       "exit_price": 6589.2,
-      "note": "信用 100株"
+      "note": "信用買建 100株"
     },
     {
       "code": "58030",
@@ -88,7 +88,7 @@
       "entry_price": 4707,
       "exit_date": "2026-06-25",
       "exit_price": 6560.4,
-      "note": "信用 100株"
+      "note": "信用買建 100株"
     },
     {
       "code": "24130",
@@ -104,7 +104,7 @@
       "entry_price": 4444,
       "exit_date": "2026-06-29",
       "exit_price": 5920,
-      "note": "信用 100株"
+      "note": "信用買建 100株"
     },
     {
       "code": "38610",
@@ -144,7 +144,7 @@
       "entry_price": 4550,
       "exit_date": "2026-07-02",
       "exit_price": 4072.1,
-      "note": "信用 100株"
+      "note": "信用買建 100株"
     },
     {
       "code": "31860",
@@ -160,7 +160,7 @@
       "entry_price": 4500,
       "exit_date": "2026-07-21",
       "exit_price": 4550,
-      "note": "信用 100株"
+      "note": "信用買建 100株"
     },
     {
       "code": "58030",
@@ -176,7 +176,7 @@
       "entry_price": 4550,
       "exit_date": "2026-07-21",
       "exit_price": 3506,
-      "note": "信用 100株"
+      "note": "信用買建 100株"
     },
     {
       "code": "81540",
@@ -184,7 +184,7 @@
       "entry_price": 4250,
       "exit_date": "2026-07-27",
       "exit_price": 4475,
-      "note": "信用 100株"
+      "note": "信用買建 100株"
     },
     {
       "code": "81360",
@@ -264,36 +264,28 @@
       "entry_price": 6151,
       "exit_date": "2026-08-21",
       "exit_price": 6061.2,
-      "note": "信用 200株"
+      "note": "信用買建 200株"
     },
     {
       "code": "46610",
       "entry_date": "2026-07-31",
-      "entry_price": 3083.5,
+      "entry_price": 3000,
       "exit_date": null,
       "exit_price": null,
       "note": "現物 100株 未決済｜SS取込"
     },
     {
-      "code": "72720",
-      "entry_date": "2026-08-07",
-      "entry_price": 1875.1,
-      "exit_date": null,
-      "exit_price": null,
-      "note": "信用 400株 未決済｜信用売建 6ヵ月"
-    },
-    {
       "code": "81360",
       "entry_date": "2026-08-12",
-      "entry_price": 1194.7,
+      "entry_price": 1195,
       "exit_date": null,
       "exit_price": null,
-      "note": "現物 800株 未決済｜SS取込"
+      "note": "現物 500株 未決済｜SS取込"
     },
     {
       "code": "33000",
       "entry_date": "2026-08-17",
-      "entry_price": 2015,
+      "entry_price": 2027,
       "exit_date": null,
       "exit_price": null,
       "note": "現物 300株 未決済｜SS取込"
@@ -301,15 +293,31 @@
     {
       "code": "58020",
       "entry_date": "2026-08-18",
-      "entry_price": 2469.8,
+      "entry_price": 2520,
       "exit_date": null,
       "exit_price": null,
-      "note": "信用 300株 未決済｜信用買建 6ヵ月"
+      "note": "信用買建 300株 未決済｜信用買建 6ヵ月"
     },
     {
       "code": "31100",
       "entry_date": "2026-08-18",
-      "entry_price": 3265,
+      "entry_price": 3320,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 100株 未決済｜SS取込"
+    },
+    {
+      "code": "40630",
+      "entry_date": "2026-08-26",
+      "entry_price": 5955,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 100株 未決済｜SS取込"
+    },
+    {
+      "code": "49330",
+      "entry_date": "2026-08-27",
+      "entry_price": 1470,
       "exit_date": null,
       "exit_price": null,
       "note": "現物 100株 未決済｜SS取込"
