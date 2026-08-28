@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T05:51+09:00",
+  "generated_at": "2026-08-29T06:17+09:00",
   "as_of_date": "2026-08-27",
   "universe_size": 800,
   "pullback_passed": 27,
@@ -14,6 +14,16 @@
     "op_yoy_min_pct": 0.0,
     "sales_yoy_min_pct": 0.0,
     "disclosure_max_age_days": 150
+  },
+  "breadth": {
+    "window": 20,
+    "n_days": 18,
+    "today_candidates": 16,
+    "today_passed": 27,
+    "median_candidates": 30.5,
+    "min_candidates": 16,
+    "max_candidates": 56,
+    "rank_from_low": 1
   },
   "diagnostics": {
     "n": 800,
@@ -93,7 +103,7 @@
         "viable": true
       },
       "next_earnings": null,
-      "streak": 1,
+      "streak": 2,
       "flags": [],
       "brief": {
         "pullback": "60日高値から-18.7%／MA25すぐ上(+0.4%)／MA75は+12.0%(上昇基調は維持)／RSI 49(中立)",
@@ -148,7 +158,7 @@
         "viable": false
       },
       "next_earnings": null,
-      "streak": 7,
+      "streak": 8,
       "flags": [],
       "brief": {
         "pullback": "60日高値から-14.8%／MA25の下(-4.7%)／MA75は+3.7%(上昇基調は維持)／RSI 42(下げ止まり圏)",
@@ -203,7 +213,7 @@
         "viable": true
       },
       "next_earnings": null,
-      "streak": 2,
+      "streak": 3,
       "flags": [],
       "brief": {
         "pullback": "60日高値から-14.5%／MA25をわずかに下回る(-0.9%)／MA75は+0.4%(上昇基調は維持)／RSI 49(中立)",
@@ -260,7 +270,7 @@
         "viable": false
       },
       "next_earnings": null,
-      "streak": 1,
+      "streak": 2,
       "flags": [],
       "brief": {
         "pullback": "60日高値から-14.3%／MA25の下(-4.8%)／MA75は+16.7%(上昇基調は維持)／RSI 49(中立)／🟢バンド下限近く(%b 0.17)／📊RSI極端",
@@ -315,7 +325,7 @@
         "viable": false
       },
       "next_earnings": null,
-      "streak": 4,
+      "streak": 5,
       "flags": [],
       "brief": {
         "pullback": "60日高値から-14.0%／MA25をわずかに下回る(-2.2%)／MA75は+0.4%(上昇基調は維持)／RSI 46(中立)",
@@ -370,7 +380,7 @@
         "viable": false
       },
       "next_earnings": null,
-      "streak": 1,
+      "streak": 2,
       "flags": [],
       "brief": {
         "pullback": "60日高値から-13.9%／MA25をわずかに下回る(-2.8%)／MA75は+8.3%(上昇基調は維持)／RSI 50(中立)",
@@ -425,7 +435,7 @@
         "viable": true
       },
       "next_earnings": null,
-      "streak": 1,
+      "streak": 2,
       "flags": [],
       "brief": {
         "pullback": "60日高値から-12.2%／MA25の下(-3.2%)／MA75は+0.5%(上昇基調は維持)／RSI 47(中立)",
@@ -480,7 +490,7 @@
         "viable": true
       },
       "next_earnings": null,
-      "streak": 1,
+      "streak": 2,
       "flags": [],
       "brief": {
         "pullback": "60日高値から-11.9%／MA25をわずかに下回る(-2.5%)／MA75は+2.9%(上昇基調は維持)／RSI 46(中立)",
@@ -535,7 +545,7 @@
         "viable": true
       },
       "next_earnings": null,
-      "streak": 1,
+      "streak": 2,
       "flags": [],
       "brief": {
         "pullback": "60日高値から-11.7%／MA25をわずかに下回る(-1.5%)／MA75は+2.0%(上昇基調は維持)／RSI 48(中立)",
@@ -590,7 +600,7 @@
         "viable": true
       },
       "next_earnings": null,
-      "streak": 7,
+      "streak": 8,
       "flags": [
         "⚠️"
       ],
@@ -647,7 +657,7 @@
         "viable": true
       },
       "next_earnings": null,
-      "streak": 2,
+      "streak": 3,
       "flags": [],
       "brief": {
         "pullback": "60日高値から-10.9%／MA25をわずかに下回る(-1.6%)／MA75は+4.2%(上昇基調は維持)／RSI 49(中立)",
@@ -702,7 +712,7 @@
         "viable": true
       },
       "next_earnings": null,
-      "streak": 1,
+      "streak": 2,
       "flags": [
         "⚠️"
       ],
@@ -759,7 +769,7 @@
         "viable": false
       },
       "next_earnings": null,
-      "streak": 3,
+      "streak": 4,
       "flags": [],
       "brief": {
         "pullback": "60日高値から-10.2%／MA25をわずかに下回る(-1.7%)／MA75は+1.2%(上昇基調は維持)／RSI 47(中立)",
@@ -814,7 +824,7 @@
         "viable": true
       },
       "next_earnings": null,
-      "streak": 2,
+      "streak": 3,
       "flags": [
         "⚠️"
       ],
@@ -871,7 +881,7 @@
         "viable": true
       },
       "next_earnings": null,
-      "streak": 7,
+      "streak": 8,
       "flags": [],
       "brief": {
         "pullback": "60日高値から-9.2%／MA25をわずかに下回る(-1.7%)／MA75は+2.0%(上昇基調は維持)／RSI 48(中立)",
@@ -926,7 +936,7 @@
         "viable": true
       },
       "next_earnings": null,
-      "streak": 1,
+      "streak": 2,
       "flags": [],
       "brief": {
         "pullback": "60日高値から-8.8%／MA25をわずかに下回る(-1.6%)／MA75は+7.1%(上昇基調は維持)／RSI 50(中立)",
