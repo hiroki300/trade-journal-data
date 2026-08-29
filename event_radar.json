@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-29T16:03+09:00",
+  "as_of_date": "2026-08-29",
+  "as_of_price_date": "2026-08-28",
+  "is_business_day": false,
+  "label": "開示イベント(値幅が広がりやすい・方向は不明)",
+  "note": "その日に開示があった銘柄の機械抽出です。開示の内容は解釈していません。「この銘柄はふだんどれくらい動くか」は過去の実測にもとづく事実ですが、上がるか下がるかは分かりません。自前の survivorship-free 検証では、最も目立つ形 (寄りギャップ+4% かつ 出来高20日平均の2倍 かつ 陽線引け) のその後は市場調整後で +40日 -2.92% (n=16,362) でした。方向は予測できません。値幅の指標 (ATR・普段の値幅) は価格の派生量であり、表示のみで足切り・並び順・スコアには一切使っていません。閾値は pre-register 済で測定後に変更しません。値幅が大きいほど利益も損失も大きくなります。買いシグナルではありません。最終判断は決算短信等の一次情報でご自身で。",
+  "direction_disclaimer": "※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。",
+  "lane_relation_note": "※ 押し目×決算レーンは決算またぎを7日前から除外します。本レーンは目的が逆で、「これから値幅が広がりうる銘柄を知る」ための観測リストです。建てるための候補リストではなく、想定株数やストップ価格は出しません。",
+  "order_by": "disc_time_desc",
+  "order_by_ja": "開示時刻の新しい順です。重要度・期待リターンの順ではありません。",
+  "thresholds": {
+    "after_close_hhmm": "15:30",
+    "after_close_hhmm_legacy": "15:00",
+    "close_time_change_date": "2024-11-05",
+    "lookback_days": 30,
+    "adv_window": 20,
+    "top_n": 800,
+    "adv_min_jpy": 100000000,
+    "price_min_jpy": 300,
+    "revision_noise_pct": 0.5,
+    "revision_extreme_pct": 500.0,
+    "max_rows": 60
+  },
+  "measured_multipliers": {
+    "source": "PREREGISTER_EVENT_RANGE_2026-08-29.md",
+    "definition": "翌営業日の (高値-安値)/始値 ÷ その銘柄の直近20営業日の同指標の平均",
+    "statistic": "median",
+    "status": "OOS 測定 実行済 (2026-08-29)。C1/C2 合格・C3 表示禁止",
+    "window": "2016-09-13〜2026-06-03 (survivorship-free・API 0コール)",
+    "earnings": {
+      "ratio": 2.03,
+      "n": 40083
+    },
+    "forecast_revision": {
+      "ratio": 1.69,
+      "n": 6166
+    },
+    "dividend_revision": {
+      "ratio": null,
+      "n": 191,
+      "reason": "n<500 のため合否に関わらず表示しない (事前登録の下限規則)"
+    }
+  },
+  "universe_size": 800,
+  "disclosures_fetched": 0,
+  "total_matched": 0,
+  "shown": 0,
+  "truncated": false,
+  "truncation_rule": "adv20_desc",
+  "breadth": {
+    "window": 20,
+    "n_days": 1,
+    "today_candidates": 0,
+    "today_passed": 0,
+    "median_candidates": 0,
+    "min_candidates": 0,
+    "max_candidates": 0,
+    "rank_from_low": 1
+  },
+  "diagnostics": {
+    "n_disclosures": 0,
+    "doc_type_counts": {},
+    "class_counts": {},
+    "excluded": {
+      "before_close": 0,
+      "no_disc_time": 0,
+      "class_not_shown": 0,
+      "not_in_universe": 0,
+      "price_floor": 0,
+      "no_bars": 0
+    },
+    "revision_status_counts": {},
+    "revision_direction_counts": {},
+    "revision_baseline_source": {},
+    "volatility_populated": {
+      "atr14": 0,
+      "atr_pct": 0,
+      "normal_range_pct": 0
+    },
+    "ned_method_counts": {}
+  },
+  "events": []
+}
