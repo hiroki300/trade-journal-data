@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T17:27+09:00",
+  "generated_at": "2026-08-30T17:31+09:00",
   "as_of_date": "2026-08-28",
   "universe_size": 800,
   "pullback_passed": 29,
@@ -142,6 +142,7 @@
         "dividend_yield": 2.93,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -237,6 +238,7 @@
         "dividend_yield": 0.83,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -330,6 +332,7 @@
         "dividend_yield": 1.24,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -423,6 +426,7 @@
         "dividend_yield": 2.08,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -516,6 +520,7 @@
         "dividend_yield": 2.52,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -605,14 +610,13 @@
       },
       "valuation": {
         "per": 11.98,
-        "pbr": null,
+        "pbr": 1.13,
         "dividend_yield": 1.75,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 7.9997,
         "dividend_basis": "FDivAnn",
-        "flags": [
-          "⚠️ PBRが異常値(0.14倍)＝分割/開示データの疑い"
-        ]
+        "flags": []
       },
       "size_if_entered": {
         "shares": 200,
@@ -627,7 +631,6 @@
       "next_earnings_source": "same_quarter_prev_year",
       "streak": 8,
       "flags": [
-        "⚠️",
         "⚠️"
       ],
       "brief": {
@@ -636,13 +639,13 @@
         "ex_date": "",
         "volatility": "値動きは大きい方(普段の1日の値幅 約2.9%＝約49円)／ATR14 50.2円(2.9%)／-8%ストップ(1,577円)は普段の値幅の約2.8日ぶん(ストップ幅の変更を提案するものではありません)",
         "earnings": "増収増益◎／(売上+31.6%・経常利益+24.9%・純利益+24.7%)／⚠️会社予想を下方修正",
-        "valuation": "予想PER 12.0倍／予想配当利回り 1.75%／⚠️ PBRが異常値(0.14倍)＝分割/開示データの疑い",
+        "valuation": "予想PER 12.0倍／PBR 1.13倍／予想配当利回り 1.75%",
         "size": "もし-8%ストップ(1,577円)で買う場合の計算: 200株・約342,800円（最大損失 約27,400円 = 資産の1.1%）",
         "one_liner": "判断材料: 強み2点・注意1点（一次情報で最終判断を）",
         "link": "https://kabutan.jp/stock/?code=7173"
       },
       "label": "候補(要人間深掘り・エッジ未検証)",
-      "text": "【東京きらぼしフィナンシャルグループ(7173)】\n📉 押し目: 60日高値から-10.7%／MA25をわずかに下回る(-0.8%)／MA75は+5.4%・上昇基調(MA75の25日前比+6.0%)／RSI 50(中立)\n⏱ 当日: 前日比 +0.35%・陽線／RSIは前日49から上向き\n📏 値動き: 値動きは大きい方(普段の1日の値幅 約2.9%＝約49円)／ATR14 50.2円(2.9%)／-8%ストップ(1,577円)は普段の値幅の約2.8日ぶん(ストップ幅の変更を提案するものではありません)\n📊 業績: 増収増益◎／(売上+31.6%・経常利益+24.9%・純利益+24.7%)／⚠️会社予想を下方修正\n💰 参考: 予想PER 12.0倍／予想配当利回り 1.75%／⚠️ PBRが異常値(0.14倍)＝分割/開示データの疑い\n📅 次回決算: 2027-03-04頃 (推定)\n🧮 もし-8%ストップ(1,577円)で買う場合の計算: 200株・約342,800円（最大損失 約27,400円 = 資産の1.1%）\n→ 判断材料: 強み2点・注意1点（一次情報で最終判断を）（🔁8営業日連続）\nhttps://kabutan.jp/stock/?code=7173"
+      "text": "【東京きらぼしフィナンシャルグループ(7173)】\n📉 押し目: 60日高値から-10.7%／MA25をわずかに下回る(-0.8%)／MA75は+5.4%・上昇基調(MA75の25日前比+6.0%)／RSI 50(中立)\n⏱ 当日: 前日比 +0.35%・陽線／RSIは前日49から上向き\n📏 値動き: 値動きは大きい方(普段の1日の値幅 約2.9%＝約49円)／ATR14 50.2円(2.9%)／-8%ストップ(1,577円)は普段の値幅の約2.8日ぶん(ストップ幅の変更を提案するものではありません)\n📊 業績: 増収増益◎／(売上+31.6%・経常利益+24.9%・純利益+24.7%)／⚠️会社予想を下方修正\n💰 参考: 予想PER 12.0倍／PBR 1.13倍／予想配当利回り 1.75%\n📅 次回決算: 2027-03-04頃 (推定)\n🧮 もし-8%ストップ(1,577円)で買う場合の計算: 200株・約342,800円（最大損失 約27,400円 = 資産の1.1%）\n→ 判断材料: 強み2点・注意1点（一次情報で最終判断を）（🔁8営業日連続）\nhttps://kabutan.jp/stock/?code=7173"
     },
     {
       "code": "25870",
@@ -707,6 +710,7 @@
         "dividend_yield": 2.65,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -802,6 +806,7 @@
         "dividend_yield": 3.28,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -897,6 +902,7 @@
         "dividend_yield": 2.36,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -993,6 +999,7 @@
         "dividend_yield": 1.33,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -1086,6 +1093,7 @@
         "dividend_yield": 3.1,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -1179,6 +1187,7 @@
         "dividend_yield": 1.54,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -1272,6 +1281,7 @@
         "dividend_yield": 3.78,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -1365,6 +1375,7 @@
         "dividend_yield": 1.44,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -1458,6 +1469,7 @@
         "dividend_yield": 2.52,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -1551,6 +1563,7 @@
         "dividend_yield": 1.31,
         "per_basis": "NxFEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "NxFDivAnn",
         "flags": []
       },
@@ -1644,6 +1657,7 @@
         "dividend_yield": 3.03,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -1737,6 +1751,7 @@
         "dividend_yield": 2.46,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -1830,6 +1845,7 @@
         "dividend_yield": 4.55,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -1923,6 +1939,7 @@
         "dividend_yield": 3.01,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
@@ -2018,6 +2035,7 @@
         "dividend_yield": null,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "flags": []
       },
       "size_if_entered": {
@@ -2112,6 +2130,7 @@
         "dividend_yield": 0.67,
         "per_basis": "FEPS",
         "split_factor": 1.0,
+        "bps_split_factor": 1.0,
         "dividend_basis": "FDivAnn",
         "flags": []
       },
