@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-08T23:42+09:00",
+  "as_of_date": "2026-09-08",
+  "label": "権利付最終日の接近 (事実の通知・売買シグナルではありません)",
+  "note": "登録済みの優待銘柄について、権利付最終日が近いものを機械的に並べたものです。優待の内容は開示・会社IRが一次情報で、ここでは解釈しません。権利付最終日の翌営業日 (権利落ち日) には、配当・優待の相当額ぶん株価が機械的に下がります。優待先回り買いに効果があるかは未測定で、主張しません。買いシグナルではありません。最終判断は一次情報でご自身で。",
+  "thresholds": {
+    "notify_before_days": 5,
+    "adv_min_jpy": 100000000,
+    "max_invest_jpy": 1000000,
+    "settlement_lag_days": 2
+  },
+  "order_by": "last_buy_date_asc",
+  "order_by_ja": "権利付最終日が近い順です。おすすめ順ではありません。",
+  "registered_count": 1,
+  "rows": [
+    {
+      "code": "74750",
+      "ticker": "7475",
+      "name": "",
+      "active": false,
+      "verified": false,
+      "schedule": {},
+      "facts": {
+        "price": 2500.0,
+        "as_of": "2026-09-08",
+        "min_shares": 100,
+        "invest_amount": 250000,
+        "adv20_jpy": 30612500,
+        "dividend_yield": null,
+        "ex_date_drop_pct_estimate": null
+      },
+      "passed": false,
+      "fail_reasons": [
+        "adv_below_min"
+      ],
+      "last_disclosure": {
+        "date": "2026-09-08",
+        "kind": "abolished",
+        "title": "2027年３月期配当予想の修正（無配）及び株主優待制度の廃止に関するお知らせ",
+        "disc_no": "140120260907532597"
+      },
+      "brief": {
+        "schedule": "",
+        "benefit": "優待内容は未登録 (会社IRでご確認ください)",
+        "facts": "株価 2,500円／最低投資額 約250,000円(100株)／売買代金 約0.3億円/日",
+        "warning": "🛑 優待の廃止/中止が開示されています (2026-09-08)／⚠️ 権利確定月が未登録のため日付は計算できていません",
+        "link": "https://kabutan.jp/stock/?code=7475"
+      },
+      "label": "権利付最終日の接近 (事実の通知・売買シグナルではありません)",
+      "text": "【(7475)】\n🎁 優待: 優待内容は未登録 (会社IRでご確認ください)\n💰 株価 2,500円／最低投資額 約250,000円(100株)／売買代金 約0.3億円/日\n🛑 優待の廃止/中止が開示されています (2026-09-08)／⚠️ 権利確定月が未登録のため日付は計算できていません\nhttps://kabutan.jp/stock/?code=7475"
+    }
+  ]
+}
