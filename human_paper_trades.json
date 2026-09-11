@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-09-04T08:22:35.003Z",
+  "_generated_at": "2026-09-11T10:43:37.051Z",
   "_note": "人間紙トレ記録 (journal export)。決済済=取引ログ FIFO(異常値除外)、未決済=保有タブ。forward_tracker が機械baseline と比較。未決済は exit null=採点対象外・R計算は backend。skips=見送り週の記録 (R対象外・習慣維持)。",
   "trades": [
     {
@@ -275,6 +275,22 @@
       "note": "現物 300株"
     },
     {
+      "code": "31100",
+      "entry_date": "2026-08-18",
+      "entry_price": 3320,
+      "exit_date": "2026-09-11",
+      "exit_price": 2810,
+      "note": "現物 100株"
+    },
+    {
+      "code": "40630",
+      "entry_date": "2026-08-26",
+      "entry_price": 5955,
+      "exit_date": "2026-09-11",
+      "exit_price": 5705,
+      "note": "現物 100株"
+    },
+    {
       "code": "46610",
       "entry_date": "2026-07-31",
       "entry_price": 3000,
@@ -291,36 +307,28 @@
       "note": "現物 500株 未決済｜SS取込"
     },
     {
-      "code": "58020",
-      "entry_date": "2026-08-18",
-      "entry_price": 2520,
-      "exit_date": null,
-      "exit_price": null,
-      "note": "信用買建 300株 未決済｜信用買建 6ヵ月"
-    },
-    {
-      "code": "31100",
-      "entry_date": "2026-08-18",
-      "entry_price": 3320,
-      "exit_date": null,
-      "exit_price": null,
-      "note": "現物 100株 未決済｜SS取込"
-    },
-    {
-      "code": "40630",
-      "entry_date": "2026-08-26",
-      "entry_price": 5955,
-      "exit_date": null,
-      "exit_price": null,
-      "note": "現物 100株 未決済｜SS取込"
-    },
-    {
       "code": "49330",
       "entry_date": "2026-08-27",
       "entry_price": 1470,
       "exit_date": null,
       "exit_price": null,
       "note": "現物 100株 未決済｜SS取込"
+    },
+    {
+      "code": "79740",
+      "entry_date": "2026-09-07",
+      "entry_price": 8705.9,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "信用買建 100株 未決済｜信用買建 6ヵ月"
+    },
+    {
+      "code": "58020",
+      "entry_date": "2026-09-08",
+      "entry_price": 2099,
+      "exit_date": null,
+      "exit_price": null,
+      "note": "現物 300株 未決済｜SS取込"
     }
   ],
   "skips": []
