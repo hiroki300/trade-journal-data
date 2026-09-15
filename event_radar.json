@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T03:01+09:00",
-  "as_of_date": "2026-09-14",
-  "as_of_price_date": "2026-09-14",
+  "generated_at": "2026-09-16T01:48+09:00",
+  "as_of_date": "2026-09-15",
+  "as_of_price_date": "2026-09-15",
   "is_business_day": true,
-  "fell_back_from": "2026-09-15",
+  "fell_back_from": "2026-09-16",
   "label": "開示イベント(値幅が広がりやすい・方向は不明)",
   "note": "その日に開示があった銘柄の機械抽出です。開示の内容は解釈していません。「この銘柄はふだんどれくらい動くか」は過去の実測にもとづく事実ですが、上がるか下がるかは分かりません。自前の survivorship-free 検証では、最も目立つ形 (寄りギャップ+4% かつ 出来高20日平均の2倍 かつ 陽線引け) のその後は市場調整後で +40日 -2.92% (n=16,362) でした。方向は予測できません。値幅の指標 (ATR・普段の値幅) は価格の派生量であり、表示のみで足切り・並び順・スコアには一切使っていません。閾値は pre-register 済で測定後に変更しません。値幅が大きいほど利益も損失も大きくなります。買いシグナルではありません。最終判断は決算短信等の一次情報でご自身で。",
   "direction_disclaimer": "※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。",
@@ -45,151 +45,59 @@
     }
   },
   "universe_size": 800,
-  "disclosures_fetched": 103,
-  "total_matched": 6,
-  "shown": 6,
+  "disclosures_fetched": 11,
+  "total_matched": 2,
+  "shown": 2,
   "truncated": false,
   "truncation_rule": "adv20_desc",
   "breadth": {
     "window": 20,
-    "n_days": 13,
-    "today_candidates": 6,
-    "today_passed": 6,
-    "median_candidates": 1,
+    "n_days": 14,
+    "today_candidates": 2,
+    "today_passed": 2,
+    "median_candidates": 1.0,
     "min_candidates": 0,
     "max_candidates": 7,
-    "rank_from_low": 12
+    "rank_from_low": 9
   },
   "diagnostics": {
-    "n_disclosures": 103,
+    "n_disclosures": 11,
     "doc_type_counts": {
-      "2QFinancialStatements_Consolidated_JP": 17,
-      "3QFinancialStatements_Consolidated_JP": 16,
-      "FYFinancialStatements_Consolidated_JP": 15,
-      "FYFinancialStatements_Consolidated_REIT": 9,
-      "EarnForecastRevision": 9,
-      "1QFinancialStatements_Consolidated_JP": 9,
-      "1QFinancialStatements_NonConsolidated_JP": 6,
-      "DividendForecastRevision": 5,
-      "2QFinancialStatements_NonConsolidated_JP": 5,
-      "FYFinancialStatements_NonConsolidated_JP": 4,
-      "3QFinancialStatements_NonConsolidated_JP": 4,
-      "3QFinancialStatements_Consolidated_IFRS": 3,
-      "FYFinancialStatements_Consolidated_IFRS": 1
+      "DividendForecastRevision": 7,
+      "EarnForecastRevision": 3,
+      "1QFinancialStatements_Consolidated_JP": 1
     },
     "class_counts": {
-      "earnings": 80,
-      "other": 9,
-      "forecast_revision": 9,
-      "dividend_revision": 5
+      "dividend_revision": 7,
+      "forecast_revision": 3,
+      "earnings": 1
     },
     "excluded": {
-      "before_close": 19,
+      "before_close": 0,
       "no_disc_time": 0,
-      "class_not_shown": 9,
-      "not_in_universe": 69,
+      "class_not_shown": 0,
+      "not_in_universe": 9,
       "price_floor": 0,
       "no_bars": 0
     },
-    "revision_status_counts": {
-      "ok": 1
-    },
-    "revision_direction_counts": {
-      "up": 1
-    },
-    "revision_baseline_source": {
-      "same_fy": 1
-    },
+    "revision_status_counts": {},
+    "revision_direction_counts": {},
+    "revision_baseline_source": {},
     "volatility_populated": {
-      "atr14": 6,
-      "atr_pct": 6,
-      "normal_range_pct": 6
+      "atr14": 2,
+      "atr_pct": 2,
+      "normal_range_pct": 2
     },
     "ned_method_counts": {
-      "same_quarter_prev_year": 6
+      "same_quarter_prev_year": 2
     }
   },
   "events": [
     {
-      "code": "88480",
-      "ticker": "8848",
-      "name": "レオパレス２１",
-      "sector": "不動産業",
-      "scale_cat": "TOPIX Small 1",
-      "market": "プライム",
-      "margin_type": "貸借",
-      "event": {
-        "class": "forecast_revision",
-        "label_ja": "業績予想の修正",
-        "doc_type": "EarnForecastRevision",
-        "accounting": null,
-        "consolidated": null,
-        "period_type": "FY",
-        "fy_end": "2027-03-31",
-        "disc_date": "2026-09-14",
-        "disc_time": "20:00",
-        "after_close": true,
-        "disc_no": "20260914536068"
-      },
-      "revision": {
-        "metric": "営業利益",
-        "field": "FOP",
-        "current": 38800000000.0,
-        "baseline": 38500000000.0,
-        "baseline_source": "same_fy",
-        "baseline_disc_date": "2026-08-07",
-        "delta_pct": 0.8,
-        "direction": "up",
-        "status": "ok",
-        "flags": [],
-        "sales": {
-          "current": 461600000000.0,
-          "baseline": 465000000000.0,
-          "delta_pct": -0.7,
-          "direction": "down",
-          "status": "ok"
-        }
-      },
-      "price": 691.0,
-      "as_of_price": "2026-09-14",
-      "liquidity": {
-        "adv20_jpy": 814416055.0,
-        "vol_avg20": 1178605
-      },
-      "volatility": {
-        "atr14": 18.43,
-        "atr_pct": 2.67,
-        "normal_range_pct": 2.38,
-        "normal_range_yen": 16,
-        "range_window": 20,
-        "bars_used": 20,
-        "stop_8pct_in_normal_days": 3.4,
-        "reference_multiplier": 1.69,
-        "reference_n": 6166
-      },
-      "next_earnings_estimate": {
-        "date": "2026-11-13",
-        "method": "same_quarter_prev_year",
-        "anchor_disc_date": "2025-11-14",
-        "basis_days": 364,
-        "label": "推定"
-      },
-      "streak": 1,
-      "flags": [],
-      "brief": {
-        "event": "2026-09-14 20:00(引け後)に 業績予想の修正／営業利益の会社予想 385億円 → 388億円 (+0.8%)",
-        "volatility": "値動きは平均的(普段の1日の値幅 約2.4%＝約16円)／ATR14 18.4円(2.7%)／過去に業績予想の修正があった翌営業日は、その銘柄の普段の値幅の約1.7倍でした(2016-2026実測 n=6,166)／同じ倍率を当てはめた参考値は約4.0%(約27円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
-        "next_earnings": "次回決算(推定) 2026-11-13頃",
-        "link": "https://kabutan.jp/stock/?code=8848"
-      },
-      "label": "開示イベント(値幅が広がりやすい・方向は不明)",
-      "text": "【レオパレス２１(8848)】\n📣 2026-09-14 20:00(引け後)に 業績予想の修正／営業利益の会社予想 385億円 → 388億円 (+0.8%)\n📏 値動きは平均的(普段の1日の値幅 約2.4%＝約16円)／ATR14 18.4円(2.7%)／過去に業績予想の修正があった翌営業日は、その銘柄の普段の値幅の約1.7倍でした(2016-2026実測 n=6,166)／同じ倍率を当てはめた参考値は約4.0%(約27円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2026-11-13頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=8848"
-    },
-    {
-      "code": "88480",
-      "ticker": "8848",
-      "name": "レオパレス２１",
-      "sector": "不動産業",
+      "code": "60360",
+      "ticker": "6036",
+      "name": "ＫｅｅＰｅｒ技研",
+      "sector": "サービス業",
       "scale_cat": "TOPIX Small 1",
       "market": "プライム",
       "margin_type": "貸借",
@@ -200,27 +108,27 @@
         "accounting": null,
         "consolidated": null,
         "period_type": "FY",
-        "fy_end": "2027-03-31",
-        "disc_date": "2026-09-14",
-        "disc_time": "20:00",
+        "fy_end": "2027-06-30",
+        "disc_date": "2026-09-15",
+        "disc_time": "16:40",
         "after_close": true,
-        "disc_no": "20260914536086"
+        "disc_no": "20260915536785"
       },
       "revision": null,
-      "price": 691.0,
-      "as_of_price": "2026-09-14",
+      "price": 3590.0,
+      "as_of_price": "2026-09-15",
       "liquidity": {
-        "adv20_jpy": 814416055.0,
-        "vol_avg20": 1178605
+        "adv20_jpy": 586318800.0,
+        "vol_avg20": 163320
       },
       "volatility": {
-        "atr14": 18.43,
-        "atr_pct": 2.67,
-        "normal_range_pct": 2.38,
-        "normal_range_yen": 16,
+        "atr14": 125.0,
+        "atr_pct": 3.48,
+        "normal_range_pct": 3.63,
+        "normal_range_yen": 130,
         "range_window": 20,
         "bars_used": 20,
-        "stop_8pct_in_normal_days": 3.4,
+        "stop_8pct_in_normal_days": 2.2,
         "reference_multiplier": null,
         "reference_n": null
       },
@@ -234,241 +142,70 @@
       "streak": 1,
       "flags": [],
       "brief": {
-        "event": "2026-09-14 20:00(引け後)に 配当予想の修正",
-        "volatility": "値動きは平均的(普段の1日の値幅 約2.4%＝約16円)／ATR14 18.4円(2.7%)",
+        "event": "2026-09-15 16:40(引け後)に 配当予想の修正",
+        "volatility": "値動きは大きい方(普段の1日の値幅 約3.6%＝約130円)／ATR14 125.0円(3.5%)",
         "next_earnings": "次回決算(推定) 2026-11-13頃",
-        "link": "https://kabutan.jp/stock/?code=8848"
+        "link": "https://kabutan.jp/stock/?code=6036"
       },
       "label": "開示イベント(値幅が広がりやすい・方向は不明)",
-      "text": "【レオパレス２１(8848)】\n📣 2026-09-14 20:00(引け後)に 配当予想の修正\n📏 値動きは平均的(普段の1日の値幅 約2.4%＝約16円)／ATR14 18.4円(2.7%)\n📅 次回決算(推定) 2026-11-13頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=8848"
+      "text": "【ＫｅｅＰｅｒ技研(6036)】\n📣 2026-09-15 16:40(引け後)に 配当予想の修正\n📏 値動きは大きい方(普段の1日の値幅 約3.6%＝約130円)／ATR14 125.0円(3.5%)\n📅 次回決算(推定) 2026-11-13頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=6036"
     },
     {
-      "code": "278A0",
-      "ticker": "278A",
-      "name": "Ｔｅｒｒａ　Ｄｒｏｎｅ",
-      "sector": "精密機器",
-      "scale_cat": "-",
-      "market": "グロース",
-      "margin_type": "信用",
-      "event": {
-        "class": "earnings",
-        "label_ja": "決算発表(2Q)",
-        "doc_type": "2QFinancialStatements_Consolidated_JP",
-        "accounting": "JP",
-        "consolidated": true,
-        "period_type": "2Q",
-        "fy_end": "2027-01-31",
-        "disc_date": "2026-09-14",
-        "disc_time": "15:45",
-        "after_close": true,
-        "disc_no": "20260911535184"
-      },
-      "revision": null,
-      "price": 20310.0,
-      "as_of_price": "2026-09-14",
-      "liquidity": {
-        "adv20_jpy": 81691897500.0,
-        "vol_avg20": 4022250
-      },
-      "volatility": {
-        "atr14": 2506.43,
-        "atr_pct": 12.34,
-        "normal_range_pct": 10.93,
-        "normal_range_yen": 2220,
-        "range_window": 20,
-        "bars_used": 20,
-        "stop_8pct_in_normal_days": 0.7,
-        "reference_multiplier": 2.03,
-        "reference_n": 40083
-      },
-      "next_earnings_estimate": {
-        "date": "2026-12-14",
-        "method": "same_quarter_prev_year",
-        "anchor_disc_date": "2025-12-15",
-        "basis_days": 364,
-        "label": "推定"
-      },
-      "streak": 1,
-      "flags": [],
-      "brief": {
-        "event": "2026-09-14 15:45(引け後)に 決算発表(2Q)",
-        "volatility": "値動きはかなり大きい(普段の1日の値幅 約10.9%＝約2,220円)／ATR14 2506.4円(12.3%)／過去に決算発表(2Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約22.2%(約4,507円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
-        "next_earnings": "次回決算(推定) 2026-12-14頃",
-        "link": "https://kabutan.jp/stock/?code=278A"
-      },
-      "label": "開示イベント(値幅が広がりやすい・方向は不明)",
-      "text": "【Ｔｅｒｒａ　Ｄｒｏｎｅ(278A)】\n📣 2026-09-14 15:45(引け後)に 決算発表(2Q)\n📏 値動きはかなり大きい(普段の1日の値幅 約10.9%＝約2,220円)／ATR14 2506.4円(12.3%)／過去に決算発表(2Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約22.2%(約4,507円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2026-12-14頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=278A"
-    },
-    {
-      "code": "96270",
-      "ticker": "9627",
-      "name": "アインホールディングス",
-      "sector": "小売業",
-      "scale_cat": "TOPIX Mid400",
+      "code": "40630",
+      "ticker": "4063",
+      "name": "信越化学工業",
+      "sector": "化学",
+      "scale_cat": "TOPIX Core30",
       "market": "プライム",
       "margin_type": "貸借",
       "event": {
-        "class": "earnings",
-        "label_ja": "決算発表(1Q)",
-        "doc_type": "1QFinancialStatements_Consolidated_JP",
-        "accounting": "JP",
-        "consolidated": true,
-        "period_type": "1Q",
-        "fy_end": "2027-04-30",
-        "disc_date": "2026-09-14",
-        "disc_time": "15:30",
-        "after_close": true,
-        "disc_no": "20260914535543"
-      },
-      "revision": null,
-      "price": 6021.0,
-      "as_of_price": "2026-09-14",
-      "liquidity": {
-        "adv20_jpy": 590479470.0,
-        "vol_avg20": 98070
-      },
-      "volatility": {
-        "atr14": 130.0,
-        "atr_pct": 2.16,
-        "normal_range_pct": 1.88,
-        "normal_range_yen": 113,
-        "range_window": 20,
-        "bars_used": 20,
-        "stop_8pct_in_normal_days": 4.3,
-        "reference_multiplier": 2.03,
-        "reference_n": 40083
-      },
-      "next_earnings_estimate": {
-        "date": "2026-12-10",
-        "method": "same_quarter_prev_year",
-        "anchor_disc_date": "2025-12-11",
-        "basis_days": 364,
-        "label": "推定"
-      },
-      "streak": 1,
-      "flags": [],
-      "brief": {
-        "event": "2026-09-14 15:30(引け後)に 決算発表(1Q)",
-        "volatility": "値動きは平均的(普段の1日の値幅 約1.9%＝約113円)／ATR14 130.0円(2.2%)／過去に決算発表(1Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約3.8%(約229円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
-        "next_earnings": "次回決算(推定) 2026-12-10頃",
-        "link": "https://kabutan.jp/stock/?code=9627"
-      },
-      "label": "開示イベント(値幅が広がりやすい・方向は不明)",
-      "text": "【アインホールディングス(9627)】\n📣 2026-09-14 15:30(引け後)に 決算発表(1Q)\n📏 値動きは平均的(普段の1日の値幅 約1.9%＝約113円)／ATR14 130.0円(2.2%)／過去に決算発表(1Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約3.8%(約229円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2026-12-10頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=9627"
-    },
-    {
-      "code": "63870",
-      "ticker": "6387",
-      "name": "サムコ",
-      "sector": "機械",
-      "scale_cat": "TOPIX Small 2",
-      "market": "プライム",
-      "margin_type": "信用",
-      "event": {
-        "class": "earnings",
-        "label_ja": "決算発表(通期)",
-        "doc_type": "FYFinancialStatements_NonConsolidated_JP",
-        "accounting": "JP",
-        "consolidated": false,
+        "class": "dividend_revision",
+        "label_ja": "配当予想の修正",
+        "doc_type": "DividendForecastRevision",
+        "accounting": null,
+        "consolidated": null,
         "period_type": "FY",
-        "fy_end": "2026-07-31",
-        "disc_date": "2026-09-14",
+        "fy_end": "2027-03-31",
+        "disc_date": "2026-09-15",
         "disc_time": "15:30",
         "after_close": true,
-        "disc_no": "20260910534391"
+        "disc_no": "20260914536275"
       },
       "revision": null,
-      "price": 8020.0,
-      "as_of_price": "2026-09-14",
+      "price": 5693.0,
+      "as_of_price": "2026-09-15",
       "liquidity": {
-        "adv20_jpy": 799233100.0,
-        "vol_avg20": 99655
+        "adv20_jpy": 33791683915.0,
+        "vol_avg20": 5935655
       },
       "volatility": {
-        "atr14": 478.57,
-        "atr_pct": 5.97,
-        "normal_range_pct": 4.97,
-        "normal_range_yen": 398,
+        "atr14": 98.07,
+        "atr_pct": 1.72,
+        "normal_range_pct": 1.51,
+        "normal_range_yen": 86,
         "range_window": 20,
         "bars_used": 20,
-        "stop_8pct_in_normal_days": 1.6,
-        "reference_multiplier": 2.03,
-        "reference_n": 40083
+        "stop_8pct_in_normal_days": 5.3,
+        "reference_multiplier": null,
+        "reference_n": null
       },
       "next_earnings_estimate": {
-        "date": "2026-12-10",
+        "date": "2026-10-23",
         "method": "same_quarter_prev_year",
-        "anchor_disc_date": "2025-12-11",
+        "anchor_disc_date": "2025-10-24",
         "basis_days": 364,
         "label": "推定"
       },
       "streak": 1,
       "flags": [],
       "brief": {
-        "event": "2026-09-14 15:30(引け後)に 決算発表(通期)",
-        "volatility": "値動きはかなり大きい(普段の1日の値幅 約5.0%＝約398円)／ATR14 478.6円(6.0%)／過去に決算発表(通期)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約10.1%(約808円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
-        "next_earnings": "次回決算(推定) 2026-12-10頃",
-        "link": "https://kabutan.jp/stock/?code=6387"
+        "event": "2026-09-15 15:30(引け後)に 配当予想の修正",
+        "volatility": "値動きは平均的(普段の1日の値幅 約1.5%＝約86円)／ATR14 98.1円(1.7%)",
+        "next_earnings": "次回決算(推定) 2026-10-23頃",
+        "link": "https://kabutan.jp/stock/?code=4063"
       },
       "label": "開示イベント(値幅が広がりやすい・方向は不明)",
-      "text": "【サムコ(6387)】\n📣 2026-09-14 15:30(引け後)に 決算発表(通期)\n📏 値動きはかなり大きい(普段の1日の値幅 約5.0%＝約398円)／ATR14 478.6円(6.0%)／過去に決算発表(通期)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約10.1%(約808円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2026-12-10頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=6387"
-    },
-    {
-      "code": "45920",
-      "ticker": "4592",
-      "name": "サンバイオ",
-      "sector": "医薬品",
-      "scale_cat": "-",
-      "market": "グロース",
-      "margin_type": "信用",
-      "event": {
-        "class": "earnings",
-        "label_ja": "決算発表(2Q)",
-        "doc_type": "2QFinancialStatements_Consolidated_JP",
-        "accounting": "JP",
-        "consolidated": true,
-        "period_type": "2Q",
-        "fy_end": "2027-01-31",
-        "disc_date": "2026-09-14",
-        "disc_time": "15:30",
-        "after_close": true,
-        "disc_no": "20260914535826"
-      },
-      "revision": null,
-      "price": 948.0,
-      "as_of_price": "2026-09-14",
-      "liquidity": {
-        "adv20_jpy": 817408260.0,
-        "vol_avg20": 862245
-      },
-      "volatility": {
-        "atr14": 36.93,
-        "atr_pct": 3.9,
-        "normal_range_pct": 3.74,
-        "normal_range_yen": 35,
-        "range_window": 20,
-        "bars_used": 20,
-        "stop_8pct_in_normal_days": 2.1,
-        "reference_multiplier": 2.03,
-        "reference_n": 40083
-      },
-      "next_earnings_estimate": {
-        "date": "2026-12-14",
-        "method": "same_quarter_prev_year",
-        "anchor_disc_date": "2025-12-15",
-        "basis_days": 364,
-        "label": "推定"
-      },
-      "streak": 1,
-      "flags": [],
-      "brief": {
-        "event": "2026-09-14 15:30(引け後)に 決算発表(2Q)",
-        "volatility": "値動きは大きい方(普段の1日の値幅 約3.7%＝約35円)／ATR14 36.9円(3.9%)／過去に決算発表(2Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約7.6%(約71円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
-        "next_earnings": "次回決算(推定) 2026-12-14頃",
-        "link": "https://kabutan.jp/stock/?code=4592"
-      },
-      "label": "開示イベント(値幅が広がりやすい・方向は不明)",
-      "text": "【サンバイオ(4592)】\n📣 2026-09-14 15:30(引け後)に 決算発表(2Q)\n📏 値動きは大きい方(普段の1日の値幅 約3.7%＝約35円)／ATR14 36.9円(3.9%)／過去に決算発表(2Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約7.6%(約71円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2026-12-14頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=4592"
+      "text": "【信越化学工業(4063)】\n📣 2026-09-15 15:30(引け後)に 配当予想の修正\n📏 値動きは平均的(普段の1日の値幅 約1.5%＝約86円)／ATR14 98.1円(1.7%)\n📅 次回決算(推定) 2026-10-23頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=4063"
     }
   ]
 }
