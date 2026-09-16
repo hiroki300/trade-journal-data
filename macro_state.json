@@ -1,14 +1,14 @@
 {
   "regime": "caution",
   "threshold_adjustment": 1,
-  "hv_20d": 17.9,
-  "ma25_dev": -1.12,
+  "hv_20d": 17.7,
+  "ma25_dev": -1.57,
   "trend": "downtrend",
   "trend_spread_pct": -1.38,
   "external": {},
   "reasons": [
     "⚠️短期下降トレンド(5MA vs 25MA: -1.38%)"
   ],
-  "summary": "🟡 レジーム:CAUTION | 日経HV17.9% / MA25乖離-1.12% / downtrend\n⚠️短期下降トレンド(5MA vs 25MA: -1.38%)",
-  "evaluated_at": "2026-09-15T01:43"
+  "summary": "🟡 レジーム:CAUTION | 日経HV17.7% / MA25乖離-1.57% / downtrend\n⚠️短期下降トレンド(5MA vs 25MA: -1.38%)",
+  "evaluated_at": "2026-09-16T00:40"
 }
