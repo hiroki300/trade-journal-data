@@ -232,5 +232,14 @@
     "ma25_dev": -1.87,
     "trend": "downtrend",
     "summary": "🟡 レジーム:CAUTION | 日経HV17.6% / MA25乖離-1.87% / downtrend\n⚠️短期下降トレンド(5MA vs 25MA: -1.07%)"
+  },
+  {
+    "regime": "normal",
+    "changed_at": "2026-09-18T09:39:09+09:00",
+    "from": "caution",
+    "hv_20d": 13.4,
+    "ma25_dev": -0.03,
+    "trend": "sideways",
+    "summary": "🟢 レジーム:NORMAL | 日経HV13.4% / MA25乖離-0.03% / sideways"
   }
 ]
