@@ -3,205 +3,253 @@
     "code": "5711",
     "name": "三菱マテリアル",
     "current_price": 5194.0,
-    "atr": 309.79,
+    "atr": 244.14,
     "rank": "K",
     "total_score": 0,
-    "ma25": 5419.0,
-    "recent_low_20d": 4951.0,
-    "minus_2sigma": 4843.0,
-    "macro_multiplier": 1.0,
+    "ma25": 5386.0,
+    "recent_low_20d": 4892.0,
+    "minus_2sigma": 4695.0,
+    "macro_multiplier": 0.85,
     "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
+    "vol_ratio": 0.89,
+    "mr_trend_pct": 102.2,
+    "margin_ratio": 60.76,
+    "short_balance_available": false,
     "short_balance_pct": null,
     "short_balance_trend_pct": null,
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 4093.0,
-        "discount_pct": 21.2,
+        "price": 4571.0,
+        "discount_pct": 12.0,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 4951.0,
-        "discount_pct": 4.7,
+        "price": 4892.0,
+        "discount_pct": 5.8,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
+    "generated_at": "2026-09-20"
   },
   {
     "code": "6862",
     "name": "ミナトホールディングス",
     "current_price": 5180.0,
-    "atr": 291.07,
+    "atr": 329.29,
     "rank": "K",
     "total_score": 0,
-    "ma25": 3660.0,
+    "ma25": 3956.0,
     "recent_low_20d": 3180.0,
-    "minus_2sigma": 2966.0,
-    "macro_multiplier": 1.0,
+    "minus_2sigma": 2999.0,
+    "macro_multiplier": 0.85,
     "next_earnings": "",
-    "vol_ratio": 0.0,
+    "vol_ratio": 1.73,
     "mr_trend_pct": null,
+    "margin_ratio": null,
+    "short_balance_available": false,
     "short_balance_pct": null,
     "short_balance_trend_pct": null,
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 2966.0,
-        "discount_pct": 42.7,
+        "price": 2999.0,
+        "discount_pct": 42.1,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 3660.0,
-        "discount_pct": 29.3,
+        "price": 3956.0,
+        "discount_pct": 23.6,
         "tag": "🎯本命",
         "notified": false
       },
       {
-        "price": 3873.0,
-        "discount_pct": 25.2,
+        "price": 4760.0,
+        "discount_pct": 8.1,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
+    "generated_at": "2026-09-20"
   },
   {
     "code": "2980",
     "name": "ＳＲＥホールディングス",
     "current_price": 2351.0,
-    "atr": 73.5,
+    "atr": 62.79,
     "rank": "K",
     "total_score": 0,
-    "ma25": 2434.0,
+    "ma25": 2386.0,
     "recent_low_20d": 2199.0,
-    "minus_2sigma": 2239.0,
-    "macro_multiplier": 1.0,
+    "minus_2sigma": 2210.0,
+    "macro_multiplier": 0.85,
     "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
+    "vol_ratio": 0.9,
+    "mr_trend_pct": -43.9,
+    "margin_ratio": 53.51,
+    "short_balance_available": false,
     "short_balance_pct": null,
     "short_balance_trend_pct": null,
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 1998.0,
-        "discount_pct": 15.0,
+        "price": 2191.0,
+        "discount_pct": 6.8,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 2199.0,
-        "discount_pct": 6.5,
+        "price": 2271.0,
+        "discount_pct": 3.4,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
+    "generated_at": "2026-09-20"
   },
   {
     "code": "2737",
     "name": "トーメンデバイス",
     "current_price": 36850.0,
-    "atr": 2177.14,
+    "atr": 2207.14,
     "rank": "K",
     "total_score": 0,
-    "ma25": 32020.0,
-    "recent_low_20d": 28050.0,
-    "minus_2sigma": 28222.0,
-    "macro_multiplier": 1.0,
+    "ma25": 33177.0,
+    "recent_low_20d": 28840.0,
+    "minus_2sigma": 30339.0,
+    "macro_multiplier": 0.85,
     "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
+    "vol_ratio": 2.38,
+    "mr_trend_pct": -17.3,
+    "margin_ratio": 34.32,
+    "short_balance_available": false,
     "short_balance_pct": null,
     "short_balance_trend_pct": null,
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 28222.0,
-        "discount_pct": 23.4,
+        "price": 30339.0,
+        "discount_pct": 17.7,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 31534.0,
-        "discount_pct": 14.4,
+        "price": 33177.0,
+        "discount_pct": 10.0,
         "tag": "🎯本命",
         "notified": false
       },
       {
-        "price": 32020.0,
-        "discount_pct": 13.1,
+        "price": 34036.0,
+        "discount_pct": 7.6,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
+    "generated_at": "2026-09-20"
   },
   {
     "code": "7456",
     "name": "松田産業",
     "current_price": 7340.0,
-    "atr": 349.29,
+    "atr": 331.43,
     "rank": "K",
     "total_score": 0,
-    "ma25": 6939.0,
-    "recent_low_20d": 6420.0,
-    "minus_2sigma": 6474.0,
-    "macro_multiplier": 1.0,
+    "ma25": 6998.0,
+    "recent_low_20d": 6560.0,
+    "minus_2sigma": 6629.0,
+    "macro_multiplier": 0.85,
     "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
+    "vol_ratio": 1.51,
+    "mr_trend_pct": -67.6,
+    "margin_ratio": 27.86,
+    "short_balance_available": false,
     "short_balance_pct": null,
     "short_balance_trend_pct": null,
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 5742.0,
-        "discount_pct": 21.8,
+        "price": 6495.0,
+        "discount_pct": 11.5,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 6420.0,
-        "discount_pct": 12.5,
+        "price": 6917.0,
+        "discount_pct": 5.8,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 6998.0,
+        "discount_pct": 4.7,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
+    "generated_at": "2026-09-20"
+  },
+  {
+    "code": "1407",
+    "name": "ウエストホールディングス",
+    "current_price": 2233.0,
+    "atr": 113.43,
+    "rank": "K",
+    "total_score": 0,
+    "ma25": 2504.0,
+    "recent_low_20d": 2122.0,
+    "minus_2sigma": 2025.0,
+    "macro_multiplier": 0.85,
+    "next_earnings": "",
+    "vol_ratio": 1.02,
+    "mr_trend_pct": 17.1,
+    "margin_ratio": 40.36,
+    "short_balance_available": false,
+    "short_balance_pct": null,
+    "short_balance_trend_pct": null,
+    "squeeze_candidate": false,
+    "levels": [
+      {
+        "price": 1944.0,
+        "discount_pct": 12.9,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 2122.0,
+        "discount_pct": 5.0,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-09-20"
   },
   {
     "code": "5707",
     "name": "東邦亜鉛",
     "current_price": 973.0,
-    "atr": 82.29,
+    "atr": 57.14,
     "rank": "K",
     "total_score": 0,
-    "ma25": 1077.0,
+    "ma25": 1067.0,
     "recent_low_20d": 933.0,
-    "minus_2sigma": 938.0,
-    "macro_multiplier": 1.0,
+    "minus_2sigma": 875.0,
+    "macro_multiplier": 0.85,
     "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
+    "vol_ratio": 0.49,
+    "mr_trend_pct": 1.1,
+    "margin_ratio": 3.88,
+    "short_balance_available": false,
     "short_balance_pct": null,
     "short_balance_trend_pct": null,
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 722.0,
-        "discount_pct": 25.8,
+        "price": 827.0,
+        "discount_pct": 15.0,
         "tag": "💎絶好",
         "notified": false
       },
@@ -212,501 +260,509 @@
         "notified": false
       }
     ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
-  },
-  {
-    "code": "1407",
-    "name": "ウエストホールディングス",
-    "current_price": 2233.0,
-    "atr": 130.14,
-    "rank": "K",
-    "total_score": 0,
-    "ma25": 2595.0,
-    "recent_low_20d": 2145.0,
-    "minus_2sigma": 2175.0,
-    "macro_multiplier": 1.0,
-    "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
-    "short_balance_pct": null,
-    "short_balance_trend_pct": null,
-    "squeeze_candidate": false,
-    "levels": [
-      {
-        "price": 1830.0,
-        "discount_pct": 18.0,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 2145.0,
-        "discount_pct": 3.9,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
+    "generated_at": "2026-09-20"
   },
   {
     "code": "6227",
     "name": "ＡＩメカテック",
     "current_price": 6170.0,
-    "atr": 447.14,
+    "atr": 414.29,
     "rank": "K",
     "total_score": 0,
-    "ma25": 6292.0,
-    "recent_low_20d": 5730.0,
-    "minus_2sigma": 5671.0,
-    "macro_multiplier": 1.0,
+    "ma25": 6114.0,
+    "recent_low_20d": 5120.0,
+    "minus_2sigma": 5344.0,
+    "macro_multiplier": 0.85,
     "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
+    "vol_ratio": 1.67,
+    "mr_trend_pct": -3.8,
+    "margin_ratio": 7.3,
+    "short_balance_available": false,
     "short_balance_pct": null,
     "short_balance_trend_pct": null,
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 4459.0,
-        "discount_pct": 27.7,
+        "price": 5114.0,
+        "discount_pct": 17.1,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 5730.0,
-        "discount_pct": 7.1,
+        "price": 5642.0,
+        "discount_pct": 8.6,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 6114.0,
+        "discount_pct": 0.9,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
+    "generated_at": "2026-09-20"
   },
   {
     "code": "7826",
     "name": "フルヤ金属",
     "current_price": 10870.0,
-    "atr": 644.29,
+    "atr": 742.86,
     "rank": "K",
     "total_score": 0,
-    "ma25": 9286.0,
-    "recent_low_20d": 7930.0,
-    "minus_2sigma": 7503.0,
-    "macro_multiplier": 1.0,
+    "ma25": 9676.0,
+    "recent_low_20d": 8020.0,
+    "minus_2sigma": 8348.0,
+    "macro_multiplier": 0.85,
     "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
+    "vol_ratio": 1.29,
+    "mr_trend_pct": 0.7,
+    "margin_ratio": 20.62,
+    "short_balance_available": false,
     "short_balance_pct": null,
     "short_balance_trend_pct": null,
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 7503.0,
-        "discount_pct": 31.0,
+        "price": 8348.0,
+        "discount_pct": 23.2,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 9286.0,
-        "discount_pct": 14.6,
-        "tag": "🎯本命",
-        "notified": false
-      },
-      {
-        "price": 9364.0,
-        "discount_pct": 13.9,
-        "tag": "🔸軽め",
-        "notified": false
-      }
-    ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
-  },
-  {
-    "code": "6134",
-    "name": "ＦＵＪＩ",
-    "current_price": 7179.0,
-    "atr": 275.36,
-    "rank": "K",
-    "total_score": 0,
-    "ma25": 7371.0,
-    "recent_low_20d": 6604.0,
-    "minus_2sigma": 6346.0,
-    "macro_multiplier": 1.0,
-    "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
-    "short_balance_pct": null,
-    "short_balance_trend_pct": null,
-    "squeeze_candidate": false,
-    "levels": [
-      {
-        "price": 5879.0,
-        "discount_pct": 18.1,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 6604.0,
-        "discount_pct": 8.0,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
-  },
-  {
-    "code": "6524",
-    "name": "湖北工業",
-    "current_price": 5020.0,
-    "atr": 283.57,
-    "rank": "K",
-    "total_score": 0,
-    "ma25": 4858.0,
-    "recent_low_20d": 4470.0,
-    "minus_2sigma": 4464.0,
-    "macro_multiplier": 1.0,
-    "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
-    "short_balance_pct": null,
-    "short_balance_trend_pct": null,
-    "squeeze_candidate": false,
-    "levels": [
-      {
-        "price": 4009.0,
-        "discount_pct": 20.1,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 4470.0,
+        "price": 9676.0,
         "discount_pct": 11.0,
         "tag": "🎯本命",
         "notified": false
       },
       {
-        "price": 4858.0,
-        "discount_pct": 3.2,
+        "price": 9923.0,
+        "discount_pct": 8.7,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
+    "generated_at": "2026-09-20"
   },
   {
-    "code": "6946",
-    "name": "日本アビオニクス",
-    "current_price": 7300.0,
-    "atr": 357.86,
+    "code": "6134",
+    "name": "ＦＵＪＩ",
+    "current_price": 7179.0,
+    "atr": 279.64,
     "rank": "K",
     "total_score": 0,
-    "ma25": 5853.0,
-    "recent_low_20d": 5240.0,
-    "minus_2sigma": 5262.0,
-    "macro_multiplier": 1.0,
+    "ma25": 7124.0,
+    "recent_low_20d": 6402.0,
+    "minus_2sigma": 6587.0,
+    "macro_multiplier": 0.85,
     "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
+    "vol_ratio": 3.4,
+    "mr_trend_pct": 52.2,
+    "margin_ratio": 89.39,
+    "short_balance_available": false,
     "short_balance_pct": null,
     "short_balance_trend_pct": null,
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 5166.0,
-        "discount_pct": 29.2,
+        "price": 6466.0,
+        "discount_pct": 9.9,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 5703.0,
-        "discount_pct": 21.9,
+        "price": 6822.0,
+        "discount_pct": 5.0,
         "tag": "🎯本命",
         "notified": false
       },
       {
-        "price": 5853.0,
-        "discount_pct": 19.8,
+        "price": 7124.0,
+        "discount_pct": 0.8,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
-  },
-  {
-    "code": "4503",
-    "name": "アステラス製薬",
-    "current_price": 2383.5,
-    "atr": 45.93,
-    "rank": "K",
-    "total_score": 0,
-    "ma25": 2348.0,
-    "recent_low_20d": 2182.5,
-    "minus_2sigma": 2219.0,
-    "macro_multiplier": 1.0,
-    "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
-    "short_balance_pct": null,
-    "short_balance_trend_pct": null,
-    "squeeze_candidate": false,
-    "levels": [
-      {
-        "price": 2103.0,
-        "discount_pct": 11.8,
-        "tag": "💎絶好",
-        "notified": false
-      },
-      {
-        "price": 2182.0,
-        "discount_pct": 8.5,
-        "tag": "🔸軽め",
-        "notified": false
-      }
-    ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
+    "generated_at": "2026-09-20"
   },
   {
     "code": "3186",
     "name": "ネクステージ",
     "current_price": 2909.0,
-    "atr": 105.79,
+    "atr": 103.5,
     "rank": "K",
     "total_score": 0,
-    "ma25": 3351.0,
-    "recent_low_20d": 2860.0,
-    "minus_2sigma": 2886.0,
-    "macro_multiplier": 1.0,
+    "ma25": 3226.0,
+    "recent_low_20d": 2850.0,
+    "minus_2sigma": 2754.0,
+    "macro_multiplier": 0.85,
     "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
+    "vol_ratio": 0.96,
+    "mr_trend_pct": 42.3,
+    "margin_ratio": 3.5,
+    "short_balance_available": false,
     "short_balance_pct": null,
     "short_balance_trend_pct": null,
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 2598.0,
-        "discount_pct": 10.7,
+        "price": 2645.0,
+        "discount_pct": 9.1,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 2860.0,
-        "discount_pct": 1.7,
+        "price": 2850.0,
+        "discount_pct": 2.0,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
+    "generated_at": "2026-09-20"
+  },
+  {
+    "code": "6946",
+    "name": "日本アビオニクス",
+    "current_price": 7300.0,
+    "atr": 389.29,
+    "rank": "K",
+    "total_score": 0,
+    "ma25": 6042.0,
+    "recent_low_20d": 5240.0,
+    "minus_2sigma": 5217.0,
+    "macro_multiplier": 0.85,
+    "next_earnings": "",
+    "vol_ratio": 1.14,
+    "mr_trend_pct": 94.1,
+    "margin_ratio": null,
+    "short_balance_available": false,
+    "short_balance_pct": null,
+    "short_balance_trend_pct": null,
+    "squeeze_candidate": false,
+    "levels": [
+      {
+        "price": 5217.0,
+        "discount_pct": 28.5,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 6042.0,
+        "discount_pct": 17.2,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 6804.0,
+        "discount_pct": 6.8,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-09-20"
   },
   {
     "code": "5016",
     "name": "ＪＸ金属",
     "current_price": 3574.0,
-    "atr": 178.14,
+    "atr": 169.79,
     "rank": "K",
     "total_score": 0,
-    "ma25": 3767.0,
-    "recent_low_20d": 3503.0,
-    "minus_2sigma": 3507.0,
-    "macro_multiplier": 1.0,
+    "ma25": 3716.0,
+    "recent_low_20d": 3500.0,
+    "minus_2sigma": 3494.0,
+    "macro_multiplier": 0.85,
     "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
+    "vol_ratio": 1.22,
+    "mr_trend_pct": -8.4,
+    "margin_ratio": 30.19,
+    "short_balance_available": false,
     "short_balance_pct": null,
     "short_balance_trend_pct": null,
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 3161.0,
-        "discount_pct": 11.6,
+        "price": 3141.0,
+        "discount_pct": 12.1,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 3503.0,
-        "discount_pct": 2.0,
+        "price": 3500.0,
+        "discount_pct": 2.1,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
+    "generated_at": "2026-09-20"
   },
   {
-    "code": "3891",
-    "name": "ニッポン高度紙工業",
-    "current_price": 6660.0,
-    "atr": 363.57,
+    "code": "4503",
+    "name": "アステラス製薬",
+    "current_price": 2383.5,
+    "atr": 46.64,
     "rank": "K",
     "total_score": 0,
-    "ma25": 6627.0,
-    "recent_low_20d": 6060.0,
-    "minus_2sigma": 5896.0,
-    "macro_multiplier": 1.0,
+    "ma25": 2346.0,
+    "recent_low_20d": 2182.5,
+    "minus_2sigma": 2220.0,
+    "macro_multiplier": 0.85,
     "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
+    "vol_ratio": 1.39,
+    "mr_trend_pct": 18.6,
+    "margin_ratio": 2.19,
+    "short_balance_available": false,
     "short_balance_pct": null,
     "short_balance_trend_pct": null,
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 5109.0,
-        "discount_pct": 23.3,
+        "price": 2220.0,
+        "discount_pct": 6.9,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 6060.0,
-        "discount_pct": 9.0,
-        "tag": "🔸軽め",
-        "notified": true
-      }
-    ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
-  },
-  {
-    "code": "6871",
-    "name": "日本マイクロニクス",
-    "current_price": 13390.0,
-    "atr": 811.43,
-    "rank": "K",
-    "total_score": 0,
-    "ma25": 13394.0,
-    "recent_low_20d": 11650.0,
-    "minus_2sigma": 11393.0,
-    "macro_multiplier": 1.0,
-    "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
-    "short_balance_pct": null,
-    "short_balance_trend_pct": null,
-    "squeeze_candidate": false,
-    "levels": [
-      {
-        "price": 10246.0,
-        "discount_pct": 23.5,
-        "tag": "💎絶好",
+        "price": 2324.0,
+        "discount_pct": 2.5,
+        "tag": "🎯本命",
         "notified": false
       },
       {
-        "price": 11650.0,
-        "discount_pct": 13.0,
+        "price": 2346.0,
+        "discount_pct": 1.6,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
+    "generated_at": "2026-09-20"
   },
   {
     "code": "6269",
     "name": "三井海洋開発",
     "current_price": 9255.0,
-    "atr": 323.14,
+    "atr": 336.57,
     "rank": "K",
     "total_score": 0,
-    "ma25": 9797.0,
-    "recent_low_20d": 8976.0,
-    "minus_2sigma": 8931.0,
-    "macro_multiplier": 1.0,
+    "ma25": 9608.0,
+    "recent_low_20d": 8695.0,
+    "minus_2sigma": 8902.0,
+    "macro_multiplier": 0.85,
     "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
+    "vol_ratio": 1.33,
+    "mr_trend_pct": 13.4,
+    "margin_ratio": 63.48,
+    "short_balance_available": false,
     "short_balance_pct": null,
     "short_balance_trend_pct": null,
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 8026.0,
-        "discount_pct": 13.3,
+        "price": 8397.0,
+        "discount_pct": 9.3,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 8976.0,
-        "discount_pct": 3.0,
+        "price": 8826.0,
+        "discount_pct": 4.6,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
+    "generated_at": "2026-09-20"
+  },
+  {
+    "code": "3891",
+    "name": "ニッポン高度紙工業",
+    "current_price": 6660.0,
+    "atr": 340.71,
+    "rank": "K",
+    "total_score": 0,
+    "ma25": 6495.0,
+    "recent_low_20d": 5930.0,
+    "minus_2sigma": 5986.0,
+    "macro_multiplier": 0.85,
+    "next_earnings": "",
+    "vol_ratio": 3.04,
+    "mr_trend_pct": 49.6,
+    "margin_ratio": 39.59,
+    "short_balance_available": false,
+    "short_balance_pct": null,
+    "short_balance_trend_pct": null,
+    "squeeze_candidate": false,
+    "levels": [
+      {
+        "price": 5791.0,
+        "discount_pct": 13.0,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 6226.0,
+        "discount_pct": 6.5,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 6495.0,
+        "discount_pct": 2.5,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-09-20"
+  },
+  {
+    "code": "6871",
+    "name": "日本マイクロニクス",
+    "current_price": 13390.0,
+    "atr": 831.43,
+    "rank": "K",
+    "total_score": 0,
+    "ma25": 13091.0,
+    "recent_low_20d": 11630.0,
+    "minus_2sigma": 11598.0,
+    "macro_multiplier": 0.85,
+    "next_earnings": "",
+    "vol_ratio": 1.53,
+    "mr_trend_pct": -13.4,
+    "margin_ratio": 23.46,
+    "short_balance_available": false,
+    "short_balance_pct": null,
+    "short_balance_trend_pct": null,
+    "squeeze_candidate": false,
+    "levels": [
+      {
+        "price": 11270.0,
+        "discount_pct": 15.8,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 12330.0,
+        "discount_pct": 7.9,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 13091.0,
+        "discount_pct": 2.2,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-09-20"
   },
   {
     "code": "6490",
     "name": "ＰＩＬＬＡＲ",
     "current_price": 9440.0,
-    "atr": 451.43,
+    "atr": 402.86,
     "rank": "K",
     "total_score": 0,
-    "ma25": 9890.0,
-    "recent_low_20d": 8730.0,
-    "minus_2sigma": 8963.0,
-    "macro_multiplier": 1.0,
+    "ma25": 9668.0,
+    "recent_low_20d": 8650.0,
+    "minus_2sigma": 8716.0,
+    "macro_multiplier": 0.85,
     "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
+    "vol_ratio": 1.11,
+    "mr_trend_pct": 101.3,
+    "margin_ratio": 13.92,
+    "short_balance_available": false,
     "short_balance_pct": null,
     "short_balance_trend_pct": null,
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 7686.0,
-        "discount_pct": 18.6,
+        "price": 8413.0,
+        "discount_pct": 10.9,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 8730.0,
-        "discount_pct": 7.5,
+        "price": 8926.0,
+        "discount_pct": 5.4,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
+    "generated_at": "2026-09-20"
   },
   {
     "code": "5805",
     "name": "ＳＷＣＣ",
     "current_price": 13120.0,
-    "atr": 746.43,
+    "atr": 690.71,
     "rank": "K",
     "total_score": 0,
-    "ma25": 14024.0,
-    "recent_low_20d": 13070.0,
-    "minus_2sigma": 13145.0,
-    "macro_multiplier": 1.0,
+    "ma25": 13877.0,
+    "recent_low_20d": 12600.0,
+    "minus_2sigma": 12486.0,
+    "macro_multiplier": 0.85,
     "next_earnings": "",
-    "vol_ratio": 0.0,
-    "mr_trend_pct": null,
+    "vol_ratio": 0.98,
+    "mr_trend_pct": 50.5,
+    "margin_ratio": 13.85,
+    "short_balance_available": false,
     "short_balance_pct": null,
     "short_balance_trend_pct": null,
     "squeeze_candidate": false,
     "levels": [
       {
-        "price": 11361.0,
+        "price": 11359.0,
         "discount_pct": 13.4,
         "tag": "💎絶好",
         "notified": false
       },
       {
-        "price": 13070.0,
-        "discount_pct": 0.4,
+        "price": 12600.0,
+        "discount_pct": 4.0,
         "tag": "🔸軽め",
-        "notified": true
+        "notified": false
       }
     ],
-    "generated_at": "2026-09-13",
-    "price_as_of": "2026-09-18"
+    "generated_at": "2026-09-20"
+  },
+  {
+    "code": "4506",
+    "name": "住友ファーマ",
+    "current_price": 1609.5,
+    "atr": 68.29,
+    "rank": "K",
+    "total_score": 0,
+    "ma25": 1521.0,
+    "recent_low_20d": 1400.5,
+    "minus_2sigma": 1407.0,
+    "macro_multiplier": 0.85,
+    "next_earnings": "",
+    "vol_ratio": 0.78,
+    "mr_trend_pct": 98.5,
+    "margin_ratio": 35.19,
+    "short_balance_available": false,
+    "short_balance_pct": null,
+    "short_balance_trend_pct": null,
+    "squeeze_candidate": false,
+    "levels": [
+      {
+        "price": 1407.0,
+        "discount_pct": 12.6,
+        "tag": "💎絶好",
+        "notified": false
+      },
+      {
+        "price": 1521.0,
+        "discount_pct": 5.5,
+        "tag": "🎯本命",
+        "notified": false
+      },
+      {
+        "price": 1522.0,
+        "discount_pct": 5.4,
+        "tag": "🔸軽め",
+        "notified": false
+      }
+    ],
+    "generated_at": "2026-09-20"
   }
 ]
