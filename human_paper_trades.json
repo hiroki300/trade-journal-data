@@ -1,22 +1,15 @@
 {
-  "_generated_at": "2026-09-21T13:26:39.614Z",
-  "_note": "人間紙トレ記録 (journal export)。決済済=取引ログ FIFO(異常値除外)、未決済=保有タブ。forward_tracker が機械baseline と比較。未決済は exit null=採点対象外・R計算は backend。skips=見送り週の記録 (R対象外・習慣維持)。",
+  "_generated_at": "2026-09-21T15:01:33.751Z",
+  "_note": "売買記録 (journal export)。決済済=取引ログ FIFO を 1ポジション=1要素へ統合 (分割決済は株数加重平均・異常値と保有1年超は除外)、未決済=保有タブ。forward_tracker が機械baseline と比較。未決済は exit null=採点対象外・R計算は backend。pending_exits=保有から消えたのに約定の記録が無い建玉 (決済の記録待ち)。",
   "trades": [
     {
       "code": "70110",
       "entry_date": "2026-04-07",
-      "entry_price": 4820,
-      "exit_date": "2026-04-23",
-      "exit_price": 4714,
-      "note": "現物 100株"
-    },
-    {
-      "code": "70110",
-      "entry_date": "2026-04-07",
-      "entry_price": 4390,
-      "exit_date": "2026-04-23",
-      "exit_price": 4714,
-      "note": "現物 100株"
+      "entry_price": 4497.5,
+      "exit_date": "2026-05-11",
+      "exit_price": 4686.8,
+      "shares": 400,
+      "note": "現物 400株"
     },
     {
       "code": "25870",
@@ -24,6 +17,7 @@
       "entry_price": 4450,
       "exit_date": "2026-05-07",
       "exit_price": 4480,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -32,15 +26,8 @@
       "entry_price": 1830,
       "exit_date": "2026-05-07",
       "exit_price": 1860,
+      "shares": 200,
       "note": "現物 200株"
-    },
-    {
-      "code": "70110",
-      "entry_date": "2026-04-07",
-      "entry_price": 4390,
-      "exit_date": "2026-05-11",
-      "exit_price": 4487,
-      "note": "現物 100株"
     },
     {
       "code": "18020",
@@ -48,6 +35,7 @@
       "entry_price": 3959,
       "exit_date": "2026-05-29",
       "exit_price": 3248,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -56,6 +44,7 @@
       "entry_price": 4250,
       "exit_date": "2026-05-29",
       "exit_price": 3776,
+      "shares": 100,
       "note": "信用買建 100株"
     },
     {
@@ -64,6 +53,7 @@
       "entry_price": 3880,
       "exit_date": "2026-06-17",
       "exit_price": 4467,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -72,23 +62,8 @@
       "entry_price": 4350,
       "exit_date": "2026-06-19",
       "exit_price": 4591,
+      "shares": 100,
       "note": "現物 100株"
-    },
-    {
-      "code": "58030",
-      "entry_date": "2024-06-04",
-      "entry_price": 4707,
-      "exit_date": "2026-06-23",
-      "exit_price": 6589.2,
-      "note": "信用買建 100株"
-    },
-    {
-      "code": "58030",
-      "entry_date": "2024-06-04",
-      "entry_price": 4707,
-      "exit_date": "2026-06-25",
-      "exit_price": 6560.4,
-      "note": "信用買建 100株"
     },
     {
       "code": "24130",
@@ -96,6 +71,7 @@
       "entry_price": 1691,
       "exit_date": "2026-06-26",
       "exit_price": 1761.8,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -104,6 +80,7 @@
       "entry_price": 4444,
       "exit_date": "2026-06-29",
       "exit_price": 5920,
+      "shares": 100,
       "note": "信用買建 100株"
     },
     {
@@ -112,6 +89,7 @@
       "entry_price": 829,
       "exit_date": "2026-06-29",
       "exit_price": 797,
+      "shares": 200,
       "note": "現物 200株"
     },
     {
@@ -120,6 +98,7 @@
       "entry_price": 993,
       "exit_date": "2026-06-30",
       "exit_price": 946,
+      "shares": 200,
       "note": "現物 200株"
     },
     {
@@ -128,6 +107,7 @@
       "entry_price": 2970,
       "exit_date": "2026-06-30",
       "exit_price": 3245,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -136,15 +116,17 @@
       "entry_price": 6850,
       "exit_date": "2026-06-30",
       "exit_price": 7029,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
       "code": "50160",
       "entry_date": "2026-06-26",
       "entry_price": 4550,
-      "exit_date": "2026-07-02",
-      "exit_price": 4072.1,
-      "note": "信用買建 100株"
+      "exit_date": "2026-07-21",
+      "exit_price": 3789.1,
+      "shares": 200,
+      "note": "信用買建 200株"
     },
     {
       "code": "31860",
@@ -152,6 +134,7 @@
       "entry_price": 3500,
       "exit_date": "2026-07-21",
       "exit_price": 3553.5,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -160,6 +143,7 @@
       "entry_price": 4500,
       "exit_date": "2026-07-21",
       "exit_price": 4550,
+      "shares": 100,
       "note": "信用買建 100株"
     },
     {
@@ -168,15 +152,8 @@
       "entry_price": 4400,
       "exit_date": "2026-07-21",
       "exit_price": 4536,
+      "shares": 100,
       "note": "現物 100株"
-    },
-    {
-      "code": "50160",
-      "entry_date": "2026-06-26",
-      "entry_price": 4550,
-      "exit_date": "2026-07-21",
-      "exit_price": 3506,
-      "note": "信用買建 100株"
     },
     {
       "code": "81540",
@@ -184,6 +161,7 @@
       "entry_price": 4250,
       "exit_date": "2026-07-27",
       "exit_price": 4475,
+      "shares": 100,
       "note": "信用買建 100株"
     },
     {
@@ -192,6 +170,7 @@
       "entry_price": 1122,
       "exit_date": "2026-07-29",
       "exit_price": 1342,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -200,14 +179,7 @@
       "entry_price": 4250,
       "exit_date": "2026-07-30",
       "exit_price": 4335,
-      "note": "現物 100株"
-    },
-    {
-      "code": "50160",
-      "entry_date": "2024-07-28",
-      "entry_price": 3529,
-      "exit_date": "2026-07-31",
-      "exit_price": 3839.7,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -216,6 +188,7 @@
       "entry_price": 4120,
       "exit_date": "2026-08-04",
       "exit_price": 4100,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -224,6 +197,7 @@
       "entry_price": 4090,
       "exit_date": "2026-08-04",
       "exit_price": 4100,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -232,6 +206,7 @@
       "entry_price": 4600,
       "exit_date": "2026-08-05",
       "exit_price": 4912.5,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -240,6 +215,7 @@
       "entry_price": 3800,
       "exit_date": "2026-08-05",
       "exit_price": 4136.7,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -248,6 +224,7 @@
       "entry_price": 3882,
       "exit_date": "2026-08-18",
       "exit_price": 4070,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -256,6 +233,7 @@
       "entry_price": 7860,
       "exit_date": "2026-08-20",
       "exit_price": 6880,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -264,6 +242,7 @@
       "entry_price": 6151,
       "exit_date": "2026-08-21",
       "exit_price": 6061.2,
+      "shares": 200,
       "note": "信用買建 200株"
     },
     {
@@ -272,6 +251,7 @@
       "entry_price": 2027,
       "exit_date": "2026-09-02",
       "exit_price": 1807,
+      "shares": 300,
       "note": "現物 300株"
     },
     {
@@ -280,6 +260,7 @@
       "entry_price": 3320,
       "exit_date": "2026-09-11",
       "exit_price": 2810,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -288,6 +269,7 @@
       "entry_price": 5955,
       "exit_date": "2026-09-11",
       "exit_price": 5705,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -296,6 +278,7 @@
       "entry_price": 1470,
       "exit_date": "2026-09-15",
       "exit_price": 1438.7,
+      "shares": 100,
       "note": "現物 100株"
     },
     {
@@ -304,6 +287,7 @@
       "entry_price": 1212.5,
       "exit_date": "2026-09-17",
       "exit_price": 1242,
+      "shares": 200,
       "note": "現物 200株"
     },
     {
@@ -312,6 +296,7 @@
       "entry_price": 1182.8,
       "exit_date": "2026-09-17",
       "exit_price": 1242,
+      "shares": 300,
       "note": "現物 300株"
     },
     {
@@ -320,6 +305,8 @@
       "entry_price": 3000,
       "exit_date": null,
       "exit_price": null,
+      "shares": 100,
+      "entry_date_is_import_day": false,
       "note": "現物 100株 未決済｜SS取込"
     },
     {
@@ -328,6 +315,8 @@
       "entry_price": 2099,
       "exit_date": null,
       "exit_price": null,
+      "shares": 300,
+      "entry_date_is_import_day": false,
       "note": "現物 300株 未決済｜SS取込"
     },
     {
@@ -336,6 +325,8 @@
       "entry_price": 3876.5,
       "exit_date": null,
       "exit_price": null,
+      "shares": 200,
+      "entry_date_is_import_day": false,
       "note": "現物 200株 未決済｜SS取込"
     },
     {
@@ -344,8 +335,25 @@
       "entry_price": 3656,
       "exit_date": null,
       "exit_price": null,
+      "shares": 600,
+      "entry_date_is_import_day": false,
       "note": "信用買建 600株 未決済｜信用買建 6ヵ月"
     }
   ],
-  "skips": []
+  "skips": [],
+  "pending_exits": [],
+  "needs_review": [
+    {
+      "code": "58030",
+      "entry_date": "2024-06-04",
+      "exit_date": "2026-06-25",
+      "hold_days": 751
+    },
+    {
+      "code": "50160",
+      "entry_date": "2024-07-28",
+      "exit_date": "2026-07-31",
+      "hold_days": 733
+    }
+  ]
 }
