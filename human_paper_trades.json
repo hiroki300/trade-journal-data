@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-09-24T09:19:48.774Z",
+  "_generated_at": "2026-09-25T11:52:00.378Z",
   "_note": "売買記録 (journal export)。決済済=取引ログ FIFO を 1ポジション=1要素へ統合 (分割決済は株数加重平均・異常値と保有1年超は除外)、未決済=保有タブ。forward_tracker が機械baseline と比較。未決済は exit null=採点対象外・R計算は backend。pending_exits=保有から消えたのに約定の記録が無い建玉 (決済の記録待ち)。",
   "trades": [
     {
@@ -64,6 +64,15 @@
       "exit_price": 4591,
       "shares": 100,
       "note": "現物 100株"
+    },
+    {
+      "code": "58030",
+      "entry_date": "2026-06-04",
+      "entry_price": 4707,
+      "exit_date": "2026-06-25",
+      "exit_price": 6574.8,
+      "shares": 200,
+      "note": "信用買建 200株"
     },
     {
       "code": "24130",
@@ -179,6 +188,15 @@
       "entry_price": 4250,
       "exit_date": "2026-07-30",
       "exit_price": 4335,
+      "shares": 100,
+      "note": "現物 100株"
+    },
+    {
+      "code": "50160",
+      "entry_date": "2026-07-28",
+      "entry_price": 3529,
+      "exit_date": "2026-07-31",
+      "exit_price": 3839.7,
       "shares": 100,
       "note": "現物 100株"
     },
@@ -332,18 +350,5 @@
   ],
   "skips": [],
   "pending_exits": [],
-  "needs_review": [
-    {
-      "code": "58030",
-      "entry_date": "2024-06-04",
-      "exit_date": "2026-06-25",
-      "hold_days": 751
-    },
-    {
-      "code": "50160",
-      "entry_date": "2024-07-28",
-      "exit_date": "2026-07-31",
-      "hold_days": 733
-    }
-  ]
+  "needs_review": []
 }
