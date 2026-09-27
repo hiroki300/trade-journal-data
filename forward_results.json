@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-09-20T16:28+09:00",
+  "generated_at": "2026-09-27T16:37+09:00",
   "label": "検証中・エッジ未確定 (機械baseline=人間が超えるべきバー / 主=整合レンズ単一決済)",
-  "n_snapshots": 591,
-  "n_matured": 467,
+  "n_snapshots": 631,
+  "n_matured": 510,
   "n_matured_note": "参考値: いずれかのレンズ(学術10日が先に成熟)が採点できた snapshot 数。判定/進捗の母数はこれでなく summary.consistency_lens.n (整合レンズ=30日単一決済)。",
   "summary": {
     "academic_market_adj": {
       "10": {
-        "n": 467,
-        "mean_market_adj": 0.0053
+        "n": 478,
+        "mean_market_adj": 0.0068
       },
       "20": {
-        "n": 372,
-        "mean_market_adj": 0.0106
+        "n": 389,
+        "mean_market_adj": 0.0149
       },
       "40": {
-        "n": 225,
-        "mean_market_adj": 0.073
+        "n": 220,
+        "mean_market_adj": 0.0857
       }
     },
     "consistency_lens": {
-      "n": 282,
-      "avg_rr_after_friction": 0.179,
-      "win_rate": 0.45,
+      "n": 294,
+      "avg_rr_after_friction": 0.141,
+      "win_rate": 0.449,
       "ci95": {
-        "lo": 0.016,
-        "hi": 0.345
+        "lo": -0.019,
+        "hi": 0.301
       },
-      "sd": 1.378,
-      "se": 0.082,
+      "sd": 1.354,
+      "se": 0.079,
       "_note": "主: 単一決済R (人間の単一往復とR構造を一致)"
     },
     "trade_lens": {
-      "n": 282,
-      "avg_rr_after_friction": 0.093,
-      "win_rate": 0.543,
+      "n": 294,
+      "avg_rr_after_friction": 0.074,
+      "win_rate": 0.551,
       "_note": "参考: scale-out混成R (主ゲートは consistency_lens=単一決済)"
     },
     "weekly_baseline": {
       "2026-W24": {
-        "n": 64,
+        "n": 32,
         "mean_rr": 0.406
       },
       "2026-W25": {
@@ -73,20 +73,28 @@
       "2026-W32": {
         "n": 30,
         "mean_rr": 1.109
+      },
+      "2026-W33": {
+        "n": 44,
+        "mean_rr": 0.094
       }
     },
+    "n_dedup_collapsed": 32,
+    "n_dedup_note": "同一 (code, entry_date) の重複 snapshot を集計時に1件へ畳んだ数。同じ週に screener が複数回走ると (手動 dispatch + 定期実行) 同一銘柄・同一 entry の snapshot が二重に生まれ、R が完全同一のため平均は不変だが n が水増しされ CI が実際より狭く出る。実測: 2026-06-06 と 06-07 が同一32銘柄・同一 entry 2026-06-08 (n=64 は実質32)。⚠️ 畳むのは集計のみ — results[] と n_matured は監査可能性のため素のまま。",
     "preregister": {
       "success_rr": 0.05,
       "expansion_rr": 0.3,
       "min_trades": 30,
       "n_basis": "trade_count",
       "min_week_baseline_n": 3,
+      "measurement_window_start": "2026-06-08",
+      "measurement_window_note": "計測母集団 = entry_date ≥ 2026-06-08 (機械baseline の最初の entry 日 = 初回snapshot 2026-06-06/06-07 の翌営業日)。これより前の entry は同週baselineが存在せず主ゲート(週マッチ)で永久にペア化できないため、母集団から外し out_of_window に別掲する (記録は消さない=見送りと同じ別カウント扱い)。2026-07-28 固定 — 当時 n_paired=1 で停止規則の読み値節目に未到達、かつ除外側の平均は母集団側より高い (=ゲートは厳しくなる方向) ため goalpost 移動に当たらない。",
       "stopping_rule": "判定の読み値は n(人間トレード数) と n_paired(成熟ペア数) が初めて min_trades に到達した週の週次出力を正とする。以後の再判定は +30 トレードごとの節目のみ (毎週の再読みで有利な週を選ばない=optional stopping 防止)。",
       "expansion_rr_note": "expansion_rr=0.3 は 2026-06-11 較正済 (EXPANSION_RR_CALIBRATION.md: forward 非依存の資金/時間/機会費用の感度表)。拡大2〜4倍シナリオで時間コストを上回るバー。実データの読み値からの逆算・事後変更は禁止 (前提が変わった場合のみ N=30 前に一度だけ再較正可)。",
       "discipline": "質>件数: N不足なら期間延長が正。見送りも記録(R対象外で別カウント=習慣維持)。本ゲートは仮説検定でなく方向性デシジョンルール — 点推定はノイズ下、必ず±CIで解釈。"
     },
     "verdict": "baseline成熟",
-    "status": "機械baseline 整合R(単一決済・摩擦後)=0.179 CI95=0.016〜0.345 / N=282。※人間判断ゼロの参照値(基準達成/未達でなく『人間が超えるべきバー』)。go/no-go は人間紙トレが週マッチで本値を上回るかで判定 (forward_human_compare)。",
+    "status": "機械baseline 整合R(単一決済・摩擦後)=0.141 CI95=-0.019〜0.301 / N=294。※人間判断ゼロの参照値(基準達成/未達でなく『人間が超えるべきバー』)。go/no-go は人間紙トレが週マッチで本値を上回るかで判定 (forward_human_compare)。",
     "label": "検証中・エッジ未確定 (機械baseline=人間が超えるべきバー / 主=整合レンズ単一決済)"
   },
   "results": [
@@ -7979,7 +7987,10 @@
           "raw": 0.1088,
           "market_adj": 0.1031
         },
-        "40": null
+        "40": {
+          "raw": 0.2265,
+          "market_adj": 0.2123
+        }
       },
       "consistency": {
         "realized_rr": 2.0,
@@ -8011,7 +8022,10 @@
           "raw": 0.2079,
           "market_adj": 0.2022
         },
-        "40": null
+        "40": {
+          "raw": 0.4465,
+          "market_adj": 0.4324
+        }
       },
       "consistency": {
         "realized_rr": 2.0,
@@ -8043,7 +8057,10 @@
           "raw": -0.0435,
           "market_adj": -0.0491
         },
-        "40": null
+        "40": {
+          "raw": -0.2213,
+          "market_adj": -0.2355
+        }
       },
       "consistency": {
         "realized_rr": -1.0,
@@ -8075,7 +8092,10 @@
           "raw": 0.3224,
           "market_adj": 0.3168
         },
-        "40": null
+        "40": {
+          "raw": 0.7385,
+          "market_adj": 0.7243
+        }
       },
       "consistency": {
         "realized_rr": -1.0,
@@ -8107,7 +8127,10 @@
           "raw": 0.0939,
           "market_adj": 0.0882
         },
-        "40": null
+        "40": {
+          "raw": 0.2112,
+          "market_adj": 0.197
+        }
       },
       "consistency": {
         "realized_rr": 2.0,
@@ -8139,7 +8162,10 @@
           "raw": -0.1969,
           "market_adj": -0.2026
         },
-        "40": null
+        "40": {
+          "raw": -0.1969,
+          "market_adj": -0.211
+        }
       },
       "consistency": {
         "realized_rr": -1.0,
@@ -8171,7 +8197,10 @@
           "raw": 0.0671,
           "market_adj": 0.0614
         },
-        "40": null
+        "40": {
+          "raw": 0.2157,
+          "market_adj": 0.2016
+        }
       },
       "consistency": {
         "realized_rr": -1.0,
@@ -8203,7 +8232,10 @@
           "raw": 0.9097,
           "market_adj": 0.9041
         },
-        "40": null
+        "40": {
+          "raw": 1.6121,
+          "market_adj": 1.5979
+        }
       },
       "consistency": {
         "realized_rr": -1.0,
@@ -8235,7 +8267,10 @@
           "raw": -0.0513,
           "market_adj": -0.0569
         },
-        "40": null
+        "40": {
+          "raw": -0.1298,
+          "market_adj": -0.1439
+        }
       },
       "consistency": {
         "realized_rr": -1.0,
@@ -8267,7 +8302,10 @@
           "raw": -0.03,
           "market_adj": -0.0357
         },
-        "40": null
+        "40": {
+          "raw": -0.1694,
+          "market_adj": -0.1835
+        }
       },
       "consistency": {
         "realized_rr": -1.0,
@@ -8299,7 +8337,10 @@
           "raw": 0.334,
           "market_adj": 0.3283
         },
-        "40": null
+        "40": {
+          "raw": 0.5134,
+          "market_adj": 0.4993
+        }
       },
       "consistency": {
         "realized_rr": -1.0,
@@ -8331,7 +8372,10 @@
           "raw": 0.1002,
           "market_adj": 0.0945
         },
-        "40": null
+        "40": {
+          "raw": 0.3819,
+          "market_adj": 0.3677
+        }
       },
       "consistency": {
         "realized_rr": -1.0,
@@ -8363,7 +8407,10 @@
           "raw": -0.0103,
           "market_adj": -0.0159
         },
-        "40": null
+        "40": {
+          "raw": -0.0279,
+          "market_adj": -0.042
+        }
       },
       "consistency": {
         "realized_rr": -1.21,
@@ -8395,7 +8442,10 @@
           "raw": -0.0146,
           "market_adj": -0.0203
         },
-        "40": null
+        "40": {
+          "raw": 0.0174,
+          "market_adj": 0.0033
+        }
       },
       "consistency": {
         "realized_rr": -1.0,
@@ -8427,7 +8477,10 @@
           "raw": -0.0515,
           "market_adj": -0.0571
         },
-        "40": null
+        "40": {
+          "raw": -0.0221,
+          "market_adj": -0.0362
+        }
       },
       "consistency": {
         "realized_rr": -1.0,
@@ -8459,7 +8512,10 @@
           "raw": 0.1388,
           "market_adj": 0.1332
         },
-        "40": null
+        "40": {
+          "raw": 0.1499,
+          "market_adj": 0.1357
+        }
       },
       "consistency": {
         "realized_rr": 2.0,
@@ -8491,7 +8547,10 @@
           "raw": 0.1432,
           "market_adj": 0.1376
         },
-        "40": null
+        "40": {
+          "raw": 0.1321,
+          "market_adj": 0.1179
+        }
       },
       "consistency": {
         "realized_rr": 2.0,
@@ -8523,7 +8582,10 @@
           "raw": -0.0499,
           "market_adj": -0.0555
         },
-        "40": null
+        "40": {
+          "raw": -0.0866,
+          "market_adj": -0.1008
+        }
       },
       "consistency": {
         "realized_rr": -1.0,
@@ -8555,7 +8617,10 @@
           "raw": -0.2149,
           "market_adj": -0.2206
         },
-        "40": null
+        "40": {
+          "raw": -0.2464,
+          "market_adj": -0.2606
+        }
       },
       "consistency": {
         "realized_rr": -1.0,
@@ -8587,7 +8652,10 @@
           "raw": 0.0228,
           "market_adj": 0.0171
         },
-        "40": null
+        "40": {
+          "raw": 0.0461,
+          "market_adj": 0.032
+        }
       },
       "consistency": {
         "realized_rr": 0.631,
@@ -8619,7 +8687,10 @@
           "raw": 0.6497,
           "market_adj": 0.644
         },
-        "40": null
+        "40": {
+          "raw": 0.7092,
+          "market_adj": 0.695
+        }
       },
       "consistency": {
         "realized_rr": 2.0,
@@ -8651,7 +8722,10 @@
           "raw": 0.18,
           "market_adj": 0.1744
         },
-        "40": null
+        "40": {
+          "raw": 0.1038,
+          "market_adj": 0.0897
+        }
       },
       "consistency": {
         "realized_rr": 2.0,
@@ -8683,7 +8757,10 @@
           "raw": 0.0677,
           "market_adj": 0.0621
         },
-        "40": null
+        "40": {
+          "raw": 0.1944,
+          "market_adj": 0.1803
+        }
       },
       "consistency": {
         "realized_rr": -1.0,
@@ -8715,7 +8792,10 @@
           "raw": -0.0347,
           "market_adj": -0.0404
         },
-        "40": null
+        "40": {
+          "raw": -0.0913,
+          "market_adj": -0.1055
+        }
       },
       "consistency": {
         "realized_rr": -0.493,
@@ -8747,7 +8827,10 @@
           "raw": 0.0525,
           "market_adj": 0.0469
         },
-        "40": null
+        "40": {
+          "raw": -0.0295,
+          "market_adj": -0.0437
+        }
       },
       "consistency": {
         "realized_rr": -1.0,
@@ -8779,7 +8862,10 @@
           "raw": 0.1505,
           "market_adj": 0.1448
         },
-        "40": null
+        "40": {
+          "raw": 0.1486,
+          "market_adj": 0.1344
+        }
       },
       "consistency": {
         "realized_rr": 2.0,
@@ -8811,7 +8897,10 @@
           "raw": 0.0732,
           "market_adj": 0.0675
         },
-        "40": null
+        "40": {
+          "raw": -0.0878,
+          "market_adj": -0.1019
+        }
       },
       "consistency": {
         "realized_rr": 0.093,
@@ -9805,8 +9894,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 2.0,
+        "rr_after_friction": 1.97,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-28"
+      },
+      "trade": {
+        "realized_rr": 0.99,
+        "rr_after_friction": 0.96,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 25
+      },
       "matured": true
     },
     {
@@ -9825,8 +9926,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-03"
+      },
+      "trade": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 24
+      },
       "matured": true
     },
     {
@@ -9845,8 +9958,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 2.0,
+        "rr_after_friction": 1.97,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-18"
+      },
+      "trade": {
+        "realized_rr": 0.99,
+        "rr_after_friction": 0.96,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 9
+      },
       "matured": true
     },
     {
@@ -9865,8 +9990,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 2.0,
+        "rr_after_friction": 1.97,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-01"
+      },
+      "trade": {
+        "realized_rr": 0.33,
+        "rr_after_friction": 0.3,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 2
+      },
       "matured": true
     },
     {
@@ -9885,8 +10022,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-02"
+      },
+      "trade": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 23
+      },
       "matured": true
     },
     {
@@ -9905,8 +10054,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-19"
+      },
+      "trade": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 9
+      },
       "matured": true
     },
     {
@@ -9925,8 +10086,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-19"
+      },
+      "trade": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 9
+      },
       "matured": true
     },
     {
@@ -9945,8 +10118,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-19"
+      },
+      "trade": {
+        "realized_rr": 0.33,
+        "rr_after_friction": 0.3,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 2
+      },
       "matured": true
     },
     {
@@ -9965,8 +10150,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.133,
+        "rr_after_friction": -1.163,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-19"
+      },
+      "trade": {
+        "realized_rr": -1.13,
+        "rr_after_friction": -1.16,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 9
+      },
       "matured": true
     },
     {
@@ -9985,8 +10182,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 0.42,
+        "rr_after_friction": 0.39,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-24"
+      },
+      "trade": {
+        "realized_rr": 0.42,
+        "rr_after_friction": 0.39,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 45
+      },
       "matured": true
     },
     {
@@ -10005,8 +10214,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 0.135,
+        "rr_after_friction": 0.105,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-24"
+      },
+      "trade": {
+        "realized_rr": 0.14,
+        "rr_after_friction": 0.11,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 45
+      },
       "matured": true
     },
     {
@@ -10025,8 +10246,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-20"
+      },
+      "trade": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 10
+      },
       "matured": true
     },
     {
@@ -10045,8 +10278,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.422,
+        "rr_after_friction": -1.452,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-12"
+      },
+      "trade": {
+        "realized_rr": -1.42,
+        "rr_after_friction": -1.45,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 2
+      },
       "matured": true
     },
     {
@@ -10065,8 +10310,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-19"
+      },
+      "trade": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 9
+      },
       "matured": true
     },
     {
@@ -10085,8 +10342,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.044,
+        "rr_after_friction": -1.074,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-04"
+      },
+      "trade": {
+        "realized_rr": -1.04,
+        "rr_after_friction": -1.07,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 25
+      },
       "matured": true
     },
     {
@@ -10105,8 +10374,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-19"
+      },
+      "trade": {
+        "realized_rr": 0.03,
+        "rr_after_friction": 0.0,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 9
+      },
       "matured": true
     },
     {
@@ -10125,8 +10406,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 0.824,
+        "rr_after_friction": 0.794,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-24"
+      },
+      "trade": {
+        "realized_rr": 0.88,
+        "rr_after_friction": 0.85,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 45
+      },
       "matured": true
     },
     {
@@ -10145,8 +10438,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 0.488,
+        "rr_after_friction": 0.458,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-24"
+      },
+      "trade": {
+        "realized_rr": 0.49,
+        "rr_after_friction": 0.46,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 45
+      },
       "matured": true
     },
     {
@@ -10165,8 +10470,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-02"
+      },
+      "trade": {
+        "realized_rr": 0.33,
+        "rr_after_friction": 0.3,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 9
+      },
       "matured": true
     },
     {
@@ -10185,8 +10502,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 2.0,
+        "rr_after_friction": 1.97,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-13"
+      },
+      "trade": {
+        "realized_rr": 2.01,
+        "rr_after_friction": 1.98,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 8
+      },
       "matured": true
     },
     {
@@ -10205,8 +10534,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 0.114,
+        "rr_after_friction": 0.084,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-24"
+      },
+      "trade": {
+        "realized_rr": 0.29,
+        "rr_after_friction": 0.26,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 32
+      },
       "matured": true
     },
     {
@@ -10225,8 +10566,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-19"
+      },
+      "trade": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 9
+      },
       "matured": true
     },
     {
@@ -10245,8 +10598,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 2.0,
+        "rr_after_friction": 1.97,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-31"
+      },
+      "trade": {
+        "realized_rr": 2.01,
+        "rr_after_friction": 1.98,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 23
+      },
       "matured": true
     },
     {
@@ -10265,8 +10630,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 2.0,
+        "rr_after_friction": 1.97,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-20"
+      },
+      "trade": {
+        "realized_rr": 1.65,
+        "rr_after_friction": 1.62,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 45
+      },
       "matured": true
     },
     {
@@ -10285,8 +10662,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -0.488,
+        "rr_after_friction": -0.518,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-24"
+      },
+      "trade": {
+        "realized_rr": -0.49,
+        "rr_after_friction": -0.52,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 45
+      },
       "matured": true
     },
     {
@@ -10305,8 +10694,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-02"
+      },
+      "trade": {
+        "realized_rr": 0.33,
+        "rr_after_friction": 0.3,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 9
+      },
       "matured": true
     },
     {
@@ -10325,8 +10726,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 2.0,
+        "rr_after_friction": 1.97,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-24"
+      },
+      "trade": {
+        "realized_rr": 0.25,
+        "rr_after_friction": 0.22,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 9
+      },
       "matured": true
     },
     {
@@ -10345,8 +10758,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.212,
+        "rr_after_friction": -1.242,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-19"
+      },
+      "trade": {
+        "realized_rr": -1.21,
+        "rr_after_friction": -1.24,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 9
+      },
       "matured": true
     },
     {
@@ -10365,8 +10790,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 0.051,
+        "rr_after_friction": 0.021,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-24"
+      },
+      "trade": {
+        "realized_rr": 0.05,
+        "rr_after_friction": 0.02,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 45
+      },
       "matured": true
     },
     {
@@ -10385,8 +10822,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 2.0,
+        "rr_after_friction": 1.97,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-14"
+      },
+      "trade": {
+        "realized_rr": 0.99,
+        "rr_after_friction": 0.96,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 15
+      },
       "matured": true
     },
     {
@@ -10405,8 +10854,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -0.143,
+        "rr_after_friction": -0.173,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-24"
+      },
+      "trade": {
+        "realized_rr": -0.14,
+        "rr_after_friction": -0.17,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 45
+      },
       "matured": true
     },
     {
@@ -10425,8 +10886,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-02"
+      },
+      "trade": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 23
+      },
       "matured": true
     },
     {
@@ -10445,8 +10918,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 0.707,
+        "rr_after_friction": 0.677,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-24"
+      },
+      "trade": {
+        "realized_rr": 0.71,
+        "rr_after_friction": 0.68,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 45
+      },
       "matured": true
     },
     {
@@ -10465,8 +10950,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 2.0,
+        "rr_after_friction": 1.97,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-26"
+      },
+      "trade": {
+        "realized_rr": 0.99,
+        "rr_after_friction": 0.96,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 28
+      },
       "matured": true
     },
     {
@@ -10485,8 +10982,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 0.146,
+        "rr_after_friction": 0.116,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-24"
+      },
+      "trade": {
+        "realized_rr": 0.15,
+        "rr_after_friction": 0.12,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 45
+      },
       "matured": true
     },
     {
@@ -10505,8 +11014,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 2.0,
+        "rr_after_friction": 1.97,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-04"
+      },
+      "trade": {
+        "realized_rr": 1.27,
+        "rr_after_friction": 1.24,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 45
+      },
       "matured": true
     },
     {
@@ -10525,8 +11046,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 1.25,
+        "rr_after_friction": 1.22,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-24"
+      },
+      "trade": {
+        "realized_rr": 0.29,
+        "rr_after_friction": 0.26,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 9
+      },
       "matured": true
     },
     {
@@ -10545,8 +11078,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.035,
+        "rr_after_friction": -1.065,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-02"
+      },
+      "trade": {
+        "realized_rr": 0.03,
+        "rr_after_friction": 0.0,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 9
+      },
       "matured": true
     },
     {
@@ -10565,8 +11110,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-11"
+      },
+      "trade": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "days_held": 32
+      },
       "matured": true
     },
     {
@@ -10585,8 +11142,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 0.903,
+        "rr_after_friction": 0.873,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-24"
+      },
+      "trade": {
+        "realized_rr": 0.94,
+        "rr_after_friction": 0.91,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 45
+      },
       "matured": true
     },
     {
@@ -10605,8 +11174,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.049,
+        "rr_after_friction": -1.079,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-02"
+      },
+      "trade": {
+        "realized_rr": 0.33,
+        "rr_after_friction": 0.3,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 9
+      },
       "matured": true
     },
     {
@@ -10625,8 +11206,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 1.175,
+        "rr_after_friction": 1.145,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-24"
+      },
+      "trade": {
+        "realized_rr": 0.33,
+        "rr_after_friction": 0.3,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 30
+      },
       "matured": true
     },
     {
@@ -10645,8 +11238,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": -1.0,
+        "rr_after_friction": -1.03,
+        "is_win": false,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-11"
+      },
+      "trade": {
+        "realized_rr": 0.33,
+        "rr_after_friction": 0.3,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 23
+      },
       "matured": true
     },
     {
@@ -10665,8 +11270,20 @@
         },
         "40": null
       },
-      "consistency": null,
-      "trade": null,
+      "consistency": {
+        "realized_rr": 0.751,
+        "rr_after_friction": 0.721,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-09-24"
+      },
+      "trade": {
+        "realized_rr": 0.83,
+        "rr_after_friction": 0.8,
+        "is_win": true,
+        "entry_date": "2026-08-10",
+        "days_held": 45
+      },
       "matured": true
     },
     {
@@ -11599,7 +12216,10 @@
           "raw": -0.0885,
           "market_adj": -0.1012
         },
-        "20": null,
+        "20": {
+          "raw": -0.1064,
+          "market_adj": -0.1066
+        },
         "40": null
       },
       "consistency": null,
@@ -11616,7 +12236,10 @@
           "raw": 0.3116,
           "market_adj": 0.2989
         },
-        "20": null,
+        "20": {
+          "raw": 0.5836,
+          "market_adj": 0.5833
+        },
         "40": null
       },
       "consistency": null,
@@ -11633,7 +12256,10 @@
           "raw": -0.0391,
           "market_adj": -0.0519
         },
-        "20": null,
+        "20": {
+          "raw": -0.0501,
+          "market_adj": -0.0504
+        },
         "40": null
       },
       "consistency": null,
@@ -11650,7 +12276,10 @@
           "raw": 0.1244,
           "market_adj": 0.1117
         },
-        "20": null,
+        "20": {
+          "raw": 0.325,
+          "market_adj": 0.3248
+        },
         "40": null
       },
       "consistency": null,
@@ -11667,7 +12296,10 @@
           "raw": -0.0223,
           "market_adj": -0.0351
         },
-        "20": null,
+        "20": {
+          "raw": -0.0251,
+          "market_adj": -0.0254
+        },
         "40": null
       },
       "consistency": null,
@@ -11684,7 +12316,10 @@
           "raw": -0.0216,
           "market_adj": -0.0343
         },
-        "20": null,
+        "20": {
+          "raw": -0.0437,
+          "market_adj": -0.0439
+        },
         "40": null
       },
       "consistency": null,
@@ -11701,7 +12336,10 @@
           "raw": 0.0469,
           "market_adj": 0.0342
         },
-        "20": null,
+        "20": {
+          "raw": 0.0099,
+          "market_adj": 0.0097
+        },
         "40": null
       },
       "consistency": null,
@@ -11718,7 +12356,10 @@
           "raw": 0.2982,
           "market_adj": 0.2855
         },
-        "20": null,
+        "20": {
+          "raw": 0.2814,
+          "market_adj": 0.2812
+        },
         "40": null
       },
       "consistency": null,
@@ -11735,7 +12376,10 @@
           "raw": -0.1493,
           "market_adj": -0.162
         },
-        "20": null,
+        "20": {
+          "raw": -0.219,
+          "market_adj": -0.2192
+        },
         "40": null
       },
       "consistency": null,
@@ -11752,7 +12396,10 @@
           "raw": 0.0061,
           "market_adj": -0.0066
         },
-        "20": null,
+        "20": {
+          "raw": 0.0213,
+          "market_adj": 0.0211
+        },
         "40": null
       },
       "consistency": null,
@@ -11769,7 +12416,10 @@
           "raw": 0.0561,
           "market_adj": 0.0434
         },
-        "20": null,
+        "20": {
+          "raw": 0.0593,
+          "market_adj": 0.0591
+        },
         "40": null
       },
       "consistency": null,
@@ -11786,7 +12436,10 @@
           "raw": -0.1536,
           "market_adj": -0.1663
         },
-        "20": null,
+        "20": {
+          "raw": -0.229,
+          "market_adj": -0.2293
+        },
         "40": null
       },
       "consistency": null,
@@ -11803,7 +12456,10 @@
           "raw": 0.1455,
           "market_adj": 0.1327
         },
-        "20": null,
+        "20": {
+          "raw": 0.3545,
+          "market_adj": 0.3543
+        },
         "40": null
       },
       "consistency": null,
@@ -11820,7 +12476,10 @@
           "raw": 0.0455,
           "market_adj": 0.0328
         },
-        "20": null,
+        "20": {
+          "raw": 0.1506,
+          "market_adj": 0.1504
+        },
         "40": null
       },
       "consistency": null,
@@ -11837,7 +12496,10 @@
           "raw": 0.0463,
           "market_adj": 0.0336
         },
-        "20": null,
+        "20": {
+          "raw": 0.1277,
+          "market_adj": 0.1274
+        },
         "40": null
       },
       "consistency": null,
@@ -11854,7 +12516,10 @@
           "raw": -0.013,
           "market_adj": -0.0258
         },
-        "20": null,
+        "20": {
+          "raw": 0.0155,
+          "market_adj": 0.0153
+        },
         "40": null
       },
       "consistency": null,
@@ -11871,7 +12536,10 @@
           "raw": -0.0267,
           "market_adj": -0.0394
         },
-        "20": null,
+        "20": {
+          "raw": -0.0571,
+          "market_adj": -0.0573
+        },
         "40": null
       },
       "consistency": null,
@@ -11888,7 +12556,10 @@
           "raw": -0.043,
           "market_adj": -0.0557
         },
-        "20": null,
+        "20": {
+          "raw": -0.0197,
+          "market_adj": -0.02
+        },
         "40": null
       },
       "consistency": null,
@@ -11905,7 +12576,10 @@
           "raw": -0.0283,
           "market_adj": -0.041
         },
-        "20": null,
+        "20": {
+          "raw": -0.1311,
+          "market_adj": -0.1314
+        },
         "40": null
       },
       "consistency": null,
@@ -11922,7 +12596,10 @@
           "raw": 0.1008,
           "market_adj": 0.0881
         },
-        "20": null,
+        "20": {
+          "raw": 0.088,
+          "market_adj": 0.0878
+        },
         "40": null
       },
       "consistency": null,
@@ -11939,7 +12616,10 @@
           "raw": -0.0132,
           "market_adj": -0.0259
         },
-        "20": null,
+        "20": {
+          "raw": -0.0728,
+          "market_adj": -0.073
+        },
         "40": null
       },
       "consistency": null,
@@ -11956,7 +12636,10 @@
           "raw": 0.0454,
           "market_adj": 0.0327
         },
-        "20": null,
+        "20": {
+          "raw": 0.047,
+          "market_adj": 0.0468
+        },
         "40": null
       },
       "consistency": null,
@@ -11973,7 +12656,10 @@
           "raw": 0.0499,
           "market_adj": 0.0372
         },
-        "20": null,
+        "20": {
+          "raw": 0.0452,
+          "market_adj": 0.045
+        },
         "40": null
       },
       "consistency": null,
@@ -11990,7 +12676,10 @@
           "raw": -0.0479,
           "market_adj": -0.0606
         },
-        "20": null,
+        "20": {
+          "raw": 0.014,
+          "market_adj": 0.0138
+        },
         "40": null
       },
       "consistency": null,
@@ -12007,7 +12696,10 @@
           "raw": 0.0,
           "market_adj": -0.0127
         },
-        "20": null,
+        "20": {
+          "raw": 0.0183,
+          "market_adj": 0.0181
+        },
         "40": null
       },
       "consistency": null,
@@ -12024,7 +12716,10 @@
           "raw": 0.0453,
           "market_adj": 0.0325
         },
-        "20": null,
+        "20": {
+          "raw": -0.0052,
+          "market_adj": -0.0054
+        },
         "40": null
       },
       "consistency": null,
@@ -12041,7 +12736,10 @@
           "raw": 0.1414,
           "market_adj": 0.1287
         },
-        "20": null,
+        "20": {
+          "raw": 0.1209,
+          "market_adj": 0.1207
+        },
         "40": null
       },
       "consistency": null,
@@ -12058,7 +12756,10 @@
           "raw": 0.1314,
           "market_adj": 0.1187
         },
-        "20": null,
+        "20": {
+          "raw": 0.0924,
+          "market_adj": 0.0922
+        },
         "40": null
       },
       "consistency": null,
@@ -12075,7 +12776,10 @@
           "raw": -0.068,
           "market_adj": -0.0808
         },
-        "20": null,
+        "20": {
+          "raw": -0.0971,
+          "market_adj": -0.0973
+        },
         "40": null
       },
       "consistency": null,
@@ -12092,7 +12796,10 @@
           "raw": -0.0051,
           "market_adj": -0.0179
         },
-        "20": null,
+        "20": {
+          "raw": 0.0888,
+          "market_adj": 0.0886
+        },
         "40": null
       },
       "consistency": null,
@@ -12109,7 +12816,10 @@
           "raw": 0.0796,
           "market_adj": 0.0669
         },
-        "20": null,
+        "20": {
+          "raw": 0.157,
+          "market_adj": 0.1568
+        },
         "40": null
       },
       "consistency": null,
@@ -12126,7 +12836,10 @@
           "raw": -0.0022,
           "market_adj": -0.0149
         },
-        "20": null,
+        "20": {
+          "raw": 0.0159,
+          "market_adj": 0.0156
+        },
         "40": null
       },
       "consistency": null,
@@ -12143,7 +12856,10 @@
           "raw": -0.018,
           "market_adj": -0.0307
         },
-        "20": null,
+        "20": {
+          "raw": 0.0075,
+          "market_adj": 0.0073
+        },
         "40": null
       },
       "consistency": null,
@@ -12160,7 +12876,10 @@
           "raw": 0.0869,
           "market_adj": 0.0742
         },
-        "20": null,
+        "20": {
+          "raw": 0.1292,
+          "market_adj": 0.129
+        },
         "40": null
       },
       "consistency": null,
@@ -12177,7 +12896,10 @@
           "raw": 0.0431,
           "market_adj": 0.0303
         },
-        "20": null,
+        "20": {
+          "raw": -0.0003,
+          "market_adj": -0.0005
+        },
         "40": null
       },
       "consistency": null,
@@ -12194,7 +12916,10 @@
           "raw": -0.0553,
           "market_adj": -0.068
         },
-        "20": null,
+        "20": {
+          "raw": -0.0529,
+          "market_adj": -0.0531
+        },
         "40": null
       },
       "consistency": null,
@@ -12211,7 +12936,10 @@
           "raw": 0.0211,
           "market_adj": 0.0084
         },
-        "20": null,
+        "20": {
+          "raw": 0.0424,
+          "market_adj": 0.0422
+        },
         "40": null
       },
       "consistency": null,
@@ -12228,7 +12956,10 @@
           "raw": -0.0625,
           "market_adj": -0.0752
         },
-        "20": null,
+        "20": {
+          "raw": -0.0347,
+          "market_adj": -0.035
+        },
         "40": null
       },
       "consistency": null,
@@ -12245,7 +12976,10 @@
           "raw": -0.04,
           "market_adj": -0.0527
         },
-        "20": null,
+        "20": {
+          "raw": -0.04,
+          "market_adj": -0.0402
+        },
         "40": null
       },
       "consistency": null,
@@ -12262,7 +12996,10 @@
           "raw": -0.0175,
           "market_adj": -0.0302
         },
-        "20": null,
+        "20": {
+          "raw": -0.0394,
+          "market_adj": -0.0396
+        },
         "40": null
       },
       "consistency": null,
@@ -12279,7 +13016,10 @@
           "raw": 0.0627,
           "market_adj": 0.05
         },
-        "20": null,
+        "20": {
+          "raw": -0.0191,
+          "market_adj": -0.0194
+        },
         "40": null
       },
       "consistency": null,
@@ -12296,7 +13036,10 @@
           "raw": 0.0784,
           "market_adj": 0.0657
         },
-        "20": null,
+        "20": {
+          "raw": 0.0977,
+          "market_adj": 0.0975
+        },
         "40": null
       },
       "consistency": null,
@@ -12313,7 +13056,10 @@
           "raw": -0.1263,
           "market_adj": -0.139
         },
-        "20": null,
+        "20": {
+          "raw": -0.1376,
+          "market_adj": -0.1379
+        },
         "40": null
       },
       "consistency": null,
@@ -12330,7 +13076,10 @@
           "raw": 0.0101,
           "market_adj": -0.0026
         },
-        "20": null,
+        "20": {
+          "raw": 0.1111,
+          "market_adj": 0.1109
+        },
         "40": null
       },
       "consistency": null,
@@ -12347,7 +13096,10 @@
           "raw": -0.0265,
           "market_adj": -0.0392
         },
-        "20": null,
+        "20": {
+          "raw": -0.0639,
+          "market_adj": -0.0641
+        },
         "40": null
       },
       "consistency": null,
@@ -12364,7 +13116,10 @@
           "raw": -0.0292,
           "market_adj": -0.0419
         },
-        "20": null,
+        "20": {
+          "raw": -0.0933,
+          "market_adj": -0.0935
+        },
         "40": null
       },
       "consistency": null,
@@ -12381,7 +13136,10 @@
           "raw": 0.0029,
           "market_adj": -0.0098
         },
-        "20": null,
+        "20": {
+          "raw": 0.0181,
+          "market_adj": 0.0179
+        },
         "40": null
       },
       "consistency": null,
@@ -12398,7 +13156,10 @@
           "raw": -0.0245,
           "market_adj": -0.0372
         },
-        "20": null,
+        "20": {
+          "raw": -0.0285,
+          "market_adj": -0.0288
+        },
         "40": null
       },
       "consistency": null,
@@ -12415,7 +13176,10 @@
           "raw": -0.0063,
           "market_adj": -0.019
         },
-        "20": null,
+        "20": {
+          "raw": 0.0609,
+          "market_adj": 0.0607
+        },
         "40": null
       },
       "consistency": null,
@@ -13196,6 +13960,737 @@
         "10": {
           "raw": -0.0041,
           "market_adj": 0.0195
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#57110",
+      "snapshot_date": "2026-09-06",
+      "code": "57110",
+      "name": "三菱マテリアル",
+      "academic": {
+        "10": {
+          "raw": -0.0196,
+          "market_adj": -0.0073
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#68620",
+      "snapshot_date": "2026-09-06",
+      "code": "68620",
+      "name": "ミナトホールディングス",
+      "academic": {
+        "10": {
+          "raw": 0.2073,
+          "market_adj": 0.2197
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#29800",
+      "snapshot_date": "2026-09-06",
+      "code": "29800",
+      "name": "ＳＲＥホールディングス",
+      "academic": {
+        "10": {
+          "raw": -0.0115,
+          "market_adj": 0.0009
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#27370",
+      "snapshot_date": "2026-09-06",
+      "code": "27370",
+      "name": "トーメンデバイス",
+      "academic": {
+        "10": {
+          "raw": 0.1785,
+          "market_adj": 0.1908
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#98800",
+      "snapshot_date": "2026-09-06",
+      "code": "98800",
+      "name": "イノテック",
+      "academic": {
+        "10": {
+          "raw": -0.0029,
+          "market_adj": 0.0095
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#74560",
+      "snapshot_date": "2026-09-06",
+      "code": "74560",
+      "name": "松田産業",
+      "academic": {
+        "10": {
+          "raw": -0.0353,
+          "market_adj": -0.023
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#57070",
+      "snapshot_date": "2026-09-06",
+      "code": "57070",
+      "name": "東邦亜鉛",
+      "academic": {
+        "10": {
+          "raw": -0.0819,
+          "market_adj": -0.0695
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#14070",
+      "snapshot_date": "2026-09-06",
+      "code": "14070",
+      "name": "ウエストホールディングス",
+      "academic": {
+        "10": {
+          "raw": -0.0891,
+          "market_adj": -0.0768
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#62270",
+      "snapshot_date": "2026-09-06",
+      "code": "62270",
+      "name": "ＡＩメカテック",
+      "academic": {
+        "10": {
+          "raw": 0.003,
+          "market_adj": 0.0154
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#78260",
+      "snapshot_date": "2026-09-06",
+      "code": "78260",
+      "name": "フルヤ金属",
+      "academic": {
+        "10": {
+          "raw": -0.0129,
+          "market_adj": -0.0006
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#65240",
+      "snapshot_date": "2026-09-06",
+      "code": "65240",
+      "name": "湖北工業",
+      "academic": {
+        "10": {
+          "raw": 0.1005,
+          "market_adj": 0.1128
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#61340",
+      "snapshot_date": "2026-09-06",
+      "code": "61340",
+      "name": "ＦＵＪＩ",
+      "academic": {
+        "10": {
+          "raw": 0.0289,
+          "market_adj": 0.0412
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#69460",
+      "snapshot_date": "2026-09-06",
+      "code": "69460",
+      "name": "日本アビオニクス",
+      "academic": {
+        "10": {
+          "raw": 0.1825,
+          "market_adj": 0.1949
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#50160",
+      "snapshot_date": "2026-09-06",
+      "code": "50160",
+      "name": "ＪＸ金属",
+      "academic": {
+        "10": {
+          "raw": -0.0312,
+          "market_adj": -0.0189
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#45030",
+      "snapshot_date": "2026-09-06",
+      "code": "45030",
+      "name": "アステラス製薬",
+      "academic": {
+        "10": {
+          "raw": 0.0243,
+          "market_adj": 0.0366
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#31860",
+      "snapshot_date": "2026-09-06",
+      "code": "31860",
+      "name": "ネクステージ",
+      "academic": {
+        "10": {
+          "raw": -0.1058,
+          "market_adj": -0.0935
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#68710",
+      "snapshot_date": "2026-09-06",
+      "code": "68710",
+      "name": "日本マイクロニクス",
+      "academic": {
+        "10": {
+          "raw": 0.065,
+          "market_adj": 0.0773
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#62690",
+      "snapshot_date": "2026-09-06",
+      "code": "62690",
+      "name": "三井海洋開発",
+      "academic": {
+        "10": {
+          "raw": -0.0604,
+          "market_adj": -0.0481
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#38910",
+      "snapshot_date": "2026-09-06",
+      "code": "38910",
+      "name": "ニッポン高度紙工業",
+      "academic": {
+        "10": {
+          "raw": -0.0116,
+          "market_adj": 0.0007
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#64900",
+      "snapshot_date": "2026-09-06",
+      "code": "64900",
+      "name": "ＰＩＬＬＡＲ",
+      "academic": {
+        "10": {
+          "raw": 0.0183,
+          "market_adj": 0.0306
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#58050",
+      "snapshot_date": "2026-09-06",
+      "code": "58050",
+      "name": "ＳＷＣＣ",
+      "academic": {
+        "10": {
+          "raw": -0.0483,
+          "market_adj": -0.0359
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#69410",
+      "snapshot_date": "2026-09-06",
+      "code": "69410",
+      "name": "山一電機",
+      "academic": {
+        "10": {
+          "raw": 0.0944,
+          "market_adj": 0.1068
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#70140",
+      "snapshot_date": "2026-09-06",
+      "code": "70140",
+      "name": "名村造船所",
+      "academic": {
+        "10": {
+          "raw": -0.0344,
+          "market_adj": -0.0221
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#45060",
+      "snapshot_date": "2026-09-06",
+      "code": "45060",
+      "name": "住友ファーマ",
+      "academic": {
+        "10": {
+          "raw": -0.0179,
+          "market_adj": -0.0056
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#67770",
+      "snapshot_date": "2026-09-06",
+      "code": "67770",
+      "name": "ｓａｎｔｅｃ　Ｈｏｌｄｉｎｇｓ",
+      "academic": {
+        "10": {
+          "raw": 0.0717,
+          "market_adj": 0.084
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#49710",
+      "snapshot_date": "2026-09-06",
+      "code": "49710",
+      "name": "メック",
+      "academic": {
+        "10": {
+          "raw": 0.026,
+          "market_adj": 0.0383
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#86970",
+      "snapshot_date": "2026-09-06",
+      "code": "86970",
+      "name": "日本取引所グループ",
+      "academic": {
+        "10": {
+          "raw": 0.0181,
+          "market_adj": 0.0305
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#60550",
+      "snapshot_date": "2026-09-06",
+      "code": "60550",
+      "name": "ジャパンマテリアル",
+      "academic": {
+        "10": {
+          "raw": 0.0389,
+          "market_adj": 0.0512
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#68570",
+      "snapshot_date": "2026-09-06",
+      "code": "68570",
+      "name": "アドバンテスト",
+      "academic": {
+        "10": {
+          "raw": -0.0412,
+          "market_adj": -0.0289
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#32880",
+      "snapshot_date": "2026-09-06",
+      "code": "32880",
+      "name": "オープンハウスグループ",
+      "academic": {
+        "10": {
+          "raw": 0.0025,
+          "market_adj": 0.0148
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#80150",
+      "snapshot_date": "2026-09-06",
+      "code": "80150",
+      "name": "豊田通商",
+      "academic": {
+        "10": {
+          "raw": -0.0415,
+          "market_adj": -0.0292
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#96970",
+      "snapshot_date": "2026-09-06",
+      "code": "96970",
+      "name": "カプコン",
+      "academic": {
+        "10": {
+          "raw": 0.0209,
+          "market_adj": 0.0332
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#78060",
+      "snapshot_date": "2026-09-06",
+      "code": "78060",
+      "name": "ＭＴＧ",
+      "academic": {
+        "10": {
+          "raw": 0.0,
+          "market_adj": 0.0123
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#97660",
+      "snapshot_date": "2026-09-06",
+      "code": "97660",
+      "name": "コナミグループ",
+      "academic": {
+        "10": {
+          "raw": 0.0296,
+          "market_adj": 0.0419
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#79360",
+      "snapshot_date": "2026-09-06",
+      "code": "79360",
+      "name": "アシックス",
+      "academic": {
+        "10": {
+          "raw": -0.013,
+          "market_adj": -0.0006
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#41860",
+      "snapshot_date": "2026-09-06",
+      "code": "41860",
+      "name": "東京応化工業",
+      "academic": {
+        "10": {
+          "raw": -0.0223,
+          "market_adj": -0.01
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#65250",
+      "snapshot_date": "2026-09-06",
+      "code": "65250",
+      "name": "ＫＯＫＵＳＡＩ　ＥＬＥＣＴＲＩＣ",
+      "academic": {
+        "10": {
+          "raw": 0.0179,
+          "market_adj": 0.0302
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#75990",
+      "snapshot_date": "2026-09-06",
+      "code": "75990",
+      "name": "ＩＤＯＭ",
+      "academic": {
+        "10": {
+          "raw": -0.0384,
+          "market_adj": -0.0261
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#62640",
+      "snapshot_date": "2026-09-06",
+      "code": "62640",
+      "name": "マルマエ",
+      "academic": {
+        "10": {
+          "raw": -0.066,
+          "market_adj": -0.0537
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#58380",
+      "snapshot_date": "2026-09-06",
+      "code": "58380",
+      "name": "楽天銀行",
+      "academic": {
+        "10": {
+          "raw": -0.077,
+          "market_adj": -0.0647
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#44190",
+      "snapshot_date": "2026-09-06",
+      "code": "44190",
+      "name": "Ｆｉｎａｔｅｘｔホールディングス",
+      "academic": {
+        "10": {
+          "raw": 0.0152,
+          "market_adj": 0.0275
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#43690",
+      "snapshot_date": "2026-09-06",
+      "code": "43690",
+      "name": "トリケミカル研究所",
+      "academic": {
+        "10": {
+          "raw": -0.0475,
+          "market_adj": -0.0352
+        },
+        "20": null,
+        "40": null
+      },
+      "consistency": null,
+      "trade": null,
+      "matured": true
+    },
+    {
+      "forward_id": "2026-09-06#89190",
+      "snapshot_date": "2026-09-06",
+      "code": "89190",
+      "name": "カチタス",
+      "academic": {
+        "10": {
+          "raw": -0.0042,
+          "market_adj": 0.0081
         },
         "20": null,
         "40": null
