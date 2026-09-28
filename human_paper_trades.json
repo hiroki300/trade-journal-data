@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-09-28T09:02:20.030Z",
+  "_generated_at": "2026-09-28T09:02:49.241Z",
   "_note": "売買記録 (journal export)。決済済=取引ログ FIFO を 1ポジション=1要素へ統合 (分割決済は株数加重平均・異常値と保有1年超は除外)、未決済=保有タブ。forward_tracker が機械baseline と比較。未決済は exit null=採点対象外・R計算は backend。pending_exits=保有から消えたのに約定の記録が無い建玉 (決済の記録待ち)。",
   "trades": [
     {
@@ -338,16 +338,6 @@
       "note": "現物 200株 未決済｜SS取込"
     },
     {
-      "code": "43850",
-      "entry_date": "2026-09-17",
-      "entry_price": 3656,
-      "exit_date": null,
-      "exit_price": null,
-      "shares": 600,
-      "entry_date_is_import_day": false,
-      "note": "信用買建 600株 未決済｜信用買建 6ヵ月"
-    },
-    {
       "code": "49710",
       "entry_date": "2026-09-28",
       "entry_price": 6800,
@@ -355,7 +345,7 @@
       "exit_price": null,
       "shares": 100,
       "entry_date_is_import_day": false,
-      "note": "信用買建 100株 未決済｜SS取込"
+      "note": "信用買建 100株 未決済｜信用買建 6ヵ月"
     },
     {
       "code": "80580",
@@ -369,6 +359,16 @@
     }
   ],
   "skips": [],
-  "pending_exits": [],
+  "pending_exits": [
+    {
+      "code": "4385",
+      "name": "メルカリ",
+      "type": "margin",
+      "shares": 600,
+      "entry_price": 3656,
+      "entry_date": "2026-09-17",
+      "noticed_on": "2026-09-28"
+    }
+  ],
   "needs_review": []
 }
