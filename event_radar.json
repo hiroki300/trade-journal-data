@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T03:21+09:00",
-  "as_of_date": "2026-10-01",
-  "as_of_price_date": "2026-10-01",
+  "generated_at": "2026-10-03T02:47+09:00",
+  "as_of_date": "2026-10-02",
+  "as_of_price_date": "2026-10-02",
   "is_business_day": true,
-  "fell_back_from": "2026-10-02",
+  "fell_back_from": "2026-10-03",
   "label": "開示イベント(値幅が広がりやすい・方向は不明)",
   "note": "その日に開示があった銘柄の機械抽出です。開示の内容は解釈していません。「この銘柄はふだんどれくらい動くか」は過去の実測にもとづく事実ですが、上がるか下がるかは分かりません。自前の survivorship-free 検証では、最も目立つ形 (寄りギャップ+4% かつ 出来高20日平均の2倍 かつ 陽線引け) のその後は市場調整後で +40日 -2.92% (n=16,362) でした。方向は予測できません。値幅の指標 (ATR・普段の値幅) は価格の派生量であり、表示のみで足切り・並び順・スコアには一切使っていません。閾値は pre-register 済で測定後に変更しません。値幅が大きいほど利益も損失も大きくなります。買いシグナルではありません。最終判断は決算短信等の一次情報でご自身で。",
   "direction_disclaimer": "※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。",
@@ -45,41 +45,45 @@
     }
   },
   "universe_size": 800,
-  "disclosures_fetched": 12,
-  "total_matched": 1,
-  "shown": 1,
+  "disclosures_fetched": 17,
+  "total_matched": 2,
+  "shown": 2,
   "truncated": false,
   "truncation_rule": "adv20_desc",
   "breadth": {
     "window": 20,
     "n_days": 20,
-    "today_candidates": 1,
-    "today_passed": 1,
+    "today_candidates": 2,
+    "today_passed": 2,
     "median_candidates": 1.0,
     "min_candidates": 0,
     "max_candidates": 8,
-    "rank_from_low": 7
+    "rank_from_low": 12
   },
   "diagnostics": {
-    "n_disclosures": 12,
+    "n_disclosures": 17,
     "doc_type_counts": {
-      "EarnForecastRevision": 4,
-      "2QFinancialStatements_Consolidated_JP": 2,
-      "3QFinancialStatements_Consolidated_JP": 2,
-      "FYFinancialStatements_Consolidated_JP": 2,
+      "3QFinancialStatements_Consolidated_JP": 4,
+      "2QFinancialStatements_Consolidated_JP": 3,
+      "EarnForecastRevision": 2,
+      "2QFinancialStatements_NonConsolidated_JP": 2,
+      "1QFinancialStatements_Consolidated_IFRS": 1,
+      "FYFinancialStatements_Consolidated_JP": 1,
+      "FYFinancialStatements_NonConsolidated_JP": 1,
       "1QFinancialStatements_Consolidated_JP": 1,
-      "DividendForecastRevision": 1
+      "DividendForecastRevision": 1,
+      "3QFinancialStatements_NonConsolidated_JP": 1
     },
     "class_counts": {
-      "earnings": 7,
-      "forecast_revision": 4,
+      "earnings": 14,
+      "forecast_revision": 2,
       "dividend_revision": 1
     },
     "excluded": {
-      "before_close": 4,
+      "before_close": 3,
       "no_disc_time": 0,
       "class_not_shown": 0,
-      "not_in_universe": 7,
+      "not_in_universe": 12,
       "price_floor": 0,
       "no_bars": 0
     },
@@ -87,71 +91,128 @@
     "revision_direction_counts": {},
     "revision_baseline_source": {},
     "volatility_populated": {
-      "atr14": 1,
-      "atr_pct": 1,
-      "normal_range_pct": 1
+      "atr14": 2,
+      "atr_pct": 2,
+      "normal_range_pct": 2
     },
     "ned_method_counts": {
-      "same_quarter_prev_year": 1
+      "same_quarter_prev_year": 2
     }
   },
   "events": [
     {
-      "code": "35490",
-      "ticker": "3549",
-      "name": "クスリのアオキホールディングス",
-      "sector": "小売業",
+      "code": "50760",
+      "ticker": "5076",
+      "name": "インフロニア・ホールディングス",
+      "sector": "建設業",
       "scale_cat": "TOPIX Mid400",
-      "market": "スタンダード",
+      "market": "プライム",
       "margin_type": "貸借",
       "event": {
         "class": "earnings",
         "label_ja": "決算発表(1Q)",
-        "doc_type": "1QFinancialStatements_Consolidated_JP",
-        "accounting": "JP",
+        "doc_type": "1QFinancialStatements_Consolidated_IFRS",
+        "accounting": "IFRS",
         "consolidated": true,
         "period_type": "1Q",
-        "fy_end": "2027-05-20",
-        "disc_date": "2026-10-01",
-        "disc_time": "15:30",
+        "fy_end": "2027-03-31",
+        "disc_date": "2026-10-02",
+        "disc_time": "16:00",
         "after_close": true,
-        "disc_no": "20260930543566"
+        "disc_no": "20260903531293"
       },
       "revision": null,
-      "price": 3711.0,
-      "as_of_price": "2026-10-01",
+      "price": 2695.5,
+      "as_of_price": "2026-10-02",
       "liquidity": {
-        "adv20_jpy": 1172922005.0,
-        "vol_avg20": 295920
+        "adv20_jpy": 4309752630.0,
+        "vol_avg20": 1533320
       },
       "volatility": {
-        "atr14": 113.71,
-        "atr_pct": 3.06,
-        "normal_range_pct": 2.76,
-        "normal_range_yen": 102,
+        "atr14": 70.36,
+        "atr_pct": 2.61,
+        "normal_range_pct": 2.25,
+        "normal_range_yen": 61,
         "range_window": 20,
         "bars_used": 20,
-        "stop_8pct_in_normal_days": 2.9,
+        "stop_8pct_in_normal_days": 3.6,
         "reference_multiplier": 2.03,
         "reference_n": 40083
       },
       "next_earnings_estimate": {
-        "date": "2026-12-24",
+        "date": "2026-11-13",
         "method": "same_quarter_prev_year",
-        "anchor_disc_date": "2025-12-25",
+        "anchor_disc_date": "2025-11-14",
         "basis_days": 364,
         "label": "推定"
       },
       "streak": 1,
       "flags": [],
       "brief": {
-        "event": "2026-10-01 15:30(引け後)に 決算発表(1Q)",
-        "volatility": "値動きは大きい方(普段の1日の値幅 約2.8%＝約102円)／ATR14 113.7円(3.1%)／過去に決算発表(1Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約5.6%(約207円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
-        "next_earnings": "次回決算(推定) 2026-12-24頃",
-        "link": "https://kabutan.jp/stock/?code=3549"
+        "event": "2026-10-02 16:00(引け後)に 決算発表(1Q)",
+        "volatility": "値動きは平均的(普段の1日の値幅 約2.2%＝約61円)／ATR14 70.4円(2.6%)／過去に決算発表(1Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約4.6%(約124円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
+        "next_earnings": "次回決算(推定) 2026-11-13頃",
+        "link": "https://kabutan.jp/stock/?code=5076"
       },
       "label": "開示イベント(値幅が広がりやすい・方向は不明)",
-      "text": "【クスリのアオキホールディングス(3549)】\n📣 2026-10-01 15:30(引け後)に 決算発表(1Q)\n📏 値動きは大きい方(普段の1日の値幅 約2.8%＝約102円)／ATR14 113.7円(3.1%)／過去に決算発表(1Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約5.6%(約207円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2026-12-24頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=3549"
+      "text": "【インフロニア・ホールディングス(5076)】\n📣 2026-10-02 16:00(引け後)に 決算発表(1Q)\n📏 値動きは平均的(普段の1日の値幅 約2.2%＝約61円)／ATR14 70.4円(2.6%)／過去に決算発表(1Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約4.6%(約124円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2026-11-13頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=5076"
+    },
+    {
+      "code": "44750",
+      "ticker": "4475",
+      "name": "ＨＥＮＮＧＥ",
+      "sector": "情報･通信業",
+      "scale_cat": "-",
+      "market": "グロース",
+      "margin_type": "貸借",
+      "event": {
+        "class": "earnings",
+        "label_ja": "決算発表(3Q)",
+        "doc_type": "3QFinancialStatements_Consolidated_JP",
+        "accounting": "JP",
+        "consolidated": true,
+        "period_type": "3Q",
+        "fy_end": "2026-09-30",
+        "disc_date": "2026-10-02",
+        "disc_time": "16:00",
+        "after_close": true,
+        "disc_no": "20261002545289"
+      },
+      "revision": null,
+      "price": 1760.0,
+      "as_of_price": "2026-10-02",
+      "liquidity": {
+        "adv20_jpy": 964411060.0,
+        "vol_avg20": 567520
+      },
+      "volatility": {
+        "atr14": 66.0,
+        "atr_pct": 3.75,
+        "normal_range_pct": 3.97,
+        "normal_range_yen": 70,
+        "range_window": 20,
+        "bars_used": 20,
+        "stop_8pct_in_normal_days": 2.0,
+        "reference_multiplier": 2.03,
+        "reference_n": 40083
+      },
+      "next_earnings_estimate": {
+        "date": "2026-11-06",
+        "method": "same_quarter_prev_year",
+        "anchor_disc_date": "2025-11-07",
+        "basis_days": 364,
+        "label": "推定"
+      },
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "event": "2026-10-02 16:00(引け後)に 決算発表(3Q)",
+        "volatility": "値動きは大きい方(普段の1日の値幅 約4.0%＝約70円)／ATR14 66.0円(3.8%)／過去に決算発表(3Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約8.1%(約142円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
+        "next_earnings": "次回決算(推定) 2026-11-06頃",
+        "link": "https://kabutan.jp/stock/?code=4475"
+      },
+      "label": "開示イベント(値幅が広がりやすい・方向は不明)",
+      "text": "【ＨＥＮＮＧＥ(4475)】\n📣 2026-10-02 16:00(引け後)に 決算発表(3Q)\n📏 値動きは大きい方(普段の1日の値幅 約4.0%＝約70円)／ATR14 66.0円(3.8%)／過去に決算発表(3Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約8.1%(約142円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2026-11-06頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=4475"
     }
   ]
 }
