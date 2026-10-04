@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T16:37+09:00",
-  "n_trades": 38,
-  "n_trades_in_window": 26,
-  "n_trades_out_of_window": 12,
+  "generated_at": "2026-10-04T16:47+09:00",
+  "n_trades": 39,
+  "n_trades_in_window": 25,
+  "n_trades_out_of_window": 14,
   "trades_source": "published(trade-journal-data)",
   "human": {
     "n": 23,
@@ -15,29 +15,29 @@
     "sd": 1.344,
     "se": 0.28
   },
-  "baseline_avg_rr": 0.141,
+  "baseline_avg_rr": 0.048,
   "paired": {
-    "n_paired": 18,
-    "n_unmatched": 5,
-    "mean_excess_rr": 0.409,
+    "n_paired": 21,
+    "n_unmatched": 2,
+    "mean_excess_rr": 0.299,
     "ci95": {
-      "lo": -0.144,
-      "hi": 0.992
+      "lo": -0.22,
+      "hi": 0.858
     },
-    "sd": 1.296,
-    "se": 0.305,
+    "sd": 1.297,
+    "se": 0.283,
     "beats_baseline": true,
     "_note": "主ゲート: 同週baselineを差引いた人間の超過R (レジーム相殺・N=トレード数。同週baseline 3件未満の縮退週は unmatched 扱い)"
   },
   "decomposition": {
-    "n": 16,
-    "avg_rr_after_friction": 0.28,
+    "n": 21,
+    "avg_rr_after_friction": -0.021,
     "ci95": {
-      "lo": -0.349,
-      "hi": 0.934
+      "lo": -0.532,
+      "hi": 0.537
     },
-    "sd": 1.309,
-    "se": 0.327,
+    "sd": 1.273,
+    "se": 0.278,
     "_note": "分析専用: 人間選定×機械執行。選定エッジの切り分け (選定に還流しない)"
   },
   "out_of_window": {
@@ -57,10 +57,10 @@
     "_note": "計測母集団 = entry_date ≥ 2026-06-08 (機械baseline の最初の entry 日 = 初回snapshot 2026-06-06/06-07 の翌営業日)。これより前の entry は同週baselineが存在せず主ゲート(週マッチ)で永久にペア化できないため、母集団から外し out_of_window に別掲する (記録は消さない=見送りと同じ別カウント扱い)。2026-07-28 固定 — 当時 n_paired=1 で停止規則の読み値節目に未到達、かつ除外側の平均は母集団側より高い (=ゲートは厳しくなる方向) ため goalpost 移動に当たらない。"
   },
   "direct": {
-    "delta_vs_baseline": 0.11,
+    "delta_vs_baseline": 0.203,
     "_note": "参考: 独立2標本の差 (レジーム未調整=ノイズ最大)"
   },
-  "delta_vs_baseline": 0.11,
+  "delta_vs_baseline": 0.203,
   "beats_baseline": true,
   "meets_criterion": true,
   "meets_expansion": false,
