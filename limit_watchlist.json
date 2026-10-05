@@ -2,7 +2,7 @@
   {
     "code": "6857",
     "name": "アドバンテスト",
-    "current_price": 38630.0,
+    "current_price": 40300.0,
     "atr": 1743.21,
     "rank": "👀",
     "total_score": 0,
@@ -21,29 +21,30 @@
     "levels": [
       {
         "price": 29017.0,
-        "discount_pct": 24.9,
+        "discount_pct": 28.0,
         "tag": "💎絶好",
         "notified": false
       },
       {
         "price": 33470.0,
-        "discount_pct": 13.4,
+        "discount_pct": 16.9,
         "tag": "🎯本命",
         "notified": false
       },
       {
         "price": 36015.0,
-        "discount_pct": 6.8,
+        "discount_pct": 10.6,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-10-04"
+    "generated_at": "2026-10-04",
+    "price_as_of": "2026-10-05"
   },
   {
     "code": "4784",
     "name": "ＧＭＯインターネット",
-    "current_price": 511.0,
+    "current_price": 509.0,
     "atr": 18.93,
     "rank": "👀",
     "total_score": 0,
@@ -62,23 +63,24 @@
     "levels": [
       {
         "price": 454.0,
-        "discount_pct": 11.2,
+        "discount_pct": 10.8,
         "tag": "💎絶好",
         "notified": false
       },
       {
         "price": 507.0,
-        "discount_pct": 0.8,
+        "discount_pct": 0.4,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-10-04"
+    "generated_at": "2026-10-04",
+    "price_as_of": "2026-10-05"
   },
   {
     "code": "5714",
     "name": "ＤＯＷＡホールディングス",
-    "current_price": 8703.0,
+    "current_price": 8729.0,
     "atr": 230.0,
     "rank": "👀",
     "total_score": 0,
@@ -97,23 +99,24 @@
     "levels": [
       {
         "price": 8013.0,
-        "discount_pct": 7.9,
+        "discount_pct": 8.2,
         "tag": "💎絶好",
         "notified": false
       },
       {
         "price": 8676.0,
-        "discount_pct": 0.3,
+        "discount_pct": 0.6,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-10-04"
+    "generated_at": "2026-10-04",
+    "price_as_of": "2026-10-05"
   },
   {
     "code": "7826",
     "name": "フルヤ金属",
-    "current_price": 11840.0,
+    "current_price": 11710.0,
     "atr": 711.43,
     "rank": "👀",
     "total_score": 0,
@@ -132,29 +135,30 @@
     "levels": [
       {
         "price": 9602.0,
-        "discount_pct": 18.9,
+        "discount_pct": 18.0,
         "tag": "💎絶好",
         "notified": false
       },
       {
         "price": 10494.0,
-        "discount_pct": 11.4,
+        "discount_pct": 10.4,
         "tag": "🎯本命",
         "notified": false
       },
       {
         "price": 10773.0,
-        "discount_pct": 9.0,
+        "discount_pct": 8.0,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-10-04"
+    "generated_at": "2026-10-04",
+    "price_as_of": "2026-10-05"
   },
   {
     "code": "5016",
     "name": "ＪＸ金属",
-    "current_price": 3612.0,
+    "current_price": 3712.0,
     "atr": 132.5,
     "rank": "👀",
     "total_score": 0,
@@ -173,23 +177,24 @@
     "levels": [
       {
         "price": 3214.0,
-        "discount_pct": 11.0,
+        "discount_pct": 13.4,
         "tag": "💎絶好",
         "notified": false
       },
       {
         "price": 3456.0,
-        "discount_pct": 4.3,
+        "discount_pct": 6.9,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-10-04"
+    "generated_at": "2026-10-04",
+    "price_as_of": "2026-10-05"
   },
   {
     "code": "6269",
     "name": "三井海洋開発",
-    "current_price": 8711.0,
+    "current_price": 8702.0,
     "atr": 275.5,
     "rank": "👀",
     "total_score": 0,
@@ -208,23 +213,24 @@
     "levels": [
       {
         "price": 7884.0,
-        "discount_pct": 9.5,
+        "discount_pct": 9.4,
         "tag": "💎絶好",
         "notified": false
       },
       {
         "price": 8669.0,
-        "discount_pct": 0.5,
+        "discount_pct": 0.4,
         "tag": "🔸軽め",
-        "notified": false
+        "notified": true
       }
     ],
-    "generated_at": "2026-10-04"
+    "generated_at": "2026-10-04",
+    "price_as_of": "2026-10-05"
   },
   {
     "code": "4971",
     "name": "メック",
-    "current_price": 7200.0,
+    "current_price": 7520.0,
     "atr": 265.71,
     "rank": "👀",
     "total_score": 0,
@@ -243,29 +249,30 @@
     "levels": [
       {
         "price": 5757.0,
-        "discount_pct": 20.0,
+        "discount_pct": 23.4,
         "tag": "💎絶好",
         "notified": false
       },
       {
         "price": 6490.0,
-        "discount_pct": 9.9,
+        "discount_pct": 13.7,
         "tag": "🎯本命",
         "notified": false
       },
       {
         "price": 6801.0,
-        "discount_pct": 5.5,
+        "discount_pct": 9.6,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-10-04"
+    "generated_at": "2026-10-04",
+    "price_as_of": "2026-10-05"
   },
   {
     "code": "7936",
     "name": "アシックス",
-    "current_price": 4141.0,
+    "current_price": 4279.0,
     "atr": 109.36,
     "rank": "👀",
     "total_score": 0,
@@ -284,23 +291,24 @@
     "levels": [
       {
         "price": 3813.0,
-        "discount_pct": 7.9,
+        "discount_pct": 10.9,
         "tag": "💎絶好",
         "notified": false
       },
       {
         "price": 3977.0,
-        "discount_pct": 4.0,
+        "discount_pct": 7.1,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-10-04"
+    "generated_at": "2026-10-04",
+    "price_as_of": "2026-10-05"
   },
   {
     "code": "6871",
     "name": "日本マイクロニクス",
-    "current_price": 15020.0,
+    "current_price": 15060.0,
     "atr": 835.71,
     "rank": "👀",
     "total_score": 0,
@@ -319,23 +327,24 @@
     "levels": [
       {
         "price": 11267.0,
-        "discount_pct": 25.0,
+        "discount_pct": 25.2,
         "tag": "💎絶好",
         "notified": false
       },
       {
         "price": 13084.0,
-        "discount_pct": 12.9,
+        "discount_pct": 13.1,
         "tag": "🎯本命",
         "notified": false
       },
       {
         "price": 13766.0,
-        "discount_pct": 8.3,
+        "discount_pct": 8.6,
         "tag": "🔸軽め",
         "notified": false
       }
     ],
-    "generated_at": "2026-10-04"
+    "generated_at": "2026-10-04",
+    "price_as_of": "2026-10-05"
   }
 ]
