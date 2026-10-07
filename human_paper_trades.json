@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-10-06T08:53:23.825Z",
+  "_generated_at": "2026-10-07T08:54:56.795Z",
   "_note": "売買記録 (journal export)。決済済=取引ログ FIFO を 1ポジション=1要素へ統合 (分割決済は株数加重平均・異常値と保有1年超は除外)、未決済=保有タブ。forward_tracker が機械baseline と比較。未決済は exit null=採点対象外・R計算は backend。pending_exits=保有から消えたのに約定の記録が無い建玉 (決済の記録待ち)。",
   "trades": [
     {
@@ -365,6 +365,16 @@
       "shares": 100,
       "entry_date_is_import_day": false,
       "note": "現物 100株 未決済｜SS取込"
+    },
+    {
+      "code": "55410",
+      "entry_date": "2026-10-07",
+      "entry_price": 2485,
+      "exit_date": null,
+      "exit_price": null,
+      "shares": 300,
+      "entry_date_is_import_day": false,
+      "note": "信用買建 300株 未決済｜SS取込"
     }
   ],
   "skips": [],
