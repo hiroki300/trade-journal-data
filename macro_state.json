@@ -1,12 +1,12 @@
 {
   "regime": "normal",
   "threshold_adjustment": 0,
-  "hv_20d": 15.2,
-  "ma25_dev": 2.1,
-  "trend": "sideways",
-  "trend_spread_pct": 0.84,
+  "hv_20d": 15.5,
+  "ma25_dev": 1.37,
+  "trend": "uptrend",
+  "trend_spread_pct": 1.06,
   "external": {},
   "reasons": [],
-  "summary": "🟢 レジーム:NORMAL | 日経HV15.2% / MA25乖離2.1% / sideways",
-  "evaluated_at": "2026-10-07T11:36+09:00"
+  "summary": "🟢 レジーム:NORMAL | 日経HV15.5% / MA25乖離1.37% / uptrend",
+  "evaluated_at": "2026-10-08T11:11+09:00"
 }
