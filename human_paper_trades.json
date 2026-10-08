@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-10-07T08:55:20.431Z",
+  "_generated_at": "2026-10-08T08:54:37.556Z",
   "_note": "売買記録 (journal export)。決済済=取引ログ FIFO を 1ポジション=1要素へ統合 (分割決済は株数加重平均・異常値と保有1年超は除外)、未決済=保有タブ。forward_tracker が機械baseline と比較。未決済は exit null=採点対象外・R計算は backend。pending_exits=保有から消えたのに約定の記録が無い建玉 (決済の記録待ち)。",
   "trades": [
     {
@@ -327,6 +327,15 @@
       "note": "現物 200株"
     },
     {
+      "code": "593A0",
+      "entry_date": "2026-10-06",
+      "entry_price": 2200,
+      "exit_date": "2026-10-08",
+      "exit_price": 2327,
+      "shares": 100,
+      "note": "現物 100株"
+    },
+    {
       "code": "46610",
       "entry_date": "2026-07-31",
       "entry_price": 3000,
@@ -350,16 +359,6 @@
       "code": "83160",
       "entry_date": "2024-10-01",
       "entry_price": 3382.7,
-      "exit_date": null,
-      "exit_price": null,
-      "shares": 100,
-      "entry_date_is_import_day": false,
-      "note": "現物 100株 未決済｜SS取込"
-    },
-    {
-      "code": "593A0",
-      "entry_date": "2026-10-06",
-      "entry_price": 2200,
       "exit_date": null,
       "exit_price": null,
       "shares": 100,
