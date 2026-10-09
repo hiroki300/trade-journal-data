@@ -11,7 +11,7 @@ GitHub Actions が自動生成する JSON の公開先です。PWA
 
 | ファイル | 内容 |
 |---|---|
-| `macro_state.json` | 現在のマクロレジーム (normal / caution / storm / halt) と日経の指標 |
+| `macro_state.json` | 現在のマクロレジーム (normal / caution / storm / halt) と TOPIX の指標 (HV・MA25 乖離) |
 | `limit_watchlist.json` | 指値ウォッチリストと到達判定 (平日 17:45 に再判定) |
 | `kuribou_candidates.json` | 井村流スクリーナーの候補 (PEG / ROE / 成長 / 売買代金) |
 | `candidate_brief.json` | 上記候補の数字を平易な言葉に翻訳したもの (生成AI 不使用) |
@@ -21,6 +21,7 @@ GitHub Actions が自動生成する JSON の公開先です。PWA
 | `pullback_charts.json` | 押し目候補の描画用 日足系列 (PWA がチャートを開いたときだけ取得) |
 | `event_radar.json` | 当日引け後の開示イベントと値幅の事実 (候補ではなく観測リスト) |
 | `yutai_radar.json` | 登録済み優待銘柄の権利付最終日 (事実のみ) |
+| `ai_cards.json` | 押し目候補の有報・決算短信から AI が抜き出した要点と短い引用 (照合済み・売買判断なし) |
 | `macro_history.json` | レジーム遷移の履歴 (macro_state.json 更新時に append) |
 
 ジョブごとに生成されたファイルだけが更新されます (ソースに無いものはスキップ)。
