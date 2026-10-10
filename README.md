@@ -22,6 +22,7 @@ GitHub Actions が自動生成する JSON の公開先です。PWA
 | `event_radar.json` | 当日引け後の開示イベントと値幅の事実 (候補ではなく観測リスト) |
 | `yutai_radar.json` | 登録済み優待銘柄の権利付最終日 (事実のみ) |
 | `ai_cards.json` | 押し目候補の有報・決算短信から AI が抜き出した要点と短い引用 (照合済み・売買判断なし) |
+| `deep_dives.json` | 👀 ウォッチの会社の決算短信を AI が 4 つの型で読んだ要点と短い引用 (照合済み・売買判断なし) |
 | `macro_history.json` | レジーム遷移の履歴 (macro_state.json 更新時に append) |
 
 ジョブごとに生成されたファイルだけが更新されます (ソースに無いものはスキップ)。
