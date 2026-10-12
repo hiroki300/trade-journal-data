@@ -31,18 +31,17 @@ GitHub Actions が自動生成する JSON の公開先です。PWA
 
 | ファイル | 内容 |
 |---|---|
-| `human_paper_trades.json` | 売買記録 (保有・約定)。**実際の売買記録が含まれます** |
+| `shortlist.json` | 👀 ウォッチの銘柄 (コードと名前だけ)。指値・開示の転送・深掘りの対象 |
 
 ⚠️ こちらは**ワークフローではなく PWA が上書きします**。更新されるのはユーザーが
 スクリーンショットを取り込んだときだけなので、売買が無い日に更新されないのは正常です。
 
 ## 公開ポリシー
 
-⚠️ `human_paper_trades.json` には**実際の売買記録** (銘柄・日付・価格・株数・信用区分)
-が含まれます。このリポジトリは public なので、**非公開リポジトリへの移行を予定**
-しています。それまでは取り扱いに注意してください。
+実際の売買記録 (`human_paper_trades.json`) は 2026-10-12 から**非公開リポジトリ**に置いています。
+このリポジトリには載せません (2026-10-12 以前の版は git の履歴に残っています)。
 
-- 株価データの出典は J-Quants (個人 Standard 会員)
+- 株価データの出典は J-Quants (個人 Light 会員)
 - 配信を止めるには stock-checker の GitHub **Variables** で該当フラグを `0` にします
   (例: `PULLBACK_SCREEN_ENABLED` / `EVENT_RADAR_ENABLED` / `YUTAI_RADAR_ENABLED`)。
   ワークフローは `.github/workflows/daily_run.yml` の 1 本で、`morning_prices` などは
