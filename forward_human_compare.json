@@ -1,40 +1,43 @@
 {
-  "generated_at": "2026-10-11T17:19+09:00",
-  "n_trades": 41,
-  "n_trades_in_window": 27,
+  "generated_at": "2026-10-17T22:29+09:00",
+  "n_trades": 42,
+  "n_trades_in_window": 28,
   "n_trades_out_of_window": 14,
-  "trades_source": "published(trade-journal-data)",
+  "trades_source": "private(trade-journal-private)",
   "human": {
-    "n": 25,
-    "avg_rr_after_friction": 0.214,
-    "win_rate": 0.68,
+    "n": 26,
+    "avg_rr_after_friction": 0.207,
+    "win_rate": 0.692,
     "ci95": {
-      "lo": -0.254,
-      "hi": 0.739
+      "lo": -0.252,
+      "hi": 0.71
     },
-    "sd": 1.319,
-    "se": 0.264
+    "sd": 1.293,
+    "se": 0.254
   },
-  "baseline_avg_rr": 0.053,
+  "baseline_avg_rr": 0.038,
   "paired": {
-    "n_paired": 23,
+    "n_paired": 24,
     "n_unmatched": 2,
-    "mean_excess_rr": 0.24,
+    "mean_excess_rr": 0.224,
     "ci95": {
-      "lo": -0.222,
-      "hi": 0.771
+      "lo": -0.246,
+      "hi": 0.715
     },
-    "sd": 1.254,
-    "se": 0.261,
+    "sd": 1.231,
+    "se": 0.251,
     "beats_baseline": true,
     "_note": "主ゲート: 同週baselineを差引いた人間の超過R (レジーム相殺・N=トレード数。同週baseline 3件未満の縮退週は unmatched 扱い)"
   },
   "decomposition": {
-    "n": 0,
-    "avg_rr_after_friction": null,
-    "ci95": null,
-    "sd": null,
-    "se": null,
+    "n": 24,
+    "avg_rr_after_friction": 0.078,
+    "ci95": {
+      "lo": -0.412,
+      "hi": 0.577
+    },
+    "sd": 1.255,
+    "se": 0.256,
     "_note": "分析専用: 人間選定×機械執行。選定エッジの切り分け (選定に還流しない)"
   },
   "out_of_window": {
@@ -54,10 +57,10 @@
     "_note": "計測母集団 = entry_date ≥ 2026-06-08 (機械baseline の最初の entry 日 = 初回snapshot 2026-06-06/06-07 の翌営業日)。これより前の entry は同週baselineが存在せず主ゲート(週マッチ)で永久にペア化できないため、母集団から外し out_of_window に別掲する (記録は消さない=見送りと同じ別カウント扱い)。2026-07-28 固定 — 当時 n_paired=1 で停止規則の読み値節目に未到達、かつ除外側の平均は母集団側より高い (=ゲートは厳しくなる方向) ため goalpost 移動に当たらない。"
   },
   "direct": {
-    "delta_vs_baseline": 0.161,
+    "delta_vs_baseline": 0.169,
     "_note": "参考: 独立2標本の差 (レジーム未調整=ノイズ最大)"
   },
-  "delta_vs_baseline": 0.161,
+  "delta_vs_baseline": 0.169,
   "beats_baseline": true,
   "meets_criterion": true,
   "meets_expansion": false,
@@ -74,6 +77,6 @@
     "discipline": "質>件数: N不足なら期間延長が正。見送りも記録(R対象外で別カウント=習慣維持)。本ゲートは仮説検定でなく方向性デシジョンルール — 点推定はノイズ下、必ず±CIで解釈。"
   },
   "verdict": "保留",
-  "status": "判定保留: 人間トレード 25/30 (データ不足)。質>件数 — 不足なら期間延長が正。 ※別に窓外(計測開始 2026-06-08 より前の entry) 12件はペア化不能のため母集団外で別掲。",
+  "status": "判定保留: 人間トレード 26/30 (データ不足)。質>件数 — 不足なら期間延長が正。 ※別に窓外(計測開始 2026-06-08 より前の entry) 12件はペア化不能のため母集団外で別掲。",
   "label": "B3本命: 人間判断がエッジを足すかの検証 (検証中)。主ゲート=週マッチ matched-control (同週baseline差引・N=トレード数)、分解=選定エッジの分析専用、直接比較=参考。比較は方向性判断(仮説検定でない)・±CI併記。"
 }
