@@ -1,12 +1,12 @@
 {
   "regime": "normal",
   "threshold_adjustment": 0,
-  "hv_20d": 17.2,
-  "ma25_dev": -2.19,
+  "hv_20d": 18.0,
+  "ma25_dev": -0.5,
   "trend": "sideways",
-  "trend_spread_pct": -0.2,
+  "trend_spread_pct": -0.27,
   "external": {},
   "reasons": [],
-  "summary": "🟢 レジーム:NORMAL | TOPIX HV17.2% / MA25乖離-2.19% / sideways",
-  "evaluated_at": "2026-10-16T10:34+09:00"
+  "summary": "🟢 レジーム:NORMAL | TOPIX HV18.0% / MA25乖離-0.5% / sideways",
+  "evaluated_at": "2026-10-19T09:22+09:00"
 }
