@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T01:46+09:00",
-  "as_of_date": "2026-10-20",
-  "as_of_price_date": "2026-10-20",
+  "generated_at": "2026-10-22T02:02+09:00",
+  "as_of_date": "2026-10-21",
+  "as_of_price_date": "2026-10-21",
   "is_business_day": true,
-  "fell_back_from": "2026-10-21",
+  "fell_back_from": "2026-10-22",
   "label": "開示イベント(値幅が広がりやすい・方向は不明)",
   "note": "その日に開示があった銘柄の機械抽出です。開示の内容は解釈していません。「この銘柄はふだんどれくらい動くか」は過去の実測にもとづく事実ですが、上がるか下がるかは分かりません。自前の survivorship-free 検証では、最も目立つ形 (寄りギャップ+4% かつ 出来高20日平均の2倍 かつ 陽線引け) のその後は市場調整後で +40日 -2.92% (n=16,362) でした。方向は予測できません。値幅の指標 (ATR・普段の値幅) は価格の派生量であり、表示のみで足切り・並び順・スコアには一切使っていません。閾値は pre-register 済で測定後に変更しません。値幅が大きいほど利益も損失も大きくなります。買いシグナルではありません。最終判断は決算短信等の一次情報でご自身で。",
   "direction_disclaimer": "※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。",
@@ -45,7 +45,7 @@
     }
   },
   "universe_size": 800,
-  "disclosures_fetched": 13,
+  "disclosures_fetched": 11,
   "total_matched": 0,
   "shown": 0,
   "truncated": false,
@@ -61,24 +61,22 @@
     "rank_from_low": 1
   },
   "diagnostics": {
-    "n_disclosures": 13,
+    "n_disclosures": 11,
     "doc_type_counts": {
-      "EarnForecastRevision": 7,
-      "FYFinancialStatements_Consolidated_REIT": 3,
-      "2QFinancialStatements_Consolidated_JP": 2,
-      "REITDividendForecastRevision": 1
+      "EarnForecastRevision": 6,
+      "2QFinancialStatements_Consolidated_JP": 3,
+      "FYFinancialStatements_Consolidated_REIT": 2
     },
     "class_counts": {
-      "earnings": 2,
-      "other": 3,
-      "forecast_revision": 7,
-      "reit": 1
+      "forecast_revision": 6,
+      "earnings": 3,
+      "other": 2
     },
     "excluded": {
-      "before_close": 2,
+      "before_close": 3,
       "no_disc_time": 0,
-      "class_not_shown": 4,
-      "not_in_universe": 7,
+      "class_not_shown": 2,
+      "not_in_universe": 6,
       "price_floor": 0,
       "no_bars": 0
     },
