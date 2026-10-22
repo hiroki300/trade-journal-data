@@ -241,5 +241,14 @@
     "ma25_dev": -0.03,
     "trend": "sideways",
     "summary": "🟢 レジーム:NORMAL | 日経HV13.4% / MA25乖離-0.03% / sideways"
+  },
+  {
+    "regime": "caution",
+    "changed_at": "2026-10-22T09:49:28+09:00",
+    "from": "normal",
+    "hv_20d": 18.6,
+    "ma25_dev": -1.02,
+    "trend": "downtrend",
+    "summary": "🟡 レジーム:CAUTION | TOPIX HV18.6% / MA25乖離-1.02% / downtrend\n⚠️短期下降トレンド(5MA vs 25MA: -1.18%)"
   }
 ]
