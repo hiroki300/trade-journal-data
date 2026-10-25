@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-18T15:59+09:00",
-  "n_trades": 42,
-  "n_trades_in_window": 28,
-  "n_trades_out_of_window": 14,
+  "generated_at": "2026-10-25T16:18+09:00",
+  "n_trades": 44,
+  "n_trades_in_window": 32,
+  "n_trades_out_of_window": 12,
   "trades_source": "private(trade-journal-private)",
   "human": {
-    "n": 26,
-    "avg_rr_after_friction": 0.207,
-    "win_rate": 0.692,
+    "n": 27,
+    "avg_rr_after_friction": 0.136,
+    "win_rate": 0.667,
     "ci95": {
-      "lo": -0.252,
-      "hi": 0.71
+      "lo": -0.341,
+      "hi": 0.654
     },
-    "sd": 1.293,
+    "sd": 1.321,
     "se": 0.254
   },
-  "baseline_avg_rr": 0.038,
+  "baseline_avg_rr": 0.004,
   "paired": {
     "n_paired": 24,
-    "n_unmatched": 2,
+    "n_unmatched": 3,
     "mean_excess_rr": 0.224,
     "ci95": {
       "lo": -0.246,
@@ -57,10 +57,10 @@
     "_note": "計測母集団 = entry_date ≥ 2026-06-08 (機械baseline の最初の entry 日 = 初回snapshot 2026-06-06/06-07 の翌営業日)。これより前の entry は同週baselineが存在せず主ゲート(週マッチ)で永久にペア化できないため、母集団から外し out_of_window に別掲する (記録は消さない=見送りと同じ別カウント扱い)。2026-07-28 固定 — 当時 n_paired=1 で停止規則の読み値節目に未到達、かつ除外側の平均は母集団側より高い (=ゲートは厳しくなる方向) ため goalpost 移動に当たらない。"
   },
   "direct": {
-    "delta_vs_baseline": 0.169,
+    "delta_vs_baseline": 0.132,
     "_note": "参考: 独立2標本の差 (レジーム未調整=ノイズ最大)"
   },
-  "delta_vs_baseline": 0.169,
+  "delta_vs_baseline": 0.132,
   "beats_baseline": true,
   "meets_criterion": true,
   "meets_expansion": false,
@@ -77,6 +77,6 @@
     "discipline": "質>件数: N不足なら期間延長が正。見送りも記録(R対象外で別カウント=習慣維持)。本ゲートは仮説検定でなく方向性デシジョンルール — 点推定はノイズ下、必ず±CIで解釈。"
   },
   "verdict": "保留",
-  "status": "判定保留: 人間トレード 26/30 (データ不足)。質>件数 — 不足なら期間延長が正。 ※別に窓外(計測開始 2026-06-08 より前の entry) 12件はペア化不能のため母集団外で別掲。",
+  "status": "判定保留: 人間トレード 27/30 (データ不足)。質>件数 — 不足なら期間延長が正。 ※別に窓外(計測開始 2026-06-08 より前の entry) 12件はペア化不能のため母集団外で別掲。",
   "label": "B3本命: 人間判断がエッジを足すかの検証 (検証中)。主ゲート=週マッチ matched-control (同週baseline差引・N=トレード数)、分解=選定エッジの分析専用、直接比較=参考。比較は方向性判断(仮説検定でない)・±CI併記。"
 }
