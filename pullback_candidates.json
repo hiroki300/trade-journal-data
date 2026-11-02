@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T01:51+09:00",
-  "as_of_date": "2026-10-30",
+  "generated_at": "2026-11-03T05:34+09:00",
+  "as_of_date": "2026-11-02",
   "universe_size": 800,
-  "pullback_passed": 16,
-  "ned_estimate_excluded": 9,
-  "candidate_count": 8,
+  "pullback_passed": 12,
+  "ned_estimate_excluded": 11,
+  "candidate_count": 6,
   "margin_alert_status": null,
   "note": "「60日高値から浅く押した ∧ 上昇基調維持 ∧ 直近決算が増収増益」の条件に合致した銘柄の機械抽出です。買いシグナルではありません。閾値は pre-register 済で測定後に変更しません。エッジは未検証 — 最終判断は一次情報でご自身で。",
   "thresholds": {
@@ -20,767 +20,233 @@
   "breadth": {
     "window": 20,
     "n_days": 20,
-    "today_candidates": 8,
-    "today_passed": 16,
-    "median_candidates": 22.0,
+    "today_candidates": 6,
+    "today_passed": 12,
+    "median_candidates": 20.0,
     "min_candidates": 4,
     "max_candidates": 51,
     "rank_from_low": 2
   },
   "diagnostics": {
     "n": 800,
-    "pullback_passed": 26,
-    "earnings_evaluated": 25,
+    "pullback_passed": 23,
+    "earnings_evaluated": 23,
     "profit_metric_used": {
-      "営業利益": 22,
-      "経常利益": 3
+      "営業利益": 21,
+      "経常利益": 2
     },
     "metric_populated": {
       "close": 800,
-      "ma25": 795,
-      "ma75": 790,
-      "high_60d": 791,
-      "rsi14": 798,
-      "drawdown_60d_pct": 791,
-      "vol_ratio": 799
+      "ma25": 794,
+      "ma75": 789,
+      "high_60d": 790,
+      "rsi14": 797,
+      "drawdown_60d_pct": 790,
+      "vol_ratio": 798
     },
     "volatility_populated": {
-      "atr": 798,
-      "atr_pct": 798,
-      "range_pct_avg20": 798
+      "atr": 797,
+      "atr_pct": 797,
+      "range_pct_avg20": 797
     },
     "earnings_field_populated": {
-      "sales_yoy_pct": 25,
-      "op_yoy_pct": 25,
-      "np_yoy_pct": 25,
-      "fc_revision_flag": 25,
-      "progress_rate_op_pct": 21,
-      "period_type": 25
+      "sales_yoy_pct": 23,
+      "op_yoy_pct": 23,
+      "np_yoy_pct": 23,
+      "fc_revision_flag": 21,
+      "progress_rate_op_pct": 18,
+      "period_type": 23
     },
     "fail_reason_counts": {
-      "dd60_range": 517,
-      "uptrend_ma75": 492,
-      "rsi_band": 360,
-      "above_ma25_floor": 302,
-      "op_yoy_positive": 9,
+      "dd60_range": 531,
+      "uptrend_ma75": 499,
+      "rsi_band": 342,
+      "above_ma25_floor": 318,
+      "op_yoy_positive": 7,
       "sales_yoy_positive": 4
     },
     "stale_excluded": 0,
-    "latest_bar_date": "2026-10-30",
+    "latest_bar_date": "2026-11-02",
     "deep_pullback_rsi_below_min": 0,
     "deep_pullback_bullish_bar": 0
   },
   "candidates": [
     {
-      "code": "68140",
-      "ticker": "6814",
-      "name": "古野電気",
-      "price": 7810.0,
-      "as_of": "2026-10-30",
+      "code": "58320",
+      "ticker": "5832",
+      "name": "ちゅうぎんフィナンシャルグループ",
+      "price": 3514.0,
+      "as_of": "2026-11-02",
       "pullback": {
-        "drawdown_60d_pct": 13.9,
+        "drawdown_60d_pct": 9.3,
         "ma25_dev_pct": -1.7,
-        "ma75_dev_pct": 2.1,
-        "rsi14": 49.25,
-        "bb_pct_b": 0.35,
-        "atr": 507.14,
-        "vol_ratio": 0.84,
+        "ma75_dev_pct": 0.7,
+        "rsi14": 49.76,
+        "bb_pct_b": 0.48,
+        "atr": 130.57,
+        "vol_ratio": 0.95,
         "signals": [],
         "signal_details": []
       },
       "turn_facts": {
-        "chg_1d_pct": 2.09,
+        "chg_1d_pct": -2.36,
         "bullish_bar": true,
-        "above_prev_high": true,
-        "rsi_rising": true,
-        "rsi_prev": 46.57,
-        "ma75_slope_pct": 9.2,
-        "ma75_slope_days": 25
-      },
-      "ex_date": {
-        "record_date": "2027-02-26",
-        "last_buy_date": "2027-02-24",
-        "ex_date": "2027-02-25",
-        "business_days_to_ex": 78,
-        "kind": "期末"
-      },
-      "demand_supply": {},
-      "margin_alert": null,
-      "large_holdings": [
-        {
-          "docID": "S100Z0K8",
-          "filer": "株式会社みずほ銀行",
-          "kind": "変更",
-          "special": true,
-          "submitted": "2026-09-07",
-          "obligation_date": "2026-08-31",
-          "ratio": 0.0717,
-          "prev_ratio": 0.0688,
-          "purpose": "・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの"
-        }
-      ],
-      "volatility": {
-        "atr14": 507.14,
-        "atr_pct": 6.49,
-        "normal_range_pct": 4.79,
-        "normal_range_yen": 374,
-        "range_window": 20,
-        "bars_used": 20,
-        "stop_8pct_in_normal_days": 1.7
-      },
-      "volume_profile": {
-        "window_bars": 100,
-        "window_from": "2026-06-05",
-        "window_to": "2026-10-30",
-        "bin_yen": 187.0,
-        "bin_days": 0.5,
-        "method": "daily_hl_uniform_approx",
-        "top_band": {
-          "lo": 7623,
-          "hi": 7810,
-          "share_pct": 13.4,
-          "days_lo": -0.5,
-          "days_hi": 0.0
-        },
-        "bands_top3": [
-          {
-            "lo": 7623,
-            "hi": 7810,
-            "share_pct": 13.4,
-            "days_lo": -0.5,
-            "days_hi": 0.0
-          },
-          {
-            "lo": 7436,
-            "hi": 7623,
-            "share_pct": 13.2,
-            "days_lo": -1.0,
-            "days_hi": -0.5
-          },
-          {
-            "lo": 7249,
-            "hi": 7436,
-            "share_pct": 10.4,
-            "days_lo": -1.5,
-            "days_hi": -1.0
-          }
-        ],
-        "heaviest_below": {
-          "lo": 7623,
-          "hi": 7810,
-          "share_pct": 13.4,
-          "days_lo": -0.5,
-          "days_hi": 0.0
-        },
-        "heaviest_above": {
-          "lo": 7997,
-          "hi": 8184,
-          "share_pct": 5.8,
-          "days_lo": 0.5,
-          "days_hi": 1.0
-        },
-        "current_band": {
-          "lo": 7810,
-          "hi": 7997,
-          "share_pct": 8.7,
-          "days_lo": 0.0,
-          "days_hi": 0.5
-        },
-        "current_band_share_pct": 8.7,
-        "even_share_pct": 5.0,
-        "flat": false,
-        "share_stop_to_close_pct": 40.0,
-        "stop_inside_top_band": false
-      },
-      "swing_levels": {
-        "above": [
-          {
-            "price": 8090,
-            "touches": 2,
-            "last_date": "2026-09-07",
-            "days": 0.7
-          }
-        ],
-        "below": [
-          {
-            "price": 6860,
-            "touches": 2,
-            "last_date": "2026-09-14",
-            "days": -2.5
-          },
-          {
-            "price": 5535,
-            "touches": 2,
-            "last_date": "2026-07-01",
-            "days": -6.1
-          }
-        ],
-        "window_bars": 104,
-        "fractal_k": 7,
-        "min_touches": 2
-      },
-      "chart_facts": {
-        "close": 7810.0,
-        "range_60d": {
-          "low": 6800.0,
-          "high": 9070.0,
-          "position_pct": 44.5,
-          "days_to_low": -2.7,
-          "days_to_high": 3.4
-        },
-        "range_20d": {
-          "low": 7300.0,
-          "high": 9070.0,
-          "position_pct": 28.8,
-          "days_to_low": -1.4,
-          "days_to_high": 3.4
-        },
-        "ma25": 7947.2,
-        "ma75": 7646.13,
-        "ma25_slope_pct": 5.04,
-        "ma25_slope_days": 25,
-        "ma75_slope_pct": null,
-        "ma75_slope_days": null,
-        "bb_upper": 8683.3,
-        "bb_lower": 7348.7,
-        "bb_bandwidth": 0.167,
-        "bb_bandwidth_pctile": 53.5,
-        "bb_bandwidth_pctile_bars": 85,
-        "vol_today": 400200,
-        "vol_avg20": 480275,
-        "vol_ratio": 0.84,
-        "gap_pct": 1.57,
-        "close_streak": 1,
-        "bars_used": 104
-      },
-      "earnings": {
-        "sales_yoy_pct": 16.4,
-        "op_yoy_pct": 38.3,
-        "np_yoy_pct": -2.4,
-        "eps_yoy_pct": -2.4,
-        "fc_revision_flag": "upward",
-        "progress_rate_op_pct": 61.3,
-        "disclosure_date": "2026-10-09",
-        "profit_metric": "営業利益",
-        "period_type": "2Q",
-        "op_actual": 12866000000.0,
-        "op_prev": 9303000000.0,
-        "np_actual": 9948000000.0,
-        "np_prev": 10190000000.0
-      },
-      "valuation": {
-        "per": 14.52,
-        "pbr": 2.52,
-        "dividend_yield": 2.69,
-        "per_basis": "FEPS",
-        "split_factor": 1.0,
-        "bps_split_factor": 1.0,
-        "dividend_basis": "FDivAnn",
-        "flags": []
-      },
-      "size_if_entered": {
-        "shares": 100,
-        "invest_amount": 781000.0,
-        "stop_price": 7185,
-        "actual_risk_yen": 62500.0,
-        "actual_risk_pct": 2.5,
-        "reason": "⚠️1単元購入時リスク2.5%（上限1.5%超過）",
-        "viable": false
-      },
-      "next_earnings": "2027-01-08頃 (推定)",
-      "next_earnings_source": "same_quarter_prev_year",
-      "streak": 3,
-      "flags": [],
-      "brief": {
-        "pullback": "60日高値から-13.9%／MA25をわずかに下回る(-1.7%)／MA75は+2.1%・上昇基調(MA75の25日前比+9.2%)／RSI 49(中立)",
-        "turn": "前日比 +2.09%・陽線／前日高値を上抜け／RSIは前日47から上向き",
-        "ex_date": "",
-        "volatility": "値動きはかなり大きい(普段の1日の値幅 約4.8%＝約374円)／ATR14 507.1円(6.5%)／-8%ストップ(7,185円)は普段の値幅の約1.7日ぶん。普段の値動きだけでも数日で到達しうる距離です(ストップ幅の変更を提案するものではありません)",
-        "levels": "直近100営業日でどの価格帯が多く売買されたか (日足からの推計)／いまの株価の帯: 全体の9% (均等に散らばった場合は5%)／下でいちばん厚い帯 7,623円〜7,810円 (13%・0.0〜0.5日ぶん下)／上でいちばん厚い帯 7,997円〜8,184円 (6%・0.5〜1.0日ぶん上)／現値〜-8%ストップ(7,185円)の間で売買されたのは全体の40%／高安が集まった価格 上: 8,090円(2回・0.7日ぶん)／高安が集まった価格 下: 6,860円(2回・2.5日ぶん)・5,535円(2回・6.1日ぶん)",
-        "position": "60日のレンジ 6,800円〜9,070円 の下から44%の位置／20日の高値 9,070円(3.4日ぶん上)・安値 7,300円(1.4日ぶん下)／MA25 7,947円・傾き+5.0%(25日前比)／MA75 7,646円／ボリンジャー 7,349円〜8,683円・幅は直近85本の中で下から54%／出来高 40万株 (20日平均の0.8倍)／寄り付きは前日終値比+1.57%",
-        "demand_supply": "",
-        "margin_alert": "",
-        "large_holding": "株式会社みずほ銀行 保有割合 6.88%→7.17%（特例 (金融機関の特例報告)・変更の報告・8/31 時点・9/7 提出） 保有目的: ・発行会社の要請に応え、かつ発行会社との取引関係の強化を図るもの",
-        "earnings": "増収増益◎／(売上+16.4%・営業利益+38.3%・純利益-2.4%)／🆙会社予想を上方修正／通期予想への進捗率 61%(2Q・目安50%を上回る)",
-        "valuation": "予想PER 14.5倍／PBR 2.52倍／予想配当利回り 2.69%",
-        "size": "⚠️ 資金規模に対して1単元が大きい銘柄です（最小100株＝約781,000円、この場合の想定損失 約62,500円＝資産の2.5%） — 1単元購入時リスク2.5%（上限1.5%超過）",
-        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
-        "link": "https://kabutan.jp/stock/?code=6814",
-        "gap_risk": "直近100日で、寄り付きが前日の終値から±3%以上離れて始まった日 11回 (上 7・下 4)／いちばん大きい下への飛び -3.8% (6/8)",
-        "sector_move": "この株 +3.4% (10/23→10/30の5営業日)／同じ業種 (電気機器) のほかの91社 (売買の多い800社の中) の真ん中 -0.5%／この株のほうが 3.9 ポイント高い"
-      },
-      "label": "候補(要人間深掘り・エッジ未検証)",
-      "gap_risk": {
-        "gaps": 100,
-        "threshold_pct": 3.0,
-        "up": 7,
-        "down": 4,
-        "from": "2026-06-05",
-        "to": "2026-10-30",
-        "excluded_steps": 0,
-        "stop_pct": 8.0,
-        "max_down_pct": -3.8,
-        "max_down_date": "2026-06-08",
-        "max_down_note": null,
-        "beyond_stop": false
-      },
-      "sector_move": {
-        "sector": "電気機器",
-        "days": 5,
-        "from": "2026-10-23",
-        "to": "2026-10-30",
-        "population": 800,
-        "peers": 91,
-        "shown": true,
-        "stock_pct": 3.4,
-        "sector_median_pct": -0.5,
-        "diff_pt": 3.9
-      },
-      "text": "【古野電気(6814)】\n📉 押し目: 60日高値から-13.9%／MA25をわずかに下回る(-1.7%)／MA75は+2.1%・上昇基調(MA75の25日前比+9.2%)／RSI 49(中立)\n⏱ 当日: 前日比 +2.09%・陽線／前日高値を上抜け／RSIは前日47から上向き\n📏 値動き: 値動きはかなり大きい(普段の1日の値幅 約4.8%＝約374円)／ATR14 507.1円(6.5%)／-8%ストップ(7,185円)は普段の値幅の約1.7日ぶん。普段の値動きだけでも数日で到達しうる距離です(ストップ幅の変更を提案するものではありません)\n📐 価格帯: 現値〜損切り(7,185円)の間で売買されたのは全体の40%／下でいちばん厚い帯 7,623円〜7,810円 (13%・0.0〜0.5日ぶん下)／高安が集まった価格 上 8,090円(2回・0.7日ぶん)／高安が集まった価格 下 6,860円(2回・2.5日ぶん)\n📍 いまの位置: 60日のレンジ 6,800円〜9,070円 の下から44%の位置／20日の高値 9,070円(3.4日ぶん上)・安値 7,300円(1.4日ぶん下)／MA25 7,947円・傾き+5.0%(25日前比)／MA75 7,646円／ボリンジャー 7,349円〜8,683円・幅は直近85本の中で下から54%／出来高 40万株 (20日平均の0.8倍)／寄り付きは前日終値比+1.57%\n📊 業績: 増収増益◎／(売上+16.4%・営業利益+38.3%・純利益-2.4%)／🆙会社予想を上方修正／通期予想への進捗率 61%(2Q・目安50%を上回る)\n💰 参考: 予想PER 14.5倍／PBR 2.52倍／予想配当利回り 2.69%\n📅 次回決算: 2027-01-08頃 (推定)\n🧮 ⚠️ 資金規模に対して1単元が大きい銘柄です（最小100株＝約781,000円、この場合の想定損失 約62,500円＝資産の2.5%） — 1単元購入時リスク2.5%（上限1.5%超過）\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）（🔁3営業日連続）\nhttps://kabutan.jp/stock/?code=6814"
-    },
-    {
-      "code": "45270",
-      "ticker": "4527",
-      "name": "ロート製薬",
-      "price": 2740.0,
-      "as_of": "2026-10-30",
-      "pullback": {
-        "drawdown_60d_pct": 12.2,
-        "ma25_dev_pct": -2.0,
-        "ma75_dev_pct": 0.1,
-        "rsi14": 43.91,
-        "bb_pct_b": 0.34,
-        "atr": 69.07,
-        "vol_ratio": 0.86,
-        "signals": [],
-        "signal_details": []
-      },
-      "turn_facts": {
-        "chg_1d_pct": 1.97,
-        "bullish_bar": true,
-        "above_prev_high": true,
-        "rsi_rising": true,
-        "rsi_prev": 37.21,
-        "ma75_slope_pct": 5.27,
+        "above_prev_high": false,
+        "rsi_rising": false,
+        "rsi_prev": 54.32,
+        "ma75_slope_pct": 4.48,
         "ma75_slope_days": 25
       },
       "ex_date": {
         "record_date": "2027-03-31",
         "last_buy_date": "2027-03-29",
         "ex_date": "2027-03-30",
-        "business_days_to_ex": 100,
+        "business_days_to_ex": 99,
         "kind": "期末"
       },
       "demand_supply": {},
       "margin_alert": null,
       "large_holdings": [],
       "volatility": {
-        "atr14": 69.07,
-        "atr_pct": 2.52,
-        "normal_range_pct": 2.19,
-        "normal_range_yen": 60,
+        "atr14": 130.57,
+        "atr_pct": 3.72,
+        "normal_range_pct": 3.06,
+        "normal_range_yen": 107,
         "range_window": 20,
         "bars_used": 20,
-        "stop_8pct_in_normal_days": 3.7
+        "stop_8pct_in_normal_days": 2.6
       },
       "volume_profile": {
         "window_bars": 100,
-        "window_from": "2026-06-05",
-        "window_to": "2026-10-30",
-        "bin_yen": 30.0,
+        "window_from": "2026-06-08",
+        "window_to": "2026-11-02",
+        "bin_yen": 53.8,
         "bin_days": 0.5,
         "method": "daily_hl_uniform_approx",
         "top_band": {
-          "lo": 2800,
-          "hi": 2830,
-          "share_pct": 9.5,
-          "days_lo": 1.0,
-          "days_hi": 1.5
-        },
-        "bands_top3": [
-          {
-            "lo": 2800,
-            "hi": 2830,
-            "share_pct": 9.5,
-            "days_lo": 1.0,
-            "days_hi": 1.5
-          },
-          {
-            "lo": 2830,
-            "hi": 2860,
-            "share_pct": 8.5,
-            "days_lo": 1.5,
-            "days_hi": 2.0
-          },
-          {
-            "lo": 2770,
-            "hi": 2800,
-            "share_pct": 7.7,
-            "days_lo": 0.5,
-            "days_hi": 1.0
-          }
-        ],
-        "heaviest_below": {
-          "lo": 2320,
-          "hi": 2350,
-          "share_pct": 6.1,
-          "days_lo": -7.0,
-          "days_hi": -6.5
-        },
-        "heaviest_above": {
-          "lo": 2800,
-          "hi": 2830,
-          "share_pct": 9.5,
-          "days_lo": 1.0,
-          "days_hi": 1.5
-        },
-        "current_band": {
-          "lo": 2740,
-          "hi": 2770,
-          "share_pct": 4.5,
+          "lo": 3514,
+          "hi": 3568,
+          "share_pct": 10.2,
           "days_lo": 0.0,
           "days_hi": 0.5
         },
-        "current_band_share_pct": 4.5,
-        "even_share_pct": 3.4,
-        "flat": false,
-        "share_stop_to_close_pct": 11.7,
-        "stop_inside_top_band": false
-      },
-      "swing_levels": {
-        "above": [],
-        "below": [
-          {
-            "price": 2676,
-            "touches": 2,
-            "last_date": "2026-10-09",
-            "days": -1.1
-          },
-          {
-            "price": 2282,
-            "touches": 3,
-            "last_date": "2026-08-05",
-            "days": -7.6
-          }
-        ],
-        "window_bars": 104,
-        "fractal_k": 7,
-        "min_touches": 2
-      },
-      "chart_facts": {
-        "close": 2740.0,
-        "range_60d": {
-          "low": 2285.0,
-          "high": 3122.0,
-          "position_pct": 54.4,
-          "days_to_low": -7.6,
-          "days_to_high": 6.4
-        },
-        "range_20d": {
-          "low": 2662.0,
-          "high": 2997.0,
-          "position_pct": 23.3,
-          "days_to_low": -1.3,
-          "days_to_high": 4.3
-        },
-        "ma25": 2795.26,
-        "ma75": 2738.45,
-        "ma25_slope_pct": -3.94,
-        "ma25_slope_days": 25,
-        "ma75_slope_pct": null,
-        "ma75_slope_days": null,
-        "bb_upper": 2959.5,
-        "bb_lower": 2624.4,
-        "bb_bandwidth": 0.12,
-        "bb_bandwidth_pctile": 57.1,
-        "bb_bandwidth_pctile_bars": 85,
-        "vol_today": 1020400,
-        "vol_avg20": 1181240,
-        "vol_ratio": 0.86,
-        "gap_pct": 0.93,
-        "close_streak": 1,
-        "bars_used": 104
-      },
-      "earnings": {
-        "sales_yoy_pct": 11.8,
-        "op_yoy_pct": 16.8,
-        "np_yoy_pct": -9.5,
-        "eps_yoy_pct": -9.5,
-        "fc_revision_flag": "upward",
-        "progress_rate_op_pct": 30.4,
-        "disclosure_date": "2026-08-06",
-        "profit_metric": "営業利益",
-        "period_type": "1Q",
-        "op_actual": 13663000000.0,
-        "op_prev": 11699000000.0,
-        "np_actual": 10650000000.0,
-        "np_prev": 11769000000.0
-      },
-      "valuation": {
-        "per": 17.59,
-        "pbr": 2.05,
-        "dividend_yield": 1.82,
-        "per_basis": "FEPS",
-        "split_factor": 1.0,
-        "bps_split_factor": 1.0,
-        "dividend_basis": "FDivAnn",
-        "flags": []
-      },
-      "size_if_entered": {
-        "shares": 100,
-        "invest_amount": 274000,
-        "stop_price": 2521,
-        "actual_risk_yen": 21900,
-        "actual_risk_pct": 0.88,
-        "reason": "リスク1.5%基準",
-        "viable": true
-      },
-      "next_earnings": "2026-11-12頃 (推定)",
-      "next_earnings_source": "same_quarter_prev_year",
-      "streak": 1,
-      "flags": [],
-      "brief": {
-        "pullback": "60日高値から-12.2%／MA25をわずかに下回る(-2.0%)／MA75は+0.1%・上昇基調(MA75の25日前比+5.3%)／RSI 44(下げ止まり圏)",
-        "turn": "前日比 +1.97%・陽線／前日高値を上抜け／RSIは前日37から上向き",
-        "ex_date": "",
-        "volatility": "値動きは平均的(普段の1日の値幅 約2.2%＝約60円)／ATR14 69.1円(2.5%)／-8%ストップ(2,521円)は普段の値幅の約3.7日ぶん(ストップ幅の変更を提案するものではありません)",
-        "levels": "直近100営業日でどの価格帯が多く売買されたか (日足からの推計)／いまの株価の帯: 全体の4% (均等に散らばった場合は3%)／下でいちばん厚い帯 2,320円〜2,350円 (6%・6.5〜7.0日ぶん下)／上でいちばん厚い帯 2,800円〜2,830円 (10%・1.0〜1.5日ぶん上)／現値〜-8%ストップ(2,521円)の間で売買されたのは全体の12%／高安が集まった価格 下: 2,676円(2回・1.1日ぶん)・2,282円(3回・7.6日ぶん)",
-        "position": "60日のレンジ 2,285円〜3,122円 の下から54%の位置／20日の高値 2,997円(4.3日ぶん上)・安値 2,662円(1.3日ぶん下)／MA25 2,795円・傾き-3.9%(25日前比)／MA75 2,738円／ボリンジャー 2,624円〜2,960円・幅は直近85本の中で下から57%／出来高 102万株 (20日平均の0.9倍)／寄り付きは前日終値比+0.93%",
-        "demand_supply": "",
-        "margin_alert": "",
-        "large_holding": "",
-        "earnings": "増収増益◎／(売上+11.8%・営業利益+16.8%・純利益-9.5%)／🆙会社予想を上方修正／通期予想への進捗率 30%(1Q・目安25%を上回る)",
-        "valuation": "予想PER 17.6倍／PBR 2.05倍／予想配当利回り 1.82%",
-        "size": "もし-8%ストップ(2,521円)で買う場合の計算: 100株・約274,000円（最大損失 約21,900円 = 資産の0.9%）",
-        "one_liner": "判断材料: 強み2点・注意0点（一次情報で最終判断を）",
-        "link": "https://kabutan.jp/stock/?code=4527",
-        "gap_risk": "直近100日で、寄り付きが前日の終値から±3%以上離れて始まった日 2回 (上 2・下 0)／いちばん大きい下への飛び -2.0% (7/31)",
-        "sector_move": "この株 -2.5% (10/23→10/30の5営業日)／同じ業種 (医薬品) のほかの24社 (売買の多い800社の中) の真ん中 +1.0%／この株のほうが 3.5 ポイント低い"
-      },
-      "label": "候補(要人間深掘り・エッジ未検証)",
-      "gap_risk": {
-        "gaps": 100,
-        "threshold_pct": 3.0,
-        "up": 2,
-        "down": 0,
-        "from": "2026-06-05",
-        "to": "2026-10-30",
-        "excluded_steps": 0,
-        "stop_pct": 8.0,
-        "max_down_pct": -2.0,
-        "max_down_date": "2026-07-31",
-        "max_down_note": null,
-        "beyond_stop": false
-      },
-      "sector_move": {
-        "sector": "医薬品",
-        "days": 5,
-        "from": "2026-10-23",
-        "to": "2026-10-30",
-        "population": 800,
-        "peers": 24,
-        "shown": true,
-        "stock_pct": -2.5,
-        "sector_median_pct": 1.0,
-        "diff_pt": -3.5
-      },
-      "text": "【ロート製薬(4527)】\n📉 押し目: 60日高値から-12.2%／MA25をわずかに下回る(-2.0%)／MA75は+0.1%・上昇基調(MA75の25日前比+5.3%)／RSI 44(下げ止まり圏)\n⏱ 当日: 前日比 +1.97%・陽線／前日高値を上抜け／RSIは前日37から上向き\n📏 値動き: 値動きは平均的(普段の1日の値幅 約2.2%＝約60円)／ATR14 69.1円(2.5%)／-8%ストップ(2,521円)は普段の値幅の約3.7日ぶん(ストップ幅の変更を提案するものではありません)\n📐 価格帯: 現値〜損切り(2,521円)の間で売買されたのは全体の12%／下でいちばん厚い帯 2,320円〜2,350円 (6%・6.5〜7.0日ぶん下)／高安が集まった価格 下 2,676円(2回・1.1日ぶん)\n📍 いまの位置: 60日のレンジ 2,285円〜3,122円 の下から54%の位置／20日の高値 2,997円(4.3日ぶん上)・安値 2,662円(1.3日ぶん下)／MA25 2,795円・傾き-3.9%(25日前比)／MA75 2,738円／ボリンジャー 2,624円〜2,960円・幅は直近85本の中で下から57%／出来高 102万株 (20日平均の0.9倍)／寄り付きは前日終値比+0.93%\n📊 業績: 増収増益◎／(売上+11.8%・営業利益+16.8%・純利益-9.5%)／🆙会社予想を上方修正／通期予想への進捗率 30%(1Q・目安25%を上回る)\n💰 参考: 予想PER 17.6倍／PBR 2.05倍／予想配当利回り 1.82%\n📅 次回決算: 2026-11-12頃 (推定)\n🧮 もし-8%ストップ(2,521円)で買う場合の計算: 100株・約274,000円（最大損失 約21,900円 = 資産の0.9%）\n→ 判断材料: 強み2点・注意0点（一次情報で最終判断を）（🆕 今日が初日）\nhttps://kabutan.jp/stock/?code=4527"
-    },
-    {
-      "code": "83920",
-      "ticker": "8392",
-      "name": "大分銀行",
-      "price": 2888.0,
-      "as_of": "2026-10-30",
-      "pullback": {
-        "drawdown_60d_pct": 16.3,
-        "ma25_dev_pct": -4.2,
-        "ma75_dev_pct": 0.5,
-        "rsi14": 48.35,
-        "bb_pct_b": 0.43,
-        "atr": 129.64,
-        "vol_ratio": 0.86,
-        "signals": [],
-        "signal_details": []
-      },
-      "turn_facts": {
-        "chg_1d_pct": -0.48,
-        "bullish_bar": true,
-        "above_prev_high": false,
-        "rsi_rising": false,
-        "rsi_prev": 49.04,
-        "ma75_slope_pct": 7.89,
-        "ma75_slope_days": 25
-      },
-      "ex_date": {
-        "record_date": "2027-03-31",
-        "last_buy_date": "2027-03-29",
-        "ex_date": "2027-03-30",
-        "business_days_to_ex": 100,
-        "kind": "期末"
-      },
-      "demand_supply": {},
-      "margin_alert": null,
-      "large_holdings": [
-        {
-          "docID": "S100YVB6",
-          "filer": "野村證券株式会社",
-          "kind": "変更",
-          "special": true,
-          "submitted": "2026-08-07",
-          "obligation_date": "2026-07-31",
-          "ratio": 0.0409,
-          "prev_ratio": 0.0525,
-          "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。"
-        }
-      ],
-      "volatility": {
-        "atr14": 129.64,
-        "atr_pct": 4.49,
-        "normal_range_pct": 4.06,
-        "normal_range_yen": 117,
-        "range_window": 20,
-        "bars_used": 20,
-        "stop_8pct_in_normal_days": 2.0
-      },
-      "volume_profile": {
-        "window_bars": 100,
-        "window_from": "2026-06-05",
-        "window_to": "2026-10-30",
-        "bin_yen": 58.6,
-        "bin_days": 0.5,
-        "method": "daily_hl_uniform_approx",
-        "top_band": {
-          "lo": 2829,
-          "hi": 2888,
-          "share_pct": 8.4,
-          "days_lo": -0.5,
-          "days_hi": 0.0
-        },
         "bands_top3": [
           {
-            "lo": 2829,
-            "hi": 2888,
-            "share_pct": 8.4,
-            "days_lo": -0.5,
-            "days_hi": 0.0
-          },
-          {
-            "lo": 2888,
-            "hi": 2947,
-            "share_pct": 8.4,
+            "lo": 3514,
+            "hi": 3568,
+            "share_pct": 10.2,
             "days_lo": 0.0,
             "days_hi": 0.5
           },
           {
-            "lo": 2771,
-            "hi": 2829,
-            "share_pct": 8.0,
+            "lo": 3406,
+            "hi": 3460,
+            "share_pct": 9.5,
             "days_lo": -1.0,
             "days_hi": -0.5
+          },
+          {
+            "lo": 3460,
+            "hi": 3514,
+            "share_pct": 9.5,
+            "days_lo": -0.5,
+            "days_hi": 0.0
           }
         ],
         "heaviest_below": {
-          "lo": 2829,
-          "hi": 2888,
-          "share_pct": 8.4,
-          "days_lo": -0.5,
-          "days_hi": 0.0
+          "lo": 3406,
+          "hi": 3460,
+          "share_pct": 9.5,
+          "days_lo": -1.0,
+          "days_hi": -0.5
         },
         "heaviest_above": {
-          "lo": 2947,
-          "hi": 3005,
-          "share_pct": 5.6,
+          "lo": 3568,
+          "hi": 3622,
+          "share_pct": 5.5,
           "days_lo": 0.5,
           "days_hi": 1.0
         },
         "current_band": {
-          "lo": 2888,
-          "hi": 2947,
-          "share_pct": 8.4,
+          "lo": 3514,
+          "hi": 3568,
+          "share_pct": 10.2,
           "days_lo": 0.0,
           "days_hi": 0.5
         },
-        "current_band_share_pct": 8.4,
-        "even_share_pct": 4.3,
+        "current_band_share_pct": 10.2,
+        "even_share_pct": 5.3,
         "flat": true,
-        "share_stop_to_close_pct": 29.2,
+        "share_stop_to_close_pct": 43.4,
         "stop_inside_top_band": false
       },
       "swing_levels": {
         "above": [
           {
-            "price": 2979,
-            "touches": 3,
+            "price": 3602,
+            "touches": 2,
             "last_date": "2026-08-31",
             "days": 0.8
           }
         ],
-        "below": [
-          {
-            "price": 2416,
-            "touches": 2,
-            "last_date": "2026-08-03",
-            "days": -4.0
-          }
-        ],
-        "window_bars": 104,
+        "below": [],
+        "window_bars": 103,
         "fractal_k": 7,
         "min_touches": 2
       },
       "chart_facts": {
-        "close": 2888.0,
+        "close": 3514.0,
         "range_60d": {
-          "low": 2435.0,
-          "high": 3450.0,
-          "position_pct": 44.6,
-          "days_to_low": -3.9,
-          "days_to_high": 4.8
+          "low": 3070.0,
+          "high": 3873.0,
+          "position_pct": 55.3,
+          "days_to_low": -4.1,
+          "days_to_high": 3.3
         },
         "range_20d": {
-          "low": 2505.0,
-          "high": 3450.0,
-          "position_pct": 40.5,
-          "days_to_low": -3.3,
-          "days_to_high": 4.8
+          "low": 3070.0,
+          "high": 3873.0,
+          "position_pct": 55.3,
+          "days_to_low": -4.1,
+          "days_to_high": 3.3
         },
-        "ma25": 3015.88,
-        "ma75": 2873.81,
-        "ma25_slope_pct": 2.47,
+        "ma25": 3573.0,
+        "ma75": 3488.8,
+        "ma25_slope_pct": 1.24,
         "ma25_slope_days": 25,
         "ma75_slope_pct": null,
         "ma75_slope_days": null,
-        "bb_upper": 3405.5,
-        "bb_lower": 2493.7,
-        "bb_bandwidth": 0.309,
-        "bb_bandwidth_pctile": 93.5,
-        "bb_bandwidth_pctile_bars": 85,
-        "vol_today": 318300,
-        "vol_avg20": 375485,
-        "vol_ratio": 0.86,
-        "gap_pct": -1.1,
+        "bb_upper": 3858.3,
+        "bb_lower": 3201.4,
+        "bb_bandwidth": 0.186,
+        "bb_bandwidth_pctile": 92.3,
+        "bb_bandwidth_pctile_bars": 84,
+        "vol_today": 483100,
+        "vol_avg20": 513070,
+        "vol_ratio": 0.95,
+        "gap_pct": -2.75,
         "close_streak": -1,
-        "bars_used": 104
+        "bars_used": 103
       },
       "earnings": {
-        "sales_yoy_pct": 29.1,
-        "op_yoy_pct": 9.7,
-        "np_yoy_pct": 19.9,
-        "eps_yoy_pct": -75.8,
-        "fc_revision_flag": "downward",
+        "sales_yoy_pct": 78.1,
+        "op_yoy_pct": 72.0,
+        "np_yoy_pct": 71.3,
+        "eps_yoy_pct": 71.9,
+        "fc_revision_flag": "upward",
         "progress_rate_op_pct": null,
-        "disclosure_date": "2026-08-07",
+        "disclosure_date": "2026-10-29",
         "profit_metric": "経常利益",
-        "period_type": "1Q",
+        "period_type": "2Q",
         "op_actual": null,
         "op_prev": null,
-        "np_actual": 3942000000.0,
-        "np_prev": 3289000000.0
+        "np_actual": 29754000000.0,
+        "np_prev": 17368000000.0
       },
       "valuation": {
-        "per": 16.78,
-        "pbr": 0.89,
-        "dividend_yield": 1.73,
+        "per": 11.37,
+        "pbr": 1.01,
+        "dividend_yield": 3.53,
         "per_basis": "FEPS",
         "split_factor": 1.0,
         "bps_split_factor": 1.0,
@@ -789,249 +255,571 @@
       },
       "size_if_entered": {
         "shares": 100,
-        "invest_amount": 288800,
-        "stop_price": 2657,
-        "actual_risk_yen": 23100,
-        "actual_risk_pct": 0.92,
+        "invest_amount": 351400,
+        "stop_price": 3233,
+        "actual_risk_yen": 28100,
+        "actual_risk_pct": 1.12,
         "reason": "リスク1.5%基準",
         "viable": true
       },
-      "next_earnings": "2026-11-09頃 (推定)",
+      "next_earnings": "2027-02-03頃 (推定)",
       "next_earnings_source": "same_quarter_prev_year",
-      "streak": 2,
-      "flags": [
-        "⚠️"
-      ],
+      "streak": 1,
+      "flags": [],
       "brief": {
-        "pullback": "60日高値から-16.3%／MA25の下(-4.2%)／MA75は+0.5%・上昇基調(MA75の25日前比+7.9%)／RSI 48(中立)",
-        "turn": "前日比 -0.48%・陽線／RSIは前日49から低下",
+        "pullback": "60日高値から-9.3%／MA25をわずかに下回る(-1.7%)／MA75は+0.7%・上昇基調(MA75の25日前比+4.5%)／RSI 50(中立)",
+        "turn": "前日比 -2.36%・陽線／RSIは前日54から低下",
         "ex_date": "",
-        "volatility": "値動きはかなり大きい(普段の1日の値幅 約4.1%＝約117円)／ATR14 129.6円(4.5%)／-8%ストップ(2,657円)は普段の値幅の約2.0日ぶん。普段の値動きだけでも数日で到達しうる距離です(ストップ幅の変更を提案するものではありません)",
-        "levels": "直近100営業日でどの価格帯が多く売買されたか (日足からの推計)／特定の価格帯への偏りはありません (最も多い帯でも全体の8%)／現値〜-8%ストップ(2,657円)の間で売買されたのは全体の29%／高安が集まった価格 上: 2,979円(3回・0.8日ぶん)／高安が集まった価格 下: 2,416円(2回・4.0日ぶん)",
-        "position": "60日のレンジ 2,435円〜3,450円 の下から45%の位置／20日の高値 3,450円(4.8日ぶん上)・安値 2,505円(3.3日ぶん下)／MA25 3,016円・傾き+2.5%(25日前比)／MA75 2,874円／ボリンジャー 2,494円〜3,406円・幅は直近85本の中で下から94%（広がっている側）／出来高 32万株 (20日平均の0.9倍)／寄り付きは前日終値比-1.10%",
+        "volatility": "値動きは大きい方(普段の1日の値幅 約3.1%＝約107円)／ATR14 130.6円(3.7%)／-8%ストップ(3,233円)は普段の値幅の約2.6日ぶん(ストップ幅の変更を提案するものではありません)",
+        "levels": "直近100営業日でどの価格帯が多く売買されたか (日足からの推計)／特定の価格帯への偏りはありません (最も多い帯でも全体の10%)／現値〜-8%ストップ(3,233円)の間で売買されたのは全体の43%／高安が集まった価格 上: 3,602円(2回・0.8日ぶん)",
+        "position": "60日のレンジ 3,070円〜3,873円 の下から55%の位置／20日の高値 3,873円(3.3日ぶん上)・安値 3,070円(4.1日ぶん下)／MA25 3,573円・傾き+1.2%(25日前比)／MA75 3,489円／ボリンジャー 3,201円〜3,858円・幅は直近84本の中で下から92%（広がっている側）／出来高 48万株 (20日平均の0.9倍)／寄り付きは前日終値比-2.75%",
         "demand_supply": "",
         "margin_alert": "",
-        "large_holding": "野村證券株式会社 保有割合 5.25%→4.09%（特例 (金融機関の特例報告)・変更の報告・7/31 時点・8/7 提出） 保有目的: 証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。",
-        "earnings": "増収増益◎／(売上+29.1%・経常利益+9.7%・純利益+19.9%)／⚠️会社予想を下方修正",
-        "valuation": "予想PER 16.8倍／PBR 0.89倍／予想配当利回り 1.73%",
-        "size": "もし-8%ストップ(2,657円)で買う場合の計算: 100株・約288,800円（最大損失 約23,100円 = 資産の0.9%）",
-        "one_liner": "判断材料: 強み1点・注意1点（一次情報で最終判断を）",
-        "link": "https://kabutan.jp/stock/?code=8392",
-        "gap_risk": "直近100日で、寄り付きが前日の終値から±3%以上離れて始まった日 4回 (上 2・下 2)／いちばん大きい下への飛び -5.0% (8/19)",
-        "sector_move": "この株 +8.5% (10/23→10/30の5営業日)／同じ業種 (銀行業) のほかの59社 (売買の多い800社の中) の真ん中 +5.2%／この株のほうが 3.3 ポイント高い"
+        "large_holding": "",
+        "earnings": "増収増益◎／(売上+78.1%・経常利益+72.0%・純利益+71.3%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 11.4倍／PBR 1.01倍／予想配当利回り 3.53%",
+        "size": "もし-8%ストップ(3,233円)で買う場合の計算: 100株・約351,400円（最大損失 約28,100円 = 資産の1.1%）",
+        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=5832",
+        "gap_risk": "直近100日で、寄り付きが前日の終値から±3%以上離れて始まった日 0回 (上 0・下 0)／いちばん大きい下への飛び -2.8% (11/2)",
+        "sector_move": "この株 +7.0% (10/26→11/2の5営業日)／同じ業種 (銀行業) のほかの59社 (売買の多い800社の中) の真ん中 +1.1%／この株のほうが 5.9 ポイント高い",
+        "drop_facts": [
+          "🔎 なぜ下げたか (押しの期間 10/7〜11/2・18 営業日)",
+          "  10/23 業績予想の修正・10/29 決算 (2Q)",
+          "  (増資・自己株式の取得は TDnet の題の取り置きから見ています。取り置きがまだ無いので見ていません)",
+          "📉 どう下げたか: 押しの間の 1 日平均の売買代金は、その前の 60 営業日の 1.5 倍 (多めの商いでの下げ)",
+          "※ 研究 (米国など: Chan 2003・Barber & Odean 2008 ほか) では、開示の有無や商いの量でその後の動きが違うという報告がありますが、日本株・このアプリでは未検証です。売買の推奨ではありません。"
+        ]
       },
       "label": "候補(要人間深掘り・エッジ未検証)",
       "gap_risk": {
         "gaps": 100,
         "threshold_pct": 3.0,
-        "up": 2,
-        "down": 2,
-        "from": "2026-06-05",
-        "to": "2026-10-30",
+        "up": 0,
+        "down": 0,
+        "from": "2026-06-08",
+        "to": "2026-11-02",
         "excluded_steps": 0,
         "stop_pct": 8.0,
-        "max_down_pct": -5.0,
-        "max_down_date": "2026-08-19",
+        "max_down_pct": -2.8,
+        "max_down_date": "2026-11-02",
         "max_down_note": null,
         "beyond_stop": false
       },
       "sector_move": {
         "sector": "銀行業",
         "days": 5,
-        "from": "2026-10-23",
-        "to": "2026-10-30",
+        "from": "2026-10-26",
+        "to": "2026-11-02",
         "population": 800,
         "peers": 59,
         "shown": true,
-        "stock_pct": 8.5,
-        "sector_median_pct": 5.2,
-        "diff_pt": 3.3
+        "stock_pct": 7.0,
+        "sector_median_pct": 1.1,
+        "diff_pt": 5.9
       },
-      "text": "【大分銀行(8392)】\n📉 押し目: 60日高値から-16.3%／MA25の下(-4.2%)／MA75は+0.5%・上昇基調(MA75の25日前比+7.9%)／RSI 48(中立)\n⏱ 当日: 前日比 -0.48%・陽線／RSIは前日49から低下\n📏 値動き: 値動きはかなり大きい(普段の1日の値幅 約4.1%＝約117円)／ATR14 129.6円(4.5%)／-8%ストップ(2,657円)は普段の値幅の約2.0日ぶん。普段の値動きだけでも数日で到達しうる距離です(ストップ幅の変更を提案するものではありません)\n📐 価格帯: 現値〜損切り(2,657円)の間で売買されたのは全体の29%／高安が集まった価格 上 2,979円(3回・0.8日ぶん)／高安が集まった価格 下 2,416円(2回・4.0日ぶん)\n📍 いまの位置: 60日のレンジ 2,435円〜3,450円 の下から45%の位置／20日の高値 3,450円(4.8日ぶん上)・安値 2,505円(3.3日ぶん下)／MA25 3,016円・傾き+2.5%(25日前比)／MA75 2,874円／ボリンジャー 2,494円〜3,406円・幅は直近85本の中で下から94%（広がっている側）／出来高 32万株 (20日平均の0.9倍)／寄り付きは前日終値比-1.10%\n📊 業績: 増収増益◎／(売上+29.1%・経常利益+9.7%・純利益+19.9%)／⚠️会社予想を下方修正\n💰 参考: 予想PER 16.8倍／PBR 0.89倍／予想配当利回り 1.73%\n📅 次回決算: 2026-11-09頃 (推定)\n🧮 もし-8%ストップ(2,657円)で買う場合の計算: 100株・約288,800円（最大損失 約23,100円 = 資産の0.9%）\n→ 判断材料: 強み1点・注意1点（一次情報で最終判断を）（🔁2営業日連続）\nhttps://kabutan.jp/stock/?code=8392"
+      "drop_facts": {
+        "high_date": "2026-10-07",
+        "from": "2026-10-07",
+        "to": "2026-11-02",
+        "days": 18,
+        "capped": false,
+        "events": [
+          {
+            "date": "2026-10-23",
+            "kind": "forecast_revision",
+            "text": "業績予想の修正"
+          },
+          {
+            "date": "2026-10-29",
+            "kind": "earnings",
+            "text": "決算 (2Q)"
+          }
+        ],
+        "titles_since": null,
+        "titles_cover": false,
+        "turnover_x": 1.52,
+        "turnover_word": "多め",
+        "attention": null
+      },
+      "text": "【ちゅうぎんフィナンシャルグループ(5832)】\n📉 押し目: 60日高値から-9.3%／MA25をわずかに下回る(-1.7%)／MA75は+0.7%・上昇基調(MA75の25日前比+4.5%)／RSI 50(中立)\n⏱ 当日: 前日比 -2.36%・陽線／RSIは前日54から低下\n📏 値動き: 値動きは大きい方(普段の1日の値幅 約3.1%＝約107円)／ATR14 130.6円(3.7%)／-8%ストップ(3,233円)は普段の値幅の約2.6日ぶん(ストップ幅の変更を提案するものではありません)\n📐 価格帯: 現値〜損切り(3,233円)の間で売買されたのは全体の43%／高安が集まった価格 上 3,602円(2回・0.8日ぶん)\n📍 いまの位置: 60日のレンジ 3,070円〜3,873円 の下から55%の位置／20日の高値 3,873円(3.3日ぶん上)・安値 3,070円(4.1日ぶん下)／MA25 3,573円・傾き+1.2%(25日前比)／MA75 3,489円／ボリンジャー 3,201円〜3,858円・幅は直近84本の中で下から92%（広がっている側）／出来高 48万株 (20日平均の0.9倍)／寄り付きは前日終値比-2.75%\n📊 業績: 増収増益◎／(売上+78.1%・経常利益+72.0%・純利益+71.3%)／🆙会社予想を上方修正\n💰 参考: 予想PER 11.4倍／PBR 1.01倍／予想配当利回り 3.53%\n📅 次回決算: 2027-02-03頃 (推定)\n🧮 もし-8%ストップ(3,233円)で買う場合の計算: 100株・約351,400円（最大損失 約28,100円 = 資産の1.1%）\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）（🆕 今日が初日）\nhttps://kabutan.jp/stock/?code=5832"
     },
     {
-      "code": "30920",
-      "ticker": "3092",
-      "name": "ＺＯＺＯ",
-      "price": 1160.5,
-      "as_of": "2026-10-30",
+      "code": "19610",
+      "ticker": "1961",
+      "name": "三機工業",
+      "price": 2493.0,
+      "as_of": "2026-11-02",
       "pullback": {
-        "drawdown_60d_pct": 10.0,
-        "ma25_dev_pct": -0.2,
-        "ma75_dev_pct": 0.7,
-        "rsi14": 46.52,
-        "bb_pct_b": 0.42,
-        "atr": 29.25,
-        "vol_ratio": 1.89,
+        "drawdown_60d_pct": 8.1,
+        "ma25_dev_pct": -4.0,
+        "ma75_dev_pct": 0.4,
+        "rsi14": 44.32,
+        "bb_pct_b": 0.09,
+        "atr": 88.5,
+        "vol_ratio": 0.91,
         "signals": [],
         "signal_details": []
       },
       "turn_facts": {
-        "chg_1d_pct": -1.07,
+        "chg_1d_pct": -0.48,
         "bullish_bar": false,
         "above_prev_high": false,
         "rsi_rising": false,
-        "rsi_prev": 49.27,
-        "ma75_slope_pct": 1.15,
+        "rsi_prev": 45.12,
+        "ma75_slope_pct": -2.5,
         "ma75_slope_days": 25
       },
       "ex_date": {
         "record_date": "2027-03-31",
         "last_buy_date": "2027-03-29",
         "ex_date": "2027-03-30",
-        "business_days_to_ex": 100,
+        "business_days_to_ex": 99,
+        "kind": "期末"
+      },
+      "demand_supply": {},
+      "margin_alert": null,
+      "large_holdings": [
+        {
+          "docID": "S100Z66Y",
+          "filer": "キャピタル・リサーチ・アンド・マネージメント・カンパニー",
+          "kind": "変更",
+          "special": true,
+          "submitted": "2026-10-07",
+          "obligation_date": "2026-09-30",
+          "ratio": 0.0566,
+          "prev_ratio": 0.053,
+          "purpose": "顧客である日本国外の投資信託のための純投資"
+        },
+        {
+          "docID": "S100YZWA",
+          "filer": "三井住友トラスト・アセットマネジメント株式会社",
+          "kind": "新規",
+          "special": true,
+          "submitted": "2026-09-04",
+          "obligation_date": "2026-08-31",
+          "ratio": 0.0521,
+          "prev_ratio": null,
+          "purpose": "投資信託契約、投資一任契約に基づく運用を目的として保有するもの。"
+        }
+      ],
+      "volatility": {
+        "atr14": 88.5,
+        "atr_pct": 3.55,
+        "normal_range_pct": 2.87,
+        "normal_range_yen": 72,
+        "range_window": 20,
+        "bars_used": 20,
+        "stop_8pct_in_normal_days": 2.8
+      },
+      "volume_profile": {
+        "window_bars": 100,
+        "window_from": "2026-06-08",
+        "window_to": "2026-11-02",
+        "bin_yen": 35.8,
+        "bin_days": 0.5,
+        "method": "daily_hl_uniform_approx",
+        "top_band": {
+          "lo": 2421,
+          "hi": 2457,
+          "share_pct": 9.7,
+          "days_lo": -1.0,
+          "days_hi": -0.5
+        },
+        "bands_top3": [
+          {
+            "lo": 2421,
+            "hi": 2457,
+            "share_pct": 9.7,
+            "days_lo": -1.0,
+            "days_hi": -0.5
+          },
+          {
+            "lo": 2386,
+            "hi": 2421,
+            "share_pct": 9.4,
+            "days_lo": -1.5,
+            "days_hi": -1.0
+          },
+          {
+            "lo": 2350,
+            "hi": 2386,
+            "share_pct": 8.2,
+            "days_lo": -2.0,
+            "days_hi": -1.5
+          }
+        ],
+        "heaviest_below": {
+          "lo": 2421,
+          "hi": 2457,
+          "share_pct": 9.7,
+          "days_lo": -1.0,
+          "days_hi": -0.5
+        },
+        "heaviest_above": {
+          "lo": 2636,
+          "hi": 2672,
+          "share_pct": 7.1,
+          "days_lo": 2.0,
+          "days_hi": 2.5
+        },
+        "current_band": {
+          "lo": 2493,
+          "hi": 2529,
+          "share_pct": 5.6,
+          "days_lo": 0.0,
+          "days_hi": 0.5
+        },
+        "current_band_share_pct": 5.6,
+        "even_share_pct": 3.0,
+        "flat": false,
+        "share_stop_to_close_pct": 40.5,
+        "stop_inside_top_band": false
+      },
+      "swing_levels": {
+        "above": [
+          {
+            "price": 2699,
+            "touches": 2,
+            "last_date": "2026-10-05",
+            "days": 2.9
+          }
+        ],
+        "below": [],
+        "window_bars": 103,
+        "fractal_k": 7,
+        "min_touches": 2
+      },
+      "chart_facts": {
+        "close": 2493.0,
+        "range_60d": {
+          "low": 2228.0,
+          "high": 2714.0,
+          "position_pct": 54.5,
+          "days_to_low": -3.7,
+          "days_to_high": 3.1
+        },
+        "range_20d": {
+          "low": 2447.0,
+          "high": 2714.0,
+          "position_pct": 17.2,
+          "days_to_low": -0.6,
+          "days_to_high": 3.1
+        },
+        "ma25": 2597.2,
+        "ma75": 2484.23,
+        "ma25_slope_pct": 6.71,
+        "ma25_slope_days": 25,
+        "ma75_slope_pct": null,
+        "ma75_slope_days": null,
+        "bb_upper": 2711.2,
+        "bb_lower": 2470.3,
+        "bb_bandwidth": 0.093,
+        "bb_bandwidth_pctile": 30.4,
+        "bb_bandwidth_pctile_bars": 84,
+        "vol_today": 446200,
+        "vol_avg20": 489610,
+        "vol_ratio": 0.91,
+        "gap_pct": -0.12,
+        "close_streak": -2,
+        "bars_used": 103
+      },
+      "earnings": {
+        "sales_yoy_pct": 7.4,
+        "op_yoy_pct": 106.6,
+        "np_yoy_pct": 142.3,
+        "eps_yoy_pct": -17.9,
+        "fc_revision_flag": "downward",
+        "progress_rate_op_pct": 14.7,
+        "disclosure_date": "2026-08-07",
+        "profit_metric": "営業利益",
+        "period_type": "1Q",
+        "op_actual": 4567000000.0,
+        "op_prev": 2211000000.0,
+        "np_actual": 4376000000.0,
+        "np_prev": 1806000000.0
+      },
+      "valuation": {
+        "per": 14.49,
+        "pbr": 3.14,
+        "dividend_yield": 2.61,
+        "per_basis": "FEPS",
+        "split_factor": 1.0,
+        "bps_split_factor": 1.0,
+        "dividend_basis": "FDivAnn",
+        "flags": []
+      },
+      "size_if_entered": {
+        "shares": 100,
+        "invest_amount": 249300,
+        "stop_price": 2294,
+        "actual_risk_yen": 19900,
+        "actual_risk_pct": 0.8,
+        "reason": "リスク1.5%基準",
+        "viable": true
+      },
+      "next_earnings": "2026-11-13頃 (推定)",
+      "next_earnings_source": "same_quarter_prev_year",
+      "streak": 1,
+      "flags": [
+        "⚠️"
+      ],
+      "brief": {
+        "pullback": "60日高値から-8.1%／MA25の下(-4.0%)／MA75は+0.4%・⚠️MA75は下向き(25日前比-2.5%)／RSI 44(下げ止まり圏)／🟢バンド下限近く(%b 0.09)",
+        "turn": "前日比 -0.48%・陰線／RSIは前日45から低下",
+        "ex_date": "",
+        "volatility": "値動きは大きい方(普段の1日の値幅 約2.9%＝約72円)／ATR14 88.5円(3.5%)／-8%ストップ(2,294円)は普段の値幅の約2.8日ぶん(ストップ幅の変更を提案するものではありません)",
+        "levels": "直近100営業日でどの価格帯が多く売買されたか (日足からの推計)／いまの株価の帯: 全体の6% (均等に散らばった場合は3%)／下でいちばん厚い帯 2,421円〜2,457円 (10%・0.5〜1.0日ぶん下)／上でいちばん厚い帯 2,636円〜2,672円 (7%・2.0〜2.5日ぶん上)／現値〜-8%ストップ(2,294円)の間で売買されたのは全体の40%／高安が集まった価格 上: 2,699円(2回・2.9日ぶん)",
+        "position": "60日のレンジ 2,228円〜2,714円 の下から54%の位置／20日の高値 2,714円(3.1日ぶん上)・安値 2,447円(0.6日ぶん下)／MA25 2,597円・傾き+6.7%(25日前比)／MA75 2,484円／ボリンジャー 2,470円〜2,711円・幅は直近84本の中で下から30%／出来高 45万株 (20日平均の0.9倍)／寄り付きは前日終値比-0.12%・2日続落",
+        "demand_supply": "",
+        "margin_alert": "",
+        "large_holding": "キャピタル・リサーチ・アンド・マネージメント・カンパニー 保有割合 5.30%→5.66%（特例 (金融機関の特例報告)・変更の報告・9/30 時点・10/7 提出） 保有目的: 顧客である日本国外の投資信託のための純投資／三井住友トラスト・アセットマネジメント株式会社 保有割合 5.21%（特例 (金融機関の特例報告)・新規の報告・8/31 時点・9/4 提出） 保有目的: 投資信託契約、投資一任契約に基づく運用を目的として保有するもの。",
+        "earnings": "増収増益◎／(売上+7.4%・営業利益+106.6%・純利益+142.3%)／⚠️会社予想を下方修正／通期予想への進捗率 15%(1Q・目安25%を下回る)",
+        "valuation": "予想PER 14.5倍／PBR 3.14倍／予想配当利回り 2.61%",
+        "size": "もし-8%ストップ(2,294円)で買う場合の計算: 100株・約249,300円（最大損失 約19,900円 = 資産の0.8%）",
+        "one_liner": "判断材料: 強み1点・注意1点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=1961",
+        "gap_risk": "直近100日で、寄り付きが前日の終値から±3%以上離れて始まった日 11回 (上 6・下 5)／いちばん大きい下への飛び -4.8% (7/3)",
+        "sector_move": "この株 -2.5% (10/26→11/2の5営業日)／同じ業種 (建設業) のほかの33社 (売買の多い800社の中) の真ん中 -1.9%／この株のほうが 0.6 ポイント低い",
+        "drop_facts": [
+          "🔎 なぜ下げたか (押しの期間 10/29〜11/2・3 営業日)",
+          "  押しの期間に、決算・予想の修正・増資・自己株式の取得の開示はなし",
+          "  (増資・自己株式の取得は TDnet の題の取り置きから見ています。取り置きがまだ無いので見ていません)",
+          "📉 どう下げたか: 押しの間の 1 日平均の売買代金は、その前の 60 営業日の 1.3 倍 (多めの商いでの下げ)",
+          "※ 研究 (米国など: Chan 2003・Barber & Odean 2008 ほか) では、開示の有無や商いの量でその後の動きが違うという報告がありますが、日本株・このアプリでは未検証です。売買の推奨ではありません。"
+        ]
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "gap_risk": {
+        "gaps": 100,
+        "threshold_pct": 3.0,
+        "up": 6,
+        "down": 5,
+        "from": "2026-06-08",
+        "to": "2026-11-02",
+        "excluded_steps": 0,
+        "stop_pct": 8.0,
+        "max_down_pct": -4.8,
+        "max_down_date": "2026-07-03",
+        "max_down_note": null,
+        "beyond_stop": false
+      },
+      "sector_move": {
+        "sector": "建設業",
+        "days": 5,
+        "from": "2026-10-26",
+        "to": "2026-11-02",
+        "population": 800,
+        "peers": 33,
+        "shown": true,
+        "stock_pct": -2.5,
+        "sector_median_pct": -1.9,
+        "diff_pt": -0.6
+      },
+      "drop_facts": {
+        "high_date": "2026-10-29",
+        "from": "2026-10-29",
+        "to": "2026-11-02",
+        "days": 3,
+        "capped": false,
+        "events": [],
+        "titles_since": null,
+        "titles_cover": false,
+        "turnover_x": 1.34,
+        "turnover_word": "多め",
+        "attention": null
+      },
+      "text": "【三機工業(1961)】\n📉 押し目: 60日高値から-8.1%／MA25の下(-4.0%)／MA75は+0.4%・⚠️MA75は下向き(25日前比-2.5%)／RSI 44(下げ止まり圏)／🟢バンド下限近く(%b 0.09)\n⏱ 当日: 前日比 -0.48%・陰線／RSIは前日45から低下\n📏 値動き: 値動きは大きい方(普段の1日の値幅 約2.9%＝約72円)／ATR14 88.5円(3.5%)／-8%ストップ(2,294円)は普段の値幅の約2.8日ぶん(ストップ幅の変更を提案するものではありません)\n📐 価格帯: 現値〜損切り(2,294円)の間で売買されたのは全体の40%／下でいちばん厚い帯 2,421円〜2,457円 (10%・0.5〜1.0日ぶん下)／高安が集まった価格 上 2,699円(2回・2.9日ぶん)\n📍 いまの位置: 60日のレンジ 2,228円〜2,714円 の下から54%の位置／20日の高値 2,714円(3.1日ぶん上)・安値 2,447円(0.6日ぶん下)／MA25 2,597円・傾き+6.7%(25日前比)／MA75 2,484円／ボリンジャー 2,470円〜2,711円・幅は直近84本の中で下から30%／出来高 45万株 (20日平均の0.9倍)／寄り付きは前日終値比-0.12%・2日続落\n📊 業績: 増収増益◎／(売上+7.4%・営業利益+106.6%・純利益+142.3%)／⚠️会社予想を下方修正／通期予想への進捗率 15%(1Q・目安25%を下回る)\n💰 参考: 予想PER 14.5倍／PBR 3.14倍／予想配当利回り 2.61%\n📅 次回決算: 2026-11-13頃 (推定)\n🧮 もし-8%ストップ(2,294円)で買う場合の計算: 100株・約249,300円（最大損失 約19,900円 = 資産の0.8%）\n→ 判断材料: 強み1点・注意1点（一次情報で最終判断を）（🆕 今日が初日）\nhttps://kabutan.jp/stock/?code=1961"
+    },
+    {
+      "code": "39230",
+      "ticker": "3923",
+      "name": "ラクス",
+      "price": 1097.5,
+      "as_of": "2026-11-02",
+      "pullback": {
+        "drawdown_60d_pct": 9.8,
+        "ma25_dev_pct": 0.7,
+        "ma75_dev_pct": 2.0,
+        "rsi14": 49.83,
+        "bb_pct_b": 0.43,
+        "atr": 40.82,
+        "vol_ratio": 0.95,
+        "signals": [],
+        "signal_details": []
+      },
+      "turn_facts": {
+        "chg_1d_pct": -1.3,
+        "bullish_bar": false,
+        "above_prev_high": false,
+        "rsi_rising": false,
+        "rsi_prev": 53.01,
+        "ma75_slope_pct": 4.44,
+        "ma75_slope_days": 25
+      },
+      "ex_date": {
+        "record_date": "2027-03-31",
+        "last_buy_date": "2027-03-29",
+        "ex_date": "2027-03-30",
+        "business_days_to_ex": 99,
         "kind": "期末"
       },
       "demand_supply": {},
       "margin_alert": null,
       "large_holdings": [],
       "volatility": {
-        "atr14": 29.25,
-        "atr_pct": 2.52,
-        "normal_range_pct": 2.0,
-        "normal_range_yen": 23,
+        "atr14": 40.82,
+        "atr_pct": 3.72,
+        "normal_range_pct": 3.14,
+        "normal_range_yen": 35,
         "range_window": 20,
         "bars_used": 20,
-        "stop_8pct_in_normal_days": 4.0
+        "stop_8pct_in_normal_days": 2.5
       },
       "volume_profile": {
         "window_bars": 100,
-        "window_from": "2026-06-05",
-        "window_to": "2026-10-30",
-        "bin_yen": 11.6,
+        "window_from": "2026-06-08",
+        "window_to": "2026-11-02",
+        "bin_yen": 17.2,
         "bin_days": 0.5,
         "method": "daily_hl_uniform_approx",
         "top_band": {
-          "lo": 1137,
-          "hi": 1149,
-          "share_pct": 12.6,
-          "days_lo": -1.0,
-          "days_hi": -0.5
+          "lo": 1011,
+          "hi": 1029,
+          "share_pct": 9.9,
+          "days_lo": -2.5,
+          "days_hi": -2.0
         },
         "bands_top3": [
           {
-            "lo": 1137,
-            "hi": 1149,
-            "share_pct": 12.6,
-            "days_lo": -1.0,
-            "days_hi": -0.5
+            "lo": 1011,
+            "hi": 1029,
+            "share_pct": 9.9,
+            "days_lo": -2.5,
+            "days_hi": -2.0
           },
           {
-            "lo": 1149,
-            "hi": 1160,
-            "share_pct": 12.1,
+            "lo": 1080,
+            "hi": 1098,
+            "share_pct": 9.0,
             "days_lo": -0.5,
             "days_hi": 0.0
           },
           {
-            "lo": 1126,
-            "hi": 1137,
-            "share_pct": 11.7,
-            "days_lo": -1.5,
-            "days_hi": -1.0
+            "lo": 1098,
+            "hi": 1115,
+            "share_pct": 8.7,
+            "days_lo": 0.0,
+            "days_hi": 0.5
           }
         ],
         "heaviest_below": {
-          "lo": 1137,
-          "hi": 1149,
-          "share_pct": 12.6,
-          "days_lo": -1.0,
-          "days_hi": -0.5
+          "lo": 1011,
+          "hi": 1029,
+          "share_pct": 9.9,
+          "days_lo": -2.5,
+          "days_hi": -2.0
         },
         "heaviest_above": {
-          "lo": 1172,
-          "hi": 1184,
-          "share_pct": 5.9,
+          "lo": 1115,
+          "hi": 1132,
+          "share_pct": 7.6,
           "days_lo": 0.5,
           "days_hi": 1.0
         },
         "current_band": {
-          "lo": 1160,
-          "hi": 1172,
-          "share_pct": 7.4,
+          "lo": 1098,
+          "hi": 1115,
+          "share_pct": 8.7,
           "days_lo": 0.0,
           "days_hi": 0.5
         },
-        "current_band_share_pct": 7.4,
-        "even_share_pct": 4.3,
+        "current_band_share_pct": 8.7,
+        "even_share_pct": 4.8,
         "flat": false,
-        "share_stop_to_close_pct": 68.8,
+        "share_stop_to_close_pct": 42.6,
         "stop_inside_top_band": false
       },
       "swing_levels": {
         "above": [
           {
-            "price": 1173,
-            "touches": 4,
-            "last_date": "2026-09-18",
-            "days": 0.5
+            "price": 1203,
+            "touches": 3,
+            "last_date": "2026-10-16",
+            "days": 3.1
           }
         ],
         "below": [
           {
-            "price": 1093,
-            "touches": 3,
-            "last_date": "2026-09-10",
+            "price": 998,
+            "touches": 2,
+            "last_date": "2026-09-30",
             "days": -2.9
+          },
+          {
+            "price": 930,
+            "touches": 2,
+            "last_date": "2026-07-24",
+            "days": -4.9
           }
         ],
-        "window_bars": 104,
+        "window_bars": 103,
         "fractal_k": 7,
         "min_touches": 2
       },
       "chart_facts": {
-        "close": 1160.5,
+        "close": 1097.5,
         "range_60d": {
-          "low": 1060.5,
-          "high": 1289.5,
-          "position_pct": 43.7,
-          "days_to_low": -4.3,
-          "days_to_high": 5.6
+          "low": 995.1,
+          "high": 1216.5,
+          "position_pct": 46.3,
+          "days_to_low": -3.0,
+          "days_to_high": 3.5
         },
         "range_20d": {
-          "low": 1078.0,
-          "high": 1289.5,
-          "position_pct": 39.0,
-          "days_to_low": -3.6,
-          "days_to_high": 5.6
+          "low": 1003.0,
+          "high": 1216.5,
+          "position_pct": 44.3,
+          "days_to_low": -2.7,
+          "days_to_high": 3.5
         },
-        "ma25": 1162.76,
-        "ma75": 1152.22,
-        "ma25_slope_pct": 2.28,
+        "ma25": 1089.48,
+        "ma75": 1075.82,
+        "ma25_slope_pct": -0.17,
         "ma25_slope_days": 25,
         "ma75_slope_pct": null,
         "ma75_slope_days": null,
-        "bb_upper": 1276.0,
-        "bb_lower": 1078.3,
-        "bb_bandwidth": 0.168,
-        "bb_bandwidth_pctile": 92.4,
-        "bb_bandwidth_pctile_bars": 85,
-        "vol_today": 5979000,
-        "vol_avg20": 3301520,
-        "vol_ratio": 1.89,
-        "gap_pct": -0.21,
-        "close_streak": -5,
-        "bars_used": 104
+        "bb_upper": 1173.7,
+        "bb_lower": 1040.1,
+        "bb_bandwidth": 0.121,
+        "bb_bandwidth_pctile": 5.4,
+        "bb_bandwidth_pctile_bars": 84,
+        "vol_today": 1517100,
+        "vol_avg20": 1608155,
+        "vol_ratio": 0.95,
+        "gap_pct": -0.4,
+        "close_streak": -1,
+        "bars_used": 103
       },
       "earnings": {
-        "sales_yoy_pct": 5.1,
-        "op_yoy_pct": 5.6,
-        "np_yoy_pct": 3.5,
-        "eps_yoy_pct": 4.5,
+        "sales_yoy_pct": 0.9,
+        "op_yoy_pct": 30.1,
+        "np_yoy_pct": 313.7,
+        "eps_yoy_pct": 111.1,
         "fc_revision_flag": "upward",
-        "progress_rate_op_pct": 44.1,
-        "disclosure_date": "2026-10-29",
+        "progress_rate_op_pct": 23.2,
+        "disclosure_date": "2026-08-14",
         "profit_metric": "営業利益",
-        "period_type": "2Q",
-        "op_actual": 32825000000.0,
-        "op_prev": 31074000000.0,
-        "np_actual": 21751000000.0,
-        "np_prev": 21006000000.0
+        "period_type": "1Q",
+        "op_actual": 4756000000.0,
+        "op_prev": 3656000000.0,
+        "np_actual": 14631000000.0,
+        "np_prev": 3537000000.0
       },
       "valuation": {
-        "per": 20.65,
-        "pbr": 9.61,
-        "dividend_yield": 3.45,
+        "per": 15.42,
+        "pbr": 14.93,
+        "dividend_yield": 0.73,
         "per_basis": "FEPS",
         "split_factor": 1.0,
         "bps_split_factor": 1.0,
@@ -1040,258 +828,528 @@
       },
       "size_if_entered": {
         "shares": 400,
-        "invest_amount": 464200,
-        "stop_price": 1068,
-        "actual_risk_yen": 37000,
-        "actual_risk_pct": 1.48,
+        "invest_amount": 439000,
+        "stop_price": 1010,
+        "actual_risk_yen": 35000,
+        "actual_risk_pct": 1.4,
         "reason": "リスク1.5%基準",
         "viable": true
       },
-      "next_earnings": "2027-02-11頃 (推定)",
+      "next_earnings": "2026-11-13頃 (推定)",
       "next_earnings_source": "same_quarter_prev_year",
-      "streak": 2,
+      "streak": 1,
       "flags": [],
       "brief": {
-        "pullback": "60日高値から-10.0%／MA25をわずかに下回る(-0.2%)／MA75は+0.7%・上昇基調(MA75の25日前比+1.1%)／RSI 47(中立)",
-        "turn": "前日比 -1.07%・陰線／RSIは前日49から低下",
+        "pullback": "60日高値から-9.8%／MA25すぐ上(+0.7%)／MA75は+2.0%・上昇基調(MA75の25日前比+4.4%)／RSI 50(中立)",
+        "turn": "前日比 -1.30%・陰線／RSIは前日53から低下",
         "ex_date": "",
-        "volatility": "値動きは平均的(普段の1日の値幅 約2.0%＝約23円)／ATR14 29.2円(2.5%)／-8%ストップ(1,068円)は普段の値幅の約4.0日ぶん。普段の値動きだけで到達することは多くない距離です(ストップ幅の変更を提案するものではありません)",
-        "levels": "直近100営業日でどの価格帯が多く売買されたか (日足からの推計)／いまの株価の帯: 全体の7% (均等に散らばった場合は4%)／下でいちばん厚い帯 1,137円〜1,149円 (13%・0.5〜1.0日ぶん下)／上でいちばん厚い帯 1,172円〜1,184円 (6%・0.5〜1.0日ぶん上)／現値〜-8%ストップ(1,068円)の間で売買されたのは全体の69%／高安が集まった価格 上: 1,173円(4回・0.5日ぶん)／高安が集まった価格 下: 1,093円(3回・2.9日ぶん)",
-        "position": "60日のレンジ 1,060円〜1,290円 の下から44%の位置／20日の高値 1,290円(5.6日ぶん上)・安値 1,078円(3.6日ぶん下)／MA25 1,163円・傾き+2.3%(25日前比)／MA75 1,152円／ボリンジャー 1,078円〜1,276円・幅は直近85本の中で下から92%（広がっている側）／出来高 598万株 (20日平均の1.9倍)／寄り付きは前日終値比-0.21%・5日続落",
+        "volatility": "値動きは大きい方(普段の1日の値幅 約3.1%＝約35円)／ATR14 40.8円(3.7%)／-8%ストップ(1,010円)は普段の値幅の約2.5日ぶん(ストップ幅の変更を提案するものではありません)",
+        "levels": "直近100営業日でどの価格帯が多く売買されたか (日足からの推計)／いまの株価の帯: 全体の9% (均等に散らばった場合は5%)／下でいちばん厚い帯 1,011円〜1,029円 (10%・2.0〜2.5日ぶん下)／上でいちばん厚い帯 1,115円〜1,132円 (8%・0.5〜1.0日ぶん上)／現値〜-8%ストップ(1,010円)の間で売買されたのは全体の43%／高安が集まった価格 上: 1,203円(3回・3.1日ぶん)／高安が集まった価格 下: 998円(2回・2.9日ぶん)・930円(2回・4.9日ぶん)",
+        "position": "60日のレンジ 995円〜1,216円 の下から46%の位置／20日の高値 1,216円(3.5日ぶん上)・安値 1,003円(2.7日ぶん下)／MA25 1,089円・傾き-0.2%(25日前比)／MA75 1,076円／ボリンジャー 1,040円〜1,174円・幅は直近84本の中で下から5%（値動きが縮んでいる側）／出来高 152万株 (20日平均の0.9倍)／寄り付きは前日終値比-0.40%",
         "demand_supply": "",
         "margin_alert": "",
         "large_holding": "",
-        "earnings": "増収増益◎／(売上+5.1%・営業利益+5.6%・純利益+3.5%)／🆙会社予想を上方修正／通期予想への進捗率 44%(2Q・目安50%どおり)",
-        "valuation": "予想PER 20.6倍／PBR 9.61倍／予想配当利回り 3.45%",
-        "size": "もし-8%ストップ(1,068円)で買う場合の計算: 400株・約464,200円（最大損失 約37,000円 = 資産の1.5%）",
-        "one_liner": "判断材料: 強み1点・注意0点（一次情報で最終判断を）",
-        "link": "https://kabutan.jp/stock/?code=3092",
-        "gap_risk": "直近100日で、寄り付きが前日の終値から±3%以上離れて始まった日 1回 (上 0・下 1)／いちばん大きい下への飛び -4.6% (7/31・決算発表の直後)",
-        "sector_move": "この株 -7.9% (10/23→10/30の5営業日)／同じ業種 (小売業) のほかの52社 (売買の多い800社の中) の真ん中 +1.0%／この株のほうが 8.9 ポイント低い"
+        "earnings": "増収増益◎／(売上+0.9%・営業利益+30.1%・純利益+313.7%)／🆙会社予想を上方修正／通期予想への進捗率 23%(1Q・目安25%どおり)",
+        "valuation": "予想PER 15.4倍／PBR 14.93倍／予想配当利回り 0.73%",
+        "size": "もし-8%ストップ(1,010円)で買う場合の計算: 400株・約439,000円（最大損失 約35,000円 = 資産の1.4%）",
+        "one_liner": "判断材料: 強み2点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=3923",
+        "gap_risk": "直近100日で、寄り付きが前日の終値から±3%以上離れて始まった日 10回 (上 6・下 4)／いちばん大きい下への飛び -7.6% (8/17・決算発表の直後)",
+        "sector_move": "この株 -1.7% (10/26→11/2の5営業日)／同じ業種 (情報･通信業) のほかの91社 (売買の多い800社の中) の真ん中 -2.0%／この株のほうが 0.3 ポイント高い",
+        "drop_facts": [
+          "🔎 なぜ下げたか (押しの期間 10/16〜11/2・12 営業日)",
+          "  押しの期間に、決算・予想の修正・増資・自己株式の取得の開示はなし",
+          "  (増資・自己株式の取得は TDnet の題の取り置きから見ています。取り置きがまだ無いので見ていません)",
+          "📉 どう下げたか: 押しの間の 1 日平均の売買代金は、その前の 60 営業日の 0.8 倍 (ふだん並みの商いでの下げ)",
+          "※ 研究 (米国など: Chan 2003・Barber & Odean 2008 ほか) では、開示の有無や商いの量でその後の動きが違うという報告がありますが、日本株・このアプリでは未検証です。売買の推奨ではありません。"
+        ]
       },
       "label": "候補(要人間深掘り・エッジ未検証)",
       "gap_risk": {
         "gaps": 100,
         "threshold_pct": 3.0,
-        "up": 0,
-        "down": 1,
-        "from": "2026-06-05",
-        "to": "2026-10-30",
+        "up": 6,
+        "down": 4,
+        "from": "2026-06-08",
+        "to": "2026-11-02",
         "excluded_steps": 0,
         "stop_pct": 8.0,
-        "max_down_pct": -4.6,
-        "max_down_date": "2026-07-31",
+        "max_down_pct": -7.6,
+        "max_down_date": "2026-08-17",
         "max_down_note": "earnings",
         "beyond_stop": false
       },
       "sector_move": {
-        "sector": "小売業",
+        "sector": "情報･通信業",
         "days": 5,
-        "from": "2026-10-23",
-        "to": "2026-10-30",
+        "from": "2026-10-26",
+        "to": "2026-11-02",
         "population": 800,
-        "peers": 52,
+        "peers": 91,
         "shown": true,
-        "stock_pct": -7.9,
-        "sector_median_pct": 1.0,
-        "diff_pt": -8.9
+        "stock_pct": -1.7,
+        "sector_median_pct": -2.0,
+        "diff_pt": 0.3
       },
-      "text": "【ＺＯＺＯ(3092)】\n📉 押し目: 60日高値から-10.0%／MA25をわずかに下回る(-0.2%)／MA75は+0.7%・上昇基調(MA75の25日前比+1.1%)／RSI 47(中立)\n⏱ 当日: 前日比 -1.07%・陰線／RSIは前日49から低下\n📏 値動き: 値動きは平均的(普段の1日の値幅 約2.0%＝約23円)／ATR14 29.2円(2.5%)／-8%ストップ(1,068円)は普段の値幅の約4.0日ぶん。普段の値動きだけで到達することは多くない距離です(ストップ幅の変更を提案するものではありません)\n📐 価格帯: 現値〜損切り(1,068円)の間で売買されたのは全体の69%／下でいちばん厚い帯 1,137円〜1,149円 (13%・0.5〜1.0日ぶん下)／高安が集まった価格 上 1,173円(4回・0.5日ぶん)／高安が集まった価格 下 1,093円(3回・2.9日ぶん)\n📍 いまの位置: 60日のレンジ 1,060円〜1,290円 の下から44%の位置／20日の高値 1,290円(5.6日ぶん上)・安値 1,078円(3.6日ぶん下)／MA25 1,163円・傾き+2.3%(25日前比)／MA75 1,152円／ボリンジャー 1,078円〜1,276円・幅は直近85本の中で下から92%（広がっている側）／出来高 598万株 (20日平均の1.9倍)／寄り付きは前日終値比-0.21%・5日続落\n📊 業績: 増収増益◎／(売上+5.1%・営業利益+5.6%・純利益+3.5%)／🆙会社予想を上方修正／通期予想への進捗率 44%(2Q・目安50%どおり)\n💰 参考: 予想PER 20.6倍／PBR 9.61倍／予想配当利回り 3.45%\n📅 次回決算: 2027-02-11頃 (推定)\n🧮 もし-8%ストップ(1,068円)で買う場合の計算: 400株・約464,200円（最大損失 約37,000円 = 資産の1.5%）\n→ 判断材料: 強み1点・注意0点（一次情報で最終判断を）（🔁2営業日連続）\nhttps://kabutan.jp/stock/?code=3092"
+      "drop_facts": {
+        "high_date": "2026-10-16",
+        "from": "2026-10-16",
+        "to": "2026-11-02",
+        "days": 12,
+        "capped": false,
+        "events": [],
+        "titles_since": null,
+        "titles_cover": false,
+        "turnover_x": 0.85,
+        "turnover_word": "ふだん並み",
+        "attention": null
+      },
+      "text": "【ラクス(3923)】\n📉 押し目: 60日高値から-9.8%／MA25すぐ上(+0.7%)／MA75は+2.0%・上昇基調(MA75の25日前比+4.4%)／RSI 50(中立)\n⏱ 当日: 前日比 -1.30%・陰線／RSIは前日53から低下\n📏 値動き: 値動きは大きい方(普段の1日の値幅 約3.1%＝約35円)／ATR14 40.8円(3.7%)／-8%ストップ(1,010円)は普段の値幅の約2.5日ぶん(ストップ幅の変更を提案するものではありません)\n📐 価格帯: 現値〜損切り(1,010円)の間で売買されたのは全体の43%／下でいちばん厚い帯 1,011円〜1,029円 (10%・2.0〜2.5日ぶん下)／高安が集まった価格 上 1,203円(3回・3.1日ぶん)／高安が集まった価格 下 998円(2回・2.9日ぶん)\n📍 いまの位置: 60日のレンジ 995円〜1,216円 の下から46%の位置／20日の高値 1,216円(3.5日ぶん上)・安値 1,003円(2.7日ぶん下)／MA25 1,089円・傾き-0.2%(25日前比)／MA75 1,076円／ボリンジャー 1,040円〜1,174円・幅は直近84本の中で下から5%（値動きが縮んでいる側）／出来高 152万株 (20日平均の0.9倍)／寄り付きは前日終値比-0.40%\n📊 業績: 増収増益◎／(売上+0.9%・営業利益+30.1%・純利益+313.7%)／🆙会社予想を上方修正／通期予想への進捗率 23%(1Q・目安25%どおり)\n💰 参考: 予想PER 15.4倍／PBR 14.93倍／予想配当利回り 0.73%\n📅 次回決算: 2026-11-13頃 (推定)\n🧮 もし-8%ストップ(1,010円)で買う場合の計算: 400株・約439,000円（最大損失 約35,000円 = 資産の1.4%）\n→ 判断材料: 強み2点・注意0点（一次情報で最終判断を）（🆕 今日が初日）\nhttps://kabutan.jp/stock/?code=3923"
     },
     {
-      "code": "23260",
-      "ticker": "2326",
-      "name": "デジタルアーツ",
-      "price": 5440.0,
-      "as_of": "2026-10-30",
+      "code": "98890",
+      "ticker": "9889",
+      "name": "ＪＢＣＣホールディングス",
+      "price": 2015.0,
+      "as_of": "2026-11-02",
       "pullback": {
-        "drawdown_60d_pct": 17.3,
-        "ma25_dev_pct": -3.0,
-        "ma75_dev_pct": 13.2,
-        "rsi14": 47.58,
-        "bb_pct_b": 0.28,
-        "atr": 365.71,
-        "vol_ratio": 0.42,
+        "drawdown_60d_pct": 15.6,
+        "ma25_dev_pct": 1.1,
+        "ma75_dev_pct": 14.7,
+        "rsi14": 49.89,
+        "bb_pct_b": 0.44,
+        "atr": 114.57,
+        "vol_ratio": 0.94,
         "signals": [],
         "signal_details": []
       },
       "turn_facts": {
-        "chg_1d_pct": -1.45,
+        "chg_1d_pct": -1.71,
         "bullish_bar": false,
         "above_prev_high": false,
         "rsi_rising": false,
-        "rsi_prev": 49.27,
-        "ma75_slope_pct": 15.37,
+        "rsi_prev": 52.73,
+        "ma75_slope_pct": 16.76,
         "ma75_slope_days": 25
       },
       "ex_date": {
         "record_date": "2027-03-31",
         "last_buy_date": "2027-03-29",
         "ex_date": "2027-03-30",
-        "business_days_to_ex": 100,
+        "business_days_to_ex": 99,
         "kind": "期末"
       },
       "demand_supply": {},
       "margin_alert": null,
-      "large_holdings": [
-        {
-          "docID": "S100YUJA",
-          "filer": "リーガル・アンド・ジェネラル・インベストメント・マネジメント・リミテッド",
-          "kind": "変更",
-          "special": true,
-          "submitted": "2026-08-07",
-          "obligation_date": "2026-07-31",
-          "ratio": 0.0,
-          "prev_ratio": 0.0502,
-          "purpose": "投資一任契約による純投資"
-        }
-      ],
+      "large_holdings": [],
       "volatility": {
-        "atr14": 365.71,
-        "atr_pct": 6.72,
-        "normal_range_pct": 5.37,
-        "normal_range_yen": 292,
+        "atr14": 114.57,
+        "atr_pct": 5.69,
+        "normal_range_pct": 4.48,
+        "normal_range_yen": 90,
         "range_window": 20,
         "bars_used": 20,
-        "stop_8pct_in_normal_days": 1.5
+        "stop_8pct_in_normal_days": 1.8
       },
       "volume_profile": {
         "window_bars": 100,
-        "window_from": "2026-06-05",
-        "window_to": "2026-10-30",
-        "bin_yen": 146.1,
+        "window_from": "2026-06-08",
+        "window_to": "2026-11-02",
+        "bin_yen": 45.1,
         "bin_days": 0.5,
         "method": "daily_hl_uniform_approx",
         "top_band": {
-          "lo": 3979,
-          "hi": 4125,
-          "share_pct": 11.5,
-          "days_lo": -5.0,
-          "days_hi": -4.5
+          "lo": 1699,
+          "hi": 1744,
+          "share_pct": 13.5,
+          "days_lo": -3.5,
+          "days_hi": -3.0
         },
         "bands_top3": [
           {
-            "lo": 3979,
-            "hi": 4125,
-            "share_pct": 11.5,
-            "days_lo": -5.0,
-            "days_hi": -4.5
-          },
-          {
-            "lo": 3541,
-            "hi": 3687,
-            "share_pct": 10.2,
-            "days_lo": -6.5,
-            "days_hi": -6.0
-          },
-          {
-            "lo": 4418,
-            "hi": 4564,
-            "share_pct": 8.7,
+            "lo": 1699,
+            "hi": 1744,
+            "share_pct": 13.5,
             "days_lo": -3.5,
             "days_hi": -3.0
+          },
+          {
+            "lo": 1654,
+            "hi": 1699,
+            "share_pct": 13.2,
+            "days_lo": -4.0,
+            "days_hi": -3.5
+          },
+          {
+            "lo": 1157,
+            "hi": 1203,
+            "share_pct": 9.1,
+            "days_lo": -9.5,
+            "days_hi": -9.0
           }
         ],
         "heaviest_below": {
-          "lo": 3979,
-          "hi": 4125,
-          "share_pct": 11.5,
-          "days_lo": -5.0,
-          "days_hi": -4.5
+          "lo": 1699,
+          "hi": 1744,
+          "share_pct": 13.5,
+          "days_lo": -3.5,
+          "days_hi": -3.0
         },
         "heaviest_above": {
-          "lo": 6024,
-          "hi": 6170,
-          "share_pct": 6.9,
-          "days_lo": 2.0,
-          "days_hi": 2.5
+          "lo": 2286,
+          "hi": 2331,
+          "share_pct": 3.9,
+          "days_lo": 3.0,
+          "days_hi": 3.5
         },
         "current_band": {
-          "lo": 5440,
-          "hi": 5586,
-          "share_pct": 4.3,
+          "lo": 2015,
+          "hi": 2060,
+          "share_pct": 1.8,
           "days_lo": 0.0,
           "days_hi": 0.5
         },
-        "current_band_share_pct": 4.3,
-        "even_share_pct": 4.5,
+        "current_band_share_pct": 1.8,
+        "even_share_pct": 3.4,
         "flat": false,
-        "share_stop_to_close_pct": 5.3,
+        "share_stop_to_close_pct": 5.2,
         "stop_inside_top_band": false
       },
       "swing_levels": {
         "above": [],
         "below": [
           {
-            "price": 4835,
+            "price": 1794,
             "touches": 2,
-            "last_date": "2026-08-28",
-            "days": -2.1
-          },
-          {
-            "price": 4345,
-            "touches": 2,
-            "last_date": "2026-09-10",
-            "days": -3.7
+            "last_date": "2026-08-24",
+            "days": -2.4
           }
         ],
-        "window_bars": 104,
+        "window_bars": 103,
         "fractal_k": 7,
         "min_touches": 2
       },
       "chart_facts": {
-        "close": 5440.0,
+        "close": 2015.0,
         "range_60d": {
-          "low": 4075.0,
-          "high": 6580.0,
-          "position_pct": 54.5,
-          "days_to_low": -4.7,
-          "days_to_high": 3.9
+          "low": 1547.0,
+          "high": 2387.0,
+          "position_pct": 55.7,
+          "days_to_low": -5.2,
+          "days_to_high": 4.1
         },
         "range_20d": {
-          "low": 5030.0,
-          "high": 6580.0,
-          "position_pct": 26.5,
-          "days_to_low": -1.4,
-          "days_to_high": 3.9
+          "low": 1683.0,
+          "high": 2387.0,
+          "position_pct": 47.2,
+          "days_to_low": -3.7,
+          "days_to_high": 4.1
         },
-        "ma25": 5606.6,
-        "ma75": 4807.13,
-        "ma25_slope_pct": 22.37,
+        "ma25": 1993.6,
+        "ma75": 1756.03,
+        "ma25_slope_pct": 18.01,
         "ma25_slope_days": 25,
         "ma75_slope_pct": null,
         "ma75_slope_days": null,
-        "bb_upper": 6537.4,
-        "bb_lower": 5016.6,
-        "bb_bandwidth": 0.263,
-        "bb_bandwidth_pctile": 82.9,
-        "bb_bandwidth_pctile_bars": 85,
-        "vol_today": 162500,
-        "vol_avg20": 383250,
-        "vol_ratio": 0.42,
-        "gap_pct": -0.91,
-        "close_streak": -3,
-        "bars_used": 104
+        "bb_upper": 2469.4,
+        "bb_lower": 1652.4,
+        "bb_bandwidth": 0.396,
+        "bb_bandwidth_pctile": 91.1,
+        "bb_bandwidth_pctile_bars": 84,
+        "vol_today": 374500,
+        "vol_avg20": 409785,
+        "vol_ratio": 0.94,
+        "gap_pct": 1.46,
+        "close_streak": -4,
+        "bars_used": 103
       },
       "earnings": {
-        "sales_yoy_pct": 20.7,
-        "op_yoy_pct": 37.8,
-        "np_yoy_pct": 36.6,
-        "eps_yoy_pct": 38.2,
-        "fc_revision_flag": "downward",
-        "progress_rate_op_pct": 51.6,
-        "disclosure_date": "2026-10-30",
+        "sales_yoy_pct": 4.9,
+        "op_yoy_pct": 21.6,
+        "np_yoy_pct": 13.1,
+        "eps_yoy_pct": 16.1,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 50.1,
+        "disclosure_date": "2026-10-29",
         "profit_metric": "営業利益",
         "period_type": "2Q",
-        "op_actual": 2785000000.0,
-        "op_prev": 2021000000.0,
-        "np_actual": 1924000000.0,
-        "np_prev": 1408000000.0
+        "op_actual": 4382000000.0,
+        "op_prev": 3605000000.0,
+        "np_actual": 2835000000.0,
+        "np_prev": 2506000000.0
       },
       "valuation": {
-        "per": 19.4,
-        "pbr": 3.78,
-        "dividend_yield": 1.84,
+        "per": 20.24,
+        "pbr": 4.91,
+        "dividend_yield": 2.98,
+        "per_basis": "FEPS",
+        "split_factor": 1.0,
+        "bps_split_factor": 1.0,
+        "dividend_basis": "FDivAnn",
+        "flags": []
+      },
+      "size_if_entered": {
+        "shares": 200,
+        "invest_amount": 403000,
+        "stop_price": 1854,
+        "actual_risk_yen": 32200,
+        "actual_risk_pct": 1.29,
+        "reason": "リスク1.5%基準",
+        "viable": true
+      },
+      "next_earnings": "2027-01-29頃 (推定)",
+      "next_earnings_source": "same_quarter_prev_year",
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "pullback": "60日高値から-15.6%／MA25すぐ上(+1.1%)／MA75は+14.7%・上昇基調(MA75の25日前比+16.8%)／RSI 50(中立)",
+        "turn": "前日比 -1.71%・陰線／RSIは前日53から低下",
+        "ex_date": "",
+        "volatility": "値動きはかなり大きい(普段の1日の値幅 約4.5%＝約90円)／ATR14 114.6円(5.7%)／-8%ストップ(1,854円)は普段の値幅の約1.8日ぶん。普段の値動きだけでも数日で到達しうる距離です(ストップ幅の変更を提案するものではありません)",
+        "levels": "直近100営業日でどの価格帯が多く売買されたか (日足からの推計)／いまの株価の帯: 全体の2% (均等に散らばった場合は3%)／下でいちばん厚い帯 1,699円〜1,744円 (14%・3.0〜3.5日ぶん下)／上でいちばん厚い帯 2,286円〜2,331円 (4%・3.0〜3.5日ぶん上)／現値〜-8%ストップ(1,854円)の間で売買されたのは全体の5%／高安が集まった価格 下: 1,794円(2回・2.4日ぶん)",
+        "position": "60日のレンジ 1,547円〜2,387円 の下から56%の位置／20日の高値 2,387円(4.1日ぶん上)・安値 1,683円(3.7日ぶん下)／MA25 1,994円・傾き+18.0%(25日前比)／MA75 1,756円／ボリンジャー 1,652円〜2,469円・幅は直近84本の中で下から91%（広がっている側）／出来高 37万株 (20日平均の0.9倍)／寄り付きは前日終値比+1.46%・4日続落",
+        "demand_supply": "",
+        "margin_alert": "",
+        "large_holding": "",
+        "earnings": "増収増益◎／(売上+4.9%・営業利益+21.6%・純利益+13.1%)／🆙会社予想を上方修正／通期予想への進捗率 50%(2Q・目安50%どおり)",
+        "valuation": "予想PER 20.2倍／PBR 4.91倍／予想配当利回り 2.98%",
+        "size": "もし-8%ストップ(1,854円)で買う場合の計算: 200株・約403,000円（最大損失 約32,200円 = 資産の1.3%）",
+        "one_liner": "判断材料: 強み2点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=9889",
+        "gap_risk": "直近100日で、寄り付きが前日の終値から±3%以上離れて始まった日 4回 (上 2・下 2)／いちばん大きい下への飛び -3.7% (7/31・決算発表の直後)",
+        "sector_move": "この株 -12.2% (10/26→11/2の5営業日)／同じ業種 (情報･通信業) のほかの91社 (売買の多い800社の中) の真ん中 -1.8%／この株のほうが 10.4 ポイント低い",
+        "drop_facts": [
+          "🔎 なぜ下げたか (押しの期間 10/27〜11/2・5 営業日)",
+          "  10/29 決算 (2Q)",
+          "  (増資・自己株式の取得は TDnet の題の取り置きから見ています。取り置きがまだ無いので見ていません)",
+          "📉 どう下げたか: 押しの間の 1 日平均の売買代金は、その前の 60 営業日の 2.3 倍 (多めの商いでの下げ)",
+          "※ 研究 (米国など: Chan 2003・Barber & Odean 2008 ほか) では、開示の有無や商いの量でその後の動きが違うという報告がありますが、日本株・このアプリでは未検証です。売買の推奨ではありません。"
+        ]
+      },
+      "label": "候補(要人間深掘り・エッジ未検証)",
+      "gap_risk": {
+        "gaps": 100,
+        "threshold_pct": 3.0,
+        "up": 2,
+        "down": 2,
+        "from": "2026-06-08",
+        "to": "2026-11-02",
+        "excluded_steps": 0,
+        "stop_pct": 8.0,
+        "max_down_pct": -3.7,
+        "max_down_date": "2026-07-31",
+        "max_down_note": "earnings",
+        "beyond_stop": false
+      },
+      "sector_move": {
+        "sector": "情報･通信業",
+        "days": 5,
+        "from": "2026-10-26",
+        "to": "2026-11-02",
+        "population": 800,
+        "peers": 91,
+        "shown": true,
+        "stock_pct": -12.2,
+        "sector_median_pct": -1.8,
+        "diff_pt": -10.4
+      },
+      "drop_facts": {
+        "high_date": "2026-10-27",
+        "from": "2026-10-27",
+        "to": "2026-11-02",
+        "days": 5,
+        "capped": false,
+        "events": [
+          {
+            "date": "2026-10-29",
+            "kind": "earnings",
+            "text": "決算 (2Q)"
+          }
+        ],
+        "titles_since": null,
+        "titles_cover": false,
+        "turnover_x": 2.3,
+        "turnover_word": "多め",
+        "attention": null
+      },
+      "text": "【ＪＢＣＣホールディングス(9889)】\n📉 押し目: 60日高値から-15.6%／MA25すぐ上(+1.1%)／MA75は+14.7%・上昇基調(MA75の25日前比+16.8%)／RSI 50(中立)\n⏱ 当日: 前日比 -1.71%・陰線／RSIは前日53から低下\n📏 値動き: 値動きはかなり大きい(普段の1日の値幅 約4.5%＝約90円)／ATR14 114.6円(5.7%)／-8%ストップ(1,854円)は普段の値幅の約1.8日ぶん。普段の値動きだけでも数日で到達しうる距離です(ストップ幅の変更を提案するものではありません)\n📐 価格帯: 現値〜損切り(1,854円)の間で売買されたのは全体の5%／下でいちばん厚い帯 1,699円〜1,744円 (14%・3.0〜3.5日ぶん下)／高安が集まった価格 下 1,794円(2回・2.4日ぶん)\n📍 いまの位置: 60日のレンジ 1,547円〜2,387円 の下から56%の位置／20日の高値 2,387円(4.1日ぶん上)・安値 1,683円(3.7日ぶん下)／MA25 1,994円・傾き+18.0%(25日前比)／MA75 1,756円／ボリンジャー 1,652円〜2,469円・幅は直近84本の中で下から91%（広がっている側）／出来高 37万株 (20日平均の0.9倍)／寄り付きは前日終値比+1.46%・4日続落\n📊 業績: 増収増益◎／(売上+4.9%・営業利益+21.6%・純利益+13.1%)／🆙会社予想を上方修正／通期予想への進捗率 50%(2Q・目安50%どおり)\n💰 参考: 予想PER 20.2倍／PBR 4.91倍／予想配当利回り 2.98%\n📅 次回決算: 2027-01-29頃 (推定)\n🧮 もし-8%ストップ(1,854円)で買う場合の計算: 200株・約403,000円（最大損失 約32,200円 = 資産の1.3%）\n→ 判断材料: 強み2点・注意0点（一次情報で最終判断を）（🆕 今日が初日）\nhttps://kabutan.jp/stock/?code=9889"
+    },
+    {
+      "code": "45780",
+      "ticker": "4578",
+      "name": "大塚ホールディングス",
+      "price": 11770.0,
+      "as_of": "2026-11-02",
+      "pullback": {
+        "drawdown_60d_pct": 8.0,
+        "ma25_dev_pct": -1.0,
+        "ma75_dev_pct": 0.2,
+        "rsi14": 45.26,
+        "bb_pct_b": 0.34,
+        "atr": 372.5,
+        "vol_ratio": 1.49,
+        "signals": [],
+        "signal_details": []
+      },
+      "turn_facts": {
+        "chg_1d_pct": -2.04,
+        "bullish_bar": false,
+        "above_prev_high": false,
+        "rsi_rising": false,
+        "rsi_prev": 50.83,
+        "ma75_slope_pct": 3.19,
+        "ma75_slope_days": 25
+      },
+      "ex_date": {
+        "record_date": "2026-12-31",
+        "last_buy_date": "2026-12-29",
+        "ex_date": "2026-12-30",
+        "business_days_to_ex": 40,
+        "kind": "期末"
+      },
+      "demand_supply": {},
+      "margin_alert": null,
+      "large_holdings": [],
+      "volatility": {
+        "atr14": 372.5,
+        "atr_pct": 3.16,
+        "normal_range_pct": 2.52,
+        "normal_range_yen": 297,
+        "range_window": 20,
+        "bars_used": 20,
+        "stop_8pct_in_normal_days": 3.2
+      },
+      "volume_profile": {
+        "window_bars": 100,
+        "window_from": "2026-06-08",
+        "window_to": "2026-11-02",
+        "bin_yen": 148.3,
+        "bin_days": 0.5,
+        "method": "daily_hl_uniform_approx",
+        "top_band": {
+          "lo": 12215,
+          "hi": 12363,
+          "share_pct": 11.3,
+          "days_lo": 1.5,
+          "days_hi": 2.0
+        },
+        "bands_top3": [
+          {
+            "lo": 12215,
+            "hi": 12363,
+            "share_pct": 11.3,
+            "days_lo": 1.5,
+            "days_hi": 2.0
+          },
+          {
+            "lo": 11177,
+            "hi": 11325,
+            "share_pct": 9.8,
+            "days_lo": -2.0,
+            "days_hi": -1.5
+          },
+          {
+            "lo": 11028,
+            "hi": 11177,
+            "share_pct": 9.5,
+            "days_lo": -2.5,
+            "days_hi": -2.0
+          }
+        ],
+        "heaviest_below": {
+          "lo": 11177,
+          "hi": 11325,
+          "share_pct": 9.8,
+          "days_lo": -2.0,
+          "days_hi": -1.5
+        },
+        "heaviest_above": {
+          "lo": 12215,
+          "hi": 12363,
+          "share_pct": 11.3,
+          "days_lo": 1.5,
+          "days_hi": 2.0
+        },
+        "current_band": {
+          "lo": 11770,
+          "hi": 11918,
+          "share_pct": 2.8,
+          "days_lo": 0.0,
+          "days_hi": 0.5
+        },
+        "current_band_share_pct": 2.8,
+        "even_share_pct": 5.3,
+        "flat": false,
+        "share_stop_to_close_pct": 52.1,
+        "stop_inside_top_band": false
+      },
+      "swing_levels": {
+        "above": [],
+        "below": [
+          {
+            "price": 10795,
+            "touches": 3,
+            "last_date": "2026-09-16",
+            "days": -3.3
+          }
+        ],
+        "window_bars": 103,
+        "fractal_k": 7,
+        "min_touches": 2
+      },
+      "chart_facts": {
+        "close": 11770.0,
+        "range_60d": {
+          "low": 10745.0,
+          "high": 12795.0,
+          "position_pct": 50.0,
+          "days_to_low": -3.5,
+          "days_to_high": 3.5
+        },
+        "range_20d": {
+          "low": 11325.0,
+          "high": 12785.0,
+          "position_pct": 30.5,
+          "days_to_low": -1.5,
+          "days_to_high": 3.4
+        },
+        "ma25": 11884.2,
+        "ma75": 11750.6,
+        "ma25_slope_pct": 0.72,
+        "ma25_slope_days": 25,
+        "ma75_slope_pct": null,
+        "ma75_slope_days": null,
+        "bb_upper": 12775.5,
+        "bb_lower": 11250.0,
+        "bb_bandwidth": 0.127,
+        "bb_bandwidth_pctile": 50.6,
+        "bb_bandwidth_pctile_bars": 84,
+        "vol_today": 1763100,
+        "vol_avg20": 1209435,
+        "vol_ratio": 1.49,
+        "gap_pct": -0.42,
+        "close_streak": -2,
+        "bars_used": 103
+      },
+      "earnings": {
+        "sales_yoy_pct": 12.3,
+        "op_yoy_pct": 4.0,
+        "np_yoy_pct": 8.2,
+        "eps_yoy_pct": 9.1,
+        "fc_revision_flag": "upward",
+        "progress_rate_op_pct": 86.8,
+        "disclosure_date": "2026-10-30",
+        "profit_metric": "営業利益",
+        "period_type": "3Q",
+        "op_actual": 423733000000.0,
+        "op_prev": 407421000000.0,
+        "np_actual": 322105000000.0,
+        "np_prev": 297658000000.0
+      },
+      "valuation": {
+        "per": 16.72,
+        "pbr": 1.92,
+        "dividend_yield": 1.7,
         "per_basis": "FEPS",
         "split_factor": 1.0,
         "bps_split_factor": 1.0,
@@ -1300,36 +1358,41 @@
       },
       "size_if_entered": {
         "shares": 100,
-        "invest_amount": 544000.0,
-        "stop_price": 5005,
-        "actual_risk_yen": 43500.0,
-        "actual_risk_pct": 1.74,
-        "reason": "⚠️1単元購入時リスク1.7%（上限1.5%超過）",
+        "invest_amount": 1177000.0,
+        "stop_price": 10828,
+        "actual_risk_yen": 94200.0,
+        "actual_risk_pct": 3.77,
+        "reason": "⚠️1単元購入時リスク3.8%（上限1.5%超過）",
         "viable": false
       },
-      "next_earnings": "2027-01-29頃 (推定)",
+      "next_earnings": "2027-02-12頃 (推定)",
       "next_earnings_source": "same_quarter_prev_year",
       "streak": 1,
-      "flags": [
-        "⚠️"
-      ],
+      "flags": [],
       "brief": {
-        "pullback": "60日高値から-17.3%／MA25をわずかに下回る(-3.0%)／MA75は+13.2%・上昇基調(MA75の25日前比+15.4%)／RSI 48(中立)",
-        "turn": "前日比 -1.45%・陰線／RSIは前日49から低下",
+        "pullback": "60日高値から-8.0%／MA25をわずかに下回る(-1.0%)／MA75は+0.2%・上昇基調(MA75の25日前比+3.2%)／RSI 45(中立)",
+        "turn": "前日比 -2.04%・陰線／RSIは前日51から低下",
         "ex_date": "",
-        "volatility": "値動きはかなり大きい(普段の1日の値幅 約5.4%＝約292円)／ATR14 365.7円(6.7%)／-8%ストップ(5,005円)は普段の値幅の約1.5日ぶん。普段の値動きだけでも数日で到達しうる距離です(ストップ幅の変更を提案するものではありません)",
-        "levels": "直近100営業日でどの価格帯が多く売買されたか (日足からの推計)／いまの株価の帯: 全体の4% (均等に散らばった場合は4%)／下でいちばん厚い帯 3,979円〜4,125円 (12%・4.5〜5.0日ぶん下)／上でいちばん厚い帯 6,024円〜6,170円 (7%・2.0〜2.5日ぶん上)／現値〜-8%ストップ(5,005円)の間で売買されたのは全体の5%／高安が集まった価格 下: 4,835円(2回・2.1日ぶん)・4,345円(2回・3.7日ぶん)",
-        "position": "60日のレンジ 4,075円〜6,580円 の下から54%の位置／20日の高値 6,580円(3.9日ぶん上)・安値 5,030円(1.4日ぶん下)／MA25 5,607円・傾き+22.4%(25日前比)／MA75 4,807円／ボリンジャー 5,017円〜6,537円・幅は直近85本の中で下から83%（広がっている側）／出来高 16万株 (20日平均の0.4倍)／寄り付きは前日終値比-0.91%・3日続落",
+        "volatility": "値動きは大きい方(普段の1日の値幅 約2.5%＝約297円)／ATR14 372.5円(3.2%)／-8%ストップ(10,828円)は普段の値幅の約3.2日ぶん(ストップ幅の変更を提案するものではありません)",
+        "levels": "直近100営業日でどの価格帯が多く売買されたか (日足からの推計)／いまの株価の帯: 全体の3% (均等に散らばった場合は5%)／下でいちばん厚い帯 11,177円〜11,325円 (10%・1.5〜2.0日ぶん下)／上でいちばん厚い帯 12,215円〜12,363円 (11%・1.5〜2.0日ぶん上)／現値〜-8%ストップ(10,828円)の間で売買されたのは全体の52%／高安が集まった価格 下: 10,795円(3回・3.3日ぶん)",
+        "position": "60日のレンジ 10,745円〜12,795円 の下から50%の位置／20日の高値 12,785円(3.4日ぶん上)・安値 11,325円(1.5日ぶん下)／MA25 11,884円・傾き+0.7%(25日前比)／MA75 11,751円／ボリンジャー 11,250円〜12,776円・幅は直近84本の中で下から51%／出来高 176万株 (20日平均の1.5倍)／寄り付きは前日終値比-0.42%・2日続落",
         "demand_supply": "",
         "margin_alert": "",
-        "large_holding": "リーガル・アンド・ジェネラル・インベストメント・マネジメント・リミテッド 保有割合 5.02%→0.00%（特例 (金融機関の特例報告)・変更の報告・7/31 時点・8/7 提出） 保有目的: 投資一任契約による純投資",
-        "earnings": "増収増益◎／(売上+20.7%・営業利益+37.8%・純利益+36.6%)／⚠️会社予想を下方修正／通期予想への進捗率 52%(2Q・目安50%どおり)",
-        "valuation": "予想PER 19.4倍／PBR 3.78倍／予想配当利回り 1.84%",
-        "size": "⚠️ 資金規模に対して1単元が大きい銘柄です（最小100株＝約544,000円、この場合の想定損失 約43,500円＝資産の1.7%） — 1単元購入時リスク1.7%（上限1.5%超過）",
-        "one_liner": "判断材料: 強み2点・注意1点（一次情報で最終判断を）",
-        "link": "https://kabutan.jp/stock/?code=2326",
-        "gap_risk": "直近100日で、寄り付きが前日の終値から±3%以上離れて始まった日 5回 (上 4・下 1)／いちばん大きい下への飛び -11.1% (10/22)／-8%の逆指値を寄り付きで飛び越す大きさです。逆指値は、寄り付きでその値段より下に始まると、寄り付きの値段で約定します",
-        "sector_move": "この株 -9.9% (10/23→10/30の5営業日)／同じ業種 (情報･通信業) のほかの91社 (売買の多い800社の中) の真ん中 -0.7%／この株のほうが 9.2 ポイント低い"
+        "large_holding": "",
+        "earnings": "増収増益◎／(売上+12.3%・営業利益+4.0%・純利益+8.2%)／🆙会社予想を上方修正／通期予想への進捗率 87%(3Q・目安75%どおり)",
+        "valuation": "予想PER 16.7倍／PBR 1.92倍／予想配当利回り 1.70%",
+        "size": "⚠️ 資金規模に対して1単元が大きい銘柄です（最小100株＝約1,177,000円、この場合の想定損失 約94,200円＝資産の3.8%） — 1単元購入時リスク3.8%（上限1.5%超過）",
+        "one_liner": "判断材料: 強み2点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=4578",
+        "gap_risk": "直近100日で、寄り付きが前日の終値から±3%以上離れて始まった日 5回 (上 4・下 1)／いちばん大きい下への飛び -4.3% (7/31・決算発表の直後)",
+        "sector_move": "この株 -5.8% (10/26→11/2の5営業日)／同じ業種 (医薬品) のほかの24社 (売買の多い800社の中) の真ん中 +0.8%／この株のほうが 6.6 ポイント低い",
+        "drop_facts": [
+          "🔎 なぜ下げたか (押しの期間 10/5〜11/2・20 営業日・60 日高値は 8/10 で、直近 20 営業日だけ見ています)",
+          "  10/30 決算 (3Q)",
+          "  (増資・自己株式の取得は TDnet の題の取り置きから見ています。取り置きがまだ無いので見ていません)",
+          "📉 どう下げたか: 押しの間の 1 日平均の売買代金は、その前の 60 営業日の 0.9 倍 (ふだん並みの商いでの下げ)",
+          "※ 研究 (米国など: Chan 2003・Barber & Odean 2008 ほか) では、開示の有無や商いの量でその後の動きが違うという報告がありますが、日本株・このアプリでは未検証です。売買の推奨ではありません。"
+        ]
       },
       "label": "候補(要人間深掘り・エッジ未検証)",
       "gap_risk": {
@@ -1337,469 +1400,224 @@
         "threshold_pct": 3.0,
         "up": 4,
         "down": 1,
-        "from": "2026-06-05",
-        "to": "2026-10-30",
+        "from": "2026-06-08",
+        "to": "2026-11-02",
         "excluded_steps": 0,
         "stop_pct": 8.0,
-        "max_down_pct": -11.1,
-        "max_down_date": "2026-10-22",
-        "max_down_note": null,
-        "beyond_stop": true
-      },
-      "sector_move": {
-        "sector": "情報･通信業",
-        "days": 5,
-        "from": "2026-10-23",
-        "to": "2026-10-30",
-        "population": 800,
-        "peers": 91,
-        "shown": true,
-        "stock_pct": -9.9,
-        "sector_median_pct": -0.7,
-        "diff_pt": -9.2
-      },
-      "text": "【デジタルアーツ(2326)】\n📉 押し目: 60日高値から-17.3%／MA25をわずかに下回る(-3.0%)／MA75は+13.2%・上昇基調(MA75の25日前比+15.4%)／RSI 48(中立)\n⏱ 当日: 前日比 -1.45%・陰線／RSIは前日49から低下\n📏 値動き: 値動きはかなり大きい(普段の1日の値幅 約5.4%＝約292円)／ATR14 365.7円(6.7%)／-8%ストップ(5,005円)は普段の値幅の約1.5日ぶん。普段の値動きだけでも数日で到達しうる距離です(ストップ幅の変更を提案するものではありません)\n📐 価格帯: 現値〜損切り(5,005円)の間で売買されたのは全体の5%／下でいちばん厚い帯 3,979円〜4,125円 (12%・4.5〜5.0日ぶん下)／高安が集まった価格 下 4,835円(2回・2.1日ぶん)\n📍 いまの位置: 60日のレンジ 4,075円〜6,580円 の下から54%の位置／20日の高値 6,580円(3.9日ぶん上)・安値 5,030円(1.4日ぶん下)／MA25 5,607円・傾き+22.4%(25日前比)／MA75 4,807円／ボリンジャー 5,017円〜6,537円・幅は直近85本の中で下から83%（広がっている側）／出来高 16万株 (20日平均の0.4倍)／寄り付きは前日終値比-0.91%・3日続落\n📊 業績: 増収増益◎／(売上+20.7%・営業利益+37.8%・純利益+36.6%)／⚠️会社予想を下方修正／通期予想への進捗率 52%(2Q・目安50%どおり)\n💰 参考: 予想PER 19.4倍／PBR 3.78倍／予想配当利回り 1.84%\n📅 次回決算: 2027-01-29頃 (推定)\n🧮 ⚠️ 資金規模に対して1単元が大きい銘柄です（最小100株＝約544,000円、この場合の想定損失 約43,500円＝資産の1.7%） — 1単元購入時リスク1.7%（上限1.5%超過）\n→ 判断材料: 強み2点・注意1点（一次情報で最終判断を）（🆕 今日が初日）\nhttps://kabutan.jp/stock/?code=2326"
-    },
-    {
-      "code": "64480",
-      "ticker": "6448",
-      "name": "ブラザー工業",
-      "price": 4625.0,
-      "as_of": "2026-10-30",
-      "pullback": {
-        "drawdown_60d_pct": 8.6,
-        "ma25_dev_pct": -1.9,
-        "ma75_dev_pct": 3.0,
-        "rsi14": 44.32,
-        "bb_pct_b": 0.2,
-        "atr": 106.5,
-        "vol_ratio": 1.08,
-        "signals": [],
-        "signal_details": []
-      },
-      "turn_facts": {
-        "chg_1d_pct": -2.22,
-        "bullish_bar": false,
-        "above_prev_high": false,
-        "rsi_rising": false,
-        "rsi_prev": 51.18,
-        "ma75_slope_pct": 7.64,
-        "ma75_slope_days": 25
-      },
-      "ex_date": {
-        "record_date": "2027-03-31",
-        "last_buy_date": "2027-03-29",
-        "ex_date": "2027-03-30",
-        "business_days_to_ex": 100,
-        "kind": "期末"
-      },
-      "demand_supply": {},
-      "margin_alert": null,
-      "large_holdings": [],
-      "volatility": {
-        "atr14": 106.5,
-        "atr_pct": 2.3,
-        "normal_range_pct": 2.06,
-        "normal_range_yen": 95,
-        "range_window": 20,
-        "bars_used": 20,
-        "stop_8pct_in_normal_days": 3.9
-      },
-      "volume_profile": {
-        "window_bars": 100,
-        "window_from": "2026-06-05",
-        "window_to": "2026-10-30",
-        "bin_yen": 47.6,
-        "bin_days": 0.5,
-        "method": "daily_hl_uniform_approx",
-        "top_band": {
-          "lo": 4625,
-          "hi": 4673,
-          "share_pct": 11.1,
-          "days_lo": 0.0,
-          "days_hi": 0.5
-        },
-        "bands_top3": [
-          {
-            "lo": 4625,
-            "hi": 4673,
-            "share_pct": 11.1,
-            "days_lo": 0.0,
-            "days_hi": 0.5
-          },
-          {
-            "lo": 4673,
-            "hi": 4720,
-            "share_pct": 10.8,
-            "days_lo": 0.5,
-            "days_hi": 1.0
-          },
-          {
-            "lo": 4577,
-            "hi": 4625,
-            "share_pct": 8.8,
-            "days_lo": -0.5,
-            "days_hi": 0.0
-          }
-        ],
-        "heaviest_below": {
-          "lo": 4577,
-          "hi": 4625,
-          "share_pct": 8.8,
-          "days_lo": -0.5,
-          "days_hi": 0.0
-        },
-        "heaviest_above": {
-          "lo": 4673,
-          "hi": 4720,
-          "share_pct": 10.8,
-          "days_lo": 0.5,
-          "days_hi": 1.0
-        },
-        "current_band": {
-          "lo": 4625,
-          "hi": 4673,
-          "share_pct": 11.1,
-          "days_lo": 0.0,
-          "days_hi": 0.5
-        },
-        "current_band_share_pct": 11.1,
-        "even_share_pct": 3.3,
-        "flat": false,
-        "share_stop_to_close_pct": 22.2,
-        "stop_inside_top_band": false
-      },
-      "swing_levels": {
-        "above": [
-          {
-            "price": 4772,
-            "touches": 2,
-            "last_date": "2026-09-28",
-            "days": 1.5
-          }
-        ],
-        "below": [
-          {
-            "price": 4506,
-            "touches": 2,
-            "last_date": "2026-10-09",
-            "days": -1.2
-          },
-          {
-            "price": 3652,
-            "touches": 2,
-            "last_date": "2026-07-14",
-            "days": -10.2
-          }
-        ],
-        "window_bars": 104,
-        "fractal_k": 7,
-        "min_touches": 2
-      },
-      "chart_facts": {
-        "close": 4625.0,
-        "range_60d": {
-          "low": 3908.0,
-          "high": 5061.0,
-          "position_pct": 62.2,
-          "days_to_low": -7.5,
-          "days_to_high": 4.6
-        },
-        "range_20d": {
-          "low": 4506.0,
-          "high": 4916.0,
-          "position_pct": 29.0,
-          "days_to_low": -1.2,
-          "days_to_high": 3.1
-        },
-        "ma25": 4715.2,
-        "ma75": 4489.53,
-        "ma25_slope_pct": 1.48,
-        "ma25_slope_days": 25,
-        "ma75_slope_pct": null,
-        "ma75_slope_days": null,
-        "bb_upper": 4897.2,
-        "bb_lower": 4555.2,
-        "bb_bandwidth": 0.072,
-        "bb_bandwidth_pctile": 31.2,
-        "bb_bandwidth_pctile_bars": 85,
-        "vol_today": 1175800,
-        "vol_avg20": 1095340,
-        "vol_ratio": 1.08,
-        "gap_pct": -0.32,
-        "close_streak": -3,
-        "bars_used": 104
-      },
-      "earnings": {
-        "sales_yoy_pct": 18.9,
-        "op_yoy_pct": 242.6,
-        "np_yoy_pct": 325.8,
-        "eps_yoy_pct": 337.9,
-        "fc_revision_flag": "upward",
-        "progress_rate_op_pct": 60.7,
-        "disclosure_date": "2026-08-06",
-        "profit_metric": "営業利益",
-        "period_type": "1Q",
-        "op_actual": 54649000000.0,
-        "op_prev": 15952000000.0,
-        "np_actual": 49947000000.0,
-        "np_prev": 11731000000.0
-      },
-      "valuation": {
-        "per": 14.52,
-        "pbr": 1.42,
-        "dividend_yield": 2.16,
-        "per_basis": "FEPS",
-        "split_factor": 1.0,
-        "bps_split_factor": 1.0,
-        "dividend_basis": "FDivAnn",
-        "flags": []
-      },
-      "size_if_entered": {
-        "shares": 100,
-        "invest_amount": 462500,
-        "stop_price": 4255,
-        "actual_risk_yen": 37000,
-        "actual_risk_pct": 1.48,
-        "reason": "リスク1.5%基準",
-        "viable": true
-      },
-      "next_earnings": "2026-11-09頃 (推定)",
-      "next_earnings_source": "same_quarter_prev_year",
-      "streak": 1,
-      "flags": [
-        "⚠️"
-      ],
-      "brief": {
-        "pullback": "60日高値から-8.6%／MA25をわずかに下回る(-1.9%)／MA75は+3.0%・上昇基調(MA75の25日前比+7.6%)／RSI 44(下げ止まり圏)",
-        "turn": "前日比 -2.22%・陰線／RSIは前日51から低下",
-        "ex_date": "",
-        "volatility": "値動きは平均的(普段の1日の値幅 約2.1%＝約95円)／ATR14 106.5円(2.3%)／-8%ストップ(4,255円)は普段の値幅の約3.9日ぶん(ストップ幅の変更を提案するものではありません)",
-        "levels": "直近100営業日でどの価格帯が多く売買されたか (日足からの推計)／いまの株価の帯: 全体の11% (均等に散らばった場合は3%)／下でいちばん厚い帯 4,577円〜4,625円 (9%・0.0〜0.5日ぶん下)／上でいちばん厚い帯 4,673円〜4,720円 (11%・0.5〜1.0日ぶん上)／現値〜-8%ストップ(4,255円)の間で売買されたのは全体の22%／高安が集まった価格 上: 4,772円(2回・1.5日ぶん)／高安が集まった価格 下: 4,506円(2回・1.2日ぶん)・3,652円(2回・10.2日ぶん)",
-        "position": "60日のレンジ 3,908円〜5,061円 の下から62%の位置／20日の高値 4,916円(3.1日ぶん上)・安値 4,506円(1.2日ぶん下)／MA25 4,715円・傾き+1.5%(25日前比)／MA75 4,490円／ボリンジャー 4,555円〜4,897円・幅は直近85本の中で下から31%／出来高 118万株 (20日平均の1.1倍)／寄り付きは前日終値比-0.32%・3日続落",
-        "demand_supply": "",
-        "margin_alert": "",
-        "large_holding": "",
-        "earnings": "増収増益◎／(売上+18.9%・営業利益+242.6%・純利益+325.8%)／🆙会社予想を上方修正／通期予想への進捗率 61%(1Q・目安25%を上回る)／⚠️EPSが4倍超(+338%)＝一時要因の可能性",
-        "valuation": "予想PER 14.5倍／PBR 1.42倍／予想配当利回り 2.16%",
-        "size": "もし-8%ストップ(4,255円)で買う場合の計算: 100株・約462,500円（最大損失 約37,000円 = 資産の1.5%）",
-        "one_liner": "判断材料: 強み3点・注意1点（一次情報で最終判断を）",
-        "link": "https://kabutan.jp/stock/?code=6448",
-        "gap_risk": "直近100日で、寄り付きが前日の終値から±3%以上離れて始まった日 1回 (上 1・下 0)／いちばん大きい下への飛び -2.3% (9/11)",
-        "sector_move": "この株 -3.8% (10/23→10/30の5営業日)／同じ業種 (電気機器) のほかの91社 (売買の多い800社の中) の真ん中 -0.4%／この株のほうが 3.4 ポイント低い"
-      },
-      "label": "候補(要人間深掘り・エッジ未検証)",
-      "gap_risk": {
-        "gaps": 100,
-        "threshold_pct": 3.0,
-        "up": 1,
-        "down": 0,
-        "from": "2026-06-05",
-        "to": "2026-10-30",
-        "excluded_steps": 0,
-        "stop_pct": 8.0,
-        "max_down_pct": -2.3,
-        "max_down_date": "2026-09-11",
-        "max_down_note": null,
+        "max_down_pct": -4.3,
+        "max_down_date": "2026-07-31",
+        "max_down_note": "earnings",
         "beyond_stop": false
       },
       "sector_move": {
-        "sector": "電気機器",
+        "sector": "医薬品",
         "days": 5,
-        "from": "2026-10-23",
-        "to": "2026-10-30",
+        "from": "2026-10-26",
+        "to": "2026-11-02",
         "population": 800,
-        "peers": 91,
+        "peers": 24,
         "shown": true,
-        "stock_pct": -3.8,
-        "sector_median_pct": -0.4,
-        "diff_pt": -3.4
+        "stock_pct": -5.8,
+        "sector_median_pct": 0.8,
+        "diff_pt": -6.6
       },
-      "text": "【ブラザー工業(6448)】\n📉 押し目: 60日高値から-8.6%／MA25をわずかに下回る(-1.9%)／MA75は+3.0%・上昇基調(MA75の25日前比+7.6%)／RSI 44(下げ止まり圏)\n⏱ 当日: 前日比 -2.22%・陰線／RSIは前日51から低下\n📏 値動き: 値動きは平均的(普段の1日の値幅 約2.1%＝約95円)／ATR14 106.5円(2.3%)／-8%ストップ(4,255円)は普段の値幅の約3.9日ぶん(ストップ幅の変更を提案するものではありません)\n📐 価格帯: 現値〜損切り(4,255円)の間で売買されたのは全体の22%／下でいちばん厚い帯 4,577円〜4,625円 (9%・0.0〜0.5日ぶん下)／高安が集まった価格 上 4,772円(2回・1.5日ぶん)／高安が集まった価格 下 4,506円(2回・1.2日ぶん)\n📍 いまの位置: 60日のレンジ 3,908円〜5,061円 の下から62%の位置／20日の高値 4,916円(3.1日ぶん上)・安値 4,506円(1.2日ぶん下)／MA25 4,715円・傾き+1.5%(25日前比)／MA75 4,490円／ボリンジャー 4,555円〜4,897円・幅は直近85本の中で下から31%／出来高 118万株 (20日平均の1.1倍)／寄り付きは前日終値比-0.32%・3日続落\n📊 業績: 増収増益◎／(売上+18.9%・営業利益+242.6%・純利益+325.8%)／🆙会社予想を上方修正／通期予想への進捗率 61%(1Q・目安25%を上回る)／⚠️EPSが4倍超(+338%)＝一時要因の可能性\n💰 参考: 予想PER 14.5倍／PBR 1.42倍／予想配当利回り 2.16%\n📅 次回決算: 2026-11-09頃 (推定)\n🧮 もし-8%ストップ(4,255円)で買う場合の計算: 100株・約462,500円（最大損失 約37,000円 = 資産の1.5%）\n→ 判断材料: 強み3点・注意1点（一次情報で最終判断を）（🆕 今日が初日）\nhttps://kabutan.jp/stock/?code=6448"
+      "drop_facts": {
+        "high_date": "2026-08-10",
+        "from": "2026-10-05",
+        "to": "2026-11-02",
+        "days": 20,
+        "capped": true,
+        "events": [
+          {
+            "date": "2026-10-30",
+            "kind": "earnings",
+            "text": "決算 (3Q)"
+          }
+        ],
+        "titles_since": null,
+        "titles_cover": false,
+        "turnover_x": 0.91,
+        "turnover_word": "ふだん並み",
+        "attention": null
+      },
+      "text": "【大塚ホールディングス(4578)】\n📉 押し目: 60日高値から-8.0%／MA25をわずかに下回る(-1.0%)／MA75は+0.2%・上昇基調(MA75の25日前比+3.2%)／RSI 45(中立)\n⏱ 当日: 前日比 -2.04%・陰線／RSIは前日51から低下\n📏 値動き: 値動きは大きい方(普段の1日の値幅 約2.5%＝約297円)／ATR14 372.5円(3.2%)／-8%ストップ(10,828円)は普段の値幅の約3.2日ぶん(ストップ幅の変更を提案するものではありません)\n📐 価格帯: 現値〜損切り(10,828円)の間で売買されたのは全体の52%／下でいちばん厚い帯 11,177円〜11,325円 (10%・1.5〜2.0日ぶん下)／高安が集まった価格 下 10,795円(3回・3.3日ぶん)\n📍 いまの位置: 60日のレンジ 10,745円〜12,795円 の下から50%の位置／20日の高値 12,785円(3.4日ぶん上)・安値 11,325円(1.5日ぶん下)／MA25 11,884円・傾き+0.7%(25日前比)／MA75 11,751円／ボリンジャー 11,250円〜12,776円・幅は直近84本の中で下から51%／出来高 176万株 (20日平均の1.5倍)／寄り付きは前日終値比-0.42%・2日続落\n📊 業績: 増収増益◎／(売上+12.3%・営業利益+4.0%・純利益+8.2%)／🆙会社予想を上方修正／通期予想への進捗率 87%(3Q・目安75%どおり)\n💰 参考: 予想PER 16.7倍／PBR 1.92倍／予想配当利回り 1.70%\n📅 次回決算: 2027-02-12頃 (推定)\n🧮 ⚠️ 資金規模に対して1単元が大きい銘柄です（最小100株＝約1,177,000円、この場合の想定損失 約94,200円＝資産の3.8%） — 1単元購入時リスク3.8%（上限1.5%超過）\n→ 判断材料: 強み2点・注意0点（一次情報で最終判断を）（🆕 今日が初日）\nhttps://kabutan.jp/stock/?code=4578"
     },
     {
-      "code": "44010",
-      "ticker": "4401",
-      "name": "ＡＤＥＫＡ",
-      "price": 4515.0,
-      "as_of": "2026-10-30",
+      "code": "39930",
+      "ticker": "3993",
+      "name": "ＰＫＳＨＡ　Ｔｅｃｈｎｏｌｏｇｙ",
+      "price": 3450.0,
+      "as_of": "2026-11-02",
       "pullback": {
-        "drawdown_60d_pct": 8.4,
-        "ma25_dev_pct": -3.2,
-        "ma75_dev_pct": 0.8,
-        "rsi14": 44.03,
-        "bb_pct_b": 0.16,
-        "atr": 133.79,
-        "vol_ratio": 1.12,
+        "drawdown_60d_pct": 11.4,
+        "ma25_dev_pct": -1.2,
+        "ma75_dev_pct": 8.3,
+        "rsi14": 47.58,
+        "bb_pct_b": 0.3,
+        "atr": 168.57,
+        "vol_ratio": 1.16,
         "signals": [],
         "signal_details": []
       },
       "turn_facts": {
-        "chg_1d_pct": -2.27,
+        "chg_1d_pct": -3.77,
         "bullish_bar": false,
         "above_prev_high": false,
         "rsi_rising": false,
-        "rsi_prev": 49.64,
-        "ma75_slope_pct": 4.11,
+        "rsi_prev": 54.28,
+        "ma75_slope_pct": 8.86,
         "ma75_slope_days": 25
       },
       "ex_date": {
         "record_date": "2027-03-31",
         "last_buy_date": "2027-03-29",
         "ex_date": "2027-03-30",
-        "business_days_to_ex": 100,
-        "kind": "期末"
+        "business_days_to_ex": 99,
+        "kind": "中間"
       },
       "demand_supply": {},
       "margin_alert": null,
       "large_holdings": [],
       "volatility": {
-        "atr14": 133.79,
-        "atr_pct": 2.96,
-        "normal_range_pct": 2.49,
-        "normal_range_yen": 113,
+        "atr14": 168.57,
+        "atr_pct": 4.89,
+        "normal_range_pct": 3.84,
+        "normal_range_yen": 132,
         "range_window": 20,
         "bars_used": 20,
-        "stop_8pct_in_normal_days": 3.2
+        "stop_8pct_in_normal_days": 2.1
       },
       "volume_profile": {
         "window_bars": 100,
-        "window_from": "2026-06-05",
-        "window_to": "2026-10-30",
-        "bin_yen": 56.2,
+        "window_from": "2026-06-08",
+        "window_to": "2026-11-02",
+        "bin_yen": 66.2,
         "bin_days": 0.5,
         "method": "daily_hl_uniform_approx",
         "top_band": {
-          "lo": 4571,
-          "hi": 4627,
-          "share_pct": 9.9,
-          "days_lo": 0.5,
-          "days_hi": 1.0
+          "lo": 2721,
+          "hi": 2788,
+          "share_pct": 12.7,
+          "days_lo": -5.5,
+          "days_hi": -5.0
         },
         "bands_top3": [
           {
-            "lo": 4571,
-            "hi": 4627,
-            "share_pct": 9.9,
-            "days_lo": 0.5,
-            "days_hi": 1.0
+            "lo": 2721,
+            "hi": 2788,
+            "share_pct": 12.7,
+            "days_lo": -5.5,
+            "days_hi": -5.0
           },
           {
-            "lo": 4122,
-            "hi": 4178,
-            "share_pct": 7.7,
-            "days_lo": -3.5,
-            "days_hi": -3.0
+            "lo": 2788,
+            "hi": 2854,
+            "share_pct": 11.3,
+            "days_lo": -5.0,
+            "days_hi": -4.5
           },
           {
-            "lo": 4627,
-            "hi": 4684,
-            "share_pct": 7.3,
-            "days_lo": 1.0,
-            "days_hi": 1.5
+            "lo": 3119,
+            "hi": 3185,
+            "share_pct": 8.6,
+            "days_lo": -2.5,
+            "days_hi": -2.0
           }
         ],
         "heaviest_below": {
-          "lo": 4122,
-          "hi": 4178,
-          "share_pct": 7.7,
-          "days_lo": -3.5,
-          "days_hi": -3.0
+          "lo": 2721,
+          "hi": 2788,
+          "share_pct": 12.7,
+          "days_lo": -5.5,
+          "days_hi": -5.0
         },
         "heaviest_above": {
-          "lo": 4571,
-          "hi": 4627,
-          "share_pct": 9.9,
-          "days_lo": 0.5,
-          "days_hi": 1.0
+          "lo": 3582,
+          "hi": 3649,
+          "share_pct": 2.6,
+          "days_lo": 1.0,
+          "days_hi": 1.5
         },
         "current_band": {
-          "lo": 4515,
-          "hi": 4571,
-          "share_pct": 6.4,
+          "lo": 3450,
+          "hi": 3516,
+          "share_pct": 2.4,
           "days_lo": 0.0,
           "days_hi": 0.5
         },
-        "current_band_share_pct": 6.4,
+        "current_band_share_pct": 2.4,
         "even_share_pct": 4.5,
         "flat": false,
-        "share_stop_to_close_pct": 28.6,
+        "share_stop_to_close_pct": 20.5,
         "stop_inside_top_band": false
       },
       "swing_levels": {
-        "above": [
-          {
-            "price": 4921,
-            "touches": 2,
-            "last_date": "2026-10-14",
-            "days": 3.6
-          }
-        ],
+        "above": [],
         "below": [
           {
-            "price": 3741,
-            "touches": 2,
-            "last_date": "2026-07-29",
-            "days": -6.9
+            "price": 2613,
+            "touches": 4,
+            "last_date": "2026-08-14",
+            "days": -6.3
           }
         ],
-        "window_bars": 104,
+        "window_bars": 103,
         "fractal_k": 7,
         "min_touches": 2
       },
       "chart_facts": {
-        "close": 4515.0,
+        "close": 3450.0,
         "range_60d": {
-          "low": 3831.0,
-          "high": 4929.0,
-          "position_pct": 62.3,
-          "days_to_low": -6.1,
-          "days_to_high": 3.7
+          "low": 2681.0,
+          "high": 3895.0,
+          "position_pct": 63.3,
+          "days_to_low": -5.8,
+          "days_to_high": 3.4
         },
         "range_20d": {
-          "low": 4373.0,
-          "high": 4929.0,
-          "position_pct": 25.5,
-          "days_to_low": -1.3,
-          "days_to_high": 3.7
+          "low": 3245.0,
+          "high": 3895.0,
+          "position_pct": 31.5,
+          "days_to_low": -1.5,
+          "days_to_high": 3.4
         },
-        "ma25": 4662.04,
-        "ma75": 4480.12,
-        "ma25_slope_pct": 2.23,
+        "ma25": 3490.2,
+        "ma75": 3185.24,
+        "ma25_slope_pct": 9.59,
         "ma25_slope_days": 25,
         "ma75_slope_pct": null,
         "ma75_slope_days": null,
-        "bb_upper": 4924.3,
-        "bb_lower": 4434.2,
-        "bb_bandwidth": 0.105,
-        "bb_bandwidth_pctile": 47.6,
-        "bb_bandwidth_pctile_bars": 85,
-        "vol_today": 364900,
-        "vol_avg20": 328325,
-        "vol_ratio": 1.12,
-        "gap_pct": -0.06,
-        "close_streak": -2,
-        "bars_used": 104
+        "bb_upper": 3851.8,
+        "bb_lower": 3277.7,
+        "bb_bandwidth": 0.161,
+        "bb_bandwidth_pctile": 64.9,
+        "bb_bandwidth_pctile_bars": 84,
+        "vol_today": 279500,
+        "vol_avg20": 247325,
+        "vol_ratio": 1.16,
+        "gap_pct": -2.37,
+        "close_streak": -3,
+        "bars_used": 103
       },
       "earnings": {
-        "sales_yoy_pct": 15.2,
-        "op_yoy_pct": 42.7,
-        "np_yoy_pct": 47.8,
-        "eps_yoy_pct": 54.6,
+        "sales_yoy_pct": 84.1,
+        "op_yoy_pct": 0.9,
+        "np_yoy_pct": -2.6,
+        "eps_yoy_pct": -2.7,
         "fc_revision_flag": "upward",
-        "progress_rate_op_pct": 31.4,
-        "disclosure_date": "2026-08-07",
+        "progress_rate_op_pct": null,
+        "disclosure_date": "2026-08-13",
         "profit_metric": "営業利益",
-        "period_type": "1Q",
-        "op_actual": 15690000000.0,
-        "op_prev": 10996000000.0,
-        "np_actual": 10710000000.0,
-        "np_prev": 7245000000.0
+        "period_type": "3Q",
+        "op_actual": 4678375000.0,
+        "op_prev": 4634830000.0,
+        "np_actual": 2632000000.0,
+        "np_prev": 2703000000.0
       },
       "valuation": {
-        "per": 13.68,
-        "pbr": 1.41,
-        "dividend_yield": 2.92,
+        "per": 37.57,
+        "pbr": 3.11,
+        "dividend_yield": 0.29,
         "per_basis": "FEPS",
         "split_factor": 1.0,
         "bps_split_factor": 1.0,
@@ -1808,355 +1626,89 @@
       },
       "size_if_entered": {
         "shares": 100,
-        "invest_amount": 451500,
-        "stop_price": 4154,
-        "actual_risk_yen": 36100,
-        "actual_risk_pct": 1.44,
+        "invest_amount": 345000,
+        "stop_price": 3174,
+        "actual_risk_yen": 27600,
+        "actual_risk_pct": 1.1,
         "reason": "リスク1.5%基準",
         "viable": true
       },
-      "next_earnings": "2026-11-10頃 (推定)",
+      "next_earnings": "2026-11-12頃 (推定)",
       "next_earnings_source": "same_quarter_prev_year",
       "streak": 1,
       "flags": [],
       "brief": {
-        "pullback": "60日高値から-8.4%／MA25の下(-3.2%)／MA75は+0.8%・上昇基調(MA75の25日前比+4.1%)／RSI 44(下げ止まり圏)／🟢バンド下限近く(%b 0.16)",
-        "turn": "前日比 -2.27%・陰線／RSIは前日50から低下",
+        "pullback": "60日高値から-11.4%／MA25をわずかに下回る(-1.2%)／MA75は+8.3%・上昇基調(MA75の25日前比+8.9%)／RSI 48(中立)",
+        "turn": "前日比 -3.77%・陰線／RSIは前日54から低下",
         "ex_date": "",
-        "volatility": "値動きは平均的(普段の1日の値幅 約2.5%＝約113円)／ATR14 133.8円(3.0%)／-8%ストップ(4,154円)は普段の値幅の約3.2日ぶん(ストップ幅の変更を提案するものではありません)",
-        "levels": "直近100営業日でどの価格帯が多く売買されたか (日足からの推計)／いまの株価の帯: 全体の6% (均等に散らばった場合は4%)／下でいちばん厚い帯 4,122円〜4,178円 (8%・3.0〜3.5日ぶん下)／上でいちばん厚い帯 4,571円〜4,627円 (10%・0.5〜1.0日ぶん上)／現値〜-8%ストップ(4,154円)の間で売買されたのは全体の29%／高安が集まった価格 上: 4,921円(2回・3.6日ぶん)／高安が集まった価格 下: 3,741円(2回・6.9日ぶん)",
-        "position": "60日のレンジ 3,831円〜4,929円 の下から62%の位置／20日の高値 4,929円(3.7日ぶん上)・安値 4,373円(1.3日ぶん下)／MA25 4,662円・傾き+2.2%(25日前比)／MA75 4,480円／ボリンジャー 4,434円〜4,924円・幅は直近85本の中で下から48%／出来高 36万株 (20日平均の1.1倍)／寄り付きは前日終値比-0.06%・2日続落",
+        "volatility": "値動きは大きい方(普段の1日の値幅 約3.8%＝約132円)／ATR14 168.6円(4.9%)／-8%ストップ(3,174円)は普段の値幅の約2.1日ぶん(ストップ幅の変更を提案するものではありません)",
+        "levels": "直近100営業日でどの価格帯が多く売買されたか (日足からの推計)／いまの株価の帯: 全体の2% (均等に散らばった場合は4%)／下でいちばん厚い帯 2,721円〜2,788円 (13%・5.0〜5.5日ぶん下)／上でいちばん厚い帯 3,582円〜3,649円 (3%・1.0〜1.5日ぶん上)／現値〜-8%ストップ(3,174円)の間で売買されたのは全体の20%／高安が集まった価格 下: 2,613円(4回・6.3日ぶん)",
+        "position": "60日のレンジ 2,681円〜3,895円 の下から63%の位置／20日の高値 3,895円(3.4日ぶん上)・安値 3,245円(1.5日ぶん下)／MA25 3,490円・傾き+9.6%(25日前比)／MA75 3,185円／ボリンジャー 3,278円〜3,852円・幅は直近84本の中で下から65%／出来高 28万株 (20日平均の1.2倍)／寄り付きは前日終値比-2.37%・3日続落",
         "demand_supply": "",
         "margin_alert": "",
         "large_holding": "",
-        "earnings": "増収増益◎／(売上+15.2%・営業利益+42.7%・純利益+47.8%)／🆙会社予想を上方修正／通期予想への進捗率 31%(1Q・目安25%を上回る)",
-        "valuation": "予想PER 13.7倍／PBR 1.41倍／予想配当利回り 2.92%",
-        "size": "もし-8%ストップ(4,154円)で買う場合の計算: 100株・約451,500円（最大損失 約36,100円 = 資産の1.4%）",
-        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
-        "link": "https://kabutan.jp/stock/?code=4401",
-        "gap_risk": "直近100日で、寄り付きが前日の終値から±3%以上離れて始まった日 3回 (上 2・下 1)／いちばん大きい下への飛び -5.2% (6/8)",
-        "sector_move": "この株 +0.2% (10/23→10/30の5営業日)／同じ業種 (化学) のほかの61社 (売買の多い800社の中) の真ん中 +0.5%／この株のほうが 0.3 ポイント低い"
-      },
-      "label": "候補(要人間深掘り・エッジ未検証)",
-      "gap_risk": {
-        "gaps": 100,
-        "threshold_pct": 3.0,
-        "up": 2,
-        "down": 1,
-        "from": "2026-06-05",
-        "to": "2026-10-30",
-        "excluded_steps": 0,
-        "stop_pct": 8.0,
-        "max_down_pct": -5.2,
-        "max_down_date": "2026-06-08",
-        "max_down_note": null,
-        "beyond_stop": false
-      },
-      "sector_move": {
-        "sector": "化学",
-        "days": 5,
-        "from": "2026-10-23",
-        "to": "2026-10-30",
-        "population": 800,
-        "peers": 61,
-        "shown": true,
-        "stock_pct": 0.2,
-        "sector_median_pct": 0.5,
-        "diff_pt": -0.3
-      },
-      "text": "【ＡＤＥＫＡ(4401)】\n📉 押し目: 60日高値から-8.4%／MA25の下(-3.2%)／MA75は+0.8%・上昇基調(MA75の25日前比+4.1%)／RSI 44(下げ止まり圏)／🟢バンド下限近く(%b 0.16)\n⏱ 当日: 前日比 -2.27%・陰線／RSIは前日50から低下\n📏 値動き: 値動きは平均的(普段の1日の値幅 約2.5%＝約113円)／ATR14 133.8円(3.0%)／-8%ストップ(4,154円)は普段の値幅の約3.2日ぶん(ストップ幅の変更を提案するものではありません)\n📐 価格帯: 現値〜損切り(4,154円)の間で売買されたのは全体の29%／下でいちばん厚い帯 4,122円〜4,178円 (8%・3.0〜3.5日ぶん下)／高安が集まった価格 上 4,921円(2回・3.6日ぶん)／高安が集まった価格 下 3,741円(2回・6.9日ぶん)\n📍 いまの位置: 60日のレンジ 3,831円〜4,929円 の下から62%の位置／20日の高値 4,929円(3.7日ぶん上)・安値 4,373円(1.3日ぶん下)／MA25 4,662円・傾き+2.2%(25日前比)／MA75 4,480円／ボリンジャー 4,434円〜4,924円・幅は直近85本の中で下から48%／出来高 36万株 (20日平均の1.1倍)／寄り付きは前日終値比-0.06%・2日続落\n📊 業績: 増収増益◎／(売上+15.2%・営業利益+42.7%・純利益+47.8%)／🆙会社予想を上方修正／通期予想への進捗率 31%(1Q・目安25%を上回る)\n💰 参考: 予想PER 13.7倍／PBR 1.41倍／予想配当利回り 2.92%\n📅 次回決算: 2026-11-10頃 (推定)\n🧮 もし-8%ストップ(4,154円)で買う場合の計算: 100株・約451,500円（最大損失 約36,100円 = 資産の1.4%）\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）（🆕 今日が初日）\nhttps://kabutan.jp/stock/?code=4401"
-    },
-    {
-      "code": "68570",
-      "ticker": "6857",
-      "name": "アドバンテスト",
-      "price": 34860.0,
-      "as_of": "2026-10-30",
-      "pullback": {
-        "drawdown_60d_pct": 17.0,
-        "ma25_dev_pct": -3.9,
-        "ma75_dev_pct": 3.8,
-        "rsi14": 49.22,
-        "bb_pct_b": 0.37,
-        "atr": 2592.86,
-        "vol_ratio": 1.21,
-        "signals": [],
-        "signal_details": []
-      },
-      "turn_facts": {
-        "chg_1d_pct": -5.86,
-        "bullish_bar": false,
-        "above_prev_high": false,
-        "rsi_rising": false,
-        "rsi_prev": 55.76,
-        "ma75_slope_pct": 7.07,
-        "ma75_slope_days": 25
-      },
-      "ex_date": {
-        "record_date": "2027-03-31",
-        "last_buy_date": "2027-03-29",
-        "ex_date": "2027-03-30",
-        "business_days_to_ex": 100,
-        "kind": "期末"
-      },
-      "demand_supply": {},
-      "margin_alert": null,
-      "large_holdings": [
-        {
-          "docID": "S100Z7YC",
-          "filer": "株式会社三菱UFJフィナンシャル・グループ",
-          "kind": "変更",
-          "special": true,
-          "submitted": "2026-10-19",
-          "obligation_date": "2026-10-12",
-          "ratio": 0.0494,
-          "prev_ratio": 0.0607,
-          "purpose": "純投資"
-        },
-        {
-          "docID": "S100Z8I0",
-          "filer": "野村證券株式会社",
-          "kind": "変更",
-          "special": false,
-          "submitted": "2026-10-15",
-          "obligation_date": "2026-10-08",
-          "ratio": 0.1152,
-          "prev_ratio": 0.1253,
-          "purpose": "証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。"
-        },
-        {
-          "docID": "S100YZWG",
-          "filer": "三井住友トラスト・アセットマネジメント株式会社",
-          "kind": "変更",
-          "special": true,
-          "submitted": "2026-09-04",
-          "obligation_date": "2026-08-31",
-          "ratio": 0.0824,
-          "prev_ratio": 0.0931,
-          "purpose": "投資信託契約、投資一任契約に基づく運用を目的として保有するもの。"
-        }
-      ],
-      "volatility": {
-        "atr14": 2592.86,
-        "atr_pct": 7.44,
-        "normal_range_pct": 5.36,
-        "normal_range_yen": 1867,
-        "range_window": 20,
-        "bars_used": 20,
-        "stop_8pct_in_normal_days": 1.5
-      },
-      "volume_profile": {
-        "window_bars": 100,
-        "window_from": "2026-06-05",
-        "window_to": "2026-10-30",
-        "bin_yen": 934.2,
-        "bin_days": 0.5,
-        "method": "daily_hl_uniform_approx",
-        "top_band": {
-          "lo": 33926,
-          "hi": 34860,
-          "share_pct": 13.4,
-          "days_lo": -0.5,
-          "days_hi": 0.0
-        },
-        "bands_top3": [
-          {
-            "lo": 33926,
-            "hi": 34860,
-            "share_pct": 13.4,
-            "days_lo": -0.5,
-            "days_hi": 0.0
-          },
-          {
-            "lo": 32057,
-            "hi": 32992,
-            "share_pct": 10.2,
-            "days_lo": -1.5,
-            "days_hi": -1.0
-          },
-          {
-            "lo": 32992,
-            "hi": 33926,
-            "share_pct": 9.7,
-            "days_lo": -1.0,
-            "days_hi": -0.5
-          }
-        ],
-        "heaviest_below": {
-          "lo": 33926,
-          "hi": 34860,
-          "share_pct": 13.4,
-          "days_lo": -0.5,
-          "days_hi": 0.0
-        },
-        "heaviest_above": {
-          "lo": 40465,
-          "hi": 41400,
-          "share_pct": 4.2,
-          "days_lo": 3.0,
-          "days_hi": 3.5
-        },
-        "current_band": {
-          "lo": 34860,
-          "hi": 35794,
-          "share_pct": 8.2,
-          "days_lo": 0.0,
-          "days_hi": 0.5
-        },
-        "current_band_share_pct": 8.2,
-        "even_share_pct": 5.0,
-        "flat": false,
-        "share_stop_to_close_pct": 33.1,
-        "stop_inside_top_band": false
-      },
-      "swing_levels": {
-        "above": [
-          {
-            "price": 35815,
-            "touches": 2,
-            "last_date": "2026-09-08",
-            "days": 0.5
-          }
-        ],
-        "below": [
-          {
-            "price": 24142,
-            "touches": 2,
-            "last_date": "2026-07-29",
-            "days": -5.7
-          }
-        ],
-        "window_bars": 104,
-        "fractal_k": 7,
-        "min_touches": 2
-      },
-      "chart_facts": {
-        "close": 34860.0,
-        "range_60d": {
-          "low": 29810.0,
-          "high": 41990.0,
-          "position_pct": 41.5,
-          "days_to_low": -2.7,
-          "days_to_high": 3.8
-        },
-        "range_20d": {
-          "low": 30030.0,
-          "high": 41990.0,
-          "position_pct": 40.4,
-          "days_to_low": -2.6,
-          "days_to_high": 3.8
-        },
-        "ma25": 36279.6,
-        "ma75": 33585.67,
-        "ma25_slope_pct": 8.53,
-        "ma25_slope_days": 25,
-        "ma75_slope_pct": null,
-        "ma75_slope_days": null,
-        "bb_upper": 43689.7,
-        "bb_lower": 29658.3,
-        "bb_bandwidth": 0.383,
-        "bb_bandwidth_pctile": 70.0,
-        "bb_bandwidth_pctile_bars": 85,
-        "vol_today": 19644400,
-        "vol_avg20": 16399740,
-        "vol_ratio": 1.21,
-        "gap_pct": -5.08,
-        "close_streak": -1,
-        "bars_used": 104
-      },
-      "earnings": {
-        "sales_yoy_pct": 60.5,
-        "op_yoy_pct": 96.5,
-        "np_yoy_pct": 116.8,
-        "eps_yoy_pct": 119.2,
-        "fc_revision_flag": "upward",
-        "progress_rate_op_pct": 47.2,
-        "disclosure_date": "2026-10-28",
-        "profit_metric": "営業利益",
-        "period_type": "2Q",
-        "op_actual": 456809000000.0,
-        "op_prev": 232435000000.0,
-        "np_actual": 368083000000.0,
-        "np_prev": 169813000000.0
-      },
-      "valuation": {
-        "per": 33.94,
-        "pbr": null,
-        "dividend_yield": null,
-        "per_basis": "FEPS",
-        "split_factor": 1.0,
-        "bps_split_factor": 1.0,
-        "flags": [
-          "⚠️ PBRが異常値(31.76倍)＝分割/開示データの疑い"
+        "earnings": "増収増益◎／(売上+84.1%・営業利益+0.9%・純利益-2.6%)／🆙会社予想を上方修正",
+        "valuation": "予想PER 37.6倍／PBR 3.11倍／予想配当利回り 0.29%",
+        "size": "もし-8%ストップ(3,174円)で買う場合の計算: 100株・約345,000円（最大損失 約27,600円 = 資産の1.1%）",
+        "one_liner": "判断材料: 強み2点・注意0点（一次情報で最終判断を）",
+        "link": "https://kabutan.jp/stock/?code=3993",
+        "gap_risk": "直近100日で、寄り付きが前日の終値から±3%以上離れて始まった日 7回 (上 3・下 4)／いちばん大きい下への飛び -5.6% (8/14・決算発表の直後)",
+        "sector_move": "この株 -6.5% (10/26→11/2の5営業日)／同じ業種 (情報･通信業) のほかの91社 (売買の多い800社の中) の真ん中 -1.8%／この株のほうが 4.7 ポイント低い",
+        "drop_facts": [
+          "🔎 なぜ下げたか (押しの期間 10/28〜11/2・4 営業日)",
+          "  押しの期間に、決算・予想の修正・増資・自己株式の取得の開示はなし",
+          "  (増資・自己株式の取得は TDnet の題の取り置きから見ています。取り置きがまだ無いので見ていません)",
+          "📉 どう下げたか: 押しの間の 1 日平均の売買代金は、その前の 60 営業日の 0.9 倍 (ふだん並みの商いでの下げ)",
+          "※ 研究 (米国など: Chan 2003・Barber & Odean 2008 ほか) では、開示の有無や商いの量でその後の動きが違うという報告がありますが、日本株・このアプリでは未検証です。売買の推奨ではありません。"
         ]
       },
-      "size_if_entered": {
-        "shares": 100,
-        "invest_amount": 3486000.0,
-        "stop_price": 32071,
-        "actual_risk_yen": 278900.0,
-        "actual_risk_pct": 11.16,
-        "reason": "⚠️1単元購入時リスク11.2%（上限1.5%超過）",
-        "viable": false
-      },
-      "next_earnings": "2027-01-27頃 (推定)",
-      "next_earnings_source": "same_quarter_prev_year",
-      "streak": 1,
-      "flags": [
-        "⚠️"
-      ],
-      "brief": {
-        "pullback": "60日高値から-17.0%／MA25の下(-3.9%)／MA75は+3.8%・上昇基調(MA75の25日前比+7.1%)／RSI 49(中立)",
-        "turn": "前日比 -5.86%・陰線／RSIは前日56から低下",
-        "ex_date": "",
-        "volatility": "値動きはかなり大きい(普段の1日の値幅 約5.4%＝約1,867円)／ATR14 2592.9円(7.4%)／-8%ストップ(32,071円)は普段の値幅の約1.5日ぶん。普段の値動きだけでも数日で到達しうる距離です(ストップ幅の変更を提案するものではありません)",
-        "levels": "直近100営業日でどの価格帯が多く売買されたか (日足からの推計)／いまの株価の帯: 全体の8% (均等に散らばった場合は5%)／下でいちばん厚い帯 33,926円〜34,860円 (13%・0.0〜0.5日ぶん下)／上でいちばん厚い帯 40,465円〜41,400円 (4%・3.0〜3.5日ぶん上)／現値〜-8%ストップ(32,071円)の間で売買されたのは全体の33%／高安が集まった価格 上: 35,815円(2回・0.5日ぶん)／高安が集まった価格 下: 24,142円(2回・5.7日ぶん)",
-        "position": "60日のレンジ 29,810円〜41,990円 の下から42%の位置／20日の高値 41,990円(3.8日ぶん上)・安値 30,030円(2.6日ぶん下)／MA25 36,280円・傾き+8.5%(25日前比)／MA75 33,586円／ボリンジャー 29,658円〜43,690円・幅は直近85本の中で下から70%／出来高 1,964万株 (20日平均の1.2倍)／寄り付きは前日終値比-5.08%",
-        "demand_supply": "",
-        "margin_alert": "",
-        "large_holding": "株式会社三菱UFJフィナンシャル・グループ 保有割合 6.07%→4.94%（特例 (金融機関の特例報告)・変更の報告・10/12 時点・10/19 提出） 保有目的: 純投資／野村證券株式会社 保有割合 12.53%→11.52%（変更の報告・10/8 時点・10/15 提出） 保有目的: 証券業務に係る商品在庫、及び累積投資業務の運営目的として保有している。／三井住友トラスト・アセットマネジメント株式会社 保有割合 9.31%→8.24%（特例 (金融機関の特例報告)・変更の報告・8/31 時点・9/4 提出） 保有目的: 投資信託契約、投資一任契約に基づく運用を目的として保有するもの。",
-        "earnings": "増収増益◎／(売上+60.5%・営業利益+96.5%・純利益+116.8%)／🆙会社予想を上方修正／通期予想への進捗率 47%(2Q・目安50%どおり)",
-        "valuation": "予想PER 33.9倍／⚠️ PBRが異常値(31.76倍)＝分割/開示データの疑い",
-        "size": "⚠️ 資金規模に対して1単元が大きい銘柄です（最小100株＝約3,486,000円、この場合の想定損失 約278,900円＝資産の11.2%） — 1単元購入時リスク11.2%（上限1.5%超過）",
-        "one_liner": "判断材料: 強み3点・注意0点（一次情報で最終判断を）",
-        "link": "https://kabutan.jp/stock/?code=6857",
-        "gap_risk": "直近100日で、寄り付きが前日の終値から±3%以上離れて始まった日 37回 (上 19・下 18)／いちばん大きい下への飛び -6.7% (8/31)",
-        "sector_move": "この株 +7.8% (10/23→10/30の5営業日)／同じ業種 (電気機器) のほかの91社 (売買の多い800社の中) の真ん中 -0.5%／この株のほうが 8.3 ポイント高い"
-      },
       "label": "候補(要人間深掘り・エッジ未検証)",
       "gap_risk": {
         "gaps": 100,
         "threshold_pct": 3.0,
-        "up": 19,
-        "down": 18,
-        "from": "2026-06-05",
-        "to": "2026-10-30",
+        "up": 3,
+        "down": 4,
+        "from": "2026-06-08",
+        "to": "2026-11-02",
         "excluded_steps": 0,
         "stop_pct": 8.0,
-        "max_down_pct": -6.7,
-        "max_down_date": "2026-08-31",
-        "max_down_note": null,
+        "max_down_pct": -5.6,
+        "max_down_date": "2026-08-14",
+        "max_down_note": "earnings",
         "beyond_stop": false
       },
       "sector_move": {
-        "sector": "電気機器",
+        "sector": "情報･通信業",
         "days": 5,
-        "from": "2026-10-23",
-        "to": "2026-10-30",
+        "from": "2026-10-26",
+        "to": "2026-11-02",
         "population": 800,
         "peers": 91,
         "shown": true,
-        "stock_pct": 7.8,
-        "sector_median_pct": -0.5,
-        "diff_pt": 8.3
+        "stock_pct": -6.5,
+        "sector_median_pct": -1.8,
+        "diff_pt": -4.7
       },
-      "text": "【アドバンテスト(6857)】\n📉 押し目: 60日高値から-17.0%／MA25の下(-3.9%)／MA75は+3.8%・上昇基調(MA75の25日前比+7.1%)／RSI 49(中立)\n⏱ 当日: 前日比 -5.86%・陰線／RSIは前日56から低下\n📏 値動き: 値動きはかなり大きい(普段の1日の値幅 約5.4%＝約1,867円)／ATR14 2592.9円(7.4%)／-8%ストップ(32,071円)は普段の値幅の約1.5日ぶん。普段の値動きだけでも数日で到達しうる距離です(ストップ幅の変更を提案するものではありません)\n📐 価格帯: 現値〜損切り(32,071円)の間で売買されたのは全体の33%／下でいちばん厚い帯 33,926円〜34,860円 (13%・0.0〜0.5日ぶん下)／高安が集まった価格 上 35,815円(2回・0.5日ぶん)／高安が集まった価格 下 24,142円(2回・5.7日ぶん)\n📍 いまの位置: 60日のレンジ 29,810円〜41,990円 の下から42%の位置／20日の高値 41,990円(3.8日ぶん上)・安値 30,030円(2.6日ぶん下)／MA25 36,280円・傾き+8.5%(25日前比)／MA75 33,586円／ボリンジャー 29,658円〜43,690円・幅は直近85本の中で下から70%／出来高 1,964万株 (20日平均の1.2倍)／寄り付きは前日終値比-5.08%\n📊 業績: 増収増益◎／(売上+60.5%・営業利益+96.5%・純利益+116.8%)／🆙会社予想を上方修正／通期予想への進捗率 47%(2Q・目安50%どおり)\n💰 参考: 予想PER 33.9倍／⚠️ PBRが異常値(31.76倍)＝分割/開示データの疑い\n📅 次回決算: 2027-01-27頃 (推定)\n🧮 ⚠️ 資金規模に対して1単元が大きい銘柄です（最小100株＝約3,486,000円、この場合の想定損失 約278,900円＝資産の11.2%） — 1単元購入時リスク11.2%（上限1.5%超過）\n→ 判断材料: 強み3点・注意0点（一次情報で最終判断を）（🆕 今日が初日）\nhttps://kabutan.jp/stock/?code=6857"
+      "drop_facts": {
+        "high_date": "2026-10-28",
+        "from": "2026-10-28",
+        "to": "2026-11-02",
+        "days": 4,
+        "capped": false,
+        "events": [],
+        "titles_since": null,
+        "titles_cover": false,
+        "turnover_x": 0.92,
+        "turnover_word": "ふだん並み",
+        "attention": null
+      },
+      "text": "【ＰＫＳＨＡ　Ｔｅｃｈｎｏｌｏｇｙ(3993)】\n📉 押し目: 60日高値から-11.4%／MA25をわずかに下回る(-1.2%)／MA75は+8.3%・上昇基調(MA75の25日前比+8.9%)／RSI 48(中立)\n⏱ 当日: 前日比 -3.77%・陰線／RSIは前日54から低下\n📏 値動き: 値動きは大きい方(普段の1日の値幅 約3.8%＝約132円)／ATR14 168.6円(4.9%)／-8%ストップ(3,174円)は普段の値幅の約2.1日ぶん(ストップ幅の変更を提案するものではありません)\n📐 価格帯: 現値〜損切り(3,174円)の間で売買されたのは全体の20%／下でいちばん厚い帯 2,721円〜2,788円 (13%・5.0〜5.5日ぶん下)／高安が集まった価格 下 2,613円(4回・6.3日ぶん)\n📍 いまの位置: 60日のレンジ 2,681円〜3,895円 の下から63%の位置／20日の高値 3,895円(3.4日ぶん上)・安値 3,245円(1.5日ぶん下)／MA25 3,490円・傾き+9.6%(25日前比)／MA75 3,185円／ボリンジャー 3,278円〜3,852円・幅は直近84本の中で下から65%／出来高 28万株 (20日平均の1.2倍)／寄り付きは前日終値比-2.37%・3日続落\n📊 業績: 増収増益◎／(売上+84.1%・営業利益+0.9%・純利益-2.6%)／🆙会社予想を上方修正\n💰 参考: 予想PER 37.6倍／PBR 3.11倍／予想配当利回り 0.29%\n📅 次回決算: 2026-11-12頃 (推定)\n🧮 もし-8%ストップ(3,174円)で買う場合の計算: 100株・約345,000円（最大損失 約27,600円 = 資産の1.1%）\n→ 判断材料: 強み2点・注意0点（一次情報で最終判断を）（🆕 今日が初日）\nhttps://kabutan.jp/stock/?code=3993"
     }
   ],
   "market_schedule": {
-    "base_date": "2026-10-30",
-    "from": "2026-11-02",
-    "to": "2026-11-16",
+    "base_date": "2026-11-02",
+    "from": "2026-11-04",
+    "to": "2026-11-17",
     "days": 10,
     "events": [
       {
@@ -2190,7 +1742,7 @@
     "checked_on": "2026-10-24",
     "line": "📆 10営業日内の予定: 11/9 米雇用統計・11/11 米CPI・11/13 SQ (詳しくはPWA)",
     "pwa": {
-      "title": "📆 この先10営業日 (11/2〜11/16) の市場全体の予定",
+      "title": "📆 この先10営業日 (11/4〜11/17) の市場全体の予定",
       "lines": [
         "11/9(月) の寄り付き: 米国の雇用統計 (日本時間 11/6(金) 22:30 発表)",
         "11/11(水) の寄り付き: 米国の消費者物価指数 CPI (日本時間 11/10(火) 22:30 発表)",
