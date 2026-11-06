@@ -1,14 +1,13 @@
 {
-  "regime": "storm",
-  "threshold_adjustment": 2,
-  "hv_20d": 15.6,
-  "ma25_dev": -3.74,
+  "regime": "caution",
+  "threshold_adjustment": 1,
+  "hv_20d": 15.8,
+  "ma25_dev": -2.53,
   "trend": "downtrend",
-  "trend_spread_pct": -2.21,
+  "trend_spread_pct": -2.37,
   "reasons": [
-    "⚠️TOPIX-25MA乖離-3.74% (調整入り)",
-    "⚠️短期下降トレンド(5MA vs 25MA: -2.21%)"
+    "⚠️短期下降トレンド(5MA vs 25MA: -2.37%)"
   ],
-  "summary": "⛈ レジーム:STORM | TOPIX HV15.6% / MA25乖離-3.74% / downtrend\n⚠️TOPIX-25MA乖離-3.74% (調整入り)\n⚠️短期下降トレンド(5MA vs 25MA: -2.21%)",
-  "evaluated_at": "2026-11-05T12:36+09:00"
+  "summary": "🟡 レジーム:CAUTION | TOPIX HV15.8% / MA25乖離-2.53% / downtrend\n⚠️短期下降トレンド(5MA vs 25MA: -2.37%)",
+  "evaluated_at": "2026-11-06T11:43+09:00"
 }
