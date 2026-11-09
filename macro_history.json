@@ -1,14 +1,5 @@
 [
   {
-    "regime": "storm",
-    "changed_at": "2026-04-15T00:35:01+09:00",
-    "from": null,
-    "hv_20d": 33.9,
-    "ma25_dev": 2.94,
-    "trend": "uptrend",
-    "summary": "⛈ レジーム:STORM | 日経HV33.9% / MA25乖離2.94% / uptrend\n⛈HV33.9% (ストーム域、乱高下相場)"
-  },
-  {
     "regime": "caution",
     "changed_at": "2026-04-20T21:10:27+09:00",
     "from": "storm",
@@ -268,5 +259,14 @@
     "ma25_dev": -2.53,
     "trend": "downtrend",
     "summary": "🟡 レジーム:CAUTION | TOPIX HV15.8% / MA25乖離-2.53% / downtrend\n⚠️短期下降トレンド(5MA vs 25MA: -2.37%)"
+  },
+  {
+    "regime": "storm",
+    "changed_at": "2026-11-09T10:50:42+09:00",
+    "from": "caution",
+    "hv_20d": 25.9,
+    "ma25_dev": -7.91,
+    "trend": "downtrend",
+    "summary": "⛈ レジーム:STORM | TOPIX HV25.9% / MA25乖離-7.91% / downtrend\n⚠️HV25.9% (警戒域)\n⛈TOPIX-25MA乖離-7.91% (調整深い)\n⚠️短期下降トレンド(5MA vs 25MA: -3.44%)"
   }
 ]
