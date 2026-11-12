@@ -2,7 +2,7 @@
   {
     "code": "6857",
     "name": "アドバンテスト",
-    "current_price": 31440.0,
+    "current_price": 29985.0,
     "atr": 2884.64,
     "rank": "👀",
     "total_score": 0,
@@ -22,24 +22,24 @@
     "levels": [
       {
         "price": 19361.0,
-        "discount_pct": 38.4,
+        "discount_pct": 35.4,
         "tag": "💎絶好",
         "notified": false
       },
       {
         "price": 24655.0,
-        "discount_pct": 21.6,
+        "discount_pct": 17.8,
         "tag": "🎯本命",
         "notified": false
       }
     ],
     "generated_at": "2026-11-08",
-    "price_as_of": "2026-11-11"
+    "price_as_of": "2026-11-12"
   },
   {
     "code": "7826",
     "name": "フルヤ金属",
-    "current_price": 9050.0,
+    "current_price": 8770.0,
     "atr": 828.57,
     "rank": "👀",
     "total_score": 0,
@@ -59,24 +59,24 @@
     "levels": [
       {
         "price": 5404.0,
-        "discount_pct": 40.3,
+        "discount_pct": 38.4,
         "tag": "💎絶好",
         "notified": false
       },
       {
         "price": 6970.0,
-        "discount_pct": 23.0,
+        "discount_pct": 20.5,
         "tag": "🎯本命",
         "notified": false
       }
     ],
     "generated_at": "2026-11-08",
-    "price_as_of": "2026-11-11"
+    "price_as_of": "2026-11-12"
   },
   {
     "code": "7777",
     "name": "スリー・ディー・マトリックス",
-    "current_price": 326.0,
+    "current_price": 317.0,
     "atr": 19.14,
     "rank": "👀",
     "total_score": 0,
@@ -96,24 +96,24 @@
     "levels": [
       {
         "price": 239.0,
-        "discount_pct": 26.7,
+        "discount_pct": 24.6,
         "tag": "💎絶好",
         "notified": false
       },
       {
         "price": 285.0,
-        "discount_pct": 12.6,
+        "discount_pct": 10.1,
         "tag": "🎯本命",
         "notified": true
       }
     ],
     "generated_at": "2026-11-08",
-    "price_as_of": "2026-11-11"
+    "price_as_of": "2026-11-12"
   },
   {
     "code": "7184",
     "name": "富山第一銀行",
-    "current_price": 3200.0,
+    "current_price": 3095.0,
     "atr": 184.0,
     "rank": "👀",
     "total_score": 0,
@@ -133,18 +133,18 @@
     "levels": [
       {
         "price": 2292.0,
-        "discount_pct": 28.4,
+        "discount_pct": 25.9,
         "tag": "💎絶好",
         "notified": false
       },
       {
         "price": 2765.0,
-        "discount_pct": 13.6,
+        "discount_pct": 10.7,
         "tag": "🎯本命",
         "notified": false
       }
     ],
     "generated_at": "2026-11-08",
-    "price_as_of": "2026-11-11"
+    "price_as_of": "2026-11-12"
   }
 ]
