@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T05:45+09:00",
-  "as_of_date": "2026-11-17",
-  "as_of_price_date": "2026-11-17",
+  "generated_at": "2026-11-19T05:21+09:00",
+  "as_of_date": "2026-11-18",
+  "as_of_price_date": "2026-11-18",
   "is_business_day": true,
-  "fell_back_from": "2026-11-18",
+  "fell_back_from": "2026-11-19",
   "label": "開示イベント(値幅が広がりやすい・方向は不明)",
   "note": "その日に開示があった銘柄の機械抽出です。開示の内容は解釈していません。「この銘柄はふだんどれくらい動くか」は過去の実測にもとづく事実ですが、上がるか下がるかは分かりません。自前の survivorship-free 検証では、最も目立つ形 (寄りギャップ+4% かつ 出来高20日平均の2倍 かつ 陽線引け) のその後は市場調整後で +40日 -2.92% (n=16,362) でした。方向は予測できません。値幅の指標 (ATR・普段の値幅) は価格の派生量であり、表示のみで足切り・並び順・スコアには一切使っていません。閾値は pre-register 済で測定後に変更しません。値幅が大きいほど利益も損失も大きくなります。買いシグナルではありません。最終判断は決算短信等の一次情報でご自身で。",
   "direction_disclaimer": "※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。",
@@ -46,35 +46,37 @@
   },
   "universe_size": 800,
   "disclosures_fetched": 3,
-  "total_matched": 0,
-  "shown": 0,
+  "total_matched": 1,
+  "shown": 1,
   "truncated": false,
   "truncation_rule": "adv20_desc",
   "breadth": {
     "window": 20,
     "n_days": 20,
-    "today_candidates": 0,
-    "today_passed": 0,
+    "today_candidates": 1,
+    "today_passed": 1,
     "median_candidates": 15.5,
     "min_candidates": 0,
     "max_candidates": 60,
-    "rank_from_low": 1
+    "rank_from_low": 3
   },
   "diagnostics": {
     "n_disclosures": 3,
     "doc_type_counts": {
-      "EarnForecastRevision": 2,
-      "FYFinancialStatements_Consolidated_JP": 1
+      "DividendForecastRevision": 1,
+      "FYFinancialStatements_Consolidated_JP": 1,
+      "EarnForecastRevision": 1
     },
     "class_counts": {
-      "forecast_revision": 2,
-      "earnings": 1
+      "dividend_revision": 1,
+      "earnings": 1,
+      "forecast_revision": 1
     },
     "excluded": {
       "before_close": 0,
       "no_disc_time": 0,
       "class_not_shown": 0,
-      "not_in_universe": 3,
+      "not_in_universe": 2,
       "price_floor": 0,
       "no_bars": 0
     },
@@ -82,11 +84,71 @@
     "revision_direction_counts": {},
     "revision_baseline_source": {},
     "volatility_populated": {
-      "atr14": 0,
-      "atr_pct": 0,
-      "normal_range_pct": 0
+      "atr14": 1,
+      "atr_pct": 1,
+      "normal_range_pct": 1
     },
-    "ned_method_counts": {}
+    "ned_method_counts": {
+      "same_quarter_prev_year": 1
+    }
   },
-  "events": []
+  "events": [
+    {
+      "code": "36870",
+      "ticker": "3687",
+      "name": "フィックスターズ",
+      "sector": "情報･通信業",
+      "scale_cat": "TOPIX Small 2",
+      "market": "プライム",
+      "margin_type": "貸借",
+      "event": {
+        "class": "earnings",
+        "label_ja": "決算発表(通期)",
+        "doc_type": "FYFinancialStatements_Consolidated_JP",
+        "accounting": "JP",
+        "consolidated": true,
+        "period_type": "FY",
+        "fy_end": "2026-09-30",
+        "disc_date": "2026-11-18",
+        "disc_time": "16:30",
+        "after_close": true,
+        "disc_no": "20261118582860"
+      },
+      "revision": null,
+      "price": 1519.0,
+      "as_of_price": "2026-11-18",
+      "liquidity": {
+        "adv20_jpy": 902417325.0,
+        "vol_avg20": 524675
+      },
+      "volatility": {
+        "atr14": 94.86,
+        "atr_pct": 6.24,
+        "normal_range_pct": 5.0,
+        "normal_range_yen": 76,
+        "range_window": 20,
+        "bars_used": 20,
+        "stop_8pct_in_normal_days": 1.6,
+        "reference_multiplier": 2.03,
+        "reference_n": 40083
+      },
+      "next_earnings_estimate": {
+        "date": "2027-02-12",
+        "method": "same_quarter_prev_year",
+        "anchor_disc_date": "2026-02-13",
+        "basis_days": 364,
+        "label": "推定"
+      },
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "event": "2026-11-18 16:30(引け後)に 決算発表(通期)",
+        "volatility": "値動きはかなり大きい(普段の1日の値幅 約5.0%＝約76円)／ATR14 94.9円(6.2%)／過去に決算発表(通期)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約10.1%(約154円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
+        "next_earnings": "次回決算(推定) 2027-02-12頃",
+        "link": "https://kabutan.jp/stock/?code=3687"
+      },
+      "label": "開示イベント(値幅が広がりやすい・方向は不明)",
+      "text": "【フィックスターズ(3687)】\n📣 2026-11-18 16:30(引け後)に 決算発表(通期)\n📏 値動きはかなり大きい(普段の1日の値幅 約5.0%＝約76円)／ATR14 94.9円(6.2%)／過去に決算発表(通期)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約10.1%(約154円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2027-02-12頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=3687"
+    }
+  ]
 }
