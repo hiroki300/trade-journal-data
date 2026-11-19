@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T05:21+09:00",
-  "as_of_date": "2026-11-18",
-  "as_of_price_date": "2026-11-18",
+  "generated_at": "2026-11-20T05:25+09:00",
+  "as_of_date": "2026-11-19",
+  "as_of_price_date": "2026-11-19",
   "is_business_day": true,
-  "fell_back_from": "2026-11-19",
+  "fell_back_from": "2026-11-20",
   "label": "開示イベント(値幅が広がりやすい・方向は不明)",
   "note": "その日に開示があった銘柄の機械抽出です。開示の内容は解釈していません。「この銘柄はふだんどれくらい動くか」は過去の実測にもとづく事実ですが、上がるか下がるかは分かりません。自前の survivorship-free 検証では、最も目立つ形 (寄りギャップ+4% かつ 出来高20日平均の2倍 かつ 陽線引け) のその後は市場調整後で +40日 -2.92% (n=16,362) でした。方向は予測できません。値幅の指標 (ATR・普段の値幅) は価格の派生量であり、表示のみで足切り・並び順・スコアには一切使っていません。閾値は pre-register 済で測定後に変更しません。値幅が大きいほど利益も損失も大きくなります。買いシグナルではありません。最終判断は決算短信等の一次情報でご自身で。",
   "direction_disclaimer": "※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。",
@@ -45,90 +45,103 @@
     }
   },
   "universe_size": 800,
-  "disclosures_fetched": 3,
-  "total_matched": 1,
-  "shown": 1,
+  "disclosures_fetched": 14,
+  "total_matched": 4,
+  "shown": 4,
   "truncated": false,
   "truncation_rule": "adv20_desc",
   "breadth": {
     "window": 20,
     "n_days": 20,
-    "today_candidates": 1,
-    "today_passed": 1,
+    "today_candidates": 4,
+    "today_passed": 4,
     "median_candidates": 15.5,
     "min_candidates": 0,
     "max_candidates": 60,
-    "rank_from_low": 3
+    "rank_from_low": 5
   },
   "diagnostics": {
-    "n_disclosures": 3,
+    "n_disclosures": 14,
     "doc_type_counts": {
+      "2QFinancialStatements_Consolidated_IFRS": 3,
+      "EarnForecastRevision": 3,
+      "REITEarnForecastRevision": 2,
+      "FYFinancialStatements_Consolidated_REIT": 2,
+      "2QFinancialStatements_Consolidated_JP": 1,
+      "3QFinancialStatements_Consolidated_JP": 1,
       "DividendForecastRevision": 1,
-      "FYFinancialStatements_Consolidated_JP": 1,
-      "EarnForecastRevision": 1
+      "FYFinancialStatements_Consolidated_JP": 1
     },
     "class_counts": {
-      "dividend_revision": 1,
-      "earnings": 1,
-      "forecast_revision": 1
+      "earnings": 6,
+      "forecast_revision": 3,
+      "reit": 2,
+      "other": 2,
+      "dividend_revision": 1
     },
     "excluded": {
-      "before_close": 0,
+      "before_close": 3,
       "no_disc_time": 0,
-      "class_not_shown": 0,
-      "not_in_universe": 2,
+      "class_not_shown": 4,
+      "not_in_universe": 3,
       "price_floor": 0,
       "no_bars": 0
     },
-    "revision_status_counts": {},
-    "revision_direction_counts": {},
-    "revision_baseline_source": {},
+    "revision_status_counts": {
+      "sign_flip": 1
+    },
+    "revision_direction_counts": {
+      "turn_negative": 1
+    },
+    "revision_baseline_source": {
+      "same_fy": 1
+    },
     "volatility_populated": {
-      "atr14": 1,
-      "atr_pct": 1,
-      "normal_range_pct": 1
+      "atr14": 4,
+      "atr_pct": 4,
+      "normal_range_pct": 4
     },
     "ned_method_counts": {
-      "same_quarter_prev_year": 1
+      "same_quarter_prev_year": 4
     }
   },
   "events": [
     {
-      "code": "36870",
-      "ticker": "3687",
-      "name": "フィックスターズ",
-      "sector": "情報･通信業",
-      "scale_cat": "TOPIX Small 2",
+      "code": "87660",
+      "ticker": "8766",
+      "name": "東京海上ホールディングス",
+      "sector": "保険業",
+      "scale_cat": "TOPIX Core30",
       "market": "プライム",
       "margin_type": "貸借",
       "event": {
         "class": "earnings",
-        "label_ja": "決算発表(通期)",
-        "doc_type": "FYFinancialStatements_Consolidated_JP",
-        "accounting": "JP",
+        "label_ja": "決算発表(2Q)",
+        "doc_type": "2QFinancialStatements_Consolidated_IFRS",
+        "accounting": "IFRS",
         "consolidated": true,
-        "period_type": "FY",
-        "fy_end": "2026-09-30",
-        "disc_date": "2026-11-18",
+        "period_type": "2Q",
+        "fy_end": "2027-03-31",
+        "disc_date": "2026-11-19",
         "disc_time": "16:30",
         "after_close": true,
-        "disc_no": "20261118582860"
+        "disc_no": "20261118583013"
       },
       "revision": null,
-      "price": 1519.0,
-      "as_of_price": "2026-11-18",
+      "price": 566.0,
+      "as_of_price": "2026-11-19",
       "liquidity": {
-        "adv20_jpy": 902417325.0,
-        "vol_avg20": 524675
+        "adv20_jpy": 45491798575.0,
+        "vol_avg20": 78560090
       },
       "volatility": {
-        "atr14": 94.86,
-        "atr_pct": 6.24,
-        "normal_range_pct": 5.0,
-        "normal_range_yen": 76,
+        "atr14": 18.41,
+        "atr_pct": 3.25,
+        "normal_range_pct": 2.76,
+        "normal_range_yen": 16,
         "range_window": 20,
         "bars_used": 20,
-        "stop_8pct_in_normal_days": 1.6,
+        "stop_8pct_in_normal_days": 2.9,
         "reference_multiplier": 2.03,
         "reference_n": 40083
       },
@@ -142,13 +155,202 @@
       "streak": 1,
       "flags": [],
       "brief": {
-        "event": "2026-11-18 16:30(引け後)に 決算発表(通期)",
-        "volatility": "値動きはかなり大きい(普段の1日の値幅 約5.0%＝約76円)／ATR14 94.9円(6.2%)／過去に決算発表(通期)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約10.1%(約154円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
+        "event": "2026-11-19 16:30(引け後)に 決算発表(2Q)",
+        "volatility": "値動きは大きい方(普段の1日の値幅 約2.8%＝約16円)／ATR14 18.4円(3.2%)／過去に決算発表(2Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約5.6%(約32円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
         "next_earnings": "次回決算(推定) 2027-02-12頃",
-        "link": "https://kabutan.jp/stock/?code=3687"
+        "link": "https://kabutan.jp/stock/?code=8766"
       },
       "label": "開示イベント(値幅が広がりやすい・方向は不明)",
-      "text": "【フィックスターズ(3687)】\n📣 2026-11-18 16:30(引け後)に 決算発表(通期)\n📏 値動きはかなり大きい(普段の1日の値幅 約5.0%＝約76円)／ATR14 94.9円(6.2%)／過去に決算発表(通期)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約10.1%(約154円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2027-02-12頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=3687"
+      "text": "【東京海上ホールディングス(8766)】\n📣 2026-11-19 16:30(引け後)に 決算発表(2Q)\n📏 値動きは大きい方(普段の1日の値幅 約2.8%＝約16円)／ATR14 18.4円(3.2%)／過去に決算発表(2Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約5.6%(約32円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2027-02-12頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=8766"
+    },
+    {
+      "code": "87250",
+      "ticker": "8725",
+      "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス",
+      "sector": "保険業",
+      "scale_cat": "TOPIX Large70",
+      "market": "プライム",
+      "margin_type": "貸借",
+      "event": {
+        "class": "earnings",
+        "label_ja": "決算発表(2Q)",
+        "doc_type": "2QFinancialStatements_Consolidated_IFRS",
+        "accounting": "IFRS",
+        "consolidated": true,
+        "period_type": "2Q",
+        "fy_end": "2027-03-31",
+        "disc_date": "2026-11-19",
+        "disc_time": "16:00",
+        "after_close": true,
+        "disc_no": "20261113580268"
+      },
+      "revision": null,
+      "price": 5061.0,
+      "as_of_price": "2026-11-19",
+      "liquidity": {
+        "adv20_jpy": 22852276870.0,
+        "vol_avg20": 4392985
+      },
+      "volatility": {
+        "atr14": 145.07,
+        "atr_pct": 2.87,
+        "normal_range_pct": 2.33,
+        "normal_range_yen": 118,
+        "range_window": 20,
+        "bars_used": 20,
+        "stop_8pct_in_normal_days": 3.4,
+        "reference_multiplier": 2.03,
+        "reference_n": 40083
+      },
+      "next_earnings_estimate": {
+        "date": "2027-02-12",
+        "method": "same_quarter_prev_year",
+        "anchor_disc_date": "2026-02-13",
+        "basis_days": 364,
+        "label": "推定"
+      },
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "event": "2026-11-19 16:00(引け後)に 決算発表(2Q)",
+        "volatility": "値動きは平均的(普段の1日の値幅 約2.3%＝約118円)／ATR14 145.1円(2.9%)／過去に決算発表(2Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約4.7%(約240円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
+        "next_earnings": "次回決算(推定) 2027-02-12頃",
+        "link": "https://kabutan.jp/stock/?code=8725"
+      },
+      "label": "開示イベント(値幅が広がりやすい・方向は不明)",
+      "text": "【ＭＳ＆ＡＤインシュアランスグループホールディングス(8725)】\n📣 2026-11-19 16:00(引け後)に 決算発表(2Q)\n📏 値動きは平均的(普段の1日の値幅 約2.3%＝約118円)／ATR14 145.1円(2.9%)／過去に決算発表(2Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約4.7%(約240円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2027-02-12頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=8725"
+    },
+    {
+      "code": "86300",
+      "ticker": "8630",
+      "name": "ＳＯＭＰＯホールディングス",
+      "sector": "保険業",
+      "scale_cat": "TOPIX Large70",
+      "market": "プライム",
+      "margin_type": "貸借",
+      "event": {
+        "class": "earnings",
+        "label_ja": "決算発表(2Q)",
+        "doc_type": "2QFinancialStatements_Consolidated_IFRS",
+        "accounting": "IFRS",
+        "consolidated": true,
+        "period_type": "2Q",
+        "fy_end": "2027-03-31",
+        "disc_date": "2026-11-19",
+        "disc_time": "15:30",
+        "after_close": true,
+        "disc_no": "20261118582741"
+      },
+      "revision": null,
+      "price": 6856.0,
+      "as_of_price": "2026-11-19",
+      "liquidity": {
+        "adv20_jpy": 20959975880.0,
+        "vol_avg20": 2957765
+      },
+      "volatility": {
+        "atr14": 195.0,
+        "atr_pct": 2.84,
+        "normal_range_pct": 2.2,
+        "normal_range_yen": 151,
+        "range_window": 20,
+        "bars_used": 20,
+        "stop_8pct_in_normal_days": 3.6,
+        "reference_multiplier": 2.03,
+        "reference_n": 40083
+      },
+      "next_earnings_estimate": {
+        "date": "2027-02-12",
+        "method": "same_quarter_prev_year",
+        "anchor_disc_date": "2026-02-13",
+        "basis_days": 364,
+        "label": "推定"
+      },
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "event": "2026-11-19 15:30(引け後)に 決算発表(2Q)",
+        "volatility": "値動きは平均的(普段の1日の値幅 約2.2%＝約151円)／ATR14 195.0円(2.8%)／過去に決算発表(2Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約4.5%(約307円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
+        "next_earnings": "次回決算(推定) 2027-02-12頃",
+        "link": "https://kabutan.jp/stock/?code=8630"
+      },
+      "label": "開示イベント(値幅が広がりやすい・方向は不明)",
+      "text": "【ＳＯＭＰＯホールディングス(8630)】\n📣 2026-11-19 15:30(引け後)に 決算発表(2Q)\n📏 値動きは平均的(普段の1日の値幅 約2.2%＝約151円)／ATR14 195.0円(2.8%)／過去に決算発表(2Q)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約4.5%(約307円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2027-02-12頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=8630"
+    },
+    {
+      "code": "29140",
+      "ticker": "2914",
+      "name": "日本たばこ産業",
+      "sector": "食料品",
+      "scale_cat": "TOPIX Core30",
+      "market": "プライム",
+      "margin_type": "貸借",
+      "event": {
+        "class": "forecast_revision",
+        "label_ja": "業績予想の修正",
+        "doc_type": "EarnForecastRevision",
+        "accounting": null,
+        "consolidated": null,
+        "period_type": "FY",
+        "fy_end": "2026-12-31",
+        "disc_date": "2026-11-19",
+        "disc_time": "15:30",
+        "after_close": true,
+        "disc_no": "20261119583442"
+      },
+      "revision": {
+        "metric": "営業利益",
+        "field": "FOP",
+        "current": -368000000000.0,
+        "baseline": 1041000000000.0,
+        "baseline_source": "same_fy",
+        "baseline_disc_date": "2026-10-29",
+        "delta_pct": null,
+        "direction": "turn_negative",
+        "status": "sign_flip",
+        "flags": [],
+        "sales": {
+          "current": 3840000000000.0,
+          "baseline": 3903000000000.0,
+          "delta_pct": -1.6,
+          "direction": "down",
+          "status": "ok"
+        }
+      },
+      "price": 5857.0,
+      "as_of_price": "2026-11-19",
+      "liquidity": {
+        "adv20_jpy": 73275280080.0,
+        "vol_avg20": 12012725
+      },
+      "volatility": {
+        "atr14": 391.43,
+        "atr_pct": 6.68,
+        "normal_range_pct": 2.74,
+        "normal_range_yen": 160,
+        "range_window": 20,
+        "bars_used": 20,
+        "stop_8pct_in_normal_days": 2.9,
+        "reference_multiplier": 1.69,
+        "reference_n": 6166
+      },
+      "next_earnings_estimate": {
+        "date": "2027-02-11",
+        "method": "same_quarter_prev_year",
+        "anchor_disc_date": "2026-02-12",
+        "basis_days": 364,
+        "label": "推定"
+      },
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "event": "2026-11-19 15:30(引け後)に 業績予想の修正／営業利益の会社予想が黒字予想 → 赤字予想へ変更 (1.0兆円 → -3,680億円)",
+        "volatility": "値動きは大きい方(普段の1日の値幅 約2.7%＝約160円)／ATR14 391.4円(6.7%)／過去に業績予想の修正があった翌営業日は、その銘柄の普段の値幅の約1.7倍でした(2016-2026実測 n=6,166)／同じ倍率を当てはめた参考値は約4.6%(約270円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
+        "next_earnings": "次回決算(推定) 2027-02-11頃",
+        "link": "https://kabutan.jp/stock/?code=2914"
+      },
+      "label": "開示イベント(値幅が広がりやすい・方向は不明)",
+      "text": "【日本たばこ産業(2914)】\n📣 2026-11-19 15:30(引け後)に 業績予想の修正／営業利益の会社予想が黒字予想 → 赤字予想へ変更 (1.0兆円 → -3,680億円)\n📏 値動きは大きい方(普段の1日の値幅 約2.7%＝約160円)／ATR14 391.4円(6.7%)／過去に業績予想の修正があった翌営業日は、その銘柄の普段の値幅の約1.7倍でした(2016-2026実測 n=6,166)／同じ倍率を当てはめた参考値は約4.6%(約270円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2027-02-11頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=2914"
     }
   ]
 }
