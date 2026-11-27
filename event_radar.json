@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T06:20+09:00",
-  "as_of_date": "2026-11-26",
-  "as_of_price_date": "2026-11-26",
+  "generated_at": "2026-11-28T06:01+09:00",
+  "as_of_date": "2026-11-27",
+  "as_of_price_date": "2026-11-27",
   "is_business_day": true,
-  "fell_back_from": "2026-11-27",
+  "fell_back_from": "2026-11-28",
   "label": "開示イベント(値幅が広がりやすい・方向は不明)",
   "note": "その日に開示があった銘柄の機械抽出です。開示の内容は解釈していません。「この銘柄はふだんどれくらい動くか」は過去の実測にもとづく事実ですが、上がるか下がるかは分かりません。自前の survivorship-free 検証では、最も目立つ形 (寄りギャップ+4% かつ 出来高20日平均の2倍 かつ 陽線引け) のその後は市場調整後で +40日 -2.92% (n=16,362) でした。方向は予測できません。値幅の指標 (ATR・普段の値幅) は価格の派生量であり、表示のみで足切り・並び順・スコアには一切使っていません。閾値は pre-register 済で測定後に変更しません。値幅が大きいほど利益も損失も大きくなります。買いシグナルではありません。最終判断は決算短信等の一次情報でご自身で。",
   "direction_disclaimer": "※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。",
@@ -45,61 +45,72 @@
     }
   },
   "universe_size": 800,
-  "disclosures_fetched": 7,
-  "total_matched": 1,
-  "shown": 1,
+  "disclosures_fetched": 12,
+  "total_matched": 2,
+  "shown": 2,
   "truncated": false,
   "truncation_rule": "adv20_desc",
   "breadth": {
     "window": 20,
     "n_days": 20,
-    "today_candidates": 1,
-    "today_passed": 1,
-    "median_candidates": 15.0,
+    "today_candidates": 2,
+    "today_passed": 2,
+    "median_candidates": 14.5,
     "min_candidates": 0,
     "max_candidates": 60,
-    "rank_from_low": 5
+    "rank_from_low": 7
   },
   "diagnostics": {
-    "n_disclosures": 7,
+    "n_disclosures": 12,
     "doc_type_counts": {
-      "EarnForecastRevision": 4,
-      "3QFinancialStatements_Consolidated_JP": 2,
+      "EarnForecastRevision": 5,
+      "FYFinancialStatements_Consolidated_IFRS": 2,
+      "2QFinancialStatements_Consolidated_JP": 2,
+      "DividendForecastRevision": 1,
+      "2QFinancialStatements_NonConsolidated_JP": 1,
       "FYFinancialStatements_Consolidated_JP": 1
     },
     "class_counts": {
-      "forecast_revision": 4,
-      "earnings": 3
+      "dividend_revision": 1,
+      "earnings": 6,
+      "forecast_revision": 5
     },
     "excluded": {
-      "before_close": 2,
+      "before_close": 4,
       "no_disc_time": 0,
       "class_not_shown": 0,
-      "not_in_universe": 4,
+      "not_in_universe": 6,
       "price_floor": 0,
       "no_bars": 0
     },
-    "revision_status_counts": {},
-    "revision_direction_counts": {},
-    "revision_baseline_source": {},
+    "revision_status_counts": {
+      "ok": 1
+    },
+    "revision_direction_counts": {
+      "up": 1
+    },
+    "revision_baseline_source": {
+      "same_fy": 1
+    },
     "volatility_populated": {
-      "atr14": 1,
-      "atr_pct": 1,
-      "normal_range_pct": 1
+      "atr14": 2,
+      "atr_pct": 2,
+      "normal_range_pct": 2
     },
     "ned_method_counts": {
+      "none": 1,
       "same_quarter_prev_year": 1
     }
   },
   "events": [
     {
-      "code": "94180",
-      "ticker": "9418",
-      "name": "Ｕ−ＮＥＸＴ　ＨＯＬＤＩＮＧＳ",
-      "sector": "情報･通信業",
-      "scale_cat": "TOPIX Small 1",
-      "market": "プライム",
-      "margin_type": "貸借",
+      "code": "652A0",
+      "ticker": "652A",
+      "name": "トグルホールディングス",
+      "sector": "不動産業",
+      "scale_cat": "-",
+      "market": "グロース",
+      "margin_type": "信用",
       "event": {
         "class": "earnings",
         "label_ja": "決算発表(通期)",
@@ -107,47 +118,116 @@
         "accounting": "JP",
         "consolidated": true,
         "period_type": "FY",
-        "fy_end": "2026-08-31",
-        "disc_date": "2026-11-26",
-        "disc_time": "16:00",
+        "fy_end": "2026-09-30",
+        "disc_date": "2026-11-27",
+        "disc_time": "17:00",
         "after_close": true,
-        "disc_no": "20261126586474"
+        "disc_no": "20261127587490"
       },
       "revision": null,
-      "price": 1851.0,
-      "as_of_price": "2026-11-26",
+      "price": 3830.0,
+      "as_of_price": "2026-11-27",
       "liquidity": {
-        "adv20_jpy": 705510935.0,
-        "vol_avg20": 385065
+        "adv20_jpy": 1153709236.8421052,
+        "vol_avg20": 307537
       },
       "volatility": {
-        "atr14": 38.21,
-        "atr_pct": 2.06,
-        "normal_range_pct": 2.03,
-        "normal_range_yen": 38,
+        "atr14": 241.43,
+        "atr_pct": 6.3,
+        "normal_range_pct": 6.36,
+        "normal_range_yen": 244,
         "range_window": 20,
-        "bars_used": 20,
-        "stop_8pct_in_normal_days": 3.9,
+        "bars_used": 19,
+        "stop_8pct_in_normal_days": 1.3,
         "reference_multiplier": 2.03,
         "reference_n": 40083
       },
+      "next_earnings_estimate": null,
+      "streak": 1,
+      "flags": [],
+      "brief": {
+        "event": "2026-11-27 17:00(引け後)に 決算発表(通期)",
+        "volatility": "値動きはかなり大きい(普段の1日の値幅 約6.4%＝約244円)／ATR14 241.4円(6.3%)／過去に決算発表(通期)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約12.9%(約495円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
+        "next_earnings": "",
+        "link": "https://kabutan.jp/stock/?code=652A"
+      },
+      "label": "開示イベント(値幅が広がりやすい・方向は不明)",
+      "text": "【トグルホールディングス(652A)】\n📣 2026-11-27 17:00(引け後)に 決算発表(通期)\n📏 値動きはかなり大きい(普段の1日の値幅 約6.4%＝約244円)／ATR14 241.4円(6.3%)／過去に決算発表(通期)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約12.9%(約495円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=652A"
+    },
+    {
+      "code": "90090",
+      "ticker": "9009",
+      "name": "京成電鉄",
+      "sector": "陸運業",
+      "scale_cat": "TOPIX Mid400",
+      "market": "プライム",
+      "margin_type": "貸借",
+      "event": {
+        "class": "forecast_revision",
+        "label_ja": "業績予想の修正",
+        "doc_type": "EarnForecastRevision",
+        "accounting": null,
+        "consolidated": null,
+        "period_type": "FY",
+        "fy_end": "2027-03-31",
+        "disc_date": "2026-11-27",
+        "disc_time": "15:30",
+        "after_close": true,
+        "disc_no": "20261126587141"
+      },
+      "revision": {
+        "metric": "営業利益",
+        "field": "FOP",
+        "current": 31700000000.0,
+        "baseline": 31000000000.0,
+        "baseline_source": "same_fy",
+        "baseline_disc_date": "2026-11-06",
+        "delta_pct": 2.3,
+        "direction": "up",
+        "status": "ok",
+        "flags": [],
+        "sales": {
+          "current": 364300000000.0,
+          "baseline": 359800000000.0,
+          "delta_pct": 1.3,
+          "direction": "up",
+          "status": "ok"
+        }
+      },
+      "price": 1563.5,
+      "as_of_price": "2026-11-27",
+      "liquidity": {
+        "adv20_jpy": 3182300512.5,
+        "vol_avg20": 2144070
+      },
+      "volatility": {
+        "atr14": 39.79,
+        "atr_pct": 2.54,
+        "normal_range_pct": 2.42,
+        "normal_range_yen": 38,
+        "range_window": 20,
+        "bars_used": 20,
+        "stop_8pct_in_normal_days": 3.3,
+        "reference_multiplier": 1.69,
+        "reference_n": 6166
+      },
       "next_earnings_estimate": {
-        "date": "2027-01-13",
+        "date": "2027-01-29",
         "method": "same_quarter_prev_year",
-        "anchor_disc_date": "2026-01-14",
+        "anchor_disc_date": "2026-01-30",
         "basis_days": 364,
         "label": "推定"
       },
       "streak": 1,
       "flags": [],
       "brief": {
-        "event": "2026-11-26 16:00(引け後)に 決算発表(通期)",
-        "volatility": "値動きは平均的(普段の1日の値幅 約2.0%＝約38円)／ATR14 38.2円(2.1%)／過去に決算発表(通期)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約4.1%(約77円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
-        "next_earnings": "次回決算(推定) 2027-01-13頃",
-        "link": "https://kabutan.jp/stock/?code=9418"
+        "event": "2026-11-27 15:30(引け後)に 業績予想の修正／営業利益の会社予想 310億円 → 317億円 (+2.3%)",
+        "volatility": "値動きは平均的(普段の1日の値幅 約2.4%＝約38円)／ATR14 39.8円(2.5%)／過去に業績予想の修正があった翌営業日は、その銘柄の普段の値幅の約1.7倍でした(2016-2026実測 n=6,166)／同じ倍率を当てはめた参考値は約4.1%(約64円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません",
+        "next_earnings": "次回決算(推定) 2027-01-29頃",
+        "link": "https://kabutan.jp/stock/?code=9009"
       },
       "label": "開示イベント(値幅が広がりやすい・方向は不明)",
-      "text": "【Ｕ−ＮＥＸＴ　ＨＯＬＤＩＮＧＳ(9418)】\n📣 2026-11-26 16:00(引け後)に 決算発表(通期)\n📏 値動きは平均的(普段の1日の値幅 約2.0%＝約38円)／ATR14 38.2円(2.1%)／過去に決算発表(通期)があった翌営業日は、その銘柄の普段の値幅の約2.0倍でした(2016-2026実測 n=40,083)／同じ倍率を当てはめた参考値は約4.1%(約77円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2027-01-13頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=9418"
+      "text": "【京成電鉄(9009)】\n📣 2026-11-27 15:30(引け後)に 業績予想の修正／営業利益の会社予想 310億円 → 317億円 (+2.3%)\n📏 値動きは平均的(普段の1日の値幅 約2.4%＝約38円)／ATR14 39.8円(2.5%)／過去に業績予想の修正があった翌営業日は、その銘柄の普段の値幅の約1.7倍でした(2016-2026実測 n=6,166)／同じ倍率を当てはめた参考値は約4.1%(約64円)。これは過去の実測にもとづく目安であって明日の予測ではなく、上下どちらに動くかは分かりません\n📅 次回決算(推定) 2027-01-29頃\n※ 値幅が広がりやすいという過去の事実の提示であり、方向(上下)は示していません。\nhttps://kabutan.jp/stock/?code=9009"
     }
   ]
 }
